@@ -11,7 +11,7 @@
 
 ## 页面类型（6 种）
 
-每页 frontmatter 必带：`title` / `type` / `sources`(原文编号数组) / `updated`。
+每页 frontmatter 必带：`title` / `type` / `sources`(原文编号数组) / `created`(编译日期) / `updated`。
 slug 一律小写拼音连字符，放对应子目录。
 
 | type | 目录 | 说明 | 额外 frontmatter |
