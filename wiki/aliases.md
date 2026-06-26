@@ -1856,8 +1856,8 @@ countries/chechnya                           | country | 车臣
 countries/chenla                             | country | 真腊王国, 真腊
 countries/cheshi                             | country | 车师
 countries/chile                              | country | 智利
-countries/china                              | country | 中国, 中方, 中, 我国, 新中国, 东方大国, 咱们国家, 中国大陆, 国内, 大陆, 中华人民共和国, 内地
-countries/chu-state                          | country | 楚, 楚国
+countries/china                              | country | 中国, 中方, 我国, 新中国, 东方大国, 咱们国家, 中国大陆, 国内, 大陆, 中华人民共和国, 内地
+countries/chu-state                          | country | 楚国
 countries/colombia                           | country | 哥伦比亚
 countries/confederate-states-of-america      | country | 美利坚联盟国, 南方邦联
 countries/congo                              | country | 刚果
@@ -1875,7 +1875,7 @@ countries/dayuan                             | country | 大宛, 大宛国
 countries/democratic-republic-of-the-congo   | country | 刚果（金）, 刚果民主共和国
 countries/denmark                            | country | 丹麦
 countries/denmark-kingdom                    | country | 丹麦王国
-countries/di                                 | country | 氐族, 氐
+countries/di                                 | country | 氐族
 countries/dominican-republic                 | country | 多米尼加, 多米尼加共和国
 countries/donetsk-republic                   | country | 顿涅茨克共和国, 顿涅茨克
 countries/dorbet                             | country | 杜尔伯特, 杜尔伯特部
@@ -1909,7 +1909,7 @@ countries/former-liang                       | country | 前凉
 countries/former-qin                         | country | 前秦
 countries/former-yan                         | country | 前燕
 countries/former-zhao                        | country | 前赵
-countries/france                             | country | 法国, 法, 拿破仑法国
+countries/france                             | country | 法国, 拿破仑法国
 countries/frankish-empire                    | country | 法兰克帝国
 countries/frankish-kingdom                   | country | 法兰克王国
 countries/french-congo                       | country | 法属刚果
@@ -1924,7 +1924,7 @@ countries/german-east-africa                 | country | 东非
 countries/german-empire                      | country | 德意志帝国, 德意志第二帝国, 第二帝国
 countries/german-southwest-africa            | country | 德属西南非洲, 西南非洲
 countries/germania                           | country | 日耳曼尼亚
-countries/germany                            | country | 德国, 联邦德国, 德, 德意志, 二战德国
+countries/germany                            | country | 德国, 联邦德国, 德意志, 二战德国
 countries/ghana                              | country | 加纳
 countries/goguryeo                           | country | 高句丽
 countries/golden-horde                       | country | 金帐汗国
@@ -1941,7 +1941,7 @@ countries/guomin-zhengfu                     | country | 南京国民政府
 countries/guyana                             | country | 圭亚那
 countries/habsburg-monarchy                  | country | 哈布斯堡王朝
 countries/haiti                              | country | 海地
-countries/han-dynasty                        | country | 汉, 汉室, 大汉, 汉帝国
+countries/han-dynasty                        | country | 汉室, 大汉, 汉帝国
 countries/han-state                          | country | 韩国（战国）, 战国韩国, 韩（战国）
 countries/hawaiian-kingdom                   | country | 夏威夷王国
 countries/hohenzollern-dynasty               | country | 霍亨索伦王朝
@@ -1961,9 +1961,8 @@ countries/iraq                               | country | 伊拉克
 countries/ireland                            | country | 爱尔兰
 countries/islamic-republic-of-iran           | country | 伊斯兰共和国
 countries/israel                             | country | 以色列
-countries/italy                              | country | 意大利, 意
-countries/japan                              | country | 日本, 日
-countries/jie                                | country | 羯
+countries/italy                              | country | 意大利
+countries/japan                              | country | 日本
 countries/jin-dynasty-jurchen                | country | 金朝, 金国, 金人
 countries/jin-state                          | country | 晋国
 countries/johor-sultanate                    | country | 柔佛王国, 柔佛苏丹
@@ -2006,8 +2005,7 @@ countries/later-zhou                         | country | 后周
 countries/latvia                             | country | 拉脱维亚
 countries/le-dynasty                         | country | 黎氏王朝, 黎朝
 countries/lebanon                            | country | 黎巴嫩
-countries/liang-dynasty                      | country | 梁
-countries/liao-dynasty                       | country | 契丹, 契丹人, 辽, 大辽, 辽国
+countries/liao-dynasty                       | country | 契丹, 契丹人, 大辽, 辽国
 countries/libya                              | country | 利比亚
 countries/lithuania                          | country | 立陶宛
 countries/little-bolor                       | country | 小勃律
@@ -2032,7 +2030,7 @@ countries/marshall-islands                   | country | 马绍尔群岛
 countries/mercia                             | country | 麦西亚王国
 countries/mexico                             | country | 墨西哥
 countries/middle-francia                     | country | 中法兰克
-countries/ming-dynasty                       | country | 大明帝国, 明朝, 大明, 明, 大明王朝, 明代, 明政府
+countries/ming-dynasty                       | country | 大明帝国, 明朝, 大明, 大明王朝, 明代, 明政府
 countries/mongol-empire                      | country | 北兵, 蒙古帝国
 countries/montenegro                         | country | 黑山
 countries/morocco                            | country | 摩洛哥
@@ -2097,18 +2095,17 @@ countries/prussia                            | country | 普鲁士
 countries/ptolemaic-dynasty                  | country | 托勒密王朝, 托勒密埃及, 埃及托勒密王朝, 托勒密王国
 countries/puerto-rico                        | country | 波多黎各
 countries/qatar                              | country | 卡塔尔
-countries/qi-state                           | country | 齐, 齐国
-countries/qiang                              | country | 羌
+countries/qi-state                           | country | 齐国
 countries/qin-dynasty                        | country | 秦朝
 countries/qin-state                          | country | 秦国
-countries/qing-dynasty                       | country | 清朝, 大清帝国, 清, 清政府, 晚清, 大清, 清帝国, 大清朝, 清王朝
+countries/qing-dynasty                       | country | 清朝, 大清帝国, 清政府, 晚清, 大清, 清帝国, 大清朝, 清王朝
 countries/rattanakosin-kingdom               | country | 曼谷王朝
 countries/republic-of-china                  | country | 民国, 中华民国, 国民党政权
 countries/republic-of-turkey                 | country | 土耳其共和国
 countries/roman-empire                       | country | 罗马帝国
 countries/roman-republic                     | country | 罗马共和国
 countries/romania                            | country | 罗马尼亚
-countries/russia                             | country | 俄罗斯, 俄, 北极熊, 俄罗斯联邦, 毛熊
+countries/russia                             | country | 俄罗斯, 北极熊, 俄罗斯联邦, 毛熊
 countries/russian-empire                     | country | 俄罗斯帝国, 沙俄帝国
 countries/ryukyu                             | country | 琉球, 琉球国
 countries/ryukyu-kingdom                     | country | 琉球王国
@@ -2138,7 +2135,7 @@ countries/somalia                            | country | 索马里
 countries/song-dynasty                       | country | 宋代, 赵宋
 countries/song-state                         | country | 宋国
 countries/south-africa                       | country | 南非
-countries/south-korea                        | country | 韩国, 南韩, 韩, 大韩民国, 南朝鲜
+countries/south-korea                        | country | 韩国, 南韩, 大韩民国, 南朝鲜
 countries/south-vietnam                      | country | 南越政权
 countries/southern-dynasties                 | country | 南朝
 countries/southern-liang                     | country | 南梁
@@ -2146,7 +2143,7 @@ countries/southern-ming                      | country | 南明, 南明小朝廷
 countries/southern-qi                        | country | 萧齐
 countries/southern-song                      | country | 南宋, 宋人
 countries/southern-yan                       | country | 南燕
-countries/soviet-union                       | country | 苏联, 苏, 前苏联, 苏维埃社会主义共和国联盟, 红色帝国, 苏维埃帝国, 苏维埃联盟
+countries/soviet-union                       | country | 苏联, 前苏联, 苏维埃社会主义共和国联盟, 红色帝国, 苏维埃帝国, 苏维埃联盟
 countries/spain                              | country | 西班牙
 countries/sri-lanka                          | country | 斯里兰卡
 countries/sudan                              | country | 苏丹
@@ -2161,7 +2158,7 @@ countries/taiwan                             | country | 中国台湾, 台湾地
 countries/taiwan-authorities                 | country | 台湾伪政权, 对岸, 伪政府
 countries/tajikistan                         | country | 塔吉克斯坦
 countries/taliban-regime                     | country | 塔利班政权, 塔利班政府, 阿富汗新政府
-countries/tang-dynasty                       | country | 唐, 唐朝, 李唐, 唐代, 大唐, 李唐王朝, 唐王朝, 唐帝国
+countries/tang-dynasty                       | country | 唐朝, 李唐, 唐代, 大唐, 李唐王朝, 唐王朝, 唐帝国
 countries/tatar                              | country | 鞑靼
 countries/texas-republic                     | country | 德克萨斯, 得克萨斯
 countries/thailand                           | country | 暹罗, 泰国
@@ -2179,12 +2176,12 @@ countries/turkic-khaganate                   | country | 突厥, 突厥汗国
 countries/turkmen                            | country | 土库曼
 countries/turkmenistan                       | country | 土库曼斯坦
 countries/tuyuhun                            | country | 吐谷浑
-countries/ukraine                            | country | 乌克兰, 乌
+countries/ukraine                            | country | 乌克兰
 countries/umayyad-caliphate                  | country | 倭马亚王朝
 countries/united-arab-emirates               | country | 阿联酋
 countries/united-arab-republic               | country | 阿拉伯联合共和国
-countries/united-kingdom                     | country | 英国, 大不列颠, 日不落帝国, 英, 日不落英国, 日不落帝国英国
-countries/united-states                      | country | 美国, 美利坚, 美方, 美, 合众国, 美国人, 老美, 美帝国主义, 漂亮国, 山姆大叔, 大洋彼岸的那个国度, 美利坚合众国, 米国
+countries/united-kingdom                     | country | 英国, 大不列颠, 日不落帝国, 日不落英国, 日不落帝国英国
+countries/united-states                      | country | 美国, 美利坚, 美方, 合众国, 美国人, 老美, 美帝国主义, 漂亮国, 山姆大叔, 大洋彼岸的那个国度, 美利坚合众国, 米国
 countries/uruguay                            | country | 乌拉圭
 countries/uyghur-khaganate                   | country | 回鹘
 countries/uzbekistan                         | country | 乌兹别克斯坦
@@ -2216,14 +2213,14 @@ countries/xiongnu                            | country | 匈奴
 countries/xirong                             | country | 西戎
 countries/xiyu-states                        | country | 西域国家
 countries/yamato-regime                      | country | 大和政权
-countries/yan-state                          | country | 燕, 燕国
+countries/yan-state                          | country | 燕国
 countries/yeerqiang-khanate                  | country | 叶尔羌汗国
 countries/yemen                              | country | 也门
 countries/yiqu                               | country | 义渠
-countries/yuan-dynasty                       | country | 元, 元朝, 元代
+countries/yuan-dynasty                       | country | 元朝, 元代
 countries/yuezhi                             | country | 大月氏, 月氏
 countries/yugoslavia                         | country | 南斯拉夫, 南斯拉夫共和国, 南斯拉夫王国
-countries/zhao-state                         | country | 赵, 赵国
+countries/zhao-state                         | country | 赵国
 countries/zhongshan-state                    | country | 中山国
 countries/zhou-dynasty                       | country | 周朝
 countries/zhou-royal-house                   | country | 周王室
@@ -2584,7 +2581,7 @@ orgs/chinese-academy-of-social-sciences      | org     | 中国社科院, 中国
 orgs/chinese-academy-of-social-sciences-world-social-security-center | org     | 中国社科院世界社保中心
 orgs/chinese-air-force                       | org     | 中国空军
 orgs/chinese-army                            | org     | 中国军队
-orgs/chinese-communist-party-central-committee | org     | 中共中央, 中央, 中央政府
+orgs/chinese-communist-party-central-committee | org     | 中共中央
 orgs/chinese-embassy-yugoslavia              | org     | 中国驻南联盟大使馆
 orgs/chinese-military-advisory-group         | org     | 中国军事顾问团
 orgs/chinese-navy                            | org     | 中国海军
@@ -3516,7 +3513,7 @@ orgs/peking-union-medical-college-4-plus-4   | org     | 协和4+4
 orgs/peking-university                       | org     | 北大, 北京大学
 orgs/penghua-fund                            | org     | 鹏华基金, 鹏华基金管理有限公司
 orgs/penghua-fund-asset-management           | org     | 鹏华基金旗下资管公司, 鹏华基金资管公司
-orgs/people-bank-of-china                    | org     | 央行, 中国央行, 人民银行, 中国人民银行
+orgs/people-bank-of-china                    | org     | 中国央行, 人民银行, 中国人民银行
 orgs/people-education-press                  | org     | 人教版, 人民教育出版社
 orgs/people-power-party                      | org     | 国民力量党
 orgs/peoples-action-party                    | org     | 人民行动党
