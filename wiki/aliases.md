@@ -8,28 +8,24 @@ people/abdolnaser-hemmati                    | person  | 赫马提, 阿卜杜勒
 people/abdulaziz-ibn-saud                    | person  | 伊本沙特, 阿卜杜勒阿齐兹·伊本·沙特
 people/abdur-rahman                          | person  | 拉赫曼
 people/abe-shinzo                            | person  | 安倍, 安倍晋三
-people/abraham-lincoln                       | person  | 林肯
 people/abu-mohammed-al-jolani                | person  | 朱拉尼
 people/adam-cheng                            | person  | 郑少秋
 people/adam-smith                            | person  | 亚当·斯密, 亚当斯密
 people/adams-president                       | person  | 亚当斯总统
 people/adnan-menderes                        | person  | 曼德列斯
-people/adolf-hitler                          | person  | 阿道夫希特勒, 希特勒, 阿道夫·希特勒
+people/adolf-hitler                          | person  | 阿道夫希特勒, 阿道夫·希特勒
 people/aetius                                | person  | 埃蒂乌斯
 people/agui                                  | person  | 阿桂
 people/ahmad-shah-massoud                    | person  | 马苏德
-people/ahmadinejad-mahmoud                   | person  | 内贾德
 people/ahmed-yassin                          | person  | 亚辛
 people/ahn-cheol-soo                         | person  | 安哲秀
-people/ai-de-hua-qi-shi                      | person  | 爱德华七世, 英国国王爱德华七世
+people/ai-de-hua-qi-shi                      | person  | 英国国王爱德华七世
 people/akbar-hashemi-rafsanjani              | person  | 拉夫桑贾尼
 people/akechi-mitsuhide                      | person  | 明智光秀
-people/akio-morita                           | person  | 盛田稻夫, 盛田昭夫
+people/akio-morita                           | person  | 盛田稻夫
 people/akira-muto                            | person  | 武藤章
 people/al-capone                             | person  | 阿尔卡彭
-people/al-gore                               | person  | 戈尔
 people/alan-greenspan                        | person  | 格林斯潘, 艾伦·格林斯潘
-people/albert                                | person  | 阿尔伯特亲王
 people/albert-einstein                       | person  | 阿尔伯特·爱因斯坦, 爱因斯坦
 people/albrecht-of-prussia                   | person  | 阿尔布雷希特
 people/aleksandar-vucic                      | person  | 武契奇
@@ -37,17 +33,15 @@ people/aleksandar-vulin                      | person  | 武林
 people/aleksandr-solzhenitsyn                | person  | 索尔仁尼琴
 people/alex                                  | person  | 亚历克斯, Alex
 people/alexander-haig                        | person  | 黑格, 亚历山大·黑格
-people/alexander-hamilton                    | person  | 汉密尔顿
 people/alexander-iii                         | person  | 亚历山大三世
 people/alexander-mikhailovich                | person  | 亚历山大·米哈伊洛维奇大公
-people/alexander-russian-tsar                | person  | 俄罗斯沙皇亚历山大, 亚历山大
+people/alexander-russian-tsar                | person  | 俄罗斯沙皇亚历山大
 people/alexander-shelepin                    | person  | 谢列平
-people/alexander-the-great                   | person  | 亚历山大, 亚历山大大帝
+people/alexander-the-great                   | person  | 亚历山大大帝
 people/alexander-tsyurupa                    | person  | 瞿鲁巴
 people/alexander-vasilevsky                  | person  | 华西列夫斯基
 people/alexandra-feodorovna                  | person  | 亚历山德拉, 皇后亚历山德拉
 people/alexei-dyumin                         | person  | 久明, 阿列克谢·久明
-people/alexei-kosygin                        | person  | 柯西金
 people/alexei-rykov                          | person  | 李可夫
 people/alexey-mordashov                      | person  | 莫尔达索夫
 people/alexis-de-tocqueville                 | person  | 托克维尔
@@ -55,7 +49,7 @@ people/alfred                                | person  | 艾尔弗雷德
 people/alfred-the-great                      | person  | 阿尔弗烈德大帝
 people/alfred-von-schlieffen                 | person  | 施里芬
 people/alfred-von-tirpitz                    | person  | 提尔皮茨
-people/ali-khamenei                          | person  | 哈梅内伊, 阿里·哈梅内伊
+people/ali-khamenei                          | person  | 阿里·哈梅内伊
 people/ali-larijani                          | person  | 拉里贾尼
 people/allan-garber                          | person  | 艾伦·加伯
 people/allen-dulles                          | person  | 艾伦·杜勒斯, 中情局局长杜勒斯
@@ -66,14 +60,13 @@ people/amerigo-vespucci                      | person  | 亚美利哥
 people/amursana                              | person  | 阿睦尔撒纳
 people/an-lushan                             | person  | 安禄山
 people/ana-brnabic                           | person  | 布尔纳比奇
-people/anastas-mikoyan                       | person  | 米高扬
 people/andrei-belousov                       | person  | 别洛乌索夫
 people/andrei-gromyko                        | person  | 葛罗米柯
 people/andrei-tupolev                        | person  | 图波列夫
 people/andrej-karpathy                       | person  | 安德烈·卡帕斯, Andrej Karpathy
 people/andrew-carnegie                       | person  | 卡内基
 people/andrew-jackson                        | person  | 杰克逊
-people/andrew-johnson                        | person  | 约翰逊, 副总统约翰逊
+people/andrew-johnson                        | person  | 副总统约翰逊
 people/andrew-yang                           | person  | 杨安泽
 people/andrzej-duda                          | person  | 杜达
 people/ang-duong                             | person  | 安东
@@ -85,19 +78,15 @@ people/antoine-lavoisier                     | person  | 拉瓦锡, 安托万·�
 people/anton-alikhanov                       | person  | 阿里汉诺夫
 people/antoninus                             | person  | 安敦尼
 people/antonio-lopez-de-santa-anna           | person  | 圣安纳
-people/antony                                | person  | 安东尼
 people/antony-blinken                        | person  | 布林肯, 安东尼·布林肯
 people/anu                                   | person  | 阿奴
 people/anwar-sadat                           | person  | 萨达特, 安瓦尔·萨达特
-people/ao-ba-ma                              | person  | 奥巴马
 people/arabtan                               | person  | 阿拉布坦
 people/arai-hakuseki                         | person  | 新井白石
 people/araki-keiko                           | person  | 荒木惠子
-people/archduke-franz-ferdinand              | person  | 斐迪南大公
 people/ariel-sharon                          | person  | 沙龙, 阿里埃勒·沙龙
 people/arthur-balfour                        | person  | 贝尔福
 people/arthur-bremer                         | person  | 班尔纳
-people/arthur-burns                          | person  | 伯恩斯
 people/arthur-schlesinger                    | person  | 施莱辛格
 people/asanuma-inejiro                       | person  | 浅沼稻次郎
 people/ashikaga-yoshimitsu                   | person  | 足利义满
@@ -107,13 +96,12 @@ people/attila                                | person  | 阿提拉
 people/auerbach                              | person  | 奥尔巴赫
 people/augustine                             | person  | 奥古斯丁
 people/augusto-pinochet                      | person  | 皮诺切特, 奥古斯托·皮诺切特
-people/augustus                              | person  | 屋大维, 奥古斯都
+people/augustus                              | person  | 奥古斯都
 people/aung-san-suu-kyi                      | person  | 昂山素季
 people/aurelius                              | person  | 奥勒留
 people/ayub-khan                             | person  | 阿尤布·汗
 people/babur                                 | person  | 巴布尔
 people/bacon-francis                         | person  | 培根
-people/bafeite                               | person  | 巴菲特
 people/bai-bingyang                          | person  | 白冰洋
 people/bai-juyi                              | person  | 白居易
 people/bai-qi                                | person  | 白起
@@ -121,13 +109,10 @@ people/bai-yanhu                             | person  | 白彦虎
 people/bai-zhizhen                           | person  | 白志贞
 people/ban-chao                              | person  | 班超
 people/ban-gu                                | person  | 班固
-people/bao-yugang                            | person  | 包玉刚
-people/baoweier                              | person  | 鲍威尔
 people/barack-obama                          | person  | 奥巴马, 巴拉克·奥巴马, 贝拉克·奥巴马
 people/baradar                               | person  | 巴拉达尔
 people/barton-biggs                          | person  | 巴顿·毕格斯, Barton Biggs
-people/bashar                                | person  | 巴沙尔
-people/bashar-al-assad                       | person  | 阿萨德, 巴沙尔·阿萨德, 巴沙尔, 巴沙尔阿萨德
+people/bashar-al-assad                       | person  | 阿萨德, 巴沙尔·阿萨德, 巴沙尔阿萨德
 people/bassel-al-assad                       | person  | 巴西勒
 people/batista                               | person  | 巴蒂斯塔
 people/batu-khan                             | person  | 拔都
@@ -151,54 +136,36 @@ people/benigno-aquino-iii                    | person  | 阿基诺三世
 people/benito-mussolini                      | person  | 墨索里尼
 people/benjamin-franklin                     | person  | 本杰明·富兰克林
 people/benjamin-graham                       | person  | 格雷厄姆, 本杰明·格雷厄姆
-people/benjamin-netanyahu                    | person  | 内塔尼亚胡, 本雅明·内塔尼亚胡, 内塔
+people/benjamin-netanyahu                    | person  | 本雅明·内塔尼亚胡
 people/benjamin-strong                       | person  | 斯特朗, 本杰明·斯特朗
 people/benny-gantz                           | person  | 本尼·甘茨, 本尼甘茨, 甘茨
 people/berchtold                             | person  | 伯克托尔德
-people/bernanke                              | person  | 伯南克
 people/bernard-law-montgomery                | person  | 蒙哥马利
-people/bernie-sanders                        | person  | 桑德斯
-people/bessent                               | person  | 贝森特
 people/bethmann                              | person  | 贝特曼
 people/bhavavarman-i                         | person  | 抜婆跋摩一世
-people/bi-er-gaici                           | person  | 比尔盖茨
-people/bi-er-kai-xi                          | person  | 比尔凯西
-people/bide-dadi                             | person  | 彼得大帝
 people/biden                                 | person  | 拜登, 美国总统拜登, 乔·拜登, 新班长, 美国新班长, 新班长拜登
-people/bill-casey                            | person  | 比尔凯西
 people/bill-cassidy                          | person  | 比尔·卡西迪
-people/bill-clinton                          | person  | 克林顿, 比尔·克林顿
+people/bill-clinton                          | person  | 比尔·克林顿
 people/bill-gates                            | person  | 比尔·盖茨, 比尔盖茨
 people/billy-sunday                          | person  | 比利·森迪
 people/bing-xin                              | person  | 冰心
-people/bismarck                              | person  | 俾斯麦, 俾斯曼
-people/blinken                               | person  | 布林肯
-people/blinken-antony                        | person  | 布林肯
 people/bo-gu                                 | person  | 博古
 people/bob-woodward                          | person  | 鲍勃·伍德沃德
 people/boccaccio                             | person  | 薄伽丘
 people/bojun                                 | person  | 柏葰
-people/bolivar                               | person  | 玻利瓦尔
 people/bongbong-marcos                       | person  | 小马科斯, 小马克斯, 菲律宾总统小马科斯
-people/boris-gromov                          | person  | 格罗莫夫
 people/boris-tadic                           | person  | 塔迪奇
-people/boris-yeltsin                         | person  | 叶利钦, 鲍里斯·叶利钦
+people/boris-yeltsin                         | person  | 鲍里斯·叶利钦
 people/bowles                                | person  | 鲍尔斯
 people/braudel                               | person  | 布罗代尔
-people/brezhnev                              | person  | 勃列日涅夫
-people/browns                                | person  | 伯恩斯
 people/brutus                                | person  | 布鲁图斯
-people/brzezinski                            | person  | 布热津斯基
-people/buffett                               | person  | 巴菲特, 老股神, 股神
 people/bugsy-siegel                          | person  | 西格尔, 本杰明·西格尔
-people/bulinken                              | person  | 布林肯
 people/burckhardt                            | person  | 布克哈特
-people/caesar                                | person  | 凯撒
 people/cai-jing                              | person  | 蔡京
 people/cai-songsong                          | person  | 蔡嵩松, 蔡皇, 蔡狗
 people/cai-xukun                             | person  | 蔡徐坤
 people/cai-yuanpei                           | person  | 蔡元培
-people/calvin-coolidge                       | person  | 柯立芝, 卡尔文·柯立芝
+people/calvin-coolidge                       | person  | 卡尔文·柯立芝
 people/camillo-cavour                        | person  | 加富尔
 people/camillus                              | person  | 卡米卢斯
 people/canute-the-great                      | person  | 卡纽特大帝
@@ -221,11 +188,9 @@ people/carl-gustaf-mannerheim                | person  | 曼纳海姆
 people/carlos-andres-perez                   | person  | 卡洛斯, 佩雷斯
 people/carlos-ghosn                          | person  | 卡洛斯戈恩
 people/carlos-i                              | person  | 卡洛斯一世, 查理五世
-people/carter                                | person  | 卡特
 people/casey                                 | person  | 凯西, 威廉·凯西（CIA局长）, 比尔·凯西, 威廉·凯西
 people/cassius                               | person  | 卡西乌斯
 people/cassius-dio                           | person  | 迪奥, 卡西乌斯·迪奥
-people/castro                                | person  | 卡斯特罗
 people/catherine-the-great                   | person  | 叶卡捷琳娜二世, 叶卡捷琳娜
 people/cathie-wood                           | person  | 木头姐, 女版巴菲特
 people/cato-the-elder                        | person  | 老加图
@@ -234,7 +199,6 @@ people/cen-shen                              | person  | 岑参
 people/chai-jing                             | person  | 柴静
 people/chai-rong                             | person  | 柴荣
 people/chai-songyue                          | person  | 柴松岳, 柴省长
-people/chamberlain-neville                   | person  | 张伯伦
 people/chao-tsung-yeh                        | person  | 赵从衍
 people/charlemagne                           | person  | 查理曼大帝
 people/charles-alexandre-de-calonne          | person  | 卡隆
@@ -244,8 +208,6 @@ people/charles-elliot                        | person  | 义律
 people/charles-i                             | person  | 查理一世
 people/charles-martel                        | person  | 查理·马特
 people/charles-xii                           | person  | 卡尔十二世
-people/charlie-munger                        | person  | 芒格
-people/chavez                                | person  | 查韦斯
 people/che-guevara                           | person  | 切格瓦拉
 people/chelsea-clinton                       | person  | 切尔西
 people/chen-baochen                          | person  | 陈宝琛
@@ -283,7 +245,7 @@ people/chester-nimitz                        | person  | 尼米兹
 people/chey-chettha-ii                       | person  | 哲塔二世
 people/chey-tae-won                          | person  | 崔泰源
 people/chiang-ching-kuo                      | person  | 蒋经国
-people/chiang-kai-shek                       | person  | 蒋介石, 老蒋
+people/chiang-kai-shek                       | person  | 老蒋
 people/chiang-shang-yi                       | person  | 蒋尚义
 people/cho-kuk                               | person  | 曹国
 people/choe-yonggon                          | person  | 崔庸健
@@ -296,27 +258,19 @@ people/chu-huai-wang                         | person  | 楚怀王
 people/chuck-schumer                         | person  | 舒默
 people/chun-doo-hwan                         | person  | 全斗焕
 people/chung-mong-koo                        | person  | 郑梦九
-people/churchill                             | person  | 丘吉尔
-people/churchill-winston                     | person  | 丘吉尔
 people/cicero                                | person  | 西塞罗
 people/clayton-christensen                   | person  | 克里斯坦森
 people/cleopatra                             | person  | 克利奥帕特拉
 people/cleopatra-vii                         | person  | 克里奥帕特拉七世, 埃及艳后, 克娄巴特拉七世
-people/clinton                               | person  | 克林顿
-people/clinton-bill                          | person  | 克林顿
-people/clinton-hillary                       | person  | 希拉里
 people/columbus                              | person  | 哥伦布
 people/constantine                           | person  | 君士坦丁
-people/coolidge-calvin                       | person  | 柯立芝
 people/copernicus                            | person  | 哥白尼
 people/corazon-aquino                        | person  | 阿基诺夫人
 people/cori-schake                           | person  | 科里·沙克
 people/cortes                                | person  | 科尔特斯
 people/costa                                 | person  | 科斯塔
-people/crassus                               | person  | 克拉苏
 people/cristiano-ronaldo                     | person  | C罗, 克里斯蒂亚诺·罗纳尔多
-people/cristina-fernandez-de-kirchner        | person  | 克里斯蒂娜
-people/cristina-kirchner                     | person  | 克里斯蒂娜, 克里斯蒂娜·基什内尔
+people/cristina-kirchner                     | person  | 克里斯蒂娜·基什内尔
 people/cui-chenlong                          | person  | 崔宸龙
 people/cui-lie                               | person  | 崔烈
 people/cui-yong                              | person  | 崔雍
@@ -325,8 +279,6 @@ people/curtis-lemay                          | person  | 勒梅, 李梅
 people/cyril-radcliffe                       | person  | 雷德克里夫, 西里尔·雷德克里夫
 people/dai-guofang                           | person  | 戴国芳
 people/dai-qi                                | person  | 戴琪
-people/dalio                                 | person  | 达利欧
-people/daliou                                | person  | 达利欧
 people/dan-bin                               | person  | 但斌
 people/daniel-webster                        | person  | 丹尼尔·韦伯斯特
 people/dante                                 | person  | 但丁
@@ -366,14 +318,11 @@ people/dong-chengfei                         | person  | 董承非
 people/dong-mingzhu                          | person  | 董明珠
 people/dong-zhongshu                         | person  | 董仲舒
 people/dong-zhuo                             | person  | 董卓
-people/dongwang                              | person  | 懂王
 people/dorgon                                | person  | 多尔衮
 people/dou-jiande                            | person  | 窦建德
 people/dou-xian                              | person  | 窦宪
 people/douglas-diamond                       | person  | 道格拉斯·戴蒙德
 people/douglas-dillon                        | person  | 狄龙
-people/douglas-macarthur                     | person  | 麦克阿瑟
-people/drake-francis                         | person  | 德雷克
 people/du-bi                                 | person  | 杜弼
 people/du-mu                                 | person  | 杜牧
 people/du-xunhe                              | person  | 杜荀鹤
@@ -381,75 +330,53 @@ people/du-yuesheng                           | person  | 杜月笙
 people/du-yuming                             | person  | 杜聿明
 people/duan-rong                             | person  | 段荣
 people/duke-of-wellington                    | person  | 威灵顿公爵
-people/duke-xiao-of-qin                      | person  | 秦孝公
 people/duoheqin                              | person  | 多和沁
 people/duong-van-minh                        | person  | 杨文明
 people/dwight-eisenhower                     | person  | 艾森豪威尔, 德怀特·艾森豪威尔
 people/e-er-jing-e                           | person  | 额尔景额
 people/ebrahim-raisi                         | person  | 莱希, 莱西
 people/edgar-hoover                          | person  | 埃德加·胡佛
-people/edgar-snow                            | person  | 斯诺
 people/edouard-daladier                      | person  | 达拉第, 法国总理达拉第
 people/edward-everett                        | person  | 埃弗雷特
 people/edward-gibbon                         | person  | 爱德华吉本
 people/edward-iii                            | person  | 爱德华三世
 people/edward-snowden                        | person  | 斯诺登
 people/edward-vi                             | person  | 爱德华六世
-people/edward-vii                            | person  | 爱德华七世
 people/edwin-stanton                         | person  | 斯坦顿
 people/efremov                               | person  | 亚弗雷莫夫
 people/eileen-chang                          | person  | 张爱玲
-people/eisaku-sato                           | person  | 佐藤荣作
-people/eisenhower                            | person  | 艾森豪威尔
 people/elbridge-colby                        | person  | 科尔比
 people/eleanor-roosevelt                     | person  | 罗斯福夫人, 埃莉诺·罗斯福
-people/elizabeth-i                           | person  | 伊丽莎白女王, 伊丽莎白一世
+people/elizabeth-i                           | person  | 伊丽莎白一世
 people/elizabeth-of-russia                   | person  | 伊丽莎白, 俄罗斯女皇伊丽莎白
-people/elon-musk                             | person  | 马斯克, 埃隆·马斯克, Elon Musk, 钢铁侠马斯克
-people/emmanuel-macron                       | person  | 马克龙, 埃马纽埃尔·马克龙
+people/elon-musk                             | person  | 埃隆·马斯克, Elon Musk, 钢铁侠马斯克
+people/emmanuel-macron                       | person  | 埃马纽埃尔·马克龙
 people/emperor-ai-of-tang                    | person  | 唐哀帝
-people/emperor-aizong-of-jin                 | person  | 金哀宗
 people/emperor-an-of-han                     | person  | 汉安帝
-people/emperor-chongzhen                     | person  | 崇祯皇帝, 崇祯
-people/emperor-dezong-of-tang                | person  | 唐德宗
-people/emperor-gaozong-of-song               | person  | 宋高宗, 赵构
 people/emperor-huan-of-han                   | person  | 汉桓帝, 桓帝
 people/emperor-ling-of-han                   | person  | 汉灵帝, 灵帝
 people/emperor-ming-of-han                   | person  | 汉明帝
 people/emperor-muzong-of-tang                | person  | 唐穆宗
-people/emperor-renzong-of-song               | person  | 宋仁宗
-people/emperor-shenzong-of-song              | person  | 宋神宗
 people/emperor-shun-of-han                   | person  | 汉顺帝
-people/emperor-taizong-of-tang               | person  | 唐太宗
 people/emperor-taizu-of-song                 | person  | 宋太祖
-people/emperor-wanli                         | person  | 万历皇帝, 万历
-people/emperor-wen-of-han                    | person  | 汉文帝, 刘恒
-people/emperor-wen-of-sui                    | person  | 隋文帝
-people/emperor-wu-of-han                     | person  | 汉武帝, 刘彻
+people/emperor-wen-of-han                    | person  | 刘恒
 people/emperor-xian-of-han                   | person  | 汉献帝
-people/emperor-xianfeng                      | person  | 咸丰, 咸丰皇帝
-people/emperor-xianzong-of-tang              | person  | 唐宪宗
 people/emperor-xiaowen                       | person  | 孝文帝, 北魏孝文帝
 people/emperor-xizong-of-tang                | person  | 唐僖宗
 people/emperor-xuan-of-han                   | person  | 汉宣帝
-people/emperor-xuanzong-of-tang              | person  | 唐玄宗, 李隆基
-people/emperor-yang-of-sui                   | person  | 隋炀帝
 people/emperor-yingzong-of-ming              | person  | 明英宗, 朱祁镇
 people/emperor-yizong-of-tang                | person  | 唐懿宗
-people/emperor-yongzheng                     | person  | 雍正, 雍正帝
 people/emperor-zhang-of-han                  | person  | 汉章帝
 people/emperor-zhao-of-han                   | person  | 汉昭帝
 people/emperor-zhaozong-of-tang              | person  | 唐昭宗
-people/emperor-zhenzong-of-song              | person  | 宋真宗
 people/empress-dowager-cixi                  | person  | 慈禧
-people/empress-dowager-gao                   | person  | 太皇太后高氏, 高氏
+people/empress-dowager-gao                   | person  | 太皇太后高氏
 people/empress-dowager-hu                    | person  | 胡太后
 people/empress-lu                            | person  | 吕后
 people/empress-myeongseong                   | person  | 闵妃
 people/empress-xiaozhuang                    | person  | 孝庄太后
 people/enver-pasha                           | person  | 恩维尔帕夏
 people/epstein                               | person  | 爱泼斯坦
-people/erdogan                               | person  | 埃尔多安
 people/eric-hoffer                           | person  | 埃里克霍弗
 people/eric-schmidt                          | person  | 埃里克·施密特
 people/erich-ludendorff                      | person  | 鲁登道夫
@@ -489,43 +416,32 @@ people/feng-lun                              | person  | 冯仑
 people/feng-xiaogang                         | person  | 冯小刚
 people/feng-xiaolian                         | person  | 冯小怜
 people/feng-yuxiang                          | person  | 冯玉祥
-people/fengchen-xiuji                        | person  | 丰臣秀吉
 people/ferdinand-foch                        | person  | 福熙, Ferdinand Foch
-people/ferdinand-marcos                      | person  | 老马科斯, 费迪南德·马科斯
-people/ferdinand-marcos-sr                   | person  | 老马科斯
-people/fidel-castro                          | person  | 卡斯特罗, 菲德尔·卡斯特罗
+people/ferdinand-marcos                      | person  | 费迪南德·马科斯
+people/fidel-castro                          | person  | 菲德尔·卡斯特罗
 people/fidel-ramos                           | person  | 拉莫斯
 people/fifth-dalai-lama                      | person  | 五世达赖, 达赖喇嘛
 people/fitzgerald-f-scott                    | person  | 菲茨杰拉德
 people/florus                                | person  | 弗洛
-people/fok-ying-tung                         | person  | 霍英东
-people/ford                                  | person  | 福特
 people/forrest-nathan-bedford                | person  | 福雷斯特
 people/fotucheng                             | person  | 佛图澄
-people/francis-drake                         | person  | 德雷克, Francis Drake, 弗朗西斯德雷克, 弗朗西斯·德雷克
+people/francis-drake                         | person  | Francis Drake, 弗朗西斯德雷克, 弗朗西斯·德雷克
 people/francis-fukuyama                      | person  | 福山
 people/francisco-solano-lopez                | person  | 洛佩斯, 南美拿破仑
 people/franck-ribery                         | person  | 里贝里, 弗兰克·里贝里
 people/francois-mitterrand                   | person  | 密特朗
 people/frank-walter-steinmeier               | person  | 施泰因迈尔, 弗兰克-瓦尔特·施泰因迈尔
-people/franklin-d-roosevelt                  | person  | 罗斯福, 富兰克林·罗斯福, 小罗斯福, 富兰克林·德拉诺·罗斯福, 罗斯福总统
-people/franz-ferdinand                       | person  | 斐迪南大公
+people/franklin-d-roosevelt                  | person  | 富兰克林·罗斯福, 小罗斯福, 富兰克林·德拉诺·罗斯福, 罗斯福总统
 people/franz-von-papen                       | person  | 巴本
 people/frederick                             | person  | 腓特烈皇帝
-people/frederick-ii                          | person  | 腓特烈二世, 腓特烈大帝
-people/frederick-ii-holy-roman-emperor       | person  | 腓特烈二世
 people/frederick-iii                         | person  | 腓特烈三世
 people/frederick-marryat                     | person  | 马里亚特
 people/frederick-roberts                     | person  | 罗伯茨
-people/frederick-the-great                   | person  | 腓特烈大帝
-people/friedman                              | person  | 弗里德曼, 佛理德曼
 people/friedrich-engels                      | person  | 恩格斯, 弗里德里希·恩格斯
-people/friedrich-hayek                       | person  | 哈耶克
 people/friedrich-list                        | person  | 李斯特
-people/friedrich-merz                        | person  | 默茨, 弗里德里希·默茨
+people/friedrich-merz                        | person  | 弗里德里希·默茨
 people/frunze                                | person  | 伏龙芝
 people/fu-bi                                 | person  | 富弼
-people/fu-heng                               | person  | 傅恒
 people/fu-jian                               | person  | 苻坚
 people/fu-wang-zhu-changxun                  | person  | 福王朱常洵, 朱常洵
 people/fu-xu                                 | person  | 福煦, 福熙将军, 福煦将军
@@ -541,14 +457,12 @@ people/gabriel-batistuta                     | person  | 巴蒂斯图塔, 加布
 people/gabriel-garcia-marquez                | person  | 加西亚马尔克斯, 加西亚·马尔克斯
 people/gai-ge-kai-fang-zong-she-ji-shi       | person  | 改革开放总设计师
 people/gaius-gracchus                        | person  | 盖约·格拉古
-people/gaius-marius                          | person  | 马略
 people/galdan                                | person  | 噶尔丹
 people/galdan-tseren                         | person  | 噶尔丹策零
 people/galeazzo-ciano                        | person  | 齐亚诺, 墨索里尼女婿齐亚诺
 people/galileo                               | person  | 伽利略
 people/galston                               | person  | 加尔斯顿
-people/gamal-abdel-nasser                    | person  | 纳赛尔, 贾迈勒·阿卜杜勒·纳赛尔, 埃及雄狮
-people/gan-di                                | person  | 甘地
+people/gamal-abdel-nasser                    | person  | 贾迈勒·阿卜杜勒·纳赛尔, 埃及雄狮
 people/gao-bainian                           | person  | 高百年
 people/gao-changgong                         | person  | 高长恭, 兰陵王
 people/gao-cheng                             | person  | 高澄
@@ -561,9 +475,8 @@ people/gao-pian                              | person  | 高骈
 people/gao-shang                             | person  | 高尚
 people/gao-shanwen                           | person  | 高善文
 people/gao-shaode                            | person  | 高绍德
-people/gao-shi-zaomiao                       | person  | 高市早苗
 people/gao-shusheng                          | person  | 高树生
-people/gao-taihou                            | person  | 高太后, 高氏
+people/gao-taihou                            | person  | 高太后
 people/gao-wei                               | person  | 高纬
 people/gao-xianzhi                           | person  | 高仙芝
 people/gao-yan                               | person  | 高演
@@ -571,7 +484,6 @@ people/gao-yang                              | person  | 高洋
 people/gao-zhan                              | person  | 高湛
 people/gaoshi                                | person  | 高适
 people/gardner-ackley                        | person  | 麦克拉肯
-people/gavin-newsom                          | person  | 纽森
 people/gavrilo-princip                       | person  | 普林齐普, 普林西普
 people/ge-hong                               | person  | 葛洪
 people/ge-janxiong                           | person  | 葛剑雄
@@ -579,32 +491,28 @@ people/ge-lan                                | person  | 葛兰, 医药女神
 people/ge-rong                               | person  | 葛荣
 people/genghis-khan                          | person  | 成吉思汗
 people/gennady-dyumin                        | person  | 根纳季·久明
-people/georg-wilhelm-friedrich-hegel         | person  | 黑格尔
 people/george-alexandrovich                  | person  | 乔治大公
 people/george-balfour                        | person  | 巴富尔
 people/george-ball                           | person  | 乔治·鲍尔
 people/george-bundy                          | person  | 乔治邦迪, 乔治·邦迪
-people/george-floyd                          | person  | 弗洛伊德, 佛洛依德
+people/george-floyd                          | person  | 佛洛依德
 people/george-h-w-bush                       | person  | 老布什, 乔治·赫伯特·沃克·布什
-people/george-kennan                         | person  | 乔治凯南, 乔治·凯南
-people/george-macartney                      | person  | 马嘎尔尼, 乔治·马嘎尔尼, 马格尔尼
+people/george-kennan                         | person  | 乔治·凯南
+people/george-macartney                      | person  | 马嘎尔尼, 乔治·马嘎尔尼
 people/george-mcgovern                       | person  | 麦戈文
 people/george-stephenson                     | person  | 史蒂芬逊
 people/george-v                              | person  | 乔治
-people/george-w-bush                         | person  | 小布什, 乔治·W·布什, 布什, 布什总统, 乔治·沃克·布什
+people/george-w-bush                         | person  | 小布什, 乔治·W·布什, 布什总统, 乔治·沃克·布什
 people/george-wallace                        | person  | 华莱士
-people/george-washington                     | person  | 华盛顿
 people/georgy-arbatov                        | person  | 阿尔巴托夫
 people/georgy-langemak                       | person  | 朗格马克
 people/georgy-malenkov                       | person  | 马林科夫
 people/georgy-pyatakov                       | person  | 皮达可夫
 people/georgy-zhukov                         | person  | 朱可夫
-people/gerald-ford                           | person  | 福特
-people/gerhard-schroeder                     | person  | 施罗德, 格哈德·施罗德
+people/gerhard-schroeder                     | person  | 格哈德·施罗德
 people/geshu-han                             | person  | 哥舒翰
 people/ghani                                 | person  | 加尼
 people/gideon-saar                           | person  | 萨尔
-people/girs                                  | person  | 吉尔斯
 people/giuseppe-garibaldi                    | person  | 加里波第
 people/gjalt-smit-troost                     | person  | 特罗斯特
 people/glenn-youngkin                        | person  | 扬金, 共和党人扬金
@@ -612,94 +520,74 @@ people/gloria-macapagal-arroyo               | person  | 阿罗约
 people/goh-chok-tong                         | person  | 吴作栋
 people/golda-meir                            | person  | 梅厄夫人
 people/good                                  | person  | 古德
-people/gorbachev                             | person  | 戈尔巴乔夫
 people/gordon-moore                          | person  | 戈登·摩尔, 戈登摩尔
-people/gore-al                               | person  | 戈尔
 people/gracchi-brothers                      | person  | 格拉古兄弟
 people/grand-duke-george-of-greece           | person  | 希腊王子乔治
 people/grand-duke-nikolai-nikolaevich        | person  | 尼古拉·尼古拉耶维奇大公
-people/greenspan                             | person  | 格林斯潘
 people/grigori-rasputin                      | person  | 拉斯普京
 people/grigory-gapon                         | person  | 格里高利·加邦
 people/grigory-ordzhonikidze                 | person  | 奥尔忠尼
 people/grigory-zinoviev                      | person  | 季诺维也夫, 季诺维耶夫
-people/gromov                                | person  | 格罗莫夫
-people/gu-chaoming                           | person  | 辜朝明
 people/gu-yanwu                              | person  | 顾炎武
 people/guan-yu                               | person  | 关羽
 people/guan-zhong                            | person  | 管仲
-people/guanghaijun                           | person  | 光海君
 people/guangxu-emperor                       | person  | 光绪皇帝, 光绪
 people/guo-shuqing                           | person  | 郭树清
 people/guo-tai                               | person  | 郭泰
 people/guo-wei                               | person  | 郭威
 people/guo-ziyi                              | person  | 郭子仪
-people/gustave-le-bon                        | person  | 勒庞, 古斯塔夫·勒庞
+people/gustave-le-bon                        | person  | 古斯塔夫·勒庞
 people/guterres-antonio                      | person  | 古特雷斯
-people/gwanghaegun                           | person  | 光海君
 people/hadrian                               | person  | 哈德良
 people/hafez-al-assad                        | person  | 哈菲兹·阿萨德, 老阿萨德
 people/hafizullah-amin                       | person  | 阿明, 阿富汗总统阿明
 people/hai-rui                               | person  | 海瑞
 people/halford-mackinder                     | person  | 麦金德
-people/hamilton-alexander                    | person  | 汉密尔顿
 people/han-gui                               | person  | 韩轨
 people/han-qi                                | person  | 韩琦
 people/han-quanhui                           | person  | 韩全诲
 people/han-wei                               | person  | 韩维
-people/han-wudi                              | person  | 汉武帝, 刘彻
 people/han-xiangzi                           | person  | 韩湘子
 people/han-xin                               | person  | 韩信
 people/han-yu                                | person  | 韩愈
 people/han-zhihui                            | person  | 韩智辉
 people/haniyeh-ismail                        | person  | 哈尼亚
-people/hank-paulson                          | person  | 保尔森, 汉克
+people/hank-paulson                          | person  | 保尔森, 汉克, 亨利·保尔森
 people/hannibal                              | person  | 汉尼拔
 people/harada-yutaka                         | person  | 原田泰
-people/harris-kamala                         | person  | 哈里斯
-people/harry-s-truman                        | person  | 杜鲁门, 哈里·杜鲁门
-people/harry-truman                          | person  | 杜鲁门
+people/harry-s-truman                        | person  | 哈里·杜鲁门
 people/haruo-maekawa                         | person  | 前川春雄
 people/hasan-i-sabbah                        | person  | 哈桑, 山中老人
 people/hashimoto-ryutaro                     | person  | 桥本龙太郎
-people/hassan-nasrallah                      | person  | 纳斯鲁拉, 哈桑·纳斯鲁拉
+people/hassan-nasrallah                      | person  | 哈桑·纳斯鲁拉
 people/hassan-rouhani                        | person  | 鲁哈尼
 people/hassett                               | person  | 哈塞特, 哈赛特
 people/hata-tsutomu                          | person  | 羽田孜
 people/hatoyama-yukio                        | person  | 鸠山由纪夫
 people/hayashi-yoshimasa                     | person  | 林芳正
 people/hayato-ikeda                          | person  | 池田勇人
-people/hayek                                 | person  | 哈耶克
 people/hazrati                               | person  | 哈兹拉蒂
 people/he-long                               | person  | 贺龙
 people/he-yan                                | person  | 何晏
 people/heba-sheng                            | person  | 贺拔胜
 people/heba-yue                              | person  | 贺拔岳
-people/hegel                                 | person  | 黑格尔
 people/heine                                 | person  | 海涅
 people/helmut-kohl                           | person  | 科尔
-people/helmut-schmidt                        | person  | 施密特
-people/helmuth-von-moltke-the-younger        | person  | 小毛奇
-people/heluxiaofu                            | person  | 赫鲁晓夫
 people/hemingway                             | person  | 海明威
-people/heng-li-wei-er-xun                    | person  | 亨利·威尔逊准将, 亨利·威尔逊, 威尔逊
-people/henry-ford                            | person  | 福特, 亨利福特, 亨利·福特
+people/heng-li-wei-er-xun                    | person  | 亨利·威尔逊准将, 亨利·威尔逊
+people/henry-ford                            | person  | 亨利福特, 亨利·福特
 people/henry-john-temple-palmerston          | person  | 帕默斯顿
-people/henry-kissinger                       | person  | 亨利·基辛格, 基辛格
-people/henry-paulson                         | person  | 保尔森, 亨利·保尔森
+people/henry-kissinger                       | person  | 亨利·基辛格
 people/henry-vii                             | person  | 亨利七世
-people/henry-wilson                          | person  | 威尔逊, Henry Wilson
-people/herbert-hoover                        | person  | 胡佛, 赫伯特·胡佛
+people/henry-wilson                          | person  | Henry Wilson
+people/herbert-hoover                        | person  | 赫伯特·胡佛
 people/herbert-kitchener                     | person  | 基钦纳
 people/herbert-spencer                       | person  | 斯宾塞
 people/hermann-goering                       | person  | 戈林
 people/herodotus                             | person  | 希罗多德
 people/heshen                                | person  | 和珅
-people/hilary-clinton                        | person  | 希拉里
-people/hillary-clinton                       | person  | 希拉里, 希拉里·克林顿
-people/hindenburg                            | person  | 兴登堡
+people/hillary-clinton                       | person  | 希拉里·克林顿
 people/hippolyte-pixii                       | person  | 皮克西
-people/hitler                                | person  | 希特勒
 people/hjalmar-schacht                       | person  | 沙赫特
 people/ho-chi-minh                           | person  | 胡志明
 people/ho-hung-sun                           | person  | 何鸿燊
@@ -707,10 +595,8 @@ people/homi-bhabha                           | person  | 霍米·巴巴
 people/honda-soichiro                        | person  | 本田宗一郎
 people/honecker                              | person  | 昂纳克
 people/hong-liangji                          | person  | 洪亮吉
-people/hong-taiji                            | person  | 皇太极
 people/hong-xiuquan                          | person  | 洪秀全
 people/hongzhi-emperor                       | person  | 弘治皇帝
-people/hoover-herbert                        | person  | 胡佛
 people/horatio-nelson                        | person  | 纳尔逊
 people/hornbeck                              | person  | 霍恩贝克
 people/hosni-mubarak                         | person  | 穆巴拉克, Hosni Mubarak
@@ -735,7 +621,6 @@ people/huang-xiaoming                        | person  | 黄晓明
 people/huang-yanpei                          | person  | 黄炎培
 people/huang-zheng                           | person  | 黄峥, 黄铮
 people/huang-zhong                           | person  | 黄忠
-people/huangtaiji                            | person  | 皇太极
 people/huey-long                             | person  | 休伊朗
 people/hugo-chavez                           | person  | 查韦斯
 people/hulegu                                | person  | 旭烈兀
@@ -745,7 +630,6 @@ people/hun-sen                               | person  | 洪森, 洪森叔叔
 people/huo-guang                             | person  | 霍光
 people/huo-qigang                            | person  | 霍启刚
 people/huo-qubing                            | person  | 霍去病
-people/huo-yingdong                          | person  | 霍英东
 people/husayn-ibn-ali                        | person  | 阿里侯赛因
 people/hyman-minsky                          | person  | 明斯基, 海曼·明斯基
 people/hyman-roth                            | person  | 海门罗斯, 海门·罗斯
@@ -753,21 +637,15 @@ people/ieronim-uborevich                     | person  | 乌博列维奇
 people/ikeda                                 | person  | 池田
 people/ikeda-nobuo                           | person  | 池田信夫
 people/imelda-marcos                         | person  | 伊梅尔达·马科斯
-people/immanuel-kant                         | person  | 康德
 people/imran-khan                            | person  | 阿姆兰·汗, 伊姆兰·汗
-people/inamori-kazuo                         | person  | 稻盛和夫
 people/indira-gandhi                         | person  | 英迪拉, 英迪拉·甘地, 英迪拉甘地
 people/inukai-tsuyoshi                       | person  | 犬养毅
 people/iona-yakir                            | person  | 亚基尔
 people/ippo-fuyu                             | person  | 伊波普猷
 people/irving-fisher                         | person  | 欧文费雪, 费雪, Irving Fisher
-people/isaac-newton                          | person  | 牛顿
 people/isabel-peron                          | person  | 贝隆夫人, 伊莎贝尔·庇隆
 people/ishiba-jiro                           | person  | 石破二郎
 people/ishiba-shigeru                        | person  | 石破茂
-people/ishiwara-kanji                        | person  | 石原莞尔
-people/isokoru-yamamoto                      | person  | 山本五十六
-people/isoroku-yamamoto                      | person  | 山本五十六
 people/israel-katz                           | person  | 卡茨
 people/issa-marwan                           | person  | 伊萨
 people/issey-miyake                          | person  | 三宅一生
@@ -781,156 +659,120 @@ people/ivan-serov                            | person  | 谢罗夫
 people/ivana-trump                           | person  | 伊万娜
 people/ivanka-trump                          | person  | 伊万卡, 伊万卡·特朗普
 people/iwasaki-yataro                        | person  | 岩崎弥太郎
-people/j-edgar-hoover                        | person  | 胡佛
-people/j-p-morgan                            | person  | J·P·摩根, 摩根
+people/j-p-morgan                            | person  | J·P·摩根
 people/jack-ma                               | person  | 马云
 people/jack-ruby                             | person  | 杰克鲁比
 people/jack-welch                            | person  | 杰克韦尔奇, 韦尔奇
 people/jacob-schurman                        | person  | 舒尔曼
-people/jacques-chirac                        | person  | 希拉克
-people/jake-sullivan                         | person  | 沙利文, 杰克·沙利文
+people/jake-sullivan                         | person  | 杰克·沙利文
 people/james-cayne                           | person  | 凯恩
-people/james-madison                         | person  | 麦迪逊, 詹姆斯·麦迪逊
+people/james-madison                         | person  | 詹姆斯·麦迪逊
 people/james-monroe                          | person  | 门罗
 people/james-prescott-joule                  | person  | 焦耳
-people/james-roosevelt                       | person  | 吉米
 people/james-simons                          | person  | 詹姆斯·西蒙斯, 詹姆斯西蒙斯
 people/james-tobin                           | person  | 托宾, James Tobin
 people/james-watt                            | person  | 瓦特, 詹姆斯·瓦特
 people/jane-austen                           | person  | 简·奥斯汀
-people/janet-yellen                          | person  | 耶伦, Janet Yellen, 美国财长部长耶伦, 珍妮特·耶伦
-people/jang-song-thaek                       | person  | 张成泽
+people/janet-yellen                          | person  | Janet Yellen, 美国财长部长耶伦, 珍妮特·耶伦
 people/japanese-emperor                      | person  | 天皇
 people/javier-milei                          | person  | 米莱, 哈维尔·米莱
 people/jawaharlal-nehru                      | person  | 尼赫鲁, 贾瓦哈拉尔·尼赫鲁
-people/jd-vance                              | person  | 万斯, J.D.万斯, J·D·万斯
+people/jd-vance                              | person  | J.D.万斯, J·D·万斯
 people/jean-decoux                           | person  | 让·德句
 people/jefferson-davis                       | person  | 杰斐逊·戴维斯
-people/jefferson-thomas                      | person  | 杰斐逊
 people/jeffrey-sachs                         | person  | 杰弗里·萨克斯, 萨克斯
 people/jensen-huang                          | person  | 黄仁勋
 people/jeremy-bentham                        | person  | 杰里米·边沁
-people/jerome-powell                         | person  | 鲍威尔, 杰罗姆·鲍威尔, 美联储主席鲍威尔
+people/jerome-powell                         | person  | 杰罗姆·鲍威尔, 美联储主席鲍威尔
 people/jerry-yang                            | person  | 杨志远
 people/jesse-livermore                       | person  | 利弗莫尔, 杰西·利弗莫尔
 people/ji-bingxiong                          | person  | 季炳雄, 高佬雄
 people/ji-pengfei                            | person  | 姬鹏飞
-people/ji-xin-ge                             | person  | 基辛格
-people/jia-guolong                           | person  | 贾国龙, 贾老板, 贾老板龙哥
-people/jia-jia-lin                           | person  | 加加林
+people/jia-guolong                           | person  | 贾国龙, 贾老板龙哥
 people/jia-ling                              | person  | 贾玲
-people/jia-qing-emperor                      | person  | 嘉庆皇帝
 people/jia-sidao                             | person  | 贾似道
-people/jia-yueting                           | person  | 贾老板
 people/jia-zhangke                           | person  | 贾樟柯
 people/jiajing-emperor                       | person  | 嘉靖
 people/jiang-fan                             | person  | 蒋凡
 people/jiang-hongli                          | person  | 姜弘立
-people/jiang-jieshi                          | person  | 蒋介石
 people/jiang-nanchun                         | person  | 江南春
 people/jiang-tangzuo                         | person  | 姜唐佐
 people/jiangxi-zhougongzi                    | person  | 江西周公子, 周公子
 people/jianwen-emperor                       | person  | 建文帝
 people/jiao-yong                             | person  | 焦用
-people/jiaqing-emperor                       | person  | 嘉庆帝, 嘉庆皇帝
+people/jiaqing-emperor                       | person  | 嘉庆帝
 people/jie-king                              | person  | 桀
-people/jimmy-carter                          | person  | 卡特, 吉米·卡特, 卡特总统
-people/jimmy-hoffa                           | person  | 吉米, 吉米·霍法
+people/jimmy-carter                          | person  | 吉米·卡特, 卡特总统
+people/jimmy-hoffa                           | person  | 吉米·霍法
 people/jimmy-walker                          | person  | 吉米·沃克
-people/jin-aizong                            | person  | 金哀宗
 people/jin-chengwu                           | person  | 金城武
-people/jin-huidi                             | person  | 晋惠帝, 司马衷
-people/jin-ri-cheng                          | person  | 金日成
-people/jin-richeng                           | person  | 金日成, 金成柱
+people/jin-huidi                             | person  | 晋惠帝
+people/jin-richeng                           | person  | 金成柱
 people/jin-xuanzong                          | person  | 金宣宗
 people/jin-yinan                             | person  | 金一南
 people/jin-yong                              | person  | 金庸
 people/jin-zhengri                           | person  | 金正日
 people/jing-emperor-of-han                   | person  | 汉景帝
-people/jixingge                              | person  | 基辛格
 people/joachim-von-ribbentrop                | person  | 里宾特洛甫, 约阿希姆·冯·里宾特洛甫
 people/joan-robinson                         | person  | 琼罗宾逊
 people/john-bogle                            | person  | 约翰博格, 约翰·博格, John Bogle
-people/john-d-rockefeller                    | person  | 洛克菲勒
 people/john-d-rockefeller-jr                 | person  | 小洛克菲勒
-people/john-f-kennedy                        | person  | 肯尼迪, 约翰·肯尼迪
+people/john-f-kennedy                        | person  | 约翰·肯尼迪
 people/john-foster-dulles                    | person  | 杜勒斯, 约翰·福斯特·杜勒斯
 people/john-hawkins                          | person  | 约翰霍金斯, 霍金斯
-people/john-kelly                            | person  | 凯利, 约翰·凯利
+people/john-kelly                            | person  | 约翰·凯利
 people/john-kenneth-galbraith                | person  | 加尔布雷思
-people/john-kerry                            | person  | 克里, 约翰·克里
+people/john-kerry                            | person  | 约翰·克里
 people/john-king-of-england                  | person  | 无地王约翰, 约翰
 people/john-major                            | person  | 梅杰
-people/john-maynard-keynes                   | person  | 凯恩斯, John Maynard Keynes, 约翰·梅纳德·凯恩斯
-people/john-mccain                           | person  | 麦凯恩, 约翰·麦凯恩
+people/john-maynard-keynes                   | person  | John Maynard Keynes, 约翰·梅纳德·凯恩斯
+people/john-mccain                           | person  | 约翰·麦凯恩
 people/john-mearsheimer                      | person  | 米尔斯海默
 people/john-nance-garner                     | person  | 约翰加纳
 people/john-pershing                         | person  | 潘兴
-people/john-rockefeller                      | person  | 洛克菲勒, 石油大王洛克菲勒, 约翰·洛克菲勒
+people/john-rockefeller                      | person  | 石油大王洛克菲勒, 约翰·洛克菲勒
 people/john-von-neumann                      | person  | 冯诺依曼
 people/john-wilkes-booth                     | person  | 布斯
 people/john-wilkinson                        | person  | 威尔金森
 people/johnny-torrio                         | person  | 约翰·托里奥
-people/johnson-lyndon                        | person  | 约翰逊
-people/johnson-roosevelt-biographer          | person  | 约翰逊
 people/jonathan-wainwright                   | person  | 温赖特
 people/joost-van-den-vondel                  | person  | 冯德尔
 people/jorge-videla                          | person  | 魏地拉, 豪尔赫·魏地拉
 people/jose-marti                            | person  | 何塞·马蒂
 people/joseon-injo                           | person  | 朝鲜仁祖, 仁祖国王, 仁祖
 people/joseph-biblical                       | person  | 约瑟
-people/joseph-chamberlain                    | person  | 张伯伦
 people/joseph-dodge                          | person  | 约瑟夫道奇
 people/joseph-estrada                        | person  | 埃斯特拉达
 people/joseph-goebbels                       | person  | 戈培尔
 people/joseph-louis-lagrange                 | person  | 拉格朗日, 约瑟夫·路易·拉格朗日
 people/joseph-needham                        | person  | 李约瑟
 people/joseph-p-kennedy                      | person  | 老肯尼迪
-people/joseph-stalin                         | person  | 斯大林, 约瑟夫·斯大林
-people/josh-shapiro                          | person  | 夏皮罗
+people/joseph-stalin                         | person  | 约瑟夫·斯大林
 people/josip-broz-tito                       | person  | 铁托
-people/jp-morgan                             | person  | 摩根
 people/ju-zheng                              | person  | 居正
-people/juan-peron                            | person  | 贝隆, 贝隆将军, 胡安·庇隆
+people/juan-peron                            | person  | 贝隆将军, 胡安·庇隆
 people/juan-vicente-gomez                    | person  | 戈麦斯
-people/julius-caesar                         | person  | 凯撒, 尤利乌斯·凯撒, 尤利乌斯·恺撒, 恺撒
+people/julius-caesar                         | person  | 尤利乌斯·凯撒, 尤利乌斯·恺撒, 恺撒
 people/justine-wilson                        | person  | 贾斯汀威尔逊
 people/justinian                             | person  | 查士丁尼
 people/justinian-i                           | person  | 查士丁尼大帝
-people/kaiensi                               | person  | 凯恩斯
-people/kakuei-tanaka                         | person  | 田中角荣
-people/kamala-harris                         | person  | 哈里斯
 people/kaname-akamatsu                       | person  | 赤松要
 people/kang-youwei                           | person  | 康有为
-people/kangxi                                | person  | 康熙
-people/kangxi-emperor                        | person  | 康熙, 康熙帝, 康熙大帝, 康熙皇帝
-people/kanji-ishiwara                        | person  | 石原莞尔
-people/kant                                  | person  | 康德
+people/kangxi-emperor                        | person  | 康熙帝, 康熙大帝, 康熙皇帝
 people/karl-benz                             | person  | 卡尔·本茨, 卡尔本茨, 本茨
-people/karl-marx                             | person  | 马克思, 卡尔·马克思
+people/karl-marx                             | person  | 卡尔·马克思
 people/karl-radek                            | person  | 拉狄克
 people/katsura-taro                          | person  | 桂太郎
 people/kayano-nagatomo                       | person  | 萱野长知
-people/kazuo-inamori                         | person  | 稻盛和夫
-people/kazuo-ueda                            | person  | 植田和男
 people/keir-starmer                          | person  | 斯塔默, 基尔·斯塔默
-people/kelly-mark                            | person  | 凯利
 people/ken-takakura                          | person  | 高仓健
 people/kenichi-ohmae                         | person  | 大前研一
-people/kennedy                               | person  | 肯尼迪
-people/kennedy-john-f                        | person  | 肯尼迪
 people/kenneth-griffin                       | person  | 肯·格里芬, 肯格里芬
 people/kenzo-takada                          | person  | 高田贤三
 people/kepler                                | person  | 开普勒
 people/kermit-gordon                         | person  | 贝尔
-people/kerry                                 | person  | 克里
 people/kevin-rudd                            | person  | 陆克文, Kevin Rudd, 凯文·陆克文
 people/kevin-warsh                           | person  | 凯文·沃什, 沃什
-people/keynes                                | person  | 凯恩斯
-people/khamenei                              | person  | 哈梅内伊
-people/khamenei-ali                          | person  | 哈梅内伊
-people/khomeini                              | person  | 霍梅尼
-people/khrushchev                            | person  | 赫鲁晓夫
 people/kiderlen                              | person  | 基德仑
 people/kido-takayoshi                        | person  | 木户孝允
 people/kijuro-shidehara                      | person  | 币原重喜郎
@@ -939,18 +781,14 @@ people/kim-dae-jung                          | person  | 金大中
 people/kim-dae-yong                          | person  | 金大勇
 people/kim-gu                                | person  | 金九
 people/kim-hye-kyung                         | person  | 金惠京
-people/kim-il-sung                           | person  | 金日成
 people/kim-jong-ki                           | person  | 金钟基
 people/kim-jong-un                           | person  | 金正恩, 80后
 people/kim-keon-hee                          | person  | 金建希
 people/kim-ok-gyun                           | person  | 金玉均
 people/kimura-takuya                         | person  | 木村拓哉
-people/king-huiwen-of-qin                    | person  | 秦惠文王
 people/kinouchi-minoru                       | person  | 城内实
-people/kishida-fumio                         | person  | 岸田文雄
-people/kissinger                             | person  | 基辛格
 people/kita-ikki                             | person  | 北一辉
-people/klemens-von-metternich                | person  | 梅特涅, 克莱门斯·冯·梅特涅
+people/klemens-von-metternich                | person  | 克莱门斯·冯·梅特涅
 people/kliment-voroshilov                    | person  | 伏罗希洛夫
 people/koh-dong-jin                          | person  | 高东真
 people/koizumi-junichiro                     | person  | 小泉纯一郎
@@ -961,8 +799,6 @@ people/kong-yiji                             | person  | 孔乙己
 people/konoe-fumimaro                        | person  | 近卫文麿, 近卫
 people/konrad-adenauer                       | person  | 阿登纳
 people/konstantin-chernenko                  | person  | 契尔年科
-people/koo-richard                           | person  | 辜朝明
-people/kosygin                               | person  | 柯西金
 people/kou-zhun                              | person  | 寇准
 people/kovalyov                              | person  | 科瓦利
 people/kublai-khan                           | person  | 忽必烈
@@ -980,11 +816,8 @@ people/lavrentiy-beria                       | person  | 贝利亚
 people/lawrence-of-arabia                    | person  | 阿拉伯的劳伦斯
 people/lazar-kaganovich                      | person  | 卡冈诺维奇
 people/le-duan                               | person  | 黎笋
-people/le-pen                                | person  | 勒庞
-people/lech-walesa                           | person  | 瓦文萨
 people/lee-byung-chul                        | person  | 李秉喆
 people/lee-harvey-oswald                     | person  | 奥斯瓦尔德
-people/lee-hsien-loong                       | person  | 李显龙
 people/lee-jae-myung                         | person  | 李在明
 people/lee-jae-yong                          | person  | 李在镕
 people/lee-kuan-yew                          | person  | 李光耀
@@ -996,7 +829,6 @@ people/lei-feng                              | person  | 雷锋
 people/lei-jun                               | person  | 雷军, 雷总
 people/lei-yu                                | person  | 雷宇
 people/leibniz                               | person  | 莱布尼茨
-people/lenin                                 | person  | 列宁
 people/leo-baekeland                         | person  | 贝克兰
 people/leo-tolstoy                           | person  | 托尔斯泰, 列夫·托尔斯泰
 people/leon-trotsky                          | person  | 托洛茨基
@@ -1022,25 +854,21 @@ people/li-guangli                            | person  | 李广利
 people/li-hong                               | person  | 李弘
 people/li-hongzhang                          | person  | 李鸿章
 people/li-hu                                 | person  | 李虎
-people/li-jiacheng                           | person  | 李嘉诚, 诚哥, 李爵士, 老李
-people/li-ka-shing                           | person  | 李嘉诚
+people/li-jiacheng                           | person  | 诚哥, 李爵士, 老李
 people/li-kaifu                              | person  | 李开复
 people/li-keqiang                            | person  | 李克强
 people/li-keyong                             | person  | 李克用
 people/li-linfu                              | person  | 李林甫
-people/li-longji                             | person  | 李隆基, 唐玄宗
 people/li-lu                                 | person  | 李录
 people/li-maozhen                            | person  | 李茂贞
 people/li-minhao                             | person  | 李敏镐
 people/li-shangyin                           | person  | 李商隐
-people/li-shimin                             | person  | 李世民, 唐太宗
 people/li-shufu                              | person  | 李书福
 people/li-siyuan                             | person  | 李嗣源
 people/li-song                               | person  | 李昖
 people/li-teng-hui                           | person  | 李登辉
 people/li-weiyue                             | person  | 李惟岳
 people/li-xian                               | person  | 李贤
-people/li-xianlong                           | person  | 李显龙
 people/li-xiannian                           | person  | 李先念
 people/li-xiaoxing                           | person  | 李晓星
 people/li-xilie                              | person  | 李希烈
@@ -1063,8 +891,6 @@ people/li-zongren                            | person  | 李宗仁
 people/li-zue                                | person  | 李祖娥
 people/liang-jiahui                          | person  | 梁家辉
 people/liang-jianzhang                       | person  | 梁建章
-people/liang-qi-chao                         | person  | 梁启超
-people/liang-qichao                          | person  | 梁启超
 people/liang-si-li                           | person  | 梁思礼
 people/liang-wudi                            | person  | 梁武帝, 萧衍
 people/liaquat-ali-khan                      | person  | 阿里·汗, 利雅卡特·阿里·汗
@@ -1082,8 +908,6 @@ people/lin-yingrui                           | person  | 林英睿
 people/lin-yutang                            | person  | 林语堂
 people/lin-zexu                              | person  | 林则徐
 people/lin-zhiying                           | person  | 林志颖
-people/lincoln                               | person  | 林肯
-people/lincoln-abraham                       | person  | 林肯
 people/lionel-messi                          | person  | 梅西, 利昂内尔·梅西, 莱昂内尔·梅西
 people/liu-bang                              | person  | 刘邦, 汉高帝
 people/liu-bei                               | person  | 刘备
@@ -1139,7 +963,6 @@ people/louis-xvi                             | person  | 路易十六
 people/lu-buwei                              | person  | 吕不韦
 people/lu-guanqiu                            | person  | 鲁冠球
 people/lu-han                                | person  | 鹿晗
-people/lu-huiqing                            | person  | 吕惠卿
 people/lu-liuliang                           | person  | 吕刘良
 people/lu-meng                               | person  | 吕蒙
 people/lu-qi                                 | person  | 卢杞
@@ -1159,15 +982,12 @@ people/luo-yin                               | person  | 罗隐
 people/luo-yonghao                           | person  | 罗永浩, 罗胖
 people/lv-duan                               | person  | 吕端
 people/lv-gongzhu                            | person  | 吕公著
-people/lv-huiqing                            | person  | 吕惠卿
 people/lv-yijian                             | person  | 吕夷简
-people/lyndon-b-johnson                      | person  | 约翰逊
 people/lyndon-johnson                        | person  | 林登约翰逊, 林登·约翰逊, 约翰逊总统
 people/ma-boyong                             | person  | 马伯庸
 people/ma-fang                               | person  | 马芳
 people/ma-guangyuan                          | person  | 马光远
 people/ma-hualong                            | person  | 马化龙
-people/ma-huateng                            | person  | 马化腾
 people/ma-jianzhong                          | person  | 马建忠
 people/ma-le                                 | person  | 马乐
 people/ma-su                                 | person  | 马谡
@@ -1177,53 +997,34 @@ people/ma-yongan                             | person  | 马永谙, 小马哥, �
 people/ma-youlin                             | person  | 马有麟
 people/ma-yu                                 | person  | 马钰, 马钰道长
 people/ma-yuan                               | person  | 马援
-people/ma-yun                                | person  | 马云
-people/macarthur                             | person  | 麦克阿瑟
-people/macarthur-douglas                     | person  | 麦克阿瑟
-people/macartney-george                      | person  | 马格尔尼
-people/machiavelli                           | person  | 马基雅维利
-people/macron                                | person  | 马克龙
-people/macron-emmanuel                       | person  | 马克龙
-people/madison-james                         | person  | 麦迪逊
 people/maduro                                | person  | 马杜罗
-people/maersasi                              | person  | 马尔萨斯
 people/mahathir-mohamad                      | person  | 马哈蒂尔
 people/mahatma-gandhi                        | person  | 甘地, 圣雄甘地, 莫罕达斯·卡拉姆昌德·甘地
-people/mahmoud-ahmadinejad                   | person  | 内贾德
 people/maixiu-daliou                         | person  | 麦修·达利欧, 麦修
 people/mandani                               | person  | 曼达尼
-people/mangge                                | person  | 芒格
 people/manmohan-singh                        | person  | 辛格, 曼莫汉·辛格
 people/mao-zedong                            | person  | 毛泽东, 教员, 毛主席, 毛
 people/marcello-lippi                        | person  | 里皮
-people/marco-rubio                           | person  | 卢比奥, 马尔科·卢比奥
+people/marco-rubio                           | person  | 马尔科·卢比奥
 people/marcus-hanna                          | person  | 马克汉纳
-people/marcus-licinius-crassus               | person  | 克拉苏, 马库斯·李锡尼·克拉苏
-people/margaret-thatcher                     | person  | 撒切尔夫人
+people/marcus-licinius-crassus               | person  | 马库斯·李锡尼·克拉苏
 people/maria-feodorovna                      | person  | 玛丽亚, 丹麦公主玛丽亚
 people/maria-theresa                         | person  | 特蕾莎女王, 玛丽亚·特蕾莎
 people/mariano-marcos                        | person  | 马里亚诺·马科斯
-people/marine-le-pen                         | person  | 勒庞
 people/marinus-van-der-lubbe                 | person  | 范德吕伯
 people/mario-draghi                          | person  | 马里奥德拉吉
-people/marius                                | person  | 马略
-people/mark-antony                           | person  | 安东尼, 马克·安东尼
+people/mark-antony                           | person  | 马克·安东尼
 people/mark-carney                           | person  | 卡尼
-people/mark-kelly                            | person  | 凯利
 people/mark-milley                           | person  | 马克米利, 米利
 people/mark-rutte                            | person  | 吕特, 马克·吕特
 people/mark-twain                            | person  | 马克·吐温
 people/mark-w-clark                          | person  | 克拉克, 马克·克拉克
-people/mark-zuckerberg                       | person  | 扎克伯格
 people/marquess-of-rockingham                | person  | 罗金汉
 people/marriner-eccles                       | person  | 埃克尔斯
 people/martin-eberhard                       | person  | 艾伯哈德, 马丁·艾伯哈德
 people/martin-luther                         | person  | 马丁·路德
 people/martin-luther-king-jr                 | person  | 马丁·路德·金
-people/marx                                  | person  | 马克思
-people/marx-karl                             | person  | 马克思
-people/masike                                | person  | 马斯克, 钢铁侠
-people/masoud-pezeshkian                     | person  | 佩泽希齐扬, 佩泽希奇扬, 马苏德·佩泽希齐扬
+people/masoud-pezeshkian                     | person  | 佩泽希奇扬, 马苏德·佩泽希齐扬
 people/mathew-carey                          | person  | 马修·凯里
 people/matryona                              | person  | 玛特廖娜
 people/matsuoka-yosuke                       | person  | 松冈洋右
@@ -1236,8 +1037,6 @@ people/max-planck                            | person  | 普郎克, 普朗克
 people/max-weber                             | person  | 马克斯韦伯
 people/maxim-gorky                           | person  | 高尔基
 people/maye-musk                             | person  | 梅耶马斯克, 梅耶·马斯克
-people/mccain                                | person  | 麦凯恩
-people/mccain-john                           | person  | 麦凯恩
 people/mckennan                              | person  | 麦坎南
 people/meiji-emperor                         | person  | 明治天皇
 people/melania-trump                         | person  | 梅拉尼娅
@@ -1247,10 +1046,7 @@ people/meng-gong                             | person  | 孟珙
 people/meng-wanzhou                          | person  | 孟晚舟
 people/mengchang-jun                         | person  | 孟尝君
 people/mercy-argenteau                       | person  | 梅西伯爵
-people/merz                                  | person  | 默茨
-people/metternich                            | person  | 梅特涅
 people/meyer-lansky                          | person  | 兰斯基, 梅耶·兰斯基
-people/mi-gao-yang                           | person  | 米高扬
 people/mi-lun-bo-ge                          | person  | 米伦伯格
 people/michael-brown                         | person  | 迈克尔·布朗, 布朗尼
 people/michael-faraday                       | person  | 法拉第
@@ -1261,29 +1057,26 @@ people/michel-temer                          | person  | 特梅尔
 people/michelangelo                          | person  | 米开朗基罗
 people/michelle-bowman                       | person  | 鲍曼
 people/michelle-obama                        | person  | 米歇尔, 米歇尔·奥巴马, 米歇尔奥巴马
-people/mike-waltz                            | person  | 迈克·华尔兹, 迈克·沃尔兹, 沃尔兹, 国家安全助理沃尔兹
+people/mike-waltz                            | person  | 迈克·华尔兹, 迈克·沃尔兹, 国家安全助理沃尔兹
 people/mikhail-borodin                       | person  | 鲍罗廷
 people/mikhail-gorbachev                     | person  | 戈尔巴乔夫
 people/mikhail-khodorkovsky                  | person  | 霍多尔科夫斯基, 霍尔多科夫斯基, 米哈伊尔·霍多尔科夫斯基
 people/mikhail-kutuzov                       | person  | 库图佐夫
 people/mikhail-tukhachevsky                  | person  | 图哈切夫斯基
-people/mikoyan                               | person  | 米高扬
 people/milos-obilic                          | person  | 奥比利奇
-people/milton-friedman                       | person  | 弗里德曼, 米尔顿·弗里德曼
+people/milton-friedman                       | person  | 弗里德曼, 米尔顿·弗里德曼, 佛理德曼
 people/ming-rui                              | person  | 明瑞
 people/mir-jafar                             | person  | 米尔·贾法尔
 people/mithridates                           | person  | 米特拉达梯
 people/mitsumasa-yonai                       | person  | 米内光政, 米内光正
 people/moe-greene                            | person  | 莫格林, 莫·格林
-people/mohammad                              | person  | 默罕默德, 穆罕默德
+people/mohammad                              | person  | 默罕默德
 people/mohammad-javad-zarif                  | person  | 扎里夫, 穆罕默德·贾瓦德·扎里夫
 people/mohammad-khatami                      | person  | 哈塔米
-people/mohammad-reza-pahlavi                 | person  | 巴列维, 穆罕默德·礼萨·巴列维
+people/mohammad-reza-pahlavi                 | person  | 穆罕默德·礼萨·巴列维
 people/mohammad-reza-zahedi                  | person  | 扎赫迪
 people/mohammad-shtayyeh                     | person  | 阿什提耶
-people/mohammed-bin-salman                   | person  | 萨勒曼, 沙特王储·萨勒曼, 沙特王储萨勒曼, 小萨勒曼, 沙特王储小萨勒曼, 小萨勒曼王储, 萨勒曼王储
-people/molotov                               | person  | 莫洛托夫
-people/moltke-younger                        | person  | 小毛奇
+people/mohammed-bin-salman                   | person  | 沙特王储·萨勒曼, 沙特王储萨勒曼, 小萨勒曼, 沙特王储小萨勒曼, 小萨勒曼王储, 萨勒曼王储
 people/mongke-khan                           | person  | 蒙哥
 people/monica-lewinsky                       | person  | 莫妮卡·莱文斯基
 people/montagu-norman                        | person  | 诺曼, 蒙塔古·诺曼
@@ -1292,56 +1085,44 @@ people/moqi-chounu                           | person  | 万俟丑奴
 people/morarji-desai                         | person  | 德赛, 莫拉尔吉·德赛
 people/morgenthau-henry-jr                   | person  | 小摩根索
 people/mori-yoshiro                          | person  | 森喜朗
-people/morita-akio                           | person  | 盛田昭夫
 people/morris-chang                          | person  | 张忠谋
 people/moses                                 | person  | 摩西
 people/mossadegh                             | person  | 摩萨台
 people/mozi                                  | person  | 墨子
 people/muammar-gaddafi                       | person  | 卡扎菲, Muammar Gaddafi
-people/muhammad                              | person  | 穆罕默德, 穆罕穆德
+people/muhammad                              | person  | 穆罕穆德
 people/muhammad-ali-jinnah                   | person  | 真纳, 穆罕默德·阿里·真纳
 people/muhammad-ibn-abd-al-wahhab            | person  | 瓦哈比, 穆罕默德·伊本·阿卜杜勒·瓦哈卜
 people/muhammad-ibn-saud                     | person  | 穆罕默德·伊本·沙特
 people/muhammad-yunus                        | person  | 尤努斯, 尤努斯教授
 people/murad-i                               | person  | 穆拉德一世
 people/murong-chui                           | person  | 慕容垂
-people/musk                                  | person  | 马斯克, 钢铁侠
-people/mustafa-kemal                         | person  | 凯末尔
-people/mustafa-kemal-ataturk                 | person  | 凯末尔, 土耳其之父, 土耳其国父
+people/musk                                  | person  | 钢铁侠
+people/mustafa-kemal-ataturk                 | person  | 土耳其之父, 土耳其国父
 people/mutsu-munemitsu                       | person  | 陆奥光宗
 people/nakasone-yasuhiro                     | person  | 中曾根康弘
-people/nancy-pelosi                          | person  | 佩洛西
 people/nanda-bayin                           | person  | 莽应里
 people/naoto-kan                             | person  | 菅直人
-people/napoleon                              | person  | 拿破仑
-people/napoleon-bonaparte                    | person  | 拿破仑, 拿破仑·波拿巴
+people/napoleon-bonaparte                    | person  | 拿破仑·波拿巴
 people/napoleon-iii                          | person  | 拿破仑三世
 people/narendra-modi                         | person  | 莫迪, 纳伦德拉·莫迪
 people/naresuan                              | person  | 纳黎萱
 people/nasiri                                | person  | 纳西里
-people/nasrallah-hassan                      | person  | 纳斯鲁拉
-people/nasser                                | person  | 纳赛尔
 people/ned-ludd                              | person  | 卢德, 内德·卢德
 people/neil-armstrong                        | person  | 阿姆斯特朗
 people/neil-shen                             | person  | 沈南鹏
 people/nelson-aldrich                        | person  | 奥尔德里奇
 people/nerva                                 | person  | 涅尔瓦
 people/nestor-kirchner                       | person  | 基什内尔, 内斯托尔·基什内尔
-people/netanyahu-benjamin                    | person  | 内塔尼亚胡, 内塔
-people/neville-chamberlain                   | person  | 张伯伦, 英国首相张伯伦
+people/neville-chamberlain                   | person  | 英国首相张伯伦
 people/neville-maxwell                       | person  | 内维尔·马克斯韦尔
-people/newsom-gavin                          | person  | 纽森
-people/newton                                | person  | 牛顿
-people/newton-isaac                          | person  | 牛顿
 people/ngo-dinh-diem                         | person  | 吴庭艳, 吴廷琰, Ngô Đình Diệm, 吴廷艳
 people/nguyen-hue                            | person  | 阮文惠
 people/nguyen-khanh                          | person  | 阮庆
 people/nguyen-phu-trong                      | person  | 阮富仲
 people/nguyen-van-linh                       | person  | 阮文灵
-people/ni-ke-song                            | person  | 尼克松
 people/nian-gengyao                          | person  | 年羹尧
 people/nian-guangjiu                         | person  | 年广久
-people/niccolo-machiavelli                   | person  | 马基雅维利
 people/nicholas-i                            | person  | 尼古拉一世
 people/nicholas-ii                           | person  | 尼古拉二世, 末代沙皇尼古拉二世, 沙皇尼古拉二世, 尼基, 俄皇尼古拉二世, 尼古拉
 people/nicholas-spykman                      | person  | 斯皮克曼
@@ -1349,27 +1130,20 @@ people/nicolas-sarkozy                       | person  | 萨科齐
 people/nie-mingjun                           | person  | 聂明隽
 people/nie-rongzhen                          | person  | 聂荣臻
 people/nie-shicheng                          | person  | 聂世成
-people/nikesong                              | person  | 尼克松
-people/nikita-khrushchev                     | person  | 赫鲁晓夫, 尼基塔·赫鲁晓夫
+people/nikita-khrushchev                     | person  | 尼基塔·赫鲁晓夫
 people/nikki-haley                           | person  | 黑利
 people/nikolai-bukharin                      | person  | 布哈林
 people/nikolai-tomsky                        | person  | 托姆斯基
 people/nikolai-yezhov                        | person  | 叶若夫
-people/nikolay-giers                         | person  | 吉尔斯, 俄罗斯驻德大使吉尔斯
+people/nikolay-giers                         | person  | 俄罗斯驻德大使吉尔斯
 people/nina-khrushcheva                      | person  | 妮娜·赫鲁晓娃
 people/nishino-tomohiko                      | person  | 西野智彦
-people/nixon                                 | person  | 尼克松
 people/nobusuke-kishi                        | person  | 岸信介
-people/noguchi-yukio                         | person  | 野口悠纪雄
 people/norman-angell                         | person  | 诺曼安吉尔
 people/norodom                               | person  | 诺罗敦
 people/norodom-sihanouk                      | person  | 西哈努克
-people/nurgaci                               | person  | 努尔哈赤
-people/nurhaci                               | person  | 努尔哈赤, 努尔哈事, 清太祖努尔哈赤, 野猪皮
-people/obama                                 | person  | 奥巴马
-people/obama-barack                          | person  | 奥巴马
+people/nurhaci                               | person  | 努尔哈事, 清太祖努尔哈赤, 野猪皮
 people/obuchi-keizo                          | person  | 小渊惠三
-people/octavian                              | person  | 屋大维
 people/oda-nobunaga                          | person  | 织田信长
 people/odoacer                               | person  | 奥多亚克
 people/okawa-shumei                          | person  | 大川周明
@@ -1388,7 +1162,6 @@ people/ouyang-xiu                            | person  | 欧阳修
 people/ozawa-ichiro                          | person  | 小泽一郎
 people/p-v-narasimha-rao                     | person  | 拉奥, 纳拉辛哈·拉奥
 people/paetongtarn-shinawatra                | person  | 佩通坦
-people/pahlavi                               | person  | 巴列维
 people/pan-gongsheng                         | person  | 潘功胜
 people/pan-shiyi                             | person  | 潘石屹
 people/pang-guoxing                          | person  | 庞国兴
@@ -1404,26 +1177,21 @@ people/paul-pelliot                          | person  | 伯希和
 people/paul-pelosi                           | person  | 保罗·佩洛西, 佩洛西丈夫
 people/paul-romer                            | person  | 罗默, 保罗·罗默
 people/paul-samuelson                        | person  | 保罗·萨缪尔森, 萨缪尔森
-people/paul-von-hindenburg                   | person  | 兴登堡
 people/paullus                               | person  | 保卢斯
 people/pei-yaoqing                           | person  | 裴耀卿
 people/pelosi                                | person  | 佩罗西, 佩洛希
-people/pelosi-nancy                          | person  | 佩洛西
 people/peng-dehuai                           | person  | 彭德怀
-people/peron                                 | person  | 贝隆
 people/perseus-of-macedon                    | person  | 珀尔修斯, 马其顿珀尔修斯
 people/pervez-musharraf                      | person  | 穆沙拉夫, 佩尔韦兹·穆沙拉夫
 people/peskov-dmitry                         | person  | 佩斯科夫
 people/pete-hegseth                          | person  | 海格赛斯, 赫格塞斯, 赫格赛斯
 people/peter-grace                           | person  | 彼得·格雷斯
 people/peter-hartz                           | person  | 皮特·哈茨
-people/peter-iii                             | person  | 彼得三世
-people/peter-iii-of-russia                   | person  | 彼得三世, 沙皇彼得三世
+people/peter-iii-of-russia                   | person  | 沙皇彼得三世
 people/peter-lynch                           | person  | 彼得·林奇, 彼得林奇
 people/peter-navarro                         | person  | 纳瓦罗, 彼得·纳瓦罗
 people/peter-the-great                       | person  | 彼得大帝, 彼得一世
 people/petrarch                              | person  | 彼特拉克
-people/pezeshkian                            | person  | 佩泽希齐扬
 people/pezeshkian-masoud                     | person  | 佩泽什基安
 people/philip-dybvig                         | person  | 菲利普·迪布维格
 people/philip-ii                             | person  | 菲利普二世
@@ -1434,18 +1202,12 @@ people/pierre-simon-laplace                  | person  | 拉普拉斯, 皮埃尔
 people/pita-limjaroenrat                     | person  | 皮塔
 people/pizarro                               | person  | 皮萨罗
 people/pompey                                | person  | 庞培
-people/pony-ma                               | person  | 马化腾
 people/popov                                 | person  | 波波夫
-people/powell                                | person  | 鲍威尔
-people/prince-albert                         | person  | 阿尔伯特亲王
 people/prince-lazar                          | person  | 拉扎尔
 people/ptolemy-i                             | person  | 托勒密
 people/ptolemy-xii                           | person  | 托勒密十二世
 people/pu-an                                 | person  | 浦安
-people/pu-jing                               | person  | 普京
 people/pushkin                               | person  | 普希金
-people/putin                                 | person  | 普京
-people/putin-vladimir                        | person  | 普京
 people/puyi                                  | person  | 溥仪
 people/pyotr-durnovo                         | person  | 杜尔诺沃
 people/pyotr-stolypin                        | person  | 斯托雷平
@@ -1454,15 +1216,8 @@ people/qazi-muhammad                         | person  | 卡奇穆罕默德
 people/qi-huangong                           | person  | 齐桓公
 people/qian-mu                               | person  | 钱穆
 people/qian-xuesen                           | person  | 钱学森
-people/qianlong                              | person  | 乾隆
-people/qianlong-emperor                      | person  | 乾隆, 乾隆帝, 乾隆皇帝
-people/qiao-zhi-kai-nan                      | person  | 乔治凯南
-people/qiaobusi                              | person  | 乔布斯
+people/qianlong-emperor                      | person  | 乾隆帝, 乾隆皇帝
 people/qin-hui                               | person  | 秦桧
-people/qin-huiwen-wang                       | person  | 秦惠文王
-people/qin-shi-huang                         | person  | 秦始皇
-people/qin-shihuang                          | person  | 秦始皇
-people/qin-xiaogong                          | person  | 秦孝公
 people/qin-zhaowang                          | person  | 秦昭王
 people/qin-zhaoxiang-wang                    | person  | 秦昭襄王, 秦国公子
 people/qin-zongquan                          | person  | 秦宗权
@@ -1471,7 +1226,7 @@ people/qiu-dongrong                          | person  | 邱栋荣
 people/qu-jing                               | person  | 曲径
 people/qu-yang                               | person  | 曲扬
 people/qu-yuan                               | person  | 屈原
-people/queen-victoria                        | person  | 维多利亚, 英国女王维多利亚, 维多利亚女王
+people/queen-victoria                        | person  | 维多利亚, 英国女王维多利亚
 people/rajiv-gandhi                          | person  | 拉吉夫·甘地, 拉吉夫甘地
 people/ralph-nader                           | person  | 拉尔夫·纳德
 people/ramses-ii                             | person  | 拉美西斯二世
@@ -1492,9 +1247,8 @@ people/richard-fuld                          | person  | 福尔德, CEO福尔德
 people/richard-hofstadter                    | person  | 理查德·霍夫施塔特
 people/richard-koo                           | person  | 辜朝明
 people/richard-miles                         | person  | 理查德·迈尔斯
-people/richard-nixon                         | person  | 尼克松, 理查德·尼克松
+people/richard-nixon                         | person  | 理查德·尼克松
 people/richard-the-lionheart                 | person  | 狮心王理查, 理查
-people/richard-wagner                        | person  | 瓦格纳
 people/richard-yu                            | person  | 余承东
 people/richelieu                             | person  | 黎塞留, 红色黎塞留
 people/robert-clive                          | person  | 克莱武, 罗伯特·克莱武
@@ -1505,9 +1259,7 @@ people/robert-lighthizer                     | person  | 莱特希泽
 people/robert-mcnamara                       | person  | 麦克纳马拉, 罗伯特·麦克纳马拉
 people/robert-oppenheimer                    | person  | 奥本海默
 people/robert-shiller                        | person  | 罗伯特·席勒
-people/robert-taft                           | person  | 塔夫脱
 people/robert-triffin                        | person  | 罗伯特·特里芬
-people/rockefeller                           | person  | 洛克菲勒
 people/rodion-malinovsky                     | person  | 马利诺夫斯基
 people/rodman-dennis                         | person  | 罗德曼
 people/rodrigo-duterte                       | person  | 杜特尔特
@@ -1517,21 +1269,14 @@ people/roh-tae-woo                           | person  | 卢泰愚
 people/romain-rolland                        | person  | 罗曼·罗兰
 people/roman-abramovich                      | person  | 阿布, 阿布拉莫维奇
 people/romney                                | person  | 罗姆尼
-people/romulus                               | person  | 罗慕路斯
-people/romulus-augustulus                    | person  | 罗慕路斯
 people/rong-yiren                            | person  | 荣毅仁
 people/rong-zongjing                         | person  | 荣宗敬
-people/roosevelt                             | person  | 罗斯福
-people/rosa-luxemburg                        | person  | 卢森堡
 people/ross-perot                            | person  | 罗斯·佩罗, 佩罗
 people/rousseau                              | person  | 卢梭
 people/ruan-ji                               | person  | 阮籍
-people/rubio                                 | person  | 卢比奥
-people/ruhollah-khomeini                     | person  | 霍梅尼
-people/run-run-shaw                          | person  | 邵逸夫
 people/ruslan-gelayev                        | person  | 格拉耶夫
 people/rutherford-alcock                     | person  | 阿礼国
-people/sa-le-man                             | person  | 萨勒曼, 沙特萨勒曼
+people/sa-le-man                             | person  | 沙特萨勒曼
 people/sa-zhenbing                           | person  | 萨镇冰, 萨震病
 people/saddam                                | person  | 萨达姆, 萨达姆·侯赛因
 people/saihong                               | person  | 塞鸿
@@ -1546,19 +1291,16 @@ people/sam-altman                            | person  | 山姆奥特曼
 people/sam-houston                           | person  | 山姆·休斯顿
 people/samuel-huntington                     | person  | 亨廷顿
 people/sanae-takaichi                        | person  | 高市早苗
-people/sanders                               | person  | 桑德斯
 people/sang-hongyang                         | person  | 桑弘羊
-people/sangdesi                              | person  | 桑德斯
 people/sanjay-gandhi                         | person  | 山齐甘地, 山齐·甘地
 people/sara-duterte                          | person  | 萨拉, 杜特尔特女儿萨拉
-people/sato-eisaku                           | person  | 佐藤荣作, 佐藤
+people/sato-eisaku                           | person  | 佐藤
 people/sato-kenryo                           | person  | 佐藤贤了
 people/satoshi-nakamoto                      | person  | 中本聪
 people/say                                   | person  | 萨伊
-people/schroeder                             | person  | 施罗德
 people/scipio-aemilianus                     | person  | 小西庇阿
 people/scipio-africanus                      | person  | 大西庇阿
-people/scott-bessent                         | person  | 贝森特, 本森特, 斯科特·贝森特
+people/scott-bessent                         | person  | 本森特, 斯科特·贝森特
 people/scott-morrison                        | person  | 莫里森, 斯科特·莫里森
 people/sechin                                | person  | 谢琴
 people/seishiro-itagaki                      | person  | 板垣征四郎
@@ -1568,18 +1310,13 @@ people/sengge                                | person  | 僧哥, 僧格
 people/sergei-khrushchev                     | person  | 谢尔盖
 people/sergei-kirov                          | person  | 基洛夫
 people/sergei-korolev                        | person  | 科罗廖夫
-people/sergei-shoigu                         | person  | 绍伊古
 people/sergei-witte                          | person  | 谢尔盖·维特, 维特
 people/sergey-lavrov                         | person  | 拉夫罗夫
-people/sergey-shoigu                         | person  | 绍伊古
 people/seymour-hersh                         | person  | 西莫·赫什
 people/shakyamuni                            | person  | 释迦牟尼, 释迦摩尼
 people/shang-yang                            | person  | 商鞅
 people/shao-guangchao                        | person  | 邵光超
 people/shao-jiayi                            | person  | 邵佳一
-people/shao-yi-gu                            | person  | 绍伊古
-people/shao-yifu                             | person  | 邵逸夫
-people/shapiro-josh                          | person  | 夏皮罗
 people/sheikh-hasina                         | person  | 哈西娜
 people/shen-baozhen                          | person  | 沈葆桢
 people/shen-bi                               | person  | 沈弼
@@ -1593,21 +1330,14 @@ people/shi-chong                             | person  | 石崇
 people/shi-hu                                | person  | 石虎
 people/shi-jingtang                          | person  | 石敬瑭
 people/shi-le                                | person  | 石勒
-people/shi-mi-te                             | person  | 施密特
 people/shi-shouxin                           | person  | 石守信
 people/shi-siming                            | person  | 史思明
 people/shi-zhengrong                         | person  | 施正荣
-people/shigeru-yoshida                       | person  | 吉田茂
 people/shigeyoshi-inoue                      | person  | 井上成美
 people/shintaro-ishihara                     | person  | 石原慎太郎
-people/shinzo-abe                            | person  | 安倍, 安倍晋三
 people/shirai-satoshi                        | person  | 白井聪
 people/shirakawa-masaaki                     | person  | 白川方明
-people/shoigu-sergei                         | person  | 绍伊古
 people/shunzhi-emperor                       | person  | 顺治帝
-people/si-da-lin                             | person  | 斯大林
-people/sidaling                              | person  | 斯大林
-people/sigmund-freud                         | person  | 弗洛伊德
 people/sima-fang                             | person  | 司马防
 people/sima-guang                            | person  | 司马光
 people/sima-qian                             | person  | 司马迁, 太史公司马迁, 太史公
@@ -1618,28 +1348,21 @@ people/sima-yan                              | person  | 司马炎
 people/sima-yi                               | person  | 司马懿
 people/sima-you                              | person  | 司马攸
 people/sima-zhao                             | person  | 司马昭
-people/sima-zhong                            | person  | 司马衷
 people/sima-ziru                             | person  | 司马子如
 people/simon-bolivar                         | person  | 玻利瓦尔
 people/simpson                               | person  | 辛普森
-people/sinuo                                 | person  | 斯诺
 people/siraj-ud-daulah                       | person  | 锡拉杰
 people/sisowath-monivong                     | person  | 莫尼旺
 people/sisyphus                              | person  | 西西弗斯
 people/solovyov                              | person  | 索洛维约夫
 people/somchai                               | person  | 颂猜
-people/son-masayoshi                         | person  | 孙正义
-people/song-gaozong                          | person  | 宋高宗
 people/song-huiqiao                          | person  | 宋慧乔
 people/song-huizong                          | person  | 宋徽宗
 people/song-jing                             | person  | 宋璟
 people/song-qinzong                          | person  | 宋钦宗
-people/song-renzong                          | person  | 宋仁宗
-people/song-shenzong                         | person  | 宋神宗, 赵顼
+people/song-shenzong                         | person  | 赵顼
 people/song-wendi                            | person  | 宋文帝, 刘义隆
-people/song-zhenzong                         | person  | 宋真宗
 people/song-zhezong                          | person  | 宋哲宗
-people/song-ziwen                            | person  | 宋子文
 people/songgang                              | person  | 松岗
 people/songshuge                             | person  | 松鼠哥
 people/sonia-gandhi                          | person  | 索尼娅甘地, 索尼娅·甘地
@@ -1650,25 +1373,21 @@ people/spartacus                             | person  | 斯巴达克
 people/spinoza                               | person  | 斯宾诺莎
 people/spiro-agnew                           | person  | 阿格纽
 people/srettha-thavisin                      | person  | 赛塔
-people/stalin                                | person  | 斯大林, 斯大林同志, 苏联人民的慈父斯大林同志
+people/stalin                                | person  | 斯大林同志, 苏联人民的慈父斯大林同志
 people/stamford-raffles                      | person  | 斯坦福莱佛士
 people/stan-shih                             | person  | 施振荣
 people/stanley-fischer                       | person  | 费希尔, 斯坦利·费希尔
 people/stanley-kwan                          | person  | 关锦鹏
 people/stefan-zweig                          | person  | 茨威格, 茨维格
 people/stephen-miran                         | person  | 米兰, 斯蒂芬·米兰
-people/steve-jobs                            | person  | 乔布斯, 史蒂夫·乔布斯
+people/steve-jobs                            | person  | 史蒂夫·乔布斯
 people/stilwell                              | person  | 史迪威
 people/su-shi                                | person  | 苏轼, 苏东坡
 people/su-yu                                 | person  | 粟裕
 people/su-zhe                                | person  | 苏辙
 people/subhas-chandra-bose                   | person  | 钱德拉鲍斯, 苏巴斯·钱德拉·鲍斯
 people/subrahmanyam-jaishankar               | person  | 苏杰生
-people/suga-yoshihide                        | person  | 菅义伟
-people/sui-wendi                             | person  | 隋文帝
-people/sui-yangdi                            | person  | 隋炀帝, 杨广
 people/sulla                                 | person  | 苏拉
-people/sullivan                              | person  | 沙利文
 people/sun-chuanfang                         | person  | 孙传芳
 people/sun-di                                | person  | 孙迪
 people/sun-en                                | person  | 孙恩
@@ -1679,55 +1398,40 @@ people/sun-quan                              | person  | 孙权
 people/sun-shaoping                          | person  | 孙少平
 people/sun-teng                              | person  | 孙腾
 people/sun-wu                                | person  | 孙武
-people/sun-yat-sen                           | person  | 孙中山
 people/sun-yun-suan                          | person  | 孙运璿
-people/sun-zhengyi                           | person  | 孙正义
-people/sun-zhongshan                         | person  | 孙中山
 people/susan-collins                         | person  | 苏珊·柯林斯
 people/suthep                                | person  | 素添
 people/suzuki-kantaro                        | person  | 铃木贯太郎
 people/suzuki-zenko                          | person  | 铃木善幸
 people/syngman-rhee                          | person  | 李承晚
-people/t-v-soong                             | person  | 宋子文
 people/tabinshwehti                          | person  | 莽瑞体
-people/taft-william                          | person  | 塔夫脱
 people/takahashi-korekiyo                    | person  | 高桥是清
-people/takaichi-sanae                        | person  | 高市早苗
 people/takeshita-noboru                      | person  | 竹下登
-people/taksin                                | person  | 郑信
-people/taksin-the-great                      | person  | 郑信
 people/tamaki-yuichiro                       | person  | 玉木雄一郎
 people/tan-sitong                            | person  | 谭嗣同
-people/tanaka-kakuei                         | person  | 田中角荣, 田中
+people/tanaka-kakuei                         | person  | 田中
 people/tanaka-makiko                         | person  | 田中真纪子, 真纪子
 people/tang-daizong                          | person  | 唐代宗
-people/tang-dezong                           | person  | 唐德宗, 李适
+people/tang-dezong                           | person  | 李适
 people/tang-enbo                             | person  | 汤恩伯
 people/tang-jian                             | person  | 唐建
 people/tang-min                              | person  | 汤敏
 people/tang-suzong                           | person  | 唐肃宗
-people/tang-taizong                          | person  | 唐太宗, 李世民
 people/tang-tingshu                          | person  | 唐廷枢
-people/tang-xianzong                         | person  | 唐宪宗
-people/tang-xuanzong                         | person  | 唐玄宗, 玄宗, 李隆基
+people/tang-xuanzong                         | person  | 玄宗
 people/tao-can                               | person  | 陶灿
 people/tao-kan                               | person  | 陶侃
 people/tao-yuanming                          | person  | 陶渊明
 people/teng-tai                              | person  | 滕泰
 people/terry-gou                             | person  | 郭台铭
 people/thaksin-shinawatra                    | person  | 他信
-people/thatcher                              | person  | 撒切尔夫人
 people/theodore-roosevelt                    | person  | 老罗斯福, 西奥多·罗斯福, 西奥多罗斯福
 people/thomas-edison                         | person  | 爱迪生, 托马斯·爱迪生
 people/thomas-gray                           | person  | 托马斯·格雷
-people/thomas-jefferson                      | person  | 杰斐逊, 托马斯·杰斐逊
+people/thomas-jefferson                      | person  | 托马斯·杰斐逊
 people/thomas-lamont                         | person  | 拉蒙特, 托马斯·拉蒙特
-people/thomas-malthus                        | person  | 马尔萨斯
 people/tian-xiaoxia                          | person  | 田晓霞
 people/tiberius-gracchus                     | person  | 提比略·格拉古, 提比略格拉古
-people/tiberius-gracchus-elder               | person  | 老提比略·格拉古
-people/tiberius-gracchus-senior              | person  | 老提比略·格拉古
-people/tim-walz                              | person  | 沃尔兹
 people/to-lam                                | person  | 苏林
 people/toghon-temur                          | person  | 元顺帝
 people/tokugawa-ieyasu                       | person  | 德川家康
@@ -1741,9 +1445,7 @@ people/torres                                | person  | 托雷斯
 people/toyoda-akio                           | person  | 丰田章男
 people/toyotomi-hideyoshi                    | person  | 丰臣秀吉
 people/trajan                                | person  | 图拉真
-people/truman                                | person  | 杜鲁门
-people/truman-harry                          | person  | 杜鲁门
-people/trump                                 | person  | 川普, 懂王, 特朗普, 唐纳德·特朗普, 前总统懂王, 川总, 川建国, 前班长
+people/trump                                 | person  | 川普, 特朗普, 唐纳德·特朗普, 前总统懂王, 川总, 川建国, 前班长
 people/truong-chinh                          | person  | 长征, 邓春区
 people/tsewang-arabtan                       | person  | 策妄阿喇布坦, 策妄阿拉布坦
 people/tung-chao-yung                        | person  | 董浩云
@@ -1752,7 +1454,6 @@ people/tuoba-gui                             | person  | 拓跋珪
 people/tuoba-huang                           | person  | 拓跋晃
 people/tuoba-tao                             | person  | 拓跋焘
 people/udo-ulfkotte                          | person  | 乌尔夫科特
-people/ueada-kazuo                           | person  | 植田和男
 people/ulysses-grant                         | person  | 格兰特
 people/urban-viii                            | person  | 乌尔班八世
 people/ursula-von-der-leyen                  | person  | 冯德莱恩, 乌尔苏拉·冯德莱恩
@@ -1762,37 +1463,31 @@ people/valerian-kuybyshev                    | person  | 古比雪夫
 people/valerii-zaluzhnyi                     | person  | 扎卢日内
 people/valery-giscard-destaing               | person  | 德斯坦
 people/van-tien-dung                         | person  | 文进勇
-people/vance                                 | person  | 万斯
-people/vance-jd                              | person  | 万斯
-people/vannevar-bush                         | person  | 布什, 万尼瓦尔·布什, 范内瓦·布什, 万尼瓦尔布什
+people/vannevar-bush                         | person  | 万尼瓦尔·布什, 范内瓦·布什, 万尼瓦尔布什
 people/vasily-blyukher                       | person  | 布柳赫尔
 people/vasily-mishin                         | person  | 瓦西里, 瓦西里·米申
 people/verrazzano                            | person  | 韦拉扎诺
 people/vespasian                             | person  | 苇斯巴芗, 苇斯巴芗大帝, 维斯帕先
 people/victor-hugo                           | person  | 维克多雨果, 维克多·雨果, 雨果
-people/victoria                              | person  | 维多利亚女王
 people/vilfredo-pareto                       | person  | 维尔弗雷多·帕累托
 people/virgil                                | person  | 维吉尔
 people/viscount-esher                        | person  | 伊舍子爵
 people/vivian-chow                           | person  | 周慧敏
-people/vladimir-lenin                        | person  | 列宁
 people/vladimir-putin                        | person  | 普京, 弗拉基米尔·普京, 普京大帝, 普大帝
 people/vladimir-sukhomlinov                  | person  | 苏克霍姆利诺夫
 people/vo-nguyen-giap                        | person  | 武元甲
 people/vo-van-thuong                         | person  | 武文赏
 people/volcker                               | person  | 沃尔克, 保罗·沃尔克, 保罗沃尔克, 沃克尔
-people/volodymyr-zelensky                    | person  | 泽连斯基, 弗拉基米尔·泽连斯基
+people/volodymyr-zelensky                    | person  | 弗拉基米尔·泽连斯基
 people/voltaire                              | person  | 伏尔泰
 people/vuk-brankovic                         | person  | 布朗科维奇
-people/vyacheslav-molotov                    | person  | 莫洛托夫, 维亚切斯拉夫·莫洛托夫
+people/vyacheslav-molotov                    | person  | 维亚切斯拉夫·莫洛托夫
 people/wadsworth                             | person  | Wadsworth
 people/wakatsuki-reijiro                     | person  | 若槻, 若槻内阁
-people/walesa                                | person  | 瓦文萨
 people/walter-heller                         | person  | 海勒, 赫勒
 people/walter-lippmann                       | person  | 沃尔特·李普曼
 people/walter-russell-mead                   | person  | 沃尔特拉塞尔米德
 people/walz                                  | person  | 沃尔茨
-people/walz-tim                              | person  | 沃尔兹
 people/wan-gang                              | person  | 万钢
 people/wang-anguo                            | person  | 王安国
 people/wang-anli                             | person  | 王安礼
@@ -1821,12 +1516,10 @@ people/wang-xin                              | person  | 王欣
 people/wang-xing                             | person  | 王兴
 people/wang-xiqian                           | person  | 王希迁
 people/wang-yun                              | person  | 王允
-people/wanli-emperor                         | person  | 万历, 万历皇帝
 people/wanyan-aguda                          | person  | 完颜阿骨打
 people/wanyan-liang                          | person  | 海陵王
-people/warren-buffett                        | person  | 巴菲特, 股神巴菲特, 巴神, 沃伦·巴菲特, Warren Buffett
+people/warren-buffett                        | person  | 巴菲特, 股神巴菲特, 巴神, 沃伦·巴菲特, Warren Buffett, 老股神, 股神
 people/warren-harding                        | person  | 哈丁
-people/washington-george                     | person  | 华盛顿
 people/watanabe-mrs                          | person  | 渡边太太
 people/wei-guoqing                           | person  | 韦国清
 people/wei-li                                | person  | 韦理
@@ -1837,19 +1530,15 @@ people/wei-zaode                             | person  | 魏藻德
 people/wei-zhe                               | person  | 卫哲
 people/wei-zian                              | person  | 魏子安
 people/weidel                                | person  | 魏德尔
-people/wen-emperor-of-han                    | person  | 汉文帝
 people/wen-tiejun                            | person  | 温铁军
 people/wen-tingyun                           | person  | 温庭筠
 people/wen-yanbo                             | person  | 文彦博
 people/werner-heisenberg                     | person  | 海森堡
 people/werner-von-blomberg                   | person  | 勃洛姆堡
-people/werner-von-siemens                    | person  | 西门子, 维尔纳·冯·西门子
+people/werner-von-siemens                    | person  | 维尔纳·冯·西门子
 people/wernher-von-braun                     | person  | 冯·布劳恩
-people/wilhelm-i                             | person  | 威廉一世
-people/wilhelm-ii                            | person  | 威廉二世, 德国皇帝威廉二世, 德皇威廉二世, 威利, 威廉
-people/william-howard-taft                   | person  | 塔夫脱
-people/william-i                             | person  | 威廉一世, 普鲁士国王威廉一世
-people/william-ii                            | person  | 威廉二世
+people/wilhelm-ii                            | person  | 德国皇帝威廉二世, 德皇威廉二世, 威利, 威廉
+people/william-i                             | person  | 普鲁士国王威廉一世
 people/william-iii                           | person  | 威廉三世
 people/william-mcchesney-martin              | person  | 小马丁
 people/william-mckinley                      | person  | 麦金莱, 威廉·麦金莱
@@ -1857,17 +1546,12 @@ people/william-miller                        | person  | 米勒
 people/william-seward                        | person  | 西沃德
 people/william-shakespeare                   | person  | 莎士比亚
 people/william-tecumseh-sherman              | person  | 谢尔曼, 谢尔曼将军, William Tecumseh Sherman
-people/william-the-conqueror                 | person  | 威廉一世
 people/willie-brown                          | person  | 威利·布朗
 people/willis-hawley                         | person  | 霍利, 威利斯·霍利
 people/willy-brandt                          | person  | 勃兰特
-people/wilson                                | person  | 威尔逊
-people/wilson-woodrow                        | person  | 威尔逊
-people/winston-churchill                     | person  | 丘吉尔, 温斯顿·丘吉尔, 温斯顿丘吉尔
+people/winston-churchill                     | person  | 温斯顿·丘吉尔, 温斯顿丘吉尔
 people/witkoff                               | person  | 维特科夫
 people/wong-kar-wai                          | person  | 王家卫
-people/woodrow-wilson                        | person  | 威尔逊
-people/wu-emperor-of-han                     | person  | 汉武帝
 people/wu-jiandong                           | person  | 吴建东, 过江龙
 people/wu-jinglian                           | person  | 吴敬琏
 people/wu-jintang                            | person  | 吴锦堂
@@ -1883,12 +1567,9 @@ people/wu-zetian                             | person  | 武则天
 people/wushuang                              | person  | 无双
 people/wuxian                                | person  | 武仙
 people/xavier-bertrand                       | person  | 贝特朗
-people/xi-la-ke                              | person  | 希拉克
-people/xi-la-li                              | person  | 希拉里
 people/xi-wangmu                             | person  | 西王母
 people/xi-yi                                 | person  | 奚毅
 people/xiahou-yuan                           | person  | 夏侯渊
-people/xianfeng-emperor                      | person  | 咸丰皇帝, 咸丰
 people/xiang-yu                              | person  | 项羽
 people/xiao-baojuan                          | person  | 萧宝卷
 people/xiao-daocheng                         | person  | 萧道成
@@ -1934,9 +1615,8 @@ people/yan-zhenqing                          | person  | 颜真卿
 people/yan-zhuang                            | person  | 严庄
 people/yang-botao                            | person  | 杨伯涛
 people/yang-chen                             | person  | 杨晨
-people/yang-guang                            | person  | 杨广
 people/yang-guozhong                         | person  | 杨国忠
-people/yang-jian                             | person  | 杨坚, 隋文帝
+people/yang-jian                             | person  | 杨坚
 people/yang-kan                              | person  | 杨侃
 people/yang-pu                               | person  | 杨璞
 people/yang-tiannan                          | person  | 杨天南
@@ -1950,17 +1630,14 @@ people/yazid-i                               | person  | 叶齐德
 people/ye-fei                                | person  | 叶飞
 people/ye-jianying                           | person  | 叶剑英
 people/ye-jihuan                             | person  | 叶继欢, 贼中王
-people/yeeltsin                              | person  | 叶利钦
 people/yegor-gaidar                          | person  | 盖达尔, 叶戈尔·盖达尔
-people/yellen                                | person  | 耶伦
 people/yelu-abaoji                           | person  | 耶律阿保机
 people/yelu-deguang                          | person  | 耶律德光
-people/yelun                                 | person  | 耶伦
 people/yermak                                | person  | 叶尔马克
 people/yevgeny-prigozhin                     | person  | 普里戈津
 people/yi-gang                               | person  | 易纲
 people/yi-huiman                             | person  | 易会满
-people/yi-li-sha-bai-er-shi                  | person  | 伊丽莎白二世, 伊丽莎白女王
+people/yi-li-sha-bai-er-shi                  | person  | 伊丽莎白二世
 people/yi-wanghou                            | person  | 易王后
 people/yi-yangqianxi                         | person  | 易烊千玺
 people/ying-zheng                            | person  | 嬴政
@@ -1968,13 +1645,9 @@ people/yingluck-shinawatra                   | person  | 英拉
 people/yitzhak-rabin                         | person  | 拉宾
 people/yoav-gallant                          | person  | 加兰特
 people/yokokura-yoshitake                    | person  | 横仓义武
-people/yongxiang-person                      | person  | 永祥
-people/yongzheng                             | person  | 雍正
-people/yongzheng-emperor                     | person  | 雍正, 雍正帝, 雍正皇帝
+people/yongzheng-emperor                     | person  | 雍正皇帝
 people/yoon-suk-yeol                         | person  | 尹锡悦
-people/yoshida-shigeru                       | person  | 吉田茂
 people/yoshida-shoin                         | person  | 吉田松阴
-people/yoshihide-suga                        | person  | 菅义伟
 people/yoshihiko-noda                        | person  | 野田佳彦
 people/you-benchang                          | person  | 游本昌
 people/yu-hongtu                             | person  | 俞鸿图
@@ -2003,11 +1676,10 @@ people/yuan-yu                               | person  | 元彧
 people/yuan-yue                              | person  | 元悦
 people/yuan-ziyou                            | person  | 元子攸
 people/yue-fei                               | person  | 岳飞
-people/yue-kong-pao                          | person  | 包玉刚, 船王包玉刚
+people/yue-kong-pao                          | person  | 船王包玉刚
 people/yue-zhongqi                           | person  | 岳钟奇
-people/yukio-noguchi                         | person  | 野口悠纪雄
 people/yuri-andropov                         | person  | 安德罗波夫
-people/yuri-gagarin                          | person  | 加加林, 尤里·加加林
+people/yuri-gagarin                          | person  | 尤里·加加林
 people/yuri-ushakov                          | person  | 乌沙科夫
 people/yuwen-rong                            | person  | 宇文融
 people/yuwen-tai                             | person  | 宇文泰
@@ -2015,7 +1687,6 @@ people/yuwen-yong                            | person  | 宇文邕
 people/zaifeng                               | person  | 载沣
 people/zakhar-prilepin                       | person  | 扎卡·普里潘
 people/zbigniew-brzezinski                   | person  | 布热津斯基, 布热津四斤
-people/zelensky                              | person  | 泽连斯基
 people/zeng-bu                               | person  | 曾布
 people/zeng-gong                             | person  | 曾巩
 people/zeng-gongliang                        | person  | 曾公亮
@@ -2023,7 +1694,6 @@ people/zeng-guofan                           | person  | 曾国藩
 people/zeng-jin                              | person  | 曾进
 people/zeng-yuqun                            | person  | 曾毓群
 people/zhai-dongsheng                        | person  | 翟东升
-people/zhang-chengze                         | person  | 张成泽
 people/zhang-dun                             | person  | 章惇
 people/zhang-er                              | person  | 张耳
 people/zhang-gui                             | person  | 张轨
@@ -2065,7 +1735,6 @@ people/zhang-zunsan                          | person  | 张尊三
 people/zhang-zuolin                          | person  | 张作霖
 people/zhao-benshan                          | person  | 赵本山
 people/zhao-dingxin                          | person  | 赵鼎新
-people/zhao-gou                              | person  | 赵构, 宋高宗
 people/zhao-guangyi                          | person  | 赵光义, 宋太祖赵光义
 people/zhao-gui                              | person  | 赵贵
 people/zhao-kuangyin                         | person  | 赵匡胤
@@ -2098,8 +1767,6 @@ people/zhou-hongyi                           | person  | 周鸿祎
 people/zhou-jielun                           | person  | 周杰伦
 people/zhou-mu-wang                          | person  | 周穆王
 people/zhou-shouzi                           | person  | 周受资
-people/zhou-xiao-chuan                       | person  | 周小川
-people/zhou-xiaochuan                        | person  | 周小川
 people/zhou-xun                              | person  | 周迅
 people/zhou-yingbo                           | person  | 周应波
 people/zhou-yu                               | person  | 周公瑾, 周瑜
@@ -2108,7 +1775,7 @@ people/zhu-ci                                | person  | 朱泚
 people/zhu-di                                | person  | 朱棣, 燕王, 永乐皇帝
 people/zhu-fuyan                             | person  | 主父偃
 people/zhu-kezhen                            | person  | 竺可桢
-people/zhu-rongji                            | person  | 朱镕基, 朱总理
+people/zhu-rongji                            | person  | 朱镕基
 people/zhu-shaoxing                          | person  | 朱少醒, 朱老板
 people/zhu-tao                               | person  | 朱滔
 people/zhu-wen                               | person  | 朱温
@@ -2118,7 +1785,6 @@ people/zhu-youwen                            | person  | 朱友文
 people/zhu-youzhen                           | person  | 朱友贞
 people/zhu-yuanzhang                         | person  | 朱元璋
 people/zhu-ziqiao                            | person  | 朱子乔
-people/zhu-zongli                            | person  | 朱总理
 people/zhuang-jingan                         | person  | 庄静庵
 people/zhuang-shi                            | person  | 庄氏
 people/zhuang-yueming                        | person  | 庄月明
@@ -2129,7 +1795,6 @@ people/zong-fuli                             | person  | 宗馥莉
 people/zong-qinghou                          | person  | 宗庆后, 宗老
 people/zou-shiheng                           | person  | 邹士恒
 people/zu-di                                 | person  | 祖狄
-people/zuckerberg                            | person  | 扎克伯格
 people/zulfikar-ali-bhutto                   | person  | 布托, 佐勒菲卡尔·阿里·布托
 people/zuo-er-tan-bo-zha-er                  | person  | 佐尔坦波扎尔, 佐尔坦·波扎尔
 people/zuo-zongtang                          | person  | 左宗棠
@@ -2140,8 +1805,6 @@ countries/alexander-empire                   | country | 亚历山大帝国
 countries/algeria                            | country | 阿尔及利亚
 countries/ancient-egypt                      | country | 古埃及
 countries/ancient-greece                     | country | 古希腊, 希腊地区, 希腊人, 雅典文明
-countries/ancient-nanyue                     | country | 南越
-countries/ancient-rome                       | country | 罗马, 古罗马
 countries/angkor-empire                      | country | 吴哥王朝
 countries/antigonid-dynasty                  | country | 安提柯王朝
 countries/antioch-principality               | country | 安条克王国
@@ -2162,11 +1825,10 @@ countries/babylon                            | country | 巴比伦, 巴比伦文
 countries/bahrain                            | country | 巴林
 countries/baidi                              | country | 白狄
 countries/baltic-states                      | country | 波罗的海三国
-countries/bangladesh                         | country | 孟加拉, 孟加拉国
-countries/beiyang-government                 | country | 北洋军阀, 北洋军阀时期
+countries/bangladesh                         | country | 孟加拉国
+countries/beiyang-government                 | country | 北洋军阀时期
 countries/belarus                            | country | 白俄罗斯
 countries/belgium                            | country | 比利时
-countries/bengal                             | country | 孟加拉
 countries/bermuda                            | country | 百慕大
 countries/bihar                              | country | 比哈尔
 countries/boer-republics                     | country | 布尔共和国
@@ -2184,19 +1846,17 @@ countries/bulgaria                           | country | 保加利亚
 countries/cambodia                           | country | 柬埔寨
 countries/cameroon                           | country | 喀麦隆
 countries/canada                             | country | 加拿大
-countries/cao-wei                            | country | 曹魏, 魏国, 魏, 卫国
+countries/cao-wei                            | country | 曹魏, 魏国, 卫国
 countries/carthage                           | country | 迦太基
 countries/cayman-islands                     | country | 开曼群岛, 开曼
 countries/central-asian-states               | country | 中亚五国
 countries/chahar                             | country | 察哈尔, 察哈尔蒙古
 countries/champa                             | country | 占城
-countries/chaoxian                           | country | 朝鲜
 countries/chechnya                           | country | 车臣
 countries/chenla                             | country | 真腊王国, 真腊
 countries/cheshi                             | country | 车师
 countries/chile                              | country | 智利
-countries/china                              | country | 中国, 中方, 中, 我国, 新中国, 东方大国, 咱们国家, 中国大陆, 国内, 中国政府, 大陆, 中华人民共和国, 内地
-countries/choshu-domain                      | country | 长州藩
+countries/china                              | country | 中国, 中方, 中, 我国, 新中国, 东方大国, 咱们国家, 中国大陆, 国内, 大陆, 中华人民共和国, 内地
 countries/chu-state                          | country | 楚, 楚国
 countries/colombia                           | country | 哥伦比亚
 countries/confederate-states-of-america      | country | 美利坚联盟国, 南方邦联
@@ -2232,11 +1892,10 @@ countries/eastern-jin                        | country | 东晋
 countries/eastern-roman-empire               | country | 拜占庭帝国, 东罗马帝国, 东罗马拜占庭帝国, 东罗马
 countries/eastern-turkic-khaganate           | country | 东突厥
 countries/eastern-wei                        | country | 东魏
-countries/eastern-wu                         | country | 吴, 东吴, 吴国
+countries/eastern-wu                         | country | 东吴, 吴国
 countries/ecuador                            | country | 厄瓜多尔
 countries/egypt                              | country | 埃及
 countries/el-salvador                        | country | 萨尔瓦多
-countries/england                            | country | 英格兰
 countries/essex                              | country | 埃塞克斯王国
 countries/estonia                            | country | 爱沙尼亚
 countries/ethiopia                           | country | 埃塞俄比亚
@@ -2278,11 +1937,11 @@ countries/greece                             | country | 希腊
 countries/greenland                          | country | 格陵兰岛
 countries/grenada                            | country | 格林纳达
 countries/guatemala                          | country | 危地马拉
-countries/guomin-zhengfu                     | country | 国民政府, 南京国民政府
+countries/guomin-zhengfu                     | country | 南京国民政府
 countries/guyana                             | country | 圭亚那
 countries/habsburg-monarchy                  | country | 哈布斯堡王朝
 countries/haiti                              | country | 海地
-countries/han-dynasty                        | country | 汉, 汉朝, 汉室, 大汉, 汉帝国
+countries/han-dynasty                        | country | 汉, 汉室, 大汉, 汉帝国
 countries/han-state                          | country | 韩国（战国）, 战国韩国, 韩（战国）
 countries/hawaiian-kingdom                   | country | 夏威夷王国
 countries/hohenzollern-dynasty               | country | 霍亨索伦王朝
@@ -2297,21 +1956,20 @@ countries/inca-empire                        | country | 印加帝国
 countries/independent-state-of-croatia       | country | 克罗地亚独立国
 countries/india                              | country | 印度
 countries/indonesia                          | country | 印度尼西亚, 印尼
-countries/iran                               | country | 伊朗, 波斯
+countries/iran                               | country | 伊朗
 countries/iraq                               | country | 伊拉克
 countries/ireland                            | country | 爱尔兰
 countries/islamic-republic-of-iran           | country | 伊斯兰共和国
 countries/israel                             | country | 以色列
 countries/italy                              | country | 意大利, 意
-countries/japan                              | country | 日本, 日, 日本政府
-countries/jiaozhi                            | country | 交趾
+countries/japan                              | country | 日本, 日
 countries/jie                                | country | 羯
 countries/jin-dynasty-jurchen                | country | 金朝, 金国, 金人
 countries/jin-state                          | country | 晋国
 countries/johor-sultanate                    | country | 柔佛王国, 柔佛苏丹
 countries/jordan                             | country | 约旦
 countries/joseon                             | country | 朝鲜王国
-countries/joseon-dynasty                     | country | 朝鲜, 李氏朝鲜, 朝鲜王朝, 李氏朝鲜王朝
+countries/joseon-dynasty                     | country | 李氏朝鲜, 朝鲜王朝, 李氏朝鲜王朝
 countries/judea                              | country | 犹太国家, 犹太行省
 countries/jurchen                            | country | 女真人, 女真
 countries/kazakh-khanate                     | country | 哈萨克汗国
@@ -2330,7 +1988,6 @@ countries/kingdom-of-saxony                  | country | 萨克森王国
 countries/kingdom-of-wa                      | country | 倭国
 countries/kokand                             | country | 浩罕国
 countries/konbaung-dynasty                   | country | 贡榜王朝
-countries/korea                              | country | 朝鲜
 countries/korean-empire                      | country | 大韩帝国
 countries/kosovo                             | country | 科索沃
 countries/kuwait                             | country | 科威特
@@ -2355,33 +2012,28 @@ countries/libya                              | country | 利比亚
 countries/lithuania                          | country | 立陶宛
 countries/little-bolor                       | country | 小勃律
 countries/liu-song                           | country | 刘宋, 南朝刘宋
-countries/liu-song-dynasty                   | country | 宋, 南朝宋
+countries/liu-song-dynasty                   | country | 南朝宋
 countries/lombardy                           | country | 伦巴第
 countries/loufan                             | country | 娄烦
 countries/luhansk-republic                   | country | 卢甘斯克共和国, 卢甘斯克
-countries/luxembourg                         | country | 卢森堡
 countries/luzon                              | country | 吕宋
 countries/lydia                              | country | 吕底亚, 吕底亚王国
 countries/macau                              | country | 澳门
 countries/macedonian-empire                  | country | 马其顿帝国
-countries/macedonian-kingdom                 | country | 马其顿王国, 马其顿, 马其顿王朝
+countries/macedonian-kingdom                 | country | 马其顿王国, 马其顿王朝
 countries/magyar-kingdom                     | country | 马扎尔王国
 countries/malaya                             | country | 马来亚
 countries/malaysia                           | country | 马来西亚
 countries/malaysia-federation                | country | 马来西亚联邦
 countries/maldives                           | country | 马尔代夫
 countries/malta                              | country | 马耳他
-countries/manchu-qing                        | country | 满清
 countries/manchukuo                          | country | 伪满洲国, 满洲国
 countries/marshall-islands                   | country | 马绍尔群岛
-countries/meiji-government                   | country | 明治政府
 countries/mercia                             | country | 麦西亚王国
 countries/mexico                             | country | 墨西哥
 countries/middle-francia                     | country | 中法兰克
 countries/ming-dynasty                       | country | 大明帝国, 明朝, 大明, 明, 大明王朝, 明代, 明政府
-countries/mongol-empire                      | country | 蒙古, 蒙古人, 北兵, 蒙古帝国
-countries/mongolia                           | country | 蒙古
-countries/mongols                            | country | 蒙古人, 蒙古
+countries/mongol-empire                      | country | 北兵, 蒙古帝国
 countries/montenegro                         | country | 黑山
 countries/morocco                            | country | 摩洛哥
 countries/moscow-principality                | country | 莫斯科公国
@@ -2391,7 +2043,7 @@ countries/nanqiang                           | country | 南羌
 countries/nanzhao                            | country | 南诏国, 南诏
 countries/napoleonic-empire                  | country | 拿破仑帝国
 countries/napoleonic-france                  | country | 拿破仑第一帝国, 拿破仑法国（历史政体）
-countries/nationalist-government             | country | 国民政府, 国民党统治时期
+countries/nationalist-government             | country | 国民党统治时期
 countries/nazi-germany                       | country | 德国纳粹, 纳粹德国, 法西斯德国, 德意志第三帝国, 第三帝国, 希特勒的德国
 countries/nepal                              | country | 尼泊尔
 countries/netherlands                        | country | 荷兰, 尼德兰
@@ -2404,15 +2056,15 @@ countries/nigeria                            | country | 尼日利亚
 countries/norman-dynasty                     | country | 诺曼王朝
 countries/normandy                           | country | 诺曼底
 countries/north-american-thirteen-colonies   | country | 北美十三州
-countries/north-korea                        | country | 北朝鲜, 朝鲜, 北方
-countries/north-macedonia                    | country | 北马其顿, 马其顿
+countries/north-korea                        | country | 北朝鲜, 北方
+countries/north-macedonia                    | country | 北马其顿
 countries/north-sea-empire                   | country | 北海帝国
 countries/north-vietnam                      | country | 北越
 countries/north-yemen                        | country | 北也门
 countries/northern-dynasties                 | country | 北朝
 countries/northern-ireland                   | country | 北爱尔兰
 countries/northern-qi                        | country | 北齐
-countries/northern-song-dynasty              | country | 北宋, 宋朝
+countries/northern-song-dynasty              | country | 北宋
 countries/northern-southern-dynasties        | country | 南北朝
 countries/northern-wei                       | country | 北魏
 countries/northern-xiongnu                   | country | 北匈奴
@@ -2424,7 +2076,7 @@ countries/numidia                            | country | 努米比亚
 countries/oirat                              | country | 瓦剌, 卫拉特
 countries/orange-free-state                  | country | 奥兰治
 countries/ostrogothic-kingdom                | country | 东哥特王国
-countries/ottoman-empire                     | country | 奥斯曼, 奥斯曼帝国, 土耳其帝国, 奥斯曼土耳其, 土耳其
+countries/ottoman-empire                     | country | 奥斯曼, 奥斯曼帝国, 土耳其帝国, 奥斯曼土耳其
 countries/outer-mongolia                     | country | 外蒙古
 countries/pagan-kingdom                      | country | 蒲甘王朝
 countries/pahlavi-iran                       | country | 巴列维王朝, 伊朗巴列维王朝
@@ -2434,7 +2086,6 @@ countries/panama                             | country | 巴拿马
 countries/papal-states                       | country | 教皇国
 countries/paraguay                           | country | 巴拉圭
 countries/parthian-empire                    | country | 帕提亚, 帕提亚帝国, 帕提亚王国
-countries/persia                             | country | 波斯
 countries/persian-empire                     | country | 波斯帝国
 countries/peru                               | country | 秘鲁
 countries/philippines                        | country | 菲律宾
@@ -2448,17 +2099,17 @@ countries/puerto-rico                        | country | 波多黎各
 countries/qatar                              | country | 卡塔尔
 countries/qi-state                           | country | 齐, 齐国
 countries/qiang                              | country | 羌
-countries/qin-dynasty                        | country | 秦, 秦朝
-countries/qin-state                          | country | 秦国, 秦
-countries/qing-dynasty                       | country | 清朝, 大清帝国, 清, 清政府, 晚清, 大清, 清帝国, 大清朝, 满清, 清王朝
+countries/qin-dynasty                        | country | 秦朝
+countries/qin-state                          | country | 秦国
+countries/qing-dynasty                       | country | 清朝, 大清帝国, 清, 清政府, 晚清, 大清, 清帝国, 大清朝, 清王朝
 countries/rattanakosin-kingdom               | country | 曼谷王朝
-countries/republic-of-china                  | country | 民国, 中华民国, 国民政府, 国民党政权
+countries/republic-of-china                  | country | 民国, 中华民国, 国民党政权
 countries/republic-of-turkey                 | country | 土耳其共和国
-countries/roman-empire                       | country | 古罗马, 罗马帝国, 罗马
-countries/roman-republic                     | country | 罗马共和国, 罗马
+countries/roman-empire                       | country | 罗马帝国
+countries/roman-republic                     | country | 罗马共和国
 countries/romania                            | country | 罗马尼亚
-countries/russia                             | country | 俄罗斯, 俄国, 俄, 沙皇俄国, 北极熊, 俄罗斯联邦, 毛熊, 沙俄
-countries/russian-empire                     | country | 俄罗斯帝国, 沙皇俄国, 俄国, 沙俄, 沙俄帝国
+countries/russia                             | country | 俄罗斯, 俄, 北极熊, 俄罗斯联邦, 毛熊
+countries/russian-empire                     | country | 俄罗斯帝国, 沙俄帝国
 countries/ryukyu                             | country | 琉球, 琉球国
 countries/ryukyu-kingdom                     | country | 琉球王国
 countries/sabah                              | country | 沙巴
@@ -2476,8 +2127,7 @@ countries/senegal                            | country | 塞内加尔
 countries/serbia                             | country | 塞尔维亚
 countries/serbia-and-montenegro              | country | 塞黑
 countries/shang-dynasty                      | country | 商朝
-countries/shu                                | country | 蜀
-countries/shu-han                            | country | 蜀国, 蜀, 蜀汉
+countries/shu-han                            | country | 蜀国, 蜀汉
 countries/sikkim                             | country | 锡金
 countries/silla                              | country | 新罗
 countries/singapore                          | country | 新加坡
@@ -2485,20 +2135,19 @@ countries/slovakia                           | country | 斯洛伐克
 countries/slovenia                           | country | 斯洛文尼亚
 countries/solomon-islands                    | country | 所罗门群岛
 countries/somalia                            | country | 索马里
-countries/song-dynasty                       | country | 宋, 宋朝, 宋代, 赵宋
+countries/song-dynasty                       | country | 宋代, 赵宋
 countries/song-state                         | country | 宋国
 countries/south-africa                       | country | 南非
-countries/south-korea                        | country | 韩国, 南韩, 韩, 韩国政府, 大韩民国, 南朝鲜
-countries/south-vietnam                      | country | 南越, 南越政权
+countries/south-korea                        | country | 韩国, 南韩, 韩, 大韩民国, 南朝鲜
+countries/south-vietnam                      | country | 南越政权
 countries/southern-dynasties                 | country | 南朝
 countries/southern-liang                     | country | 南梁
 countries/southern-ming                      | country | 南明, 南明小朝廷
 countries/southern-qi                        | country | 萧齐
-countries/southern-song                      | country | 南宋, 宋朝, 宋人
+countries/southern-song                      | country | 南宋, 宋人
 countries/southern-yan                       | country | 南燕
 countries/soviet-union                       | country | 苏联, 苏, 前苏联, 苏维埃社会主义共和国联盟, 红色帝国, 苏维埃帝国, 苏维埃联盟
-countries/spain                              | country | 西班牙, 西班牙帝国
-countries/spanish-empire                     | country | 西班牙帝国
+countries/spain                              | country | 西班牙
 countries/sri-lanka                          | country | 斯里兰卡
 countries/sudan                              | country | 苏丹
 countries/sui-dynasty                        | country | 隋朝, 隋王朝
@@ -2508,8 +2157,8 @@ countries/sweden                             | country | 瑞典
 countries/switzerland                        | country | 瑞士
 countries/syria                              | country | 叙利亚
 countries/taiping-heavenly-kingdom           | country | 太平天国, 天平天国
-countries/taiwan                             | country | 台湾, 中国台湾, 台湾地区, 台湾省, 宝岛, 小岛, 中国台湾地区
-countries/taiwan-authorities                 | country | 台湾伪政权, 台湾, 对岸, 伪政府
+countries/taiwan                             | country | 中国台湾, 台湾地区, 台湾省, 宝岛, 小岛, 中国台湾地区
+countries/taiwan-authorities                 | country | 台湾伪政权, 对岸, 伪政府
 countries/tajikistan                         | country | 塔吉克斯坦
 countries/taliban-regime                     | country | 塔利班政权, 塔利班政府, 阿富汗新政府
 countries/tang-dynasty                       | country | 唐, 唐朝, 李唐, 唐代, 大唐, 李唐王朝, 唐王朝, 唐帝国
@@ -2520,13 +2169,12 @@ countries/thonburi-kingdom                   | country | 吞武里王朝
 countries/tibet                              | country | 西藏
 countries/tibet-empire                       | country | 吐蕃
 countries/togo                               | country | 多哥
-countries/tokugawa-shogunate                 | country | 德川幕府, 日本德川幕府
+countries/tokugawa-shogunate                 | country | 日本德川幕府
 countries/torghut                            | country | 土尔扈特, 土尔扈特部
 countries/toungoo-dynasty                    | country | 东吁王朝
 countries/transvaal                          | country | 德兰士瓦
 countries/troy                               | country | 特洛伊
 countries/tunisia                            | country | 突尼斯
-countries/turkey                             | country | 土耳其
 countries/turkic-khaganate                   | country | 突厥, 突厥汗国
 countries/turkmen                            | country | 土库曼
 countries/turkmenistan                       | country | 土库曼斯坦
@@ -2535,28 +2183,27 @@ countries/ukraine                            | country | 乌克兰, 乌
 countries/umayyad-caliphate                  | country | 倭马亚王朝
 countries/united-arab-emirates               | country | 阿联酋
 countries/united-arab-republic               | country | 阿拉伯联合共和国
-countries/united-kingdom                     | country | 英国, 大不列颠, 日不落帝国, 英, 大英帝国, 英格兰, 日不落英国, 日不落帝国英国
-countries/united-states                      | country | 美国, 美利坚, 美方, 美, 合众国, 美国人, 老美, 美帝国主义, 美国政府, 漂亮国, 山姆大叔, 大洋彼岸的那个国度, 美利坚合众国, 米国
+countries/united-kingdom                     | country | 英国, 大不列颠, 日不落帝国, 英, 日不落英国, 日不落帝国英国
+countries/united-states                      | country | 美国, 美利坚, 美方, 美, 合众国, 美国人, 老美, 美帝国主义, 漂亮国, 山姆大叔, 大洋彼岸的那个国度, 美利坚合众国, 米国
 countries/uruguay                            | country | 乌拉圭
 countries/uyghur-khaganate                   | country | 回鹘
 countries/uzbekistan                         | country | 乌兹别克斯坦
 countries/vandal-kingdom                     | country | 汪达尔人, 汪达尔王国
 countries/venezuela                          | country | 委内瑞拉
 countries/venice                             | country | 威尼斯, 威尼斯共和国
-countries/vietnam                            | country | 越南, 安南, 交趾, 大越
+countries/vietnam                            | country | 越南, 安南, 大越
 countries/virginia-colony                    | country | 弗吉尼亚殖民地
 countries/visigothic-kingdom                 | country | 西哥特王国
 countries/wa-nu-state                        | country | 倭奴国
 countries/wales                              | country | 威尔士
 countries/water-chenla                       | country | 水真腊
-countries/wei                                | country | 魏
 countries/wei-jin-northern-southern-dynasties | country | 魏晋南北朝
 countries/weimar-republic                    | country | 魏玛共和国
 countries/wessex                             | country | 韦塞克斯王国
 countries/west-francia                       | country | 西法兰克
 countries/west-germany                       | country | 西德
 countries/west-pakistan                      | country | 西巴基斯坦, 西巴
-countries/western-han-dynasty                | country | 西汉, 西汉王朝, 汉朝, 大汉帝国
+countries/western-han-dynasty                | country | 西汉, 西汉王朝, 大汉帝国
 countries/western-jin                        | country | 西晋
 countries/western-liang                      | country | 西凉
 countries/western-roman-empire               | country | 西罗马, 西罗马帝国
@@ -2564,7 +2211,6 @@ countries/western-turkic-khaganate           | country | 西突厥
 countries/western-wei                        | country | 西魏
 countries/western-xia                        | country | 西夏, 西夏人
 countries/western-zhou                       | country | 西周
-countries/wu                                 | country | 吴
 countries/xianbei                            | country | 鲜卑
 countries/xiongnu                            | country | 匈奴
 countries/xirong                             | country | 西戎
@@ -2613,23 +2259,19 @@ orgs/air-jordan                              | org     | AJ, Air Jordan
 orgs/airbnb                                  | org     | 爱彼迎, Airbnb
 orgs/airbus                                  | org     | 空客, 空中客车, 空客公司
 orgs/aisenzhe                                | org     | 埃森哲
-orgs/aito                                    | org     | 问界, 华为问界
+orgs/aito                                    | org     | 华为问界
 orgs/aizhenjie                               | org     | 爱真杰电动车, 爱真杰
 orgs/akesidun                                | org     | 阿克斯顿, 美国第二大高端公寓开发商阿克斯顿
 orgs/al-nusra-front                          | org     | 努库拉阵线
 orgs/al-qaeda                                | org     | 基地组织, 基地
 orgs/alawites                                | org     | 阿拉维派
-orgs/ali                                     | org     | 阿里
 orgs/ali-health                              | org     | 阿里健康
 orgs/alibaba                                 | org     | 阿里, 阿里巴巴
 orgs/alibaba-b2b                             | org     | 阿里巴巴B2B公司
 orgs/alibaba-local-retail-business-group     | org     | 阿里同城零售事业群
 orgs/alipay                                  | org     | 支付宝
 orgs/all-india-muslim-league                 | org     | 全印度穆斯林联盟
-orgs/allied-powers                           | org     | 同盟国, 协约国
-orgs/allied-powers-wwi                       | org     | 协约国
-orgs/allies                                  | org     | 盟军, 协约国
-orgs/allies-world-war-i                      | org     | 协约国
+orgs/allies                                  | org     | 盟军
 orgs/alpha-group                             | org     | 阿尔法特种部队
 orgs/alstom                                  | org     | 阿尔斯通
 orgs/alternative-for-germany                 | org     | 德国选择党, 选择党, 德国右翼选择党
@@ -2644,7 +2286,6 @@ orgs/american-independent-party              | org     | 美国独立党
 orgs/american-israel-public-affairs-committee | org     | 美国以色列公共事务委员会, AIPAC
 orgs/american-mafia                          | org     | 美国黑手党, 黑手党
 orgs/american-medical-association            | org     | 美国医药协会
-orgs/american-party                          | org     | 美国党
 orgs/american-school                         | org     | 美国学派
 orgs/american-shipping-company               | org     | 美国航运公司
 orgs/american-tobacco-company                | org     | 美国烟草, 美国烟草公司
@@ -2670,7 +2311,7 @@ orgs/anzac                                   | org     | 澳新军团
 orgs/apple                                   | org     | 苹果, 苹果公司, Apple
 orgs/arab-allied-forces                      | org     | 阿拉伯联军
 orgs/arab-defense-alliance                   | org     | 阿拉伯国家防御同盟
-orgs/arab-socialist-baath-party              | org     | 阿拉伯复兴社会党, 复兴党
+orgs/arab-socialist-baath-party              | org     | 阿拉伯复兴社会党
 orgs/arakan-army                             | org     | 若开军
 orgs/arctic-lng-project                      | org     | 北极LNG项目
 orgs/arctic-military-district                | org     | 北极军区
@@ -2701,8 +2342,6 @@ orgs/aux                                     | org     | 奥克斯
 orgs/awami-league                            | org     | 民盟
 orgs/axis-powers                             | org     | 轴心同盟, 轴心国家
 orgs/baghdad-pact                            | org     | 巴格达条约, 巴格达条约组织
-orgs/bai-du                                  | org     | 百度
-orgs/bai-gong                                | org     | 白宫
 orgs/baic                                    | org     | 北汽
 orgs/baidu                                   | org     | 百度
 orgs/baidu-apollo                            | org     | 百度Apollo, Apollo
@@ -2733,7 +2372,6 @@ orgs/baoji-municipal-government              | org     | 宝鸡市政府
 orgs/baoshang-bank                           | org     | 包商银行
 orgs/baosteel                                | org     | 宝钢, 中国宝钢
 orgs/baowu-steel                             | org     | 宝武, 中国宝武, 宝武钢铁集团
-orgs/baqi                                    | org     | 八旗, 满洲八旗
 orgs/barclays                                | org     | 巴克莱, 巴克莱银行, 巴莱克银行, 英国巴莱克银行
 orgs/barings-bank                            | org     | 巴林银行
 orgs/basf                                    | org     | 巴斯夫
@@ -2759,7 +2397,6 @@ orgs/beijing-team                            | org     | 北京队
 orgs/beijing-university-of-chinese-medicine  | org     | 北京中医药大学
 orgs/beijing-xicheng-tax-bureau              | org     | 北京市西城区税务局
 orgs/beiyang-fleet                           | org     | 北洋水师
-orgs/beiyang-junfa                           | org     | 北洋军阀
 orgs/beiyang-six-divisions                   | org     | 北洋六镇
 orgs/belgrade-steel-plant                    | org     | 塞尔维亚钢铁厂
 orgs/bell-labs                               | org     | 贝尔实验室
@@ -2769,8 +2406,7 @@ orgs/berkshire-hathaway                      | org     | 伯克希尔哈撒韦, 
 orgs/berlin-stock-exchange                   | org     | 柏林证券交易所
 orgs/bharatiya-janata-party                  | org     | 印度人民党
 orgs/bhp                                     | org     | 必和必拓, BHP
-orgs/big-four-banks                          | org     | 四大行
-orgs/big-four-state-owned-banks              | org     | 四大行, 4家国有银行
+orgs/big-four-state-owned-banks              | org     | 4家国有银行
 orgs/big-fund                                | org     | 大基金, 芯片基金
 orgs/bilibili                                | org     | b站, B站
 orgs/bird-mobile                             | org     | 波导
@@ -2796,7 +2432,6 @@ orgs/bokee                                   | org     | 博客网
 orgs/boling-cui-clan                         | org     | 博陵崔氏
 orgs/bolivarian-alliance-for-the-americas    | org     | 美洲玻利瓦尔联盟
 orgs/bolshevik-party                         | org     | 布尔什维克党
-orgs/bolsheviks                              | org     | 布尔什维克
 orgs/bosch                                   | org     | 博世
 orgs/bosera-fund                             | org     | 博时基金
 orgs/bosera-selected-fund                    | org     | 博时精选基金
@@ -2804,8 +2439,7 @@ orgs/bosera-soe-innovation-drive-etf-link-a  | org     | 博时央企创新驱�
 orgs/boshi-internet-theme-fund               | org     | 博时互联网主题基金
 orgs/boss-zhipin                             | org     | BOSS直聘
 orgs/botanee                                 | org     | 贝泰妮
-orgs/bric                                    | org     | 金砖四国
-orgs/brics                                   | org     | 金砖国家, 金砖五国, 金砖, 金砖四国
+orgs/brics                                   | org     | 金砖国家, 金砖五国, 金砖
 orgs/bridgewater-associates                  | org     | 桥水, 全球最大对冲基金桥水, 桥水基金, 桥水基金公司
 orgs/brilliance-auto                         | org     | 华晨
 orgs/british-defence-committee               | org     | 英国防务委员会
@@ -2828,7 +2462,6 @@ orgs/byton                                   | org     | 拜腾
 orgs/cadbury                                 | org     | 吉百利
 orgs/caijing-magazine                        | org     | 《财经》杂志, 财经杂志
 orgs/cailailai                               | org     | 财来来
-orgs/caizhengbu                              | org     | 财政部
 orgs/calvinism                               | org     | 加尔文宗, 加尔文教
 orgs/cambricon                               | org     | 寒武纪
 orgs/cambridge-university                    | org     | 剑桥大学
@@ -2851,24 +2484,21 @@ orgs/cctv                                    | org     | 中央电视台
 orgs/cctv-6                                  | org     | 中央六台
 orgs/centers-for-medicare-and-medicaid-services | org     | 美国医疗保险中心
 orgs/cento                                   | org     | 中央条约组织
-orgs/central-bank                            | org     | 中央银行, 央行（泛称）
-orgs/central-bank-of-republic-of-china       | org     | 民国中央银行, 中央银行
+orgs/central-bank                            | org     | 央行（泛称）
+orgs/central-bank-of-republic-of-china       | org     | 民国中央银行
 orgs/central-commission-for-discipline-inspection | org     | 中纪委, 中央纪委
-orgs/central-committee-of-the-cpsu           | org     | 苏共中央, 苏共中央委员会, 中央委员会
+orgs/central-committee-of-the-cpsu           | org     | 苏共中央委员会, 中央委员会
 orgs/central-court-korea                     | org     | 中央法院
 orgs/central-environmental-inspection-team   | org     | 中央环保督察组
 orgs/central-finance                         | org     | 中央财政
 orgs/central-financial-and-economic-affairs-commission | org     | 中央财经委员会
-orgs/central-government                      | org     | 中央政府, 中央
 orgs/central-huijin                          | org     | 汇金公司, 中央汇金公司, 中央汇金
 orgs/central-pacific                         | org     | 中央太平洋铁路公司
-orgs/central-powers                          | org     | 同盟国
 orgs/centre-party-germany                    | org     | 中央党
 orgs/cfm                                     | org     | CFM公司
 orgs/chahar-mongols                          | org     | 蒙古察哈尔部, 察哈尔部
 orgs/chanel                                  | org     | 香奈儿
-orgs/changan                                 | org     | 长安
-orgs/changan-automobile                      | org     | 长安, 长安汽车
+orgs/changan-automobile                      | org     | 长安汽车
 orgs/changan-qiyuan                          | org     | 长安启源
 orgs/changchun-biological                    | org     | 长春生物
 orgs/changhe                                 | org     | 昌河
@@ -2914,7 +2544,7 @@ orgs/china-development-forum                 | org     | 中国发展高层论�
 orgs/china-economic-system-reform-research-institute | org     | 中国经济体制改革研究所
 orgs/china-eu-investment-agreement           | org     | 中欧投资协定
 orgs/china-football-association              | org     | 中国足协, 足协
-orgs/china-great-wall-asset-management       | org     | 中国长城资产管理公司, 长城
+orgs/china-great-wall-asset-management       | org     | 中国长城资产管理公司
 orgs/china-guangfa-bank                      | org     | 广发银行
 orgs/china-huarong-asset-management          | org     | 中国华融资产管理公司, 华融
 orgs/china-insurance-regulatory-commission   | org     | 保监会
@@ -2941,7 +2571,6 @@ orgs/china-railway-construction              | org     | 中国铁建
 orgs/china-resources                         | org     | 华润
 orgs/china-road-and-bridge-corporation       | org     | 中国路桥
 orgs/china-satcom                            | org     | 中国卫通
-orgs/china-securities-finance                | org     | 中金
 orgs/china-securities-regulatory-commission  | org     | 证监会, 中国证监会, 中国证券监督管理委员会
 orgs/china-shenhua                           | org     | 神华
 orgs/china-south-industries-group            | org     | 中国兵器装备集团
@@ -2955,16 +2584,14 @@ orgs/chinese-academy-of-social-sciences      | org     | 中国社科院, 中国
 orgs/chinese-academy-of-social-sciences-world-social-security-center | org     | 中国社科院世界社保中心
 orgs/chinese-air-force                       | org     | 中国空军
 orgs/chinese-army                            | org     | 中国军队
-orgs/chinese-communist-party-central-committee | org     | 中共中央, 中央
+orgs/chinese-communist-party-central-committee | org     | 中共中央, 中央, 中央政府
 orgs/chinese-embassy-yugoslavia              | org     | 中国驻南联盟大使馆
-orgs/chinese-government                      | org     | 中国政府
 orgs/chinese-military-advisory-group         | org     | 中国军事顾问团
 orgs/chinese-navy                            | org     | 中国海军
 orgs/chinese-peoples-armed-police            | org     | 武警, 中国人民武装警察部队
 orgs/chinese-peoples-political-consultative-conference | org     | 政协会议, 中国人民政治协商会议
 orgs/chinese-peoples-volunteers              | org     | 志愿军, 中国人民志愿军, 中国志愿军
-orgs/chinese-politburo                       | org     | 政治局, 中国共产党中央政治局
-orgs/chinese-red-army                        | org     | 红军, 中国工农红军
+orgs/chinese-red-army                        | org     | 中国工农红军
 orgs/chinese-red-cross                       | org     | 中日红十字会
 orgs/chinese-revolutionary-alliance          | org     | 中国同盟会, 同盟会
 orgs/chinese-super-league-company            | org     | 中超联赛责任有限公司
@@ -2973,17 +2600,15 @@ orgs/chips                                   | org     | CHIPS, CHIPS系统, 美
 orgs/chongqing-brewery                       | org     | 重庆啤酒
 orgs/chongqing-iron-and-steel                | org     | 重钢, 重庆钢铁
 orgs/chongqing-pingan-life                   | org     | 重庆平安人寿
-orgs/choshhu-domain                          | org     | 长州藩
 orgs/christian-democratic-union              | org     | 基民盟, 德国基民盟
-orgs/christian-evangelicals                  | org     | 基督教福音派, 福音派
+orgs/christian-evangelicals                  | org     | 基督教福音派
 orgs/christianity                            | org     | 基督教
 orgs/chrysler                                | org     | 克莱斯勒
 orgs/chung-ang-university                    | org     | 中央大学
 orgs/chung-nam-watch                         | org     | 中南钟表公司
-orgs/church                                  | org     | 教会
 orgs/cia                                     | org     | 中情局, 美国中央情报局, CIA, 美国中情局, 中央情报局
 orgs/cib-wealth                              | org     | 兴银理财
-orgs/cicc                                    | org     | 中金公司, 中国国际金融股份有限公司, 中金
+orgs/cicc                                    | org     | 中金公司, 中国国际金融股份有限公司
 orgs/cips                                    | org     | CIPS, 跨境支付系统
 orgs/cisco                                   | org     | 思科
 orgs/citadel                                 | org     | Citadel
@@ -3012,15 +2637,12 @@ orgs/committee-of-imperial-defence           | org     | 大英帝国国防委�
 orgs/commonwealth-of-independent-states      | org     | 独联体, 独联体国家
 orgs/commonwealth-of-nations                 | org     | 英联邦, 英联邦国家和殖民地
 orgs/communist-international                 | org     | 共产国际
-orgs/communist-party                         | org     | 共产党
 orgs/communist-party-of-china                | org     | 中共, 中国共产党, 共产党
-orgs/communist-party-of-the-soviet-union     | org     | 苏共, 苏联共产党, 苏共中央
+orgs/communist-party-of-the-soviet-union     | org     | 苏共, 苏联共产党
 orgs/company-liquidation-commission          | org     | 公司整理委员会
 orgs/congress-building-us                    | org     | 美国国会大厦, 国会大厦
 orgs/congressional-budget-office             | org     | 国会预算机构, 美国国会预算办公室
 orgs/conservative-party                      | org     | 保守党, 英国保守党
-orgs/constitutional-democratic-party-of-japan | org     | 立宪民主党
-orgs/constitutional-democratic-party-russia  | org     | 立宪民主党
 orgs/consumer-advisory-council               | org     | 消费者咨询委员会
 orgs/consumer-electronics-show               | org     | CES展, 美国CES展
 orgs/continental-congress                    | org     | 大陆会议, 北美大陆会议
@@ -3028,11 +2650,10 @@ orgs/corning                                 | org     | 康宁
 orgs/corrupt-practices-investigation-bureau  | org     | 反贪局, 新加坡反贪局
 orgs/cossacks                                | org     | 哥萨克, 哥萨克骑兵
 orgs/costco                                  | org     | Costco
-orgs/council-of-europe                       | org     | 欧洲理事会
 orgs/country-garden                          | org     | 碧桂园
 orgs/covisint                                | org     | Covisint
 orgs/cpsu-presidium                          | org     | 苏联主席团, 主席团
-orgs/credit-suisse                           | org     | 瑞士信贷, 瑞信
+orgs/credit-suisse                           | org     | 瑞士信贷
 orgs/cs-guoxin-soe-modern-energy-etf         | org     | 中证国新央企现代能源ETF
 orgs/cs-guoxin-soe-shareholder-return-etf    | org     | 中证国新央企股东回报ETF
 orgs/cs-guoxin-soe-technology-lead-etf       | org     | 中证国新央企科技引领ETF
@@ -3042,7 +2663,6 @@ orgs/csto                                    | org     | 集安组织
 orgs/ctrip                                   | org     | 携程, 携程网
 orgs/cts-corporation                         | org     | CTS公司
 orgs/cuban-revolutionary-government          | org     | 古巴革命政府
-orgs/customs-shipping-office                 | org     | 市舶司
 orgs/cxmt                                    | org     | 长鑫存储, 长鑫科技
 orgs/cyberspace-administration-secretariat   | org     | 中央网信办秘书局
 orgs/cymer                                   | org     | 西盟, 西蒙, Cymer
@@ -3073,12 +2693,11 @@ orgs/delhi-university                        | org     | 德里大学
 orgs/dell                                    | org     | 戴尔
 orgs/delta-force                             | org     | 三角洲特种部队
 orgs/deluxe-family                           | org     | 华丽家族
-orgs/democrat-party-turkey                   | org     | 民主党
 orgs/democratic-faction-rome                 | org     | 民主派
 orgs/democratic-party-for-the-people         | org     | 国民民主党
-orgs/democratic-party-of-japan               | org     | 日本民主党, 民主党
+orgs/democratic-party-of-japan               | org     | 日本民主党
 orgs/democratic-party-of-korea               | org     | 共同民主党
-orgs/democratic-party-us                     | org     | 民主党, 美国民主党
+orgs/democratic-party-us                     | org     | 美国民主党
 orgs/democratic-progressive-party            | org     | 民进党
 orgs/democratic-republican-party             | org     | 共和民主党, 民主共和党
 orgs/department-of-government-efficiency     | org     | 政府效率部, DOGE
@@ -3087,7 +2706,7 @@ orgs/deutsche-bank                           | org     | 德意志银行
 orgs/dianqian-si                             | org     | 殿前司
 orgs/didi                                    | org     | 滴滴, 滴滴出行
 orgs/didi-autonomous-driving                 | org     | 滴滴自动驾驶
-orgs/diet-of-japan                           | org     | 日本国会, 国会, 众议院
+orgs/diet-of-japan                           | org     | 日本国会
 orgs/dingdong-maicai                         | org     | 叮咚买菜
 orgs/disney                                  | org     | 迪士尼, 华特迪士尼公司
 orgs/dji                                     | org     | 大疆
@@ -3138,28 +2757,24 @@ orgs/england-national-football-team          | org     | 英格兰队
 orgs/enjie-shares                            | org     | 恩捷股份
 orgs/enlight-media                           | org     | 光线传媒
 orgs/enron                                   | org     | 安然, 安然公司, Enron
-orgs/entente-powers                          | org     | 协约国
 orgs/episcopal-church                        | org     | 美国圣公会教派, 圣公会
 orgs/ericsson                                | org     | 爱立信
 orgs/erqi                                    | org     | 二汽
 orgs/estee-lauder                            | org     | 雅诗兰黛
-orgs/eu                                      | org     | 欧盟
 orgs/eunuch-group                            | org     | 宦官集团
 orgs/european-armed-forces                   | org     | 欧洲武装部队
 orgs/european-central-bank                   | org     | 欧央行, 欧洲央行, 欧盟央行, 欧洲中央银行
 orgs/european-chemical-industry-council      | org     | 欧洲化学工业理事会
 orgs/european-commission                     | org     | 欧盟委员会
-orgs/european-community                      | org     | 欧共体
-orgs/european-council                        | org     | 欧洲理事会
 orgs/european-council-summit                 | org     | 欧盟峰会
 orgs/european-defence-agreement              | org     | 欧洲防卫协定
-orgs/european-economic-community             | org     | 欧洲经济共同体, 欧共体
+orgs/european-economic-community             | org     | 欧洲经济共同体
 orgs/european-parliament                     | org     | 欧洲议会
 orgs/european-peoples-party                  | org     | 欧洲人民党
 orgs/european-union                          | org     | 欧盟, 欧洲联盟
 orgs/eurozone                                | org     | 欧元区
 orgs/euv-llc                                 | org     | EUV LLC联盟, EUV LLC
-orgs/evangelicals                            | org     | 福音派教徒, 福音派
+orgs/evangelicals                            | org     | 福音派教徒
 orgs/eve-energy                              | org     | 亿纬锂能
 orgs/evergrande                              | org     | 恒大, 中国恒大, 恒大地产
 orgs/evergrande-auto                         | org     | 恒大汽车
@@ -3175,7 +2790,7 @@ orgs/exxonmobil                              | org     | 埃克森美孚
 orgs/ey                                      | org     | 安永
 orgs/ezubao                                  | org     | e租宝
 orgs/fa-guo-lu-jun-da-xue                    | org     | 法国陆军大学
-orgs/facebook                                | org     | Facebook, facebook, 脸书
+orgs/facebook                                | org     | Facebook, facebook
 orgs/fairchild-semiconductor                 | org     | 仙童半导体
 orgs/famen-temple                            | org     | 法门寺
 orgs/family-planning-association-of-india    | org     | 印度计划生育协会
@@ -3201,8 +2816,6 @@ orgs/federal-reserve-bank-of-chicago         | org     | 芝加哥联储
 orgs/federal-reserve-bank-of-new-york        | org     | 纽约联储, 纽约联邦储备银行, 纽约联储银行
 orgs/federal-reserve-bank-of-san-francisco   | org     | 旧金山联储, 美国旧金山联储
 orgs/federal-reserve-board                   | org     | 联邦储备委员会
-orgs/federalist-party                        | org     | 联邦党
-orgs/federalist-party-us                     | org     | 联邦党
 orgs/feiyue                                  | org     | 飞跃
 orgs/fema                                    | org     | 联邦紧急事务管理局
 orgs/fengxi-junfa                            | org     | 奉系军阀
@@ -3224,13 +2837,12 @@ orgs/flying-tigers                           | org     | 飞虎队
 orgs/focus-media                             | org     | 分众传媒
 orgs/forbes                                  | org     | 福布斯, Forbes, 福布斯排行榜
 orgs/forbes-china                            | org     | 福布斯中国
-orgs/ford-motor-company                      | org     | 福特, 福特汽车, 福特公司, 美国福特汽车
+orgs/ford-motor-company                      | org     | 福特汽车, 福特公司, 美国福特汽车
 orgs/fortune-magazine                        | org     | 《财富》杂志, 财富杂志
 orgs/forum-on-china-africa-cooperation       | org     | 中非合作论坛
-orgs/forward-party-us                        | org     | 前进党
 orgs/fosun                                   | org     | 复星
 orgs/fosun-pharma                            | org     | 复星医药
-orgs/foxconn                                 | org     | 富士康, 富士康郑州工厂, 鸿海
+orgs/foxconn                                 | org     | 富士康, 富士康郑州工厂
 orgs/franco-russian-alliance                 | org     | 法俄同盟
 orgs/frankfurter-allgemeine-zeitung          | org     | 法兰克福汇报, 德国《法兰克福汇报》
 orgs/freddie-mac                             | org     | 房地美
@@ -3239,7 +2851,7 @@ orgs/free-syrian-army                        | org     | 叙利亚自由军
 orgs/french-communist-party                  | org     | 法国共产党
 orgs/french-east-india-company               | org     | 法国东印度公司
 orgs/french-navy                             | org     | 法国海军
-orgs/french-socialist-party                  | org     | 法国社会党, 社会党
+orgs/french-socialist-party                  | org     | 法国社会党
 orgs/ftse-russell                            | org     | 富时罗素
 orgs/fudan-high-school                       | org     | 复旦中学
 orgs/fugger-family                           | org     | 福格尔家族
@@ -3255,16 +2867,14 @@ orgs/g7                                      | org     | G7, 七国集团
 orgs/gac                                     | org     | 广汽
 orgs/gamestop                                | org     | 游戏驿站, GameStop
 orgs/ganfeng-lithium                         | org     | 赣锋锂业
-orgs/gao-sheng                               | org     | 高盛
 orgs/gaorong-capital                         | org     | 高榕资本
-orgs/gaosheng                                | org     | 高盛
 orgs/gartner                                 | org     | Gartner
 orgs/gatt                                    | org     | 关税与贸易总协定
 orgs/gazprom                                 | org     | 俄罗斯天然气工业股份公司
 orgs/gcl                                     | org     | 协鑫
 orgs/geely                                   | org     | 吉利, 吉利汽车
 orgs/geely-group                             | org     | 吉利集团
-orgs/gemingdang                              | org     | 革命党, 中国革命党
+orgs/gemingdang                              | org     | 中国革命党
 orgs/general-confederation-of-labour-argentina | org     | 阿根廷全国总工会
 orgs/general-electric                        | org     | 通用电气
 orgs/general-motors                          | org     | 美国通用, 通用, 通用汽车, 通用公司, 通用汽车公司
@@ -3272,16 +2882,12 @@ orgs/german-afrika-korps                     | org     | 德国非洲军团
 orgs/german-army                             | org     | 德国陆军, 德国军队, 德军
 orgs/german-chamber-of-commerce-and-industry | org     | 德国工商总会
 orgs/german-communist-party                  | org     | 德国共产党, 德共
-orgs/german-democratic-party                 | org     | 德国民主党, 民主党
+orgs/german-democratic-party                 | org     | 德国民主党
 orgs/german-general-staff                    | org     | 德国军方, 德国总参谋部
-orgs/german-greens                           | org     | 德国绿党, 绿党
+orgs/german-greens                           | org     | 德国绿党
 orgs/german-institute-for-economic-research  | org     | 德国经济研究所
 orgs/german-ministry-of-education            | org     | 德国教育部
-orgs/german-national-party                   | org     | 民族党
-orgs/german-national-peoples-party           | org     | 民族党
 orgs/german-navy                             | org     | 德国海军
-orgs/german-people-party                     | org     | 人民党
-orgs/german-peoples-party                    | org     | 人民党
 orgs/german-workers-party                    | org     | 德国工人党
 orgs/germany-chengxin-company                | org     | 德国诚信公司
 orgs/germany-national-football-team          | org     | 德国队
@@ -3293,24 +2899,20 @@ orgs/goertek                                 | org     | 歌尔股份
 orgs/goldman-sachs                           | org     | 高盛, 高盛集团
 orgs/goldman-sachs-gaohua                    | org     | 高盛高华证券有限责任公司, 高盛高华证券
 orgs/gome                                    | org     | 国美
-orgs/gong-he-dang                            | org     | 共和党
 orgs/gongnong-red-army-bank                  | org     | 工农红军银行
-orgs/google                                  | org     | 谷歌, Google
+orgs/google                                  | org     | Google
 orgs/google-play                             | org     | Google Play
 orgs/gorky-automobile-plant                  | org     | 高尔基汽车工厂
 orgs/government-accountability-office        | org     | 总审计局
 orgs/grace-commission                        | org     | 格雷斯委员会
 orgs/great-england-railway                   | org     | 大英格兰铁路
-orgs/great-wall-motor                        | org     | 长城, 长城汽车
-orgs/gree                                    | org     | 格力
+orgs/great-wall-motor                        | org     | 长城汽车
 orgs/gree-electric                           | org     | 格力
 orgs/green-climate-fund                      | org     | 绿色气候基金
-orgs/green-party-us                          | org     | 绿党
 orgs/greenland                               | org     | 绿地
 orgs/greentown                               | org     | 绿城
 orgs/greenwoods-asset-management             | org     | 景林
 orgs/gru                                     | org     | 格鲁乌, 俄罗斯参谋部情报总局
-orgs/gu-ge                                   | org     | 谷歌
 orgs/guangfa-advanced-manufacturing-a        | org     | 广发先进制造A
 orgs/guangfa-shuangqing-upgrade              | org     | 广发双擎升级
 orgs/guangfa-strategy-selection              | org     | 广发策略优选
@@ -3323,7 +2925,6 @@ orgs/guanlong-aristocracy                    | org     | 关陇贵族
 orgs/guantanamo-bay-naval-base               | org     | 关塔那摩军事基地
 orgs/gucci                                   | org     | GUCCI
 orgs/guerilla-faction-korea                  | org     | 游击队派
-orgs/guge                                    | org     | 谷歌
 orgs/guinness-world-records                  | org     | 吉尼斯世界纪录
 orgs/guizhou-huaxintong                      | org     | 贵州华芯通
 orgs/gulag                                   | org     | 古拉格系统, 古拉格
@@ -3337,13 +2938,11 @@ orgs/guorong-rongxing-mixed                  | org     | 国融融兴混合
 orgs/guotai-fund                             | org     | 国泰基金
 orgs/guotai-internet-plus                    | org     | 国泰互联网+, 国泰互联网+基金
 orgs/guotai-juxin-value-advantage-a          | org     | 国泰聚信价值优势A
-orgs/guowuyuan-changwu-huiyi                 | org     | 国常会
 orgs/h-and-m                                 | org     | H&M
 orgs/hafei                                   | org     | 哈飞
 orgs/haidilao                                | org     | 海底捞
 orgs/haier                                   | org     | 海尔
-orgs/hainan-airlines                         | org     | 海南航空, 海航, HNA
-orgs/hainan-airlines-group                   | org     | 海航
+orgs/hainan-airlines                         | org     | 海南航空, HNA
 orgs/hainan-development-bank                 | org     | 海南发展银行
 orgs/hainan-government                       | org     | 海南政府
 orgs/haixi-jurchens                          | org     | 海西女真
@@ -3400,7 +2999,6 @@ orgs/hokkaido-takushoku-bank                 | org     | 北海道拓殖银行
 orgs/hollywood                               | org     | 好莱坞
 orgs/holstein-regiment                       | org     | 荷尔斯泰因军团
 orgs/holy-alliance                           | org     | 神圣同盟
-orgs/hon-hai                                 | org     | 鸿海
 orgs/honda                                   | org     | 本田, 本田公司
 orgs/honda-group                             | org     | 本田集团
 orgs/hong-kong-authorities                   | org     | 香港当局
@@ -3424,7 +3022,6 @@ orgs/housing-and-urban-rural-development-bureau | org     | 住建局
 orgs/houthi-movement                         | org     | 胡塞武装, 胡赛武装, 也门胡塞武装
 orgs/hoya                                    | org     | 豪雅公司
 orgs/hsbc                                    | org     | 汇丰, 汇丰银行, 香港和上海银行有限公司, HSBC
-orgs/hua-er-jie                              | org     | 华尔街
 orgs/hua-xia                                 | org     | 华夏
 orgs/hua-xia-hui-bao                         | org     | 华夏回报
 orgs/huabei-zhiyao                           | org     | 华北制药
@@ -3468,7 +3065,6 @@ orgs/imf                                     | org     | 国际货币基金组�
 orgs/imperial-college-london                 | org     | 帝国理工, 帝国理工学院
 orgs/imperial-guard-division-japan           | org     | 近卫师团
 orgs/imperial-japanese-army-academy          | org     | 陆军士官学校
-orgs/imperial-japanese-army-ministry         | org     | 陆军省
 orgs/imperial-japanese-general-staff         | org     | 参谋本部
 orgs/imperial-japanese-navy-combined-fleet   | org     | 日本联合舰队, 联合舰队
 orgs/imperial-university-of-peking           | org     | 京师大学堂
@@ -3516,7 +3112,7 @@ orgs/islamic-state                           | org     | IS, 伊斯兰国, ISIS
 orgs/ismailism                               | org     | 伊斯玛仪派
 orgs/israel-defense-forces                   | org     | 以色列国防军, 以色列军队, 以军
 orgs/israeli-embassy-in-the-united-states    | org     | 以色列驻美国大使馆
-orgs/israeli-labor-party                     | org     | 以色列工党, 工党
+orgs/israeli-labor-party                     | org     | 以色列工党
 orgs/israeli-lobby                           | org     | 以色列游说集团, 犹太游说集团
 orgs/italian-democratic-party                | org     | 意大利民主党
 orgs/itochu                                  | org     | 伊藤忠商事
@@ -3529,12 +3125,10 @@ orgs/japan-air-self-defense-force            | org     | 空中自卫队
 orgs/japan-airlines                          | org     | 日本航空, 日航
 orgs/japan-economic-research-council         | org     | 日本经济调查协议会
 orgs/japan-financial-services-agency         | org     | 日本金融厅
-orgs/japan-government                        | org     | 日本政府
-orgs/japan-ground-self-defense-force         | org     | 陆军
 orgs/japan-highway-public-corporation        | org     | 日本道路公团
 orgs/japan-innovation-party                  | org     | 日本维新会, 维新会
 orgs/japan-life                              | org     | 日本生命
-orgs/japan-maritime-self-defense-force       | org     | 日本海军, 海军, 海上自卫队, 日本海上自卫队
+orgs/japan-maritime-self-defense-force       | org     | 日本海军, 海上自卫队, 日本海上自卫队
 orgs/japan-medical-association               | org     | 日本医师协会, 医师协会
 orgs/japan-ministry-of-finance               | org     | 日本大藏省, 大藏省, 日本财政部
 orgs/japan-national-football-team            | org     | 日本队
@@ -3542,12 +3136,10 @@ orgs/japan-national-police-agency            | org     | 警察厅
 orgs/japan-police                            | org     | 日本警方
 orgs/japan-post                              | org     | 邮政公社
 orgs/japan-self-defense-forces               | org     | 日本自卫队, 自卫队
-orgs/japan-socialist-party                   | org     | 社会党
 orgs/japan-times                             | org     | 日本时报
 orgs/japan-tobacco-and-salt-public-corporation | org     | 日本专卖公社
-orgs/japanese-army                           | org     | 日本陆军, 陆军
+orgs/japanese-army                           | org     | 日本陆军
 orgs/japanese-army-general-staff             | org     | 陆军参谋本部
-orgs/japanese-army-ministry                  | org     | 陆军省
 orgs/japanese-army-war-college               | org     | 陆军大学
 orgs/japanese-army-youth-school              | org     | 陆军幼年学校
 orgs/japanese-bankers-association            | org     | 日本银行协会
@@ -3603,7 +3195,6 @@ orgs/justice-and-development-party           | org     | 正义与发展党
 orgs/justice-party-turkey                    | org     | 正义党
 orgs/juventus                                | org     | 尤文图斯, 尤文图斯足球俱乐部
 orgs/kachin-independence-army                | org     | 克钦独立军
-orgs/kadima                                  | org     | 前进党
 orgs/kafu-hengshi                            | org     | 卡夫亨氏
 orgs/kailai-hotel                            | org     | 凯莱酒店
 orgs/kamaz                                   | org     | 卡玛兹卡车厂
@@ -3630,7 +3221,7 @@ orgs/korea-economic-daily                    | org     | 韩国经济日报, 《
 orgs/korea-exchange-bank                     | org     | 韩国外汇银行
 orgs/korea-first-bank                        | org     | 韩国第一银行
 orgs/korean-economic-society                 | org     | 韩国经济会
-orgs/korean-peoples-army                     | org     | 朝鲜人民军, 人民军
+orgs/korean-peoples-army                     | org     | 朝鲜人民军
 orgs/korean-prosecution-service              | org     | 韩国检察厅, 检察厅
 orgs/korean-workers-party                    | org     | 朝鲜劳动党
 orgs/kouzijiao                               | org     | 口子窖
@@ -3644,10 +3235,9 @@ orgs/kuomintang                              | org     | 国民党, 国民, 中�
 orgs/kurdish-armed-groups                    | org     | 库尔德武装
 orgs/kurdistan-workers-party                 | org     | 库尔德工人党
 orgs/kwantung-army                           | org     | 关东军
-orgs/kweichow-moutai                         | org     | 贵州茅台, 茅台
+orgs/kweichow-moutai                         | org     | 贵州茅台
 orgs/kyocera                                 | org     | 京瓷, 京都陶瓷株式会社
-orgs/labor-unions-us                         | org     | 工会
-orgs/labour-party                            | org     | 英国工党, 工党
+orgs/labour-party                            | org     | 英国工党
 orgs/langya-wang-clan                        | org     | 琅琊王氏
 orgs/langya-zhuge-clan                       | org     | 琅琊诸葛家族
 orgs/lantian-shares                          | org     | 蓝田股份
@@ -3680,7 +3270,7 @@ orgs/liaoning-youth-team                     | org     | 辽宁青年队
 orgs/liberal-democratic-party-japan          | org     | 自民党, 日本自民党, 自由民主党
 orgs/liberal-faction-russia                  | org     | 俄国自由派, 自由派人士
 orgs/liberal-party-japan                     | org     | 自由党
-orgs/licai-mofang                            | org     | 理财魔方, 魔方APP, 理财魔方 App, 魔方组合, 理财魔方APP, 理财魔方App, 理财魔方金融日报, 魔方声音, 魔方, 魔方高频
+orgs/licai-mofang                            | org     | 理财魔方, 魔方APP, 理财魔方 App, 魔方组合, 理财魔方APP, 理财魔方App, 理财魔方金融日报, 魔方高频
 orgs/likud                                   | org     | 利库德集团
 orgs/lima                                    | org     | 立马
 orgs/ling-shi-hen-mang                       | org     | 零食很忙
@@ -3709,7 +3299,6 @@ orgs/lutheranism                             | org     | 路德宗, 路德新教
 orgs/luxshare-precision                      | org     | 立讯精密
 orgs/macartney-embassy                       | org     | 马格尔尼使团, 英国马格尔尼使团
 orgs/maff-japan                              | org     | 日本农林水产省
-orgs/mafia                                   | org     | 黑手党
 orgs/maga                                    | org     | MAGA, 让美国再次伟大运动
 orgs/magang                                  | org     | 马钢, 马鞍山钢铁
 orgs/maimai                                  | org     | 脉脉
@@ -3719,12 +3308,9 @@ orgs/malaysian-parliament                    | org     | 马来西亚国会
 orgs/mamadaolai                              | org     | 马马道来
 orgs/mamluks                                 | org     | 马穆鲁克
 orgs/manbang                                 | org     | 满帮
-orgs/manchu-eight-banners                    | org     | 八旗, 满洲八旗
 orgs/mango-excellent-media                   | org     | 芒果超媒
-orgs/maotai                                  | org     | 茅台
 orgs/maoyan-entertainment                    | org     | 猫眼娱乐
 orgs/marcos-family                           | org     | 马科斯家族, 小马科斯家族
-orgs/maritime-trade-office                   | org     | 市舶司
 orgs/marubeni                                | org     | 丸红
 orgs/massachusetts-bay-company               | org     | 马萨诸塞公司
 orgs/mcdonalds                               | org     | 麦当劳, McDonald's
@@ -3734,14 +3320,14 @@ orgs/medici-family                           | org     | 美第奇家族
 orgs/mei-guo-guo-jia-an-quan-ju              | org     | 美国国家安全局
 orgs/mei-guo-guo-jia-gong-cheng-yuan         | org     | 美国国家工程院
 orgs/mei-guo-lian-bang-hang-kong-guan-li-ju  | org     | 美国联邦航空管理局
-orgs/meiji-government                        | org     | 日本明治政府, 明治政府
+orgs/meiji-government                        | org     | 日本明治政府
 orgs/meituan                                 | org     | 美团, 美团外卖
 orgs/meizu                                   | org     | 魅族
 orgs/melvin-capital                          | org     | 梅尔文资本
 orgs/mercedes-benz                           | org     | 奔驰
 orgs/merck                                   | org     | 默克, 默沙东
 orgs/merrill-lynch                           | org     | 美林, 美林银行, 美林证券
-orgs/meta                                    | org     | Facebook, Meta, 脸书
+orgs/meta                                    | org     | Meta
 orgs/mexican-government                      | org     | 墨西哥政府
 orgs/micron                                  | org     | 美光, 美光公司, 美光科技
 orgs/microsoft                               | org     | 微软, Microsoft
@@ -3754,16 +3340,13 @@ orgs/mindray                                 | org     | 迈瑞医疗
 orgs/ming-yang-smart-energy                  | org     | 明阳智能
 orgs/ministry-human-resources-social-security-pension-insurance-department | org     | 人力资源和社会保障部养老保险司
 orgs/ministry-of-agriculture                 | org     | 农业部
-orgs/ministry-of-commerce-of-china           | org     | 商务部, 中国商务部
+orgs/ministry-of-commerce-of-china           | org     | 中国商务部
 orgs/ministry-of-culture-and-tourism         | org     | 文旅部, 文化和旅游部
-orgs/ministry-of-education                   | org     | 教育部
 orgs/ministry-of-education-china             | org     | 教育部, 中国教育部
-orgs/ministry-of-finance                     | org     | 财政部, 国家财政部, 中华人民共和国财政部
-orgs/ministry-of-finance-china               | org     | 财政部
+orgs/ministry-of-finance-china               | org     | 国家财政部, 中华人民共和国财政部
 orgs/ministry-of-foreign-affairs-china       | org     | 外交部, 中国外交部
 orgs/ministry-of-health-japan                | org     | 厚生省
-orgs/ministry-of-housing-and-urban-rural-development | org     | 住建部
-orgs/ministry-of-housing-china               | org     | 住建部, 建设部
+orgs/ministry-of-housing-and-urban-rural-development | org     | 住建部, 建设部
 orgs/ministry-of-housing-urban-rural-development | org     | 住房城乡建设部, 住房和城乡建设部
 orgs/ministry-of-human-resources-and-social-security | org     | 人社部, 人力资源和社会保障部
 orgs/ministry-of-industry                    | org     | 实业部
@@ -3772,11 +3355,9 @@ orgs/ministry-of-internal-affairs-qing       | org     | 内务府
 orgs/ministry-of-labor                       | org     | 劳动部
 orgs/ministry-of-light-industry              | org     | 轻工业部
 orgs/ministry-of-posts-and-communications-qing | org     | 邮船部, 邮传部
-orgs/ministry-of-public-security-china       | org     | 公安部
 orgs/ministry-of-railways-china              | org     | 铁道部, 中国铁道部
 orgs/ministry-of-rites                       | org     | 礼部
-orgs/ministry-of-science-and-technology      | org     | 科技部, 中华人民共和国科学技术部
-orgs/ministry-of-science-and-technology-china | org     | 科技部
+orgs/ministry-of-science-and-technology-china | org     | 科技部, 中华人民共和国科学技术部
 orgs/ministry-of-transport-of-china          | org     | 中国交通运输部, 交通运输部
 orgs/minnesota-police-department             | org     | 明尼苏达州警察局
 orgs/minzu-jun                               | org     | 民族军
@@ -3787,19 +3368,16 @@ orgs/mitsubishi-chemical                     | org     | 三菱化学
 orgs/mitsubishi-corp                         | org     | 三菱商事
 orgs/mitsubishi-group                        | org     | 三菱, 三菱财团, 三菱公司
 orgs/mitsubishi-shokai                       | org     | 三菱商会
-orgs/mitsui-and-co                           | org     | 三井物产
 orgs/mitsui-bank                             | org     | 三井银行
 orgs/mitsui-chemicals                        | org     | 三井化学
 orgs/mitsui-global-communication-network     | org     | 三井全球通讯网
-orgs/mitsui-group                            | org     | 三井, 三井财团, 三井物产
+orgs/mitsui-group                            | org     | 三井, 三井财团
 orgs/mitsui-osk-lines                        | org     | 三井商船
 orgs/miyazawa-cabinet                        | org     | 宫泽内阁
 orgs/mobil                                   | org     | 美孚
 orgs/mobileye                                | org     | 无比视, Mobileye
-orgs/mofang                                  | org     | 魔方
-orgs/mofang-shengyin                         | org     | 魔方声音, APP魔方声音
+orgs/mofang-shengyin                         | org     | APP魔方声音
 orgs/mongol-eight-banners                    | org     | 蒙古八旗
-orgs/moodys                                  | org     | 穆迪
 orgs/morgan-stanley                          | org     | 摩根士丹利, 大摩, 摩根史坦利, 摩根斯坦利
 orgs/morgan-stanley-investment-management    | org     | 摩根史丹利投资管理公司
 orgs/morgan-stanley-quant-allocation         | org     | 大摩量化配置
@@ -3808,7 +3386,6 @@ orgs/mossad                                  | org     | 摩萨德
 orgs/motorola                                | org     | 摩托罗拉, 摩托罗亚
 orgs/move-forward-party                      | org     | 远进党
 orgs/msci                                    | org     | MSCI, 明晟
-orgs/mudi                                    | org     | 穆迪
 orgs/muji                                    | org     | 无印良品
 orgs/munich-security-conference              | org     | 慕尼黑安全会议
 orgs/murayama-cabinet                        | org     | 村山内阁
@@ -3825,7 +3402,6 @@ orgs/nan-fang                                | org     | 南方
 orgs/nan-fang-you-xuan                       | org     | 南方优选
 orgs/nan-fang-you-xuan-cheng-zhang           | org     | 南方优选成长
 orgs/nanjing-dekema                          | org     | 南京德科玛, 德科玛
-orgs/nanjing-national-government             | org     | 国民政府
 orgs/nanjing-university                      | org     | 南京大学
 orgs/nanjing-university-of-aeronautics-and-astronautics | org     | 南京航空航天大学
 orgs/nankai-university                       | org     | 南开大学
@@ -3837,7 +3413,7 @@ orgs/nanyin-wealth                           | org     | 南银理财
 orgs/nasa                                    | org     | NASA, 美国宇航局, 美国国家航空航天局
 orgs/nasdaq                                  | org     | 纳斯达克, Nasdaq, 纳斯达克交易所
 orgs/national-archives-of-publications-and-culture | org     | 中国国家版本馆
-orgs/national-assembly-of-korea              | org     | 韩国国会, 国会
+orgs/national-assembly-of-korea              | org     | 韩国国会
 orgs/national-bank-of-poland                 | org     | 波兰国家银行
 orgs/national-bureau-of-statistics           | org     | 国家统计局, 统计局, 中国国家统计局
 orgs/national-climate-center                 | org     | 国家气候中心
@@ -3849,7 +3425,6 @@ orgs/national-development-and-reform-commission | org     | 国家发改委, 国
 orgs/national-financial-regulatory-administration | org     | 金融监管总局
 orgs/national-gallery-of-art                 | org     | 华盛顿国家美术馆
 orgs/national-grid-uk                        | org     | 英国国家电网, National Grid
-orgs/national-guard                          | org     | 国民警卫队
 orgs/national-health-and-family-planning-commission | org     | 国家卫计委
 orgs/national-health-commission              | org     | 卫健委, 国家卫健委, 国家卫生健康委员会
 orgs/national-healthcare-security-administration | org     | 医保局, 国家医保局, 国家医疗保障局
@@ -3859,20 +3434,17 @@ orgs/national-liberal-party                  | org     | 民族自由党
 orgs/national-liberation-front-of-south-vietnam | org     | 民族解放阵线, 南方民族解放阵线
 orgs/national-medical-products-administration | org     | 国家药监局, 国家药品监督管理局
 orgs/national-monetary-commission            | org     | 国家货币委员会
-orgs/national-party-germany                  | org     | 国家党
 orgs/national-peoples-congress               | org     | 全国人大
 orgs/national-peoples-congress-standing-committee | org     | 全国人大常务委员会
 orgs/national-planning-commission            | org     | 国家计委
 orgs/national-rally-france                   | org     | 国民联盟, 法国国民阵线
 orgs/national-recovery-administration        | org     | 全国复兴总署
 orgs/national-university-of-singapore        | org     | 新加坡国立大学
-orgs/nationalist-government                  | org     | 国民政府
 orgs/nato                                    | org     | 北约, 北大西洋公约组织
 orgs/nazi-party                              | org     | 纳粹, 纳粹党, 国家社会主义德国工人党
 orgs/nba                                     | org     | NBA, 美国职业篮球联赛
 orgs/nec                                     | org     | 日本电器公司, NEC
 orgs/neta-auto                               | org     | 哪吒
-orgs/netease                                 | org     | 网易
 orgs/netease-youdao                          | org     | 网易有道
 orgs/netscape                                | org     | 网景
 orgs/new-oriental                            | org     | 新东方
@@ -3918,7 +3490,7 @@ orgs/oecd                                    | org     | 经合组织, 经济合
 orgs/office-of-the-comptroller-of-the-currency | org     | 货币审计署
 orgs/ofilm                                   | org     | 欧菲光
 orgs/okura                                   | org     | 大仓
-orgs/old-bolsheviks                          | org     | 老布尔什维克, 布尔什维克
+orgs/old-bolsheviks                          | org     | 老布尔什维克
 orgs/olympus                                 | org     | 奥林巴斯医疗, 奥林巴斯
 orgs/opec                                    | org     | OPEC, 石油输出国组织, 欧佩克
 orgs/opec-plus                               | org     | OPEC+, 欧佩克+, 欧派克+
@@ -3929,9 +3501,7 @@ orgs/organization-of-islamic-cooperation     | org     | 伊斯兰合作组织
 orgs/oriental-shenghong                      | org     | 东方盛虹
 orgs/osaka-university                        | org     | 大阪大学
 orgs/ottoman-public-debt-administration      | org     | 公债管理处
-orgs/ou-meng                                 | org     | 欧盟
 orgs/ou-zhou-tou-zi-yin-hang                 | org     | 欧洲投资银行
-orgs/oumeng                                  | org     | 欧盟
 orgs/oxford-university                       | org     | 牛津大学
 orgs/pailameng                               | org     | 派拉蒙
 orgs/pakistan-inter-services-intelligence    | org     | 三军情报局, 巴基斯坦三军情报局
@@ -3971,8 +3541,6 @@ orgs/pico                                    | org     | Pico
 orgs/pinduoduo                               | org     | 拼多多, PDD
 orgs/ping-an-insurance                       | org     | 中国平安, 平安
 orgs/ping-an-wealth                          | org     | 平安理财
-orgs/ping-guo                                | org     | 苹果
-orgs/pingguo                                 | org     | 苹果
 orgs/pinhaohuo                               | org     | 拼好货
 orgs/pla-rocket-force                        | org     | 火箭军, 中国火箭军
 orgs/pla-three-fleets                        | org     | 中国三大舰队, 三大舰队
@@ -3980,7 +3548,7 @@ orgs/plymouth-company                        | org     | 普利茅斯公司
 orgs/point72                                 | org     | Point72
 orgs/polish-communist-party                  | org     | 波兰共产党
 orgs/polish-parliament                       | org     | 波兰议会, 贵族议会
-orgs/politburo-of-the-chinese-communist-party | org     | 中央政治局, 政治局, 中共中央政治局
+orgs/politburo-of-the-chinese-communist-party | org     | 中央政治局, 中共中央政治局, 中国共产党中央政治局
 orgs/poly-real-estate                        | org     | 保利地产, 保利
 orgs/pony-ai                                 | org     | 小马智行
 orgs/populares                               | org     | 民众派
@@ -4000,8 +3568,7 @@ orgs/privy-council-song                      | org     | 枢密院
 orgs/pro-china-faction                       | org     | 亲中派
 orgs/pro-us-faction                          | org     | 亲美派
 orgs/procter-and-gamble                      | org     | 宝洁, 宝洁公司, P&G, 保洁
-orgs/procuratorial-organs                    | org     | 检查机关, 检察机关, 检察院
-orgs/progressive-party                       | org     | 进步党, 公驼鹿党
+orgs/procuratorial-organs                    | org     | 检查机关
 orgs/progressive-party-us                    | org     | 进步党, 公驼鹿党
 orgs/prophet                                 | org     | 铂慧
 orgs/protestant-union                        | org     | 新教联盟
@@ -4034,7 +3601,6 @@ orgs/qingbang                                | org     | 青帮, 上海的青帮
 orgs/qingchunbao                             | org     | 青春宝
 orgs/qingdao-vocational-and-technical-school | org     | 青岛职业技术学校
 orgs/qinghe-cui-clan                         | org     | 清河崔氏
-orgs/qinghua-university                      | org     | 清华
 orgs/qiushi-magazine                         | org     | 求是, 求是杂志
 orgs/quad                                    | org     | 美日印澳四方同盟, 美日印澳四国机制, 四国机制, Quad
 orgs/quaker-oats                             | org     | 桂格燕麦
@@ -4055,7 +3621,6 @@ orgs/reconstruction-finance-corporation      | org     | 复兴金融公司
 orgs/red-crescent                            | org     | 红新月会
 orgs/red-guards                              | org     | 红卫兵
 orgs/reform-party-us                         | org     | 改革党
-orgs/renaissance-party                       | org     | 复兴党
 orgs/renaissance-technologies                | org     | 文艺复兴, 文艺复兴科技公司
 orgs/renew-europe                            | org     | 复兴欧洲党
 orgs/renmin-university-of-china              | org     | 人民大学, 中国人民大学, 人大
@@ -4064,7 +3629,6 @@ orgs/republican-faction-rome                 | org     | 共和派
 orgs/republican-party-us                     | org     | 共和党, 美国共和党
 orgs/republican-peoples-party                | org     | 共和人民党
 orgs/reuters                                 | org     | 路透社
-orgs/revolutionary-party                     | org     | 革命党
 orgs/riben-wuda-shangshe                     | org     | 日本五大商社, 五大商社
 orgs/rio-tinto                               | org     | 力拓, Rio Tinto
 orgs/road-haulage-association                | org     | 英国公路运输协会
@@ -4072,7 +3636,7 @@ orgs/rockefeller-center                      | org     | 洛克菲勒中心
 orgs/rockefeller-family                      | org     | 洛克菲勒家族
 orgs/rok-us-alliance                         | org     | 韩美同盟, 美韩同盟, 血盟
 orgs/roman-army                              | org     | 罗马军队
-orgs/roman-catholic-church                   | org     | 天主教, 天主教会, 教会, 罗马天主教
+orgs/roman-catholic-church                   | org     | 天主教, 天主教会, 罗马天主教
 orgs/roman-comitia                           | org     | 公民大会, 罗马公民大会
 orgs/roman-curia                             | org     | 罗马教廷, 罗马教会
 orgs/roman-legion                            | org     | 罗马军团
@@ -4086,7 +3650,6 @@ orgs/royal-society                           | org     | 英国皇家科学院
 orgs/royalist-party                          | org     | 保皇派
 orgs/rqfii                                   | org     | RQFII基金
 orgs/ruikang-pigment-firm                    | org     | 瑞康颜料行
-orgs/ruixin                                  | org     | 瑞信
 orgs/rujia                                   | org     | 儒家
 orgs/runan-yuan-clan                         | org     | 汝南袁氏
 orgs/rural-credit-cooperative                | org     | 农村信用社
@@ -4102,19 +3665,15 @@ orgs/russian-mediterranean-squadron          | org     | 俄罗斯地中海分�
 orgs/russian-ministry-of-defense             | org     | 俄罗斯国防部, 俄国国防部
 orgs/russian-ministry-of-foreign-affairs     | org     | 俄国外交部
 orgs/russian-ministry-of-justice             | org     | 联邦司法部
-orgs/russian-pacific-fleet                   | org     | 俄国太平洋舰队, 太平洋舰队
+orgs/russian-pacific-fleet                   | org     | 俄国太平洋舰队
 orgs/russian-rural-commune                   | org     | 农村公社, 村社
 orgs/russian-satellite-news-agency           | org     | 俄罗斯卫星通讯社
-orgs/sa                                      | org     | 冲锋队
 orgs/sai-feng-ji-tuan                        | org     | 赛峰集团
 orgs/saic                                    | org     | 上汽
 orgs/salomon-brothers                        | org     | 所罗门兄弟公司, 所罗门兄弟
 orgs/sam-s-club                              | org     | 山姆
-orgs/samsung                                 | org     | 三星, 三星集团
-orgs/samsung-electronics                     | org     | 三星电子, 三星
-orgs/san-xing                                | org     | 三星
+orgs/samsung-electronics                     | org     | 三星电子, 三星, 三星集团
 orgs/sandia-national-laboratories            | org     | 桑迪亚国家实验室
-orgs/sanjing-wuchan                          | org     | 三井物产
 orgs/sanlian                                 | org     | 三联
 orgs/sanling-rilian-jinrong-jituan           | org     | 三菱日联金融集团
 orgs/sanlipu                                 | org     | 三利谱
@@ -4139,7 +3698,7 @@ orgs/secret-service                          | org     | 特勤局
 orgs/secretariat-of-ceremonial               | org     | 司礼监
 orgs/securities-association-of-china         | org     | 证券业协会
 orgs/securities-daily                        | org     | 证券日报
-orgs/seibei                                  | org     | 西贝, 西贝莜面村
+orgs/seibei                                  | org     | 西贝莜面村
 orgs/sensetime                               | org     | 商汤科技
 orgs/senussi-order                           | org     | 伊斯兰塞努西圣战教团, 塞努西圣战教团
 orgs/seongnam-city-council                   | org     | 城南市议会
@@ -4202,7 +3761,6 @@ orgs/shenzhen-public-resources-trading-center | org     | 深圳公共资源交�
 orgs/shenzhen-stock-exchange                 | org     | 深证证券交易所
 orgs/sheraton                                | org     | 喜来登
 orgs/shia-crescent                           | org     | 什叶派之弧
-orgs/shibo-si                                | org     | 市舶司
 orgs/shimao                                  | org     | 世茂
 orgs/shin-etsu-chemical                      | org     | 信越化学
 orgs/shincheonji-church                      | org     | 新天地教会
@@ -4221,7 +3779,7 @@ orgs/sichuan-power-grid                      | org     | 四川电网
 orgs/sichuan-provincial-government           | org     | 四川省政府
 orgs/sichuan-university                      | org     | 四川大学
 orgs/sichuan-yilong-huimin-village-bank      | org     | 四川仪陇惠民村镇银行
-orgs/siemens                                 | org     | 西门子, Siemens
+orgs/siemens                                 | org     | Siemens
 orgs/sikhism                                 | org     | 锡克教
 orgs/silicon-valley-bank                     | org     | 硅谷银行
 orgs/silicon-valley-group                    | org     | 硅谷集团
@@ -4242,11 +3800,10 @@ orgs/sk-hynix                                | org     | SK海力士, 海力士
 orgs/skyworth                                | org     | 创维
 orgs/smic                                    | org     | 中芯国际
 orgs/snowflake                               | org     | Snowflake
-orgs/social-democratic-party                 | org     | 社民党, 社会民主党
-orgs/social-democratic-party-germany         | org     | 社会民主党
+orgs/social-democratic-party                 | org     | 社民党
 orgs/socialist-camp                          | org     | 社会主义阵营
-orgs/softbank                                | org     | 日本软银, 软银
-orgs/softbank-group                          | org     | 软银集团, 软银
+orgs/softbank                                | org     | 日本软银
+orgs/softbank-group                          | org     | 软银集团
 orgs/soho-china                              | org     | SOHO中国
 orgs/sohu                                    | org     | 搜狐
 orgs/solidarity-union                        | org     | 团结工会
@@ -4257,10 +3814,10 @@ orgs/soochow-university                      | org     | 东吴大学
 orgs/soong-family-memorial-hall              | org     | 宋氏家族纪念馆
 orgs/soros-fund-management                   | org     | 索罗斯基金公司
 orgs/south-korea-ministry-of-justice         | org     | 法务部, 韩国法务部
-orgs/south-korea-ministry-of-national-defense | org     | 国防部, 韩国国防部
+orgs/south-korea-ministry-of-national-defense | org     | 韩国国防部
 orgs/south-korea-national-intelligence-service | org     | 国家情报部, 韩国国家情报部
-orgs/south-korea-prosecutors-office          | org     | 韩国检察院, 检察院
-orgs/south-korean-government                 | org     | 韩国政府, 文在寅政府
+orgs/south-korea-prosecutors-office          | org     | 韩国检察院
+orgs/south-korean-government                 | org     | 文在寅政府
 orgs/south-korean-national-assembly          | org     | 南朝鲜国民议会, 韩国国民议会
 orgs/south-manchuria-railway                 | org     | 南满洲铁道株式会社, 满铁
 orgs/southern-faction-korea                  | org     | 南方派
@@ -4281,7 +3838,7 @@ orgs/soviet-industrial-technical-committee   | org     | 苏联工业技术委�
 orgs/soviet-internal-troops                  | org     | 内卫部队
 orgs/soviet-navy                             | org     | 红色海军, 苏联海军
 orgs/soviet-politburo                        | org     | 苏联政治局
-orgs/soviet-red-army                         | org     | 红军, 苏联红军
+orgs/soviet-red-army                         | org     | 苏联红军
 orgs/soviet-secret-police                    | org     | 秘密警察, 苏联秘密警察
 orgs/soviet-state-council                    | org     | 苏联国务委员会
 orgs/soviet-state-security-apparatus         | org     | 国家安全机构
@@ -4307,19 +3864,15 @@ orgs/state-administration-for-market-regulation | org     | 市场监督局, 市
 orgs/state-administration-for-quality-supervision | org     | 中国国家质检总局, 国家质检总局
 orgs/state-administration-of-foreign-exchange | org     | 外汇局, 国家外汇管理局
 orgs/state-bank-of-the-soviet-union          | org     | 国家银行
-orgs/state-council                           | org     | 国务院
-orgs/state-council-china                     | org     | 国务院
 orgs/state-council-executive-meeting         | org     | 国常会, 国务院常务会议
 orgs/state-council-financial-stability-committee | org     | 国务院金融稳定委员会
 orgs/state-council-general-office            | org     | 国务院办公厅
-orgs/state-council-of-china                  | org     | 国务院
 orgs/state-duma                              | org     | 杜马, 国家杜马
 orgs/state-owned-assets-supervision-and-administration-commission | org     | 国资委, 国务院国资委
-orgs/state-party-germany                     | org     | 国家党
 orgs/state-sports-commission                 | org     | 体委
 orgs/state-taxation-administration           | org     | 国税总局, 国家税务总局, 税务总局
 orgs/state-university-of-new-york            | org     | 美国纽约州立大学学院, 纽约州立大学
-orgs/storm-troopers                          | org     | 冲锋队, SA
+orgs/storm-troopers                          | org     | SA
 orgs/students-for-a-democratic-society       | org     | 学生争取民主社会组织
 orgs/su-lian-gong-ye-wei-yuan-hui            | org     | 苏联工业委员会
 orgs/subway                                  | org     | 赛百味
@@ -4348,7 +3901,6 @@ orgs/syrian-democratic-forces                | org     | 叙利亚民主军, 库
 orgs/syrian-national-army                    | org     | 叙利亚国民军
 orgs/syrian-opposition                       | org     | 叙利亚反对派
 orgs/taang-national-liberation-army          | org     | 德昂民族解放军
-orgs/tai-ping-yang-jian-dui                  | org     | 太平洋舰队
 orgs/tainan-city-government                  | org     | 台南市政府
 orgs/taiyuan-iron-and-steel                  | org     | 太钢, 太原钢铁
 orgs/taiyuan-wang-clan                       | org     | 太原王氏
@@ -4359,8 +3911,6 @@ orgs/taliban-political-committee             | org     | 塔利班政治委员�
 orgs/taman-motor-rifle-division              | org     | 塔曼摩步师
 orgs/tang-song-eight-masters                 | org     | 唐宋八大家
 orgs/tangshan-road-and-mining-college        | org     | 唐山路矿学堂
-orgs/tao-bao                                 | org     | 淘宝
-orgs/taobao                                  | org     | 淘宝
 orgs/taoyuan-city-government                 | org     | 桃园市政府
 orgs/tata-group                              | org     | 塔塔集团
 orgs/tcl                                     | org     | TCL
@@ -4371,15 +3921,12 @@ orgs/technology-transfer-intelligence-committee | org     | 技术转让情报�
 orgs/tehran-university                       | org     | 德黑兰大学
 orgs/temasek                                 | org     | 淡马锡, 新加坡淡马锡
 orgs/temu                                    | org     | Temu
-orgs/tencent                                 | org     | 腾讯
 orgs/tencent-video                           | org     | 腾讯视频
-orgs/tengxun                                 | org     | 腾讯
 orgs/tesla                                   | org     | 特斯拉, Tesla, 特斯拉中国
 orgs/tesla-shanghai                          | org     | 特斯拉上海有限公司
 orgs/teutonic-order                          | org     | 条顿骑士团
 orgs/texas-affairs-committee                 | org     | 得克萨斯事务委员会, 德克萨斯事务委员会
 orgs/texas-instruments                       | org     | 德州仪器
-orgs/the-america-party                       | org     | 美国党
 orgs/the-american-spectator                  | org     | 美国观察者
 orgs/the-atlantic                            | org     | 大西洋月刊
 orgs/the-economist                           | org     | 经济学人, 英国《经济学人》杂志
@@ -4403,9 +3950,7 @@ orgs/times-of-israel                         | org     | 以色列时报, 《以
 orgs/tishman-speyer                          | org     | 铁狮门
 orgs/tixing-anchasi                          | org     | 提刑按察司
 orgs/tmall                                   | org     | 天猫
-orgs/tokugawa-shogunate                      | org     | 德川幕府
-orgs/tokyo-district-public-prosecutors-office | org     | 东京地检
-orgs/tokyo-district-public-prosecutors-office-special-investigation-department | org     | 东京地方检察院特别搜查本部, 东京地检
+orgs/tokyo-district-public-prosecutors-office-special-investigation-department | org     | 东京地方检察院特别搜查本部
 orgs/tokyo-university                        | org     | 东京大学
 orgs/tomioka-silk-mill                       | org     | 富冈制丝所
 orgs/tomorrow-holding                        | org     | 明天集团
@@ -4418,7 +3963,6 @@ orgs/toshiba                                 | org     | 东芝, 东芝公司
 orgs/toshiba-semiconductor                   | org     | 东芝半导体
 orgs/township-enterprise-association         | org     | 乡镇企业协会
 orgs/toyota                                  | org     | 丰田汽车, 丰田, 丰田公司
-orgs/trade-unions                            | org     | 工会
 orgs/trafigura                               | org     | 托克集团
 orgs/trans-pacific-partnership               | org     | TPP, 太平洋伙伴关系协定, 跨太平洋伙伴关系协定
 orgs/translation-bureau-vietnam              | org     | 编译局
@@ -4426,16 +3970,15 @@ orgs/triple-entente                          | org     | 英法俄三国同盟
 orgs/trotskyist-anti-soviet-parallel-center  | org     | 托洛茨基反苏平行中心
 orgs/trump-family                            | org     | 特朗普家族
 orgs/trumpf                                  | org     | 通快公司
-orgs/tsinghua-university                     | org     | 清华, 清华大学
+orgs/tsinghua-university                     | org     | 清华大学
 orgs/tsinghua-university-high-school         | org     | 清华附中, 清华大学附属中学
 orgs/tsinghua-university-primary-school      | org     | 清华附小, 清华大学附属小学
 orgs/tsmc                                    | org     | 台积电
 orgs/ttip                                    | org     | TTIP, 跨大西洋贸易与投资伙伴协议, TIPP
-orgs/tuite                                   | org     | 推特
 orgs/tula-airborne-division                  | org     | 图拉空降师
 orgs/tuopu-group                             | org     | 拓普集团
 orgs/tvb                                     | org     | TVB
-orgs/twitter                                 | org     | Twitter, 推特, 推特公司
+orgs/twitter                                 | org     | Twitter, 推特公司
 orgs/ubs                                     | org     | 瑞士银行
 orgs/uc-berkeley                             | org     | 伯克利, 加州伯克利大学
 orgs/uk-financial-regulator                  | org     | 英国金融监管机构
@@ -4456,9 +3999,9 @@ orgs/united-nations                          | org     | 联合国, 联合国大
 orgs/united-nations-command                  | org     | 联合国军, 联合国军司令部
 orgs/united-red-army                         | org     | 联合赤军
 orgs/united-states-bombing-command           | org     | 美国轰炸司令部
-orgs/united-states-congress                  | org     | 国会, 美国国会, 参众两院
+orgs/united-states-congress                  | org     | 美国国会, 参众两院
 orgs/united-states-forces-korea              | org     | 美国驻军, 驻韩美军
-orgs/united-states-pacific-fleet             | org     | 美国太平洋舰队, 太平洋舰队
+orgs/united-states-pacific-fleet             | org     | 美国太平洋舰队
 orgs/united-states-patent-office             | org     | 美国专利局
 orgs/united-states-seventh-fleet             | org     | 美国第七舰队
 orgs/unitree                                 | org     | 宇树科技
@@ -4483,8 +4026,8 @@ orgs/us-army-far-east-science-center         | org     | 陆军远东科技中�
 orgs/us-bureau-of-labor-statistics           | org     | 美国劳工局, 美国劳工统计局
 orgs/us-central-command                      | org     | 美国中央司令部
 orgs/us-coast-guard                          | org     | 美国海岸警备队
-orgs/us-department-of-commerce               | org     | 美国商务部, 商务部
-orgs/us-department-of-defense                | org     | 美国五角大楼, 五角大楼, 美国国防部, 国防部
+orgs/us-department-of-commerce               | org     | 美国商务部
+orgs/us-department-of-defense                | org     | 美国五角大楼, 五角大楼, 美国国防部
 orgs/us-department-of-energy                 | org     | 美国能源部
 orgs/us-department-of-homeland-security      | org     | 美国国土安全部, 国土安全部
 orgs/us-department-of-justice                | org     | 美国司法部, 司法部
@@ -4494,12 +4037,11 @@ orgs/us-embassy                              | org     | 美国大使馆, 美国
 orgs/us-embassy-military-attache-office-japan | org     | 驻日大使馆武官办公室
 orgs/us-exchange                             | org     | 美国交易所
 orgs/us-federal-courts                       | org     | 联邦法院, 美国联邦法院
-orgs/us-federal-government                   | org     | 美国联邦政府, 联邦政府, 美国政府, 美国中央政府
+orgs/us-federal-government                   | org     | 美国联邦政府, 联邦政府, 美国中央政府
 orgs/us-federal-trade-commission             | org     | 美国联邦商务委员会
 orgs/us-forces-japan                         | org     | 驻日美军
-orgs/us-government                           | org     | 美国政府
 orgs/us-house-energy-and-commerce-committee  | org     | 美国众议院能源和商业委员会, 能源和商业委员会
-orgs/us-house-of-representatives             | org     | 众议院, 美国众议院
+orgs/us-house-of-representatives             | org     | 美国众议院
 orgs/us-internal-revenue-service             | org     | 美国国税局
 orgs/us-japan-alliance                       | org     | 美日同盟
 orgs/us-joint-chiefs-of-staff                | org     | 美国参谋长联席会议
@@ -4507,23 +4049,23 @@ orgs/us-justice-department                   | org     | 美国司法部门
 orgs/us-marine-corps                         | org     | 美国海军陆战队, 海军陆战队
 orgs/us-military                             | org     | 美国军队, 美军, 美国四大军种, 美国军方
 orgs/us-national-exhibition                  | org     | 美国国家展览会
-orgs/us-national-guard                       | org     | 国民警卫队, 美国国民警卫队
-orgs/us-navy                                 | org     | 美国海军, 海军
+orgs/us-national-guard                       | org     | 美国国民警卫队
+orgs/us-navy                                 | org     | 美国海军
 orgs/us-office-of-naval-research-asia        | org     | 海军研究办公室亚洲室
 orgs/us-pacific-command                      | org     | 美国太平洋司令部
 orgs/us-philippine-forces                    | org     | 美菲联军
 orgs/us-port-union                           | org     | 美国港口工会, 美国西海岸的工会, 港口工会
-orgs/us-prosecution-authorities              | org     | 美国检察机关, 检察机关
+orgs/us-prosecution-authorities              | org     | 美国检察机关
 orgs/us-secret-service                       | org     | 美国特勤局
 orgs/us-securities-and-exchange-commission   | org     | 美国证券交易委员会, SEC
 orgs/us-semiconductor-industry-association   | org     | 美国半导体行业协会
 orgs/us-senate                               | org     | 参议院, 美国参议院
 orgs/us-state-courts                         | org     | 州法院, 美国州法院
-orgs/us-state-department                     | org     | 美国国务院, 国务院
+orgs/us-state-department                     | org     | 美国国务院
 orgs/us-state-governments                    | org     | 州政府
 orgs/us-steel                                | org     | 美国钢铁, 美国钢铁公司
 orgs/us-supreme-court                        | org     | 美国最高法院, 最高法院
-orgs/us-treasury                             | org     | 美国财政部, 财政部
+orgs/us-treasury                             | org     | 美国财政部
 orgs/ustase                                  | org     | 乌斯塔沙
 orgs/vale                                    | org     | 巴西淡水河谷, 淡水河谷, Vale
 orgs/vanguard                                | org     | 领航
@@ -4533,14 +4075,13 @@ orgs/vanke                                   | org     | 万科
 orgs/vatican                                 | org     | 梵蒂冈
 orgs/venetian-arsenal                        | org     | 威尼斯军械库
 orgs/vienna-academy-of-fine-arts             | org     | 维也纳艺术学院
-orgs/viet-cong                               | org     | 越共
 orgs/vietnam-academy-of-social-sciences      | org     | 越南社会科学院
-orgs/vietnam-communist-party                 | org     | 越南共产党, 越共, 越共中央
+orgs/vietnam-communist-party                 | org     | 越南共产党, 越共中央
 orgs/vietnam-general-statistics-office       | org     | 越南国际统计局
 orgs/vietnam-government                      | org     | 越南政府
-orgs/vietnam-ministry-of-public-security     | org     | 越南公安部, 公安部
-orgs/vietnam-people-s-army                   | org     | 越南人民军, 人民军, 越南军队
-orgs/vietnam-politburo                       | org     | 越南政治局, 政治局
+orgs/vietnam-ministry-of-public-security     | org     | 越南公安部
+orgs/vietnam-people-s-army                   | org     | 越南人民军, 越南军队
+orgs/vietnam-politburo                       | org     | 越南政治局
 orgs/vietnamese-guerrillas                   | org     | 越南游击队
 orgs/vinamilk                                | org     | 越南乳制品股份公司, Vinamilk
 orgs/virginia-company                        | org     | 弗吉尼亚公司
@@ -4549,12 +4090,11 @@ orgs/visual-china-group                      | org     | 视觉中国
 orgs/vivo                                    | org     | vivo
 orgs/volkswagen                              | org     | 大众, 德国大众, 大众中国子公司, 大众汽车
 orgs/volynsky-regiment                       | org     | 沃伦斯克团
-orgs/wagner-group                            | org     | 瓦格纳, 瓦格纳雇佣军, 瓦格纳雇佣兵, 瓦格纳集团
+orgs/wagner-group                            | org     | 瓦格纳雇佣军, 瓦格纳雇佣兵, 瓦格纳集团
 orgs/wahaha                                  | org     | 娃哈哈
 orgs/wahaha-group                            | org     | 娃哈哈集团
 orgs/wahhabi-movement                        | org     | 瓦哈比教派, 瓦哈比派
-orgs/wall-street                             | org     | 华尔街
-orgs/wall-street-financial-groups            | org     | 华尔街金融集团, 华尔街
+orgs/wall-street-financial-groups            | org     | 华尔街金融集团
 orgs/wall-street-journal                     | org     | 华尔街日报
 orgs/wallstreetbets                          | org     | 华尔街赌场, WallStreetBets
 orgs/walmart                                 | org     | 沃尔玛
@@ -4562,9 +4102,7 @@ orgs/walvax-biotechnology                    | org     | 沃森生物
 orgs/wanda                                   | org     | 万达, 万达酒店
 orgs/wanda-commercial                        | org     | 万达商业
 orgs/wang-kai-photo                          | org     | 王开照相馆
-orgs/wang-yi                                 | org     | 网易
 orgs/wanhua-chemical                         | org     | 万华化学
-orgs/wanjia-culture                          | org     | 万家文化
 orgs/wanjia-fund                             | org     | 万家基金
 orgs/wanjia-hongguan-zeshi-duocelue          | org     | 万家宏观择时多策略
 orgs/wanjia-jingxuan                         | org     | 万家精选
@@ -4579,7 +4117,6 @@ orgs/wealth-club-miniprogram                 | org     | 财富俱乐部, 马永
 orgs/webank                                  | org     | 腾讯微众银行, 微众银行
 orgs/wechat                                  | org     | 微信, 微信公众号
 orgs/wechat-mini-program                     | org     | 微信小程序
-orgs/wei-jian-wei                            | org     | 卫健委
 orgs/weibo                                   | org     | 微博
 orgs/weibo-jiedushi                          | org     | 魏博节度使
 orgs/weiguan-shares                          | org     | 微光股份
@@ -4588,7 +4125,7 @@ orgs/weining-healthcare                      | org     | 卫宁健康
 orgs/welfare-party-turkey                    | org     | 繁荣党
 orgs/wen-lian                                | org     | 文联
 orgs/wencan-group                            | org     | 文灿股份
-orgs/wenjie                                  | org     | 问界, 问界新M7, 问界M9
+orgs/wenjie                                  | org     | 问界新M7, 问界M9
 orgs/wenzhou-chamber-of-commerce             | org     | 温州商会
 orgs/wenzhou-merchants                       | org     | 温州商帮, 温州帮, 温州商人
 orgs/weride                                  | org     | 文远知行
@@ -4636,7 +4173,7 @@ orgs/wuling-hongguang                        | org     | 五菱宏光
 orgs/wuling-xingguang                        | org     | 五菱星光
 orgs/wuxi-jinghai                            | org     | 无锡晶海
 orgs/wuxian-jituan                           | org     | 武仙集团
-orgs/x-twitter                               | org     | X, 推特
+orgs/x-twitter                               | org     | X
 orgs/xi-bei-gong-ye-da-xue                   | org     | 西北工业大学, 西工大
 orgs/xiamen-daxue                            | org     | 厦门大学
 orgs/xian-beilin-museum                      | org     | 西安碑林博物馆
@@ -4644,7 +4181,7 @@ orgs/xian-catering                           | org     | 西安饮食
 orgs/xian-jiaotong-university                | org     | 西安交大, 西安交通大学
 orgs/xian-qujiang-new-district-development   | org     | 西安曲江新区发展有限公司, 曲江新区公司, 曲江文化
 orgs/xiang-army                              | org     | 湘军
-orgs/xiangyuan-culture                       | org     | 祥源文化, 万家文化
+orgs/xiangyuan-culture                       | org     | 祥源文化
 orgs/xianheng-international                  | org     | 咸亨国际
 orgs/xiao-ma-ge-caidao                       | org     | 小马哥财道, 《小马哥财道》
 orgs/xiaodao                                 | org     | 小刀
@@ -4653,7 +4190,6 @@ orgs/xiaokang-gufen                          | org     | 小康股份
 orgs/xiaomi                                  | org     | 小米, 小米集团
 orgs/xiaomi-auto                             | org     | 小米汽车
 orgs/xiaoshao-merchants                      | org     | 萧绍商帮, 萧绍商人
-orgs/xibei                                   | org     | 西贝
 orgs/ximalaya                                | org     | 喜马拉雅, 喜马, 喜马拉雅VIP
 orgs/xin-dang                                | org     | 新党, 改革派新党
 orgs/xincheng-konggu                         | org     | 新城控股
@@ -4704,7 +4240,6 @@ orgs/ymtc                                    | org     | 长江存储
 orgs/yomiuri-shimbun                         | org     | 读卖新闻, 日本《读卖新闻》
 orgs/yonghui-superstores                     | org     | 永辉超市
 orgs/yongmei-group                           | org     | 永煤集团
-orgs/yongxiang-company                       | org     | 永祥
 orgs/yoshinoya                               | org     | 吉野家
 orgs/youku                                   | org     | 优酷
 orgs/youth-league-japan                      | org     | 青年联盟
@@ -4742,7 +4277,6 @@ orgs/zhenwu-xuexiao                          | org     | 振武学校
 orgs/zhifei-biological                       | org     | 智飞生物
 orgs/zhihu                                   | org     | 知乎
 orgs/zhixi-junfa                             | org     | 直系军阀
-orgs/zhiyuanjun                              | org     | 志愿军
 orgs/zhong-ou-data-mining-multi-factor       | org     | 中欧数据挖掘多因子
 orgs/zhong-ou-fund                           | org     | 中欧基金
 orgs/zhong-ou-quant-team                     | org     | 中欧基金量化团队
@@ -4751,7 +4285,6 @@ orgs/zhongguo-shenhua                        | org     | 中国神华
 orgs/zhongguo-yidong                         | org     | 中国移动
 orgs/zhongguo-zhengquan-jijin-ye-xiehui      | org     | 中基协, 中国证券投资基金业协会
 orgs/zhongjiao-dichan                        | org     | 中交地产
-orgs/zhongjin                                | org     | 中金
 orgs/zhongjingkai                            | org     | 中经开
 orgs/zhongnan-university-of-economics-and-law | org     | 中南财经政法大学
 orgs/zhongqingbao                            | org     | 中青宝
