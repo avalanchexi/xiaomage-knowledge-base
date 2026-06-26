@@ -24,6 +24,204 @@ function Write-Log {
   Add-Content -LiteralPath $LOG -Encoding UTF8 -Value $Message
 }
 
+function Resolve-CodexRuntime {
+  $command = Get-Command 'codex.cmd' -CommandType Application -ErrorAction SilentlyContinue
+  if ($command) {
+    $codexCmd = (Resolve-Path -LiteralPath $command.Source).ProviderPath
+  } else {
+    $fallback = 'C:\npm-global\codex.cmd'
+    if (Test-Path -LiteralPath $fallback) {
+      $codexCmd = (Resolve-Path -LiteralPath $fallback).ProviderPath
+    } else {
+      throw 'codex.cmd not found on PATH or at C:\npm-global\codex.cmd'
+    }
+  }
+
+  $codexDir = Split-Path -Parent $codexCmd
+  $codexScript = Join-Path $codexDir 'node_modules\@openai\codex\bin\codex.js'
+  if (-not (Test-Path -LiteralPath $codexScript)) {
+    throw "codex.js not found at expected npm install path: $codexScript"
+  }
+
+  $localNode = Join-Path $codexDir 'node.exe'
+  if (Test-Path -LiteralPath $localNode) {
+    $nodeCommand = (Resolve-Path -LiteralPath $localNode).ProviderPath
+  } else {
+    $node = Get-Command 'node.exe' -CommandType Application -ErrorAction SilentlyContinue
+    if (-not $node) {
+      $node = Get-Command 'node' -CommandType Application -ErrorAction SilentlyContinue
+    }
+    if (-not $node) {
+      throw 'node.exe not found beside codex.cmd or on PATH'
+    }
+    $nodeCommand = (Resolve-Path -LiteralPath $node.Source).ProviderPath
+  }
+
+  return [pscustomobject]@{
+    NodeCommand = $nodeCommand
+    CodexScript = (Resolve-Path -LiteralPath $codexScript).ProviderPath
+  }
+}
+
+function Quote-ProcessArgument {
+  param([Parameter(Mandatory=$true)][AllowEmptyString()][string]$Value)
+
+  if ($Value.Length -eq 0) {
+    return '""'
+  }
+
+  if ($Value -notmatch '[\s"]') {
+    return $Value
+  }
+
+  $quoted = '"'
+  $backslashes = 0
+  foreach ($char in $Value.ToCharArray()) {
+    if ($char -eq '\') {
+      $backslashes += 1
+    } elseif ($char -eq '"') {
+      if ($backslashes -gt 0) {
+        $quoted += '\' * (($backslashes * 2) + 1)
+        $backslashes = 0
+      } else {
+        $quoted += '\'
+      }
+      $quoted += '"'
+    } else {
+      if ($backslashes -gt 0) {
+        $quoted += '\' * $backslashes
+        $backslashes = 0
+      }
+      $quoted += $char
+    }
+  }
+
+  if ($backslashes -gt 0) {
+    $quoted += '\' * ($backslashes * 2)
+  }
+
+  $quoted += '"'
+  return $quoted
+}
+
+function Get-CompletedTaskText {
+  param(
+    [object]$Task,
+    [int]$TimeoutMs = 2000
+  )
+
+  if ($null -eq $Task) {
+    return ''
+  }
+
+  try {
+    if (-not $Task.IsCompleted) {
+      [void]$Task.Wait($TimeoutMs)
+    }
+
+    if ($Task.IsCompleted -and -not $Task.IsFaulted -and -not $Task.IsCanceled) {
+      return $Task.Result
+    }
+  } catch {
+    return ''
+  }
+
+  return ''
+}
+
+function Invoke-CodexExec {
+  param(
+    [Parameter(Mandatory=$true)][string]$NodeCommand,
+    [Parameter(Mandatory=$true)][string]$CodexScript,
+    [Parameter(Mandatory=$true)][string]$WorkingDirectory,
+    [Parameter(Mandatory=$true)][string]$Prompt,
+    [Parameter(Mandatory=$true)][string]$LogPath
+  )
+
+  $arguments = @(
+    $CodexScript
+    'exec'
+    '-'
+    '-C'
+    $WorkingDirectory
+    '--skip-git-repo-check'
+    '--dangerously-bypass-approvals-and-sandbox'
+  )
+
+  $psi = [System.Diagnostics.ProcessStartInfo]::new()
+  $psi.FileName = $NodeCommand
+  $psi.Arguments = ($arguments | ForEach-Object { Quote-ProcessArgument -Value $_ }) -join ' '
+  $psi.WorkingDirectory = $WorkingDirectory
+  $psi.UseShellExecute = $false
+  $psi.RedirectStandardInput = $true
+  $psi.RedirectStandardOutput = $true
+  $psi.RedirectStandardError = $true
+  $psi.StandardOutputEncoding = [Text.Encoding]::UTF8
+  $psi.StandardErrorEncoding = [Text.Encoding]::UTF8
+  $psi.CreateNoWindow = $true
+
+  $process = [System.Diagnostics.Process]::new()
+  $process.StartInfo = $psi
+  $started = $false
+  $stdinClosed = $false
+  $stdoutTask = $null
+  $stderrTask = $null
+  try {
+    $started = $process.Start()
+    if (-not $started) {
+      throw "Failed to start node process: $NodeCommand"
+    }
+
+    $stdoutTask = $process.StandardOutput.ReadToEndAsync()
+    $stderrTask = $process.StandardError.ReadToEndAsync()
+
+    $promptBytes = [Text.Encoding]::UTF8.GetBytes($Prompt)
+    $process.StandardInput.BaseStream.Write($promptBytes, 0, $promptBytes.Length)
+    $process.StandardInput.Close()
+    $stdinClosed = $true
+
+    $process.WaitForExit()
+
+    return $process.ExitCode
+  } catch {
+    if ($started) {
+      if (-not $stdinClosed) {
+        try {
+          $process.StandardInput.Close()
+          $stdinClosed = $true
+        } catch {}
+      }
+
+      try {
+        if (-not $process.HasExited) {
+          [void]$process.WaitForExit(2000)
+        }
+      } catch {}
+
+      try {
+        if (-not $process.HasExited) {
+          $process.Kill()
+          [void]$process.WaitForExit(2000)
+        }
+      } catch {}
+    }
+
+    throw
+  } finally {
+    $stdout = Get-CompletedTaskText -Task $stdoutTask
+    $stderr = Get-CompletedTaskText -Task $stderrTask
+
+    if ($stdout.Length -gt 0) {
+      [System.IO.File]::AppendAllText($LogPath, $stdout, [Text.Encoding]::UTF8)
+    }
+    if ($stderr.Length -gt 0) {
+      [System.IO.File]::AppendAllText($LogPath, $stderr, [Text.Encoding]::UTF8)
+    }
+
+    $process.Dispose()
+  }
+}
+
 function Get-FileFingerprint {
   param([Parameter(Mandatory=$true)][string]$Path)
   if (-not (Test-Path -LiteralPath $Path)) {
@@ -109,6 +307,7 @@ $md5 = [System.Security.Cryptography.MD5]::Create()
 Write-Log "=== $Phase | $total files | batch=$Batch | agent=codex | $(Get-Date -Format s) ==="
 
 $schemaText = Get-Content -Raw -Encoding UTF8 -LiteralPath $SCHEMA
+$codexRuntime = Resolve-CodexRuntime
 $hadFailure = $false
 $failedBatches = @()
 
@@ -166,9 +365,10 @@ $src
 
   $ok = $true
   try {
-    $prompt | codex exec - -C $KB --skip-git-repo-check --dangerously-bypass-approvals-and-sandbox *>> $LOG
-    if ($LASTEXITCODE -ne 0) {
+    $codexExitCode = Invoke-CodexExec -NodeCommand $codexRuntime.NodeCommand -CodexScript $codexRuntime.CodexScript -WorkingDirectory $KB -Prompt $prompt -LogPath $LOG
+    if ($codexExitCode -ne 0) {
       $ok = $false
+      Write-Log "FAIL $Phase/$key - codex exit code $codexExitCode"
     }
   } catch {
     $ok = $false
