@@ -239,12 +239,33 @@ function Get-FileFingerprint {
 
 function Get-ContentFingerprint {
   param([Parameter(Mandatory=$true)][string]$Path)
-  $entries = Get-ChildItem -LiteralPath $Path -Filter '*.md' -File |
-    Sort-Object FullName |
+  $root = ((Resolve-Path -LiteralPath $Path).ProviderPath).TrimEnd([char[]]@('\','/'))
+  $entries = Get-ChildItem -LiteralPath $Path -Recurse -Force |
     ForEach-Object {
-      $hash = Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256
-      "$($_.Name)|$($_.Length)|$($hash.Hash)"
+      $relativePath = $_.FullName.Substring($root.Length).TrimStart([char[]]@('\','/')).Replace('\', '/')
+      if ($_.PSIsContainer) {
+        "dir|$relativePath"
+      } else {
+        $hash = Get-FileHash -LiteralPath $_.FullName -Algorithm SHA256
+        "file|$relativePath|$($_.Length)|$($hash.Hash)"
+      }
+    } |
+    Sort-Object
+  $payload = $entries -join "`n"
+  $sha256 = [System.Security.Cryptography.SHA256]::Create()
+  return ([BitConverter]::ToString($sha256.ComputeHash([Text.Encoding]::UTF8.GetBytes($payload))) -replace '-').ToLowerInvariant()
+}
+
+function Get-KnowledgeOutputFingerprint {
+  $entries = foreach ($name in @('events','takes','people','orgs','countries')) {
+    $path = Join-Path $WIKI $name
+    if (Test-Path -LiteralPath $path) {
+      "$name|$(Get-ContentFingerprint -Path $path)"
+    } else {
+      "$name|<missing>"
     }
+  }
+
   $payload = $entries -join "`n"
   $sha256 = [System.Security.Cryptography.SHA256]::Create()
   return ([BitConverter]::ToString($sha256.ComputeHash([Text.Encoding]::UTF8.GetBytes($payload))) -replace '-').ToLowerInvariant()
@@ -333,11 +354,65 @@ function Test-NonEmptyFile {
   return (-not $item.PSIsContainer) -and ($item.Length -gt 0)
 }
 
+function Test-SourcePage {
+  param(
+    [Parameter(Mandatory=$true)][string]$Path,
+    [Parameter(Mandatory=$true)][string]$ArticleNo
+  )
+
+  if (-not (Test-NonEmptyFile -Path $Path)) {
+    return $false
+  }
+
+  $text = Get-Content -Raw -Encoding UTF8 -LiteralPath $Path
+  $match = [regex]::Match($text, '(?s)\A---\s*\r?\n(?<frontmatter>.*?)\r?\n---')
+  if (-not $match.Success) {
+    return $false
+  }
+
+  $frontmatter = $match.Groups['frontmatter'].Value
+  foreach ($field in @('title','sources','created','updated','article_no')) {
+    if ($frontmatter -notmatch "(?m)^\s*$field\s*:") {
+      return $false
+    }
+  }
+
+  if ($frontmatter -notmatch "(?m)^\s*type\s*:\s*['`"]?source['`"]?\s*$") {
+    return $false
+  }
+
+  if ($frontmatter -notmatch "(?m)^\s*article_no\s*:\s*['`"]?$([regex]::Escape($ArticleNo))['`"]?\s*$") {
+    return $false
+  }
+
+  return $true
+}
+
+function Test-KnowledgeReferenceForArticle {
+  param([Parameter(Mandatory=$true)][string]$ArticleNo)
+
+  $pattern = "\[\[sources/$([regex]::Escape($ArticleNo))\]\]"
+  foreach ($name in @('events','takes','people','orgs','countries')) {
+    $path = Join-Path $WIKI $name
+    if (-not (Test-Path -LiteralPath $path)) {
+      continue
+    }
+
+    $files = @(Get-ChildItem -LiteralPath $path -Recurse -Filter '*.md' -File -Force)
+    if (($files.Count -gt 0) -and (Select-String -LiteralPath ($files.FullName) -Pattern $pattern -Quiet)) {
+      return $true
+    }
+  }
+
+  return $false
+}
+
 function Test-BatchOutput {
   param(
     [Parameter(Mandatory=$true)][string]$Phase,
     [Parameter(Mandatory=$true)][string]$Key,
-    [Parameter(Mandatory=$true)][object[]]$BatchFiles
+    [Parameter(Mandatory=$true)][object[]]$BatchFiles,
+    [string]$KnowledgeFingerprintBefore = ''
   )
 
   if ($Phase -eq 'entities') {
@@ -351,22 +426,53 @@ function Test-BatchOutput {
   }
 
   $missing = @()
+  $invalid = @()
   foreach ($file in $BatchFiles) {
     $sourcePath = Join-Path $SOURCES "$($file.BaseName).md"
     if (-not (Test-NonEmptyFile -Path $sourcePath)) {
       $missing += $sourcePath
+    } elseif (-not (Test-SourcePage -Path $sourcePath -ArticleNo $file.BaseName)) {
+      $invalid += $sourcePath
     }
   }
 
-  if ($missing.Count -eq 0) {
-    return $true
+  if ($missing.Count -gt 0) {
+    Write-Log "FAIL $Phase/$Key - missing or empty source pages:"
+    foreach ($path in $missing) {
+      Write-Log "  $path"
+    }
+    return $false
   }
 
-  Write-Log "FAIL $Phase/$Key - missing or empty source pages:"
-  foreach ($path in $missing) {
-    Write-Log "  $path"
+  if ($invalid.Count -gt 0) {
+    Write-Log "FAIL $Phase/$Key - invalid source page frontmatter:"
+    foreach ($path in $invalid) {
+      Write-Log "  $path"
+    }
+    return $false
   }
-  return $false
+
+  if ($KnowledgeFingerprintBefore.Length -gt 0) {
+    $knowledgeFingerprintAfter = Get-KnowledgeOutputFingerprint
+    if ($knowledgeFingerprintAfter -eq $KnowledgeFingerprintBefore) {
+      $unlinkedSources = @()
+      foreach ($file in $BatchFiles) {
+        if (-not (Test-KnowledgeReferenceForArticle -ArticleNo $file.BaseName)) {
+          $unlinkedSources += $file.BaseName
+        }
+      }
+
+      if ($unlinkedSources.Count -gt 0) {
+        Write-Log "FAIL $Phase/$Key - source pages were produced but knowledge graph pages were unchanged and no knowledge page references these sources:"
+        foreach ($source in $unlinkedSources) {
+          Write-Log "  sources/$source"
+        }
+        return $false
+      }
+    }
+  }
+
+  return $true
 }
 
 New-Item -ItemType Directory -Force -Path $DONE | Out-Null
@@ -374,7 +480,13 @@ if ($Phase -eq 'entities') {
   New-Item -ItemType Directory -Force -Path $CAND | Out-Null
 }
 
-$files = Get-ChildItem -LiteralPath $RAW -Filter '*.md' | Sort-Object { [int]([regex]::Match($_.BaseName, '^\d+').Value) }
+$files = Get-ChildItem -LiteralPath $RAW -Filter '*.md' -File | Sort-Object `
+  @{ Expression = {
+      $match = [regex]::Match($_.BaseName, '^\d+')
+      if ($match.Success) { [int]$match.Value } else { [int]::MaxValue }
+    }
+  }, `
+  @{ Expression = { $_.Name } }
 $total = $files.Count
 $md5 = [System.Security.Cryptography.MD5]::Create()
 Write-Log "=== $Phase | $total files | batch=$Batch | agent=codex | $(Get-Date -Format s) ==="
@@ -399,6 +511,10 @@ for ($i = 0; $i -lt $total; $i += $Batch) {
 
   $rawFingerprintBefore = Get-ContentFingerprint -Path $RAW
   $aliasesFingerprintBefore = Get-FileFingerprint -Path $ALIASES
+  $knowledgeFingerprintBefore = ''
+  if ($Phase -eq 'pages') {
+    $knowledgeFingerprintBefore = Get-KnowledgeOutputFingerprint
+  }
   $protectedSnapshot = New-ProtectedInputSnapshot -Phase $Phase -Key $key
 
   $src = ($batchFiles | ForEach-Object {
@@ -478,7 +594,7 @@ $src
     }
   }
 
-  if ($ok -and -not (Test-BatchOutput -Phase $Phase -Key $key -BatchFiles $batchFiles)) {
+  if ($ok -and -not (Test-BatchOutput -Phase $Phase -Key $key -BatchFiles $batchFiles -KnowledgeFingerprintBefore $knowledgeFingerprintBefore)) {
     $ok = $false
   }
 
