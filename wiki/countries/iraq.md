@@ -2,7 +2,15 @@
 title: 伊拉克
 type: country
 sources: [141]
-updated: 2026-06-26
+created: 2026-06-27
+updated: 2026-06-27
+aliases: [伊拉克]
 ---
-"弃用美元"的反面教材。
-- 2001 [[people/saddam]] 宣布石油改用欧元结算 → 被 [[countries/united-states]] 占领、萨达姆被处决，佐证 [[takes/world-currency-needs-military]]
+# 伊拉克
+
+[[sources/141]] 将伊拉克放在美元石油结算与美国军事霸权的论证中，作为挑战美元结算后遭美国打击的案例。
+
+## 关系
+- participates-in [[events/petrodollar-saudi-us-1974]]
+- supports [[takes/world-currency-needs-military]]
+- derived-from [[sources/141]]

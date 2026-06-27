@@ -1,12 +1,19 @@
 ---
-title: 2022中概股暴跌
+title: 2022 年中概股暴跌
 type: event
-date: 2022-03
-actors: [united-states, china]
-cause: 美国对华金融战，政策打压+抛售做空+股指期货做空
-effect: 中概股三日蒸发7000亿，自2021累计市值减少约1.37万亿美元(约中国GDP的10%)
 sources: [137]
-updated: 2026-06-26
+created: 2026-06-27
+updated: 2026-06-27
+date: 2022-03
+actors: ["[[countries/china]]", "[[countries/united-states]]", "[[orgs/alibaba]]", "[[orgs/jd-com]]", "[[orgs/nio]]", "[[orgs/pinduoduo]]", "[[orgs/iqiyi]]", "[[orgs/xpeng]]", "[[orgs/bilibili]]"]
+cause: 美国监管和金融压力叠加乌克兰战争、加息预期与外资撤出，压制中国在美上市和港股科技资产。
+effect: 多只中概股从高点大幅缩水，港股科技指数同步下跌；文稿将其解读为美国对中国发动金融战。
 ---
-- caused by [[countries/united-states]] 对 [[countries/china]] 的金融战，背景为 [[orgs/federal-reserve]] 加息
-- 是 [[takes/financial-war-is-national-destiny]] 的当下例证
+# 2022 年中概股暴跌
+
+[[sources/137]] 用中概股、港股科技股暴跌说明中国科技融资过度依赖海外资本市场的风险。
+
+## 关系
+- supports [[takes/financial-war-is-national-destiny]]
+- supports [[takes/china-financial-war-shortboard-in-us-competition]]
+- derived-from [[sources/137]]
