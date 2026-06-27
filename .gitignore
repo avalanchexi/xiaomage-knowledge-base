@@ -3,4 +3,10 @@
 .worktrees/
 gbrain-src/
 brain/
-小马哥知识库/
+*.ipynb
+其他资料.zip
+小马哥知识库/.git/
+小马哥知识库/.done/
+小马哥知识库/.compile-log
+小马哥知识库/.shells.txt
+小马哥知识库/wiki/.aliases-candidates/
