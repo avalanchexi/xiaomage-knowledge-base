@@ -1,10 +1,17 @@
 ---
 title: 国际货币基金组织
 type: org
-kind: 国际金融机构
-aliases: [IMF, 国际货币基金]
-sources: [138]
-updated: 2026-06-26
+sources: [13]
+created: 2026-06-27
+updated: 2026-06-27
+aliases: [国际货币基金组织, IMF, 国际货币基金, 国际基金组织, 国际货币基金组合]
+kind: 国际金融组织
 ---
-名义国际组织，实为 [[countries/united-states]] 控制（总部在华盛顿）。
-- 在 [[events/asian-financial-crisis-1997]] 中借 [[countries/south-korea]] 570 亿美元，强迫开放金融市场、资本项目等 5 条
+# 国际货币基金组织
+
+13 号文稿引用 IMF 对 2020 年全球 GDP 和 2021 年中国经济增速的预测，用来支撑疫情后中国经济恢复较快的判断。
+
+## 关系
+- mentions [[events/covid-second-wave-2020]]
+- mentions [[events/china-economic-recovery-2020]]
+- derived-from [[sources/13]]

@@ -1,11 +1,65 @@
 ---
 title: 中国
 type: country
-aliases: [中方, 中]
-sources: [137, 138, 141]
-updated: 2026-06-26
+sources: [2, 3, 4, 5, 6, 10, 12, 13, 14, 15, 16, 18, 19, 20, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 35, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 51, 52, 53, 55, 57, 70, 71, 72, 73, 74]
+created: 2026-06-27
+updated: 2026-06-27
+aliases: [中国, 中方, 我国, 新中国, 东方大国, 咱们国家, 中国大陆, 国内, 大陆, 中华人民共和国, 内地]
 ---
-金融战的当前目标，人民币国际化的主体。
-- 2022 遭 [[countries/united-states]] 金融战：[[events/china-concept-stock-crash-2022]]
-- 2015 股灾因资本管制收割未成（蒸发 20 多万亿 + 资本流出 1 万亿美元）
-- 人民币国际化论题见 [[takes/world-currency-needs-military]]；与 [[countries/saudi-arabia]] 谈人民币结算石油
+# 中国
+
+在本批文稿中，中国既是中美关系、产业升级、房地产、粮食安全和疫情后复苏的核心主体，也在 15-26 号文稿中作为美国税改参照、金融监管改革、RCEP 产业链整合、延迟退休、金融去杠杆、房地产税、P2P 清零和经济增速下滑讨论的主要对象。27-38 号文稿进一步将中国作为南北经济分化、需求侧改革、电力建设、税制、注册制、代孕治理、货币政策、白银货币史、人口和春节消费的主叙事空间。39-49 号文稿又将中国放入港股税制、全球通胀、基金抱团、资源定价权、明星基金经理、地缘竞争、疫情防控、教育改革和白马股投资的讨论中。51-74 号文稿继续把中国置于中小企业成本压力、房地产税试点、金融开放、疫情出口景气、国产品牌、宽松货币政策和新能源汽车产业周期中。
+
+## 关系
+- participates-in [[events/china-us-wto-accession-2001]]
+- participates-in [[events/china-us-trade-war-2018]]
+- participates-in [[events/china-four-trillion-stimulus-2008]]
+- participates-in [[events/rcep-signing-2020]]
+- participates-in [[events/china-delayed-retirement-policy-2020]]
+- participates-in [[events/china-financial-deleveraging-2018-2020]]
+- participates-in [[events/china-property-tax-debate-2020]]
+- participates-in [[events/china-p2p-platforms-zero-2020]]
+- participates-in [[events/china-economic-slowdown-after-2012]]
+- participates-in [[events/china-north-south-economic-divergence-2020]]
+- participates-in [[events/china-demand-side-reform-2020]]
+- participates-in [[events/southern-china-power-rationing-2020]]
+- participates-in [[events/china-a-share-registration-system-reform-2021]]
+- participates-in [[events/a-share-selloff-liquidity-tightening-2021]]
+- participates-in [[events/china-birth-population-drop-2020]]
+- participates-in [[events/china-spring-festival-box-office-record-2021]]
+- participates-in [[events/hong-kong-stock-stamp-duty-hike-2021]]
+- participates-in [[events/china-fund-crowding-cycles-2007-2021]]
+- participates-in [[events/china-rare-earth-price-revaluation-2021]]
+- participates-in [[events/h-and-m-xinjiang-cotton-boycott-2021]]
+- participates-in [[events/strategic-competition-act-2021]]
+- participates-in [[events/india-covid-second-wave-2021]]
+- participates-in [[events/beijing-school-district-housing-reform-2021]]
+- participates-in [[events/moutai-q1-earnings-miss-2021]]
+- participates-in [[events/china-sme-cost-squeeze-2021]]
+- participates-in [[events/china-property-tax-pilot-meeting-2021]]
+- participates-in [[events/china-us-rapprochement-1972]]
+- participates-in [[events/china-financial-market-opening-1990s-2007]]
+- participates-in [[events/china-vaccine-export-surge-2021]]
+- participates-in [[events/china-618-domestic-brand-growth-2021]]
+- participates-in [[events/a-share-us-stock-rally-june-2021]]
+- participates-in [[events/pboc-reverse-repo-liquidity-injection-june-2021]]
+- participates-in [[events/catl-trillion-market-cap-2021]]
+- about [[takes/rcep-is-china-national-fortune-start]]
+- about [[takes/property-tax-will-replace-land-finance]]
+- about [[takes/china-long-term-development-confidence]]
+- about [[takes/china-must-solve-population-problem]]
+- about [[takes/exports-supported-2021-spring-festival-consumption]]
+- about [[takes/resource-pricing-power-matters-as-much-as-technology]]
+- about [[takes/china-should-stay-open-and-make-more-friends]]
+- about [[takes/china-pandemic-control-raises-relative-strength]]
+- about [[takes/china-tech-stocks-may-be-new-growth-engine]]
+- about [[takes/sme-recovery-needs-liquidity-support]]
+- about [[takes/property-tax-pilot-reflects-reform-resistance]]
+- about [[takes/china-can-withstand-final-geopolitical-pressure]]
+- about [[takes/financial-opening-needed-for-industrial-upgrade]]
+- about [[takes/chinese-brand-rise-depends-quality-and-confidence]]
+- about [[takes/china-us-monetary-policy-will-stay-loose]]
+- about [[takes/new-energy-vehicle-boom-not-over]]
+- derived-from [[sources/2]] [[sources/3]] [[sources/4]] [[sources/5]] [[sources/6]] [[sources/10]] [[sources/12]] [[sources/13]] [[sources/14]] [[sources/15]] [[sources/16]] [[sources/18]] [[sources/19]] [[sources/20]] [[sources/23]] [[sources/24]] [[sources/25]] [[sources/26]] [[sources/27]] [[sources/28]] [[sources/29]] [[sources/30]] [[sources/31]] [[sources/32]] [[sources/33]] [[sources/35]] [[sources/37]] [[sources/38]]
+- derived-from [[sources/39]] [[sources/40]] [[sources/41]] [[sources/42]] [[sources/43]] [[sources/44]] [[sources/45]] [[sources/46]] [[sources/47]] [[sources/48]] [[sources/49]]
+- derived-from [[sources/51]] [[sources/52]] [[sources/53]] [[sources/55]] [[sources/57]] [[sources/70]] [[sources/71]] [[sources/72]] [[sources/73]] [[sources/74]]

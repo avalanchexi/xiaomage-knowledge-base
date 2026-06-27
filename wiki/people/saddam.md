@@ -1,10 +1,17 @@
 ---
-title: 萨达姆
+title: 萨达姆·侯赛因
 type: person
-role: 伊拉克前总统
-aliases: [萨达姆·侯赛因]
 sources: [141]
-updated: 2026-06-26
+created: 2026-06-27
+updated: 2026-06-27
+aliases: [萨达姆, 萨达姆·侯赛因]
+role: 伊拉克领导人
 ---
-- 2001 宣布 [[countries/iraq]] 石油改用欧元结算 → 被 [[countries/united-states]] 占领并处决
-- 是 [[takes/world-currency-needs-military]] 的反例
+# 萨达姆·侯赛因
+
+[[sources/141]] 将萨达姆宣布伊拉克石油不再使用美元结算，作为挑战美元体系会遭军事打击的例证。
+
+## 关系
+- about [[countries/iraq]]
+- supports [[takes/world-currency-needs-military]]
+- derived-from [[sources/141]]

@@ -1,12 +1,19 @@
 ---
 title: 广场协议
 type: event
-date: 1985
-actors: [united-states, japan]
-cause: 美国为打压世界第二经济体日本，联合英法德强迫日元升值
-effect: 日元升值75%以上，日本大水漫灌催生股市房产泡沫；1990加息后美国抛售做空，日经从近4万跌至14000(跌约70%)，"失去的二十年"
 sources: [137]
-updated: 2026-06-26
+created: 2026-06-27
+updated: 2026-06-27
+date: 1985
+actors: ["[[countries/united-states]]", "[[countries/japan]]", "[[countries/united-kingdom]]", "[[countries/france]]", "[[countries/germany]]"]
+cause: 美国希望压制日本出口竞争力并缓解美元汇率压力。
+effect: 日元大幅升值，日本货币宽松和资产泡沫累积；文稿将其视为美国金融战收割盟友的经典案例。
 ---
-- participants: [[countries/united-states]] 主导，[[countries/japan]] 受害
-- 是 [[takes/financial-war-is-national-destiny]] 的论据（盟友亦遭金融屠刀）
+# 广场协议
+
+[[sources/137]] 用广场协议解释日本资产泡沫和泡沫破裂前的金融战链条。
+
+## 关系
+- caused [[events/japan-bubble-burst-1990]]
+- supports [[takes/financial-war-is-national-destiny]]
+- derived-from [[sources/137]]
