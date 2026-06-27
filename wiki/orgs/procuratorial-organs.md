@@ -4,7 +4,7 @@ type: org
 sources: [76]
 created: 2026-06-27
 updated: 2026-06-27
-aliases: [检查机关]
+aliases: [检察机关]
 kind: 检察机关
 ---
 # 检察机关
@@ -14,4 +14,3 @@ kind: 检察机关
 ## 关系
 - participates-in [[events/china-opinion-crackdown-securities-illegal-activities-2021]]
 - derived-from [[sources/76]]
-

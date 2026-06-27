@@ -1,6 +1,7 @@
 ---
 title: 知识库导航
 type: index
+created: 2026-06-27
 updated: 2026-06-27
 ---
 # 小马哥时政历史知识库 · 导航（Phase 1：已编译批次）
@@ -230,3 +231,17 @@ updated: 2026-06-27
 [[takes/ai-revolution-will-shock-employment-faster-than-prior-tech]] · [[takes/capital-inflow-needs-security-profit-property-rights-and-deep-market]] · [[takes/khamenei-assassination-strengthens-iranian-resistance]] · [[takes/empires-lose-small-wars-from-arrogance]] · [[takes/bourgeois-regimes-require-armed-class-or-external-remaking]] · [[takes/us-oil-control-strategy-unlikely-strangle-china]]
 
 [[takes/china-smart-hardware-benefits-from-supply-chain-and-engineer-dividend]] · [[takes/japanese-old-economy-rooted-in-expansion-and-china-extraction]] · [[takes/china-chemical-industry-may-benefit-from-hormuz-shock]] · [[takes/korea-taiwan-semiconductor-monopoly-will-face-china-pressure]] · [[takes/tech-revolutions-scale-after-cost-nears-zero]] · [[takes/serbia-is-balkan-powder-keg-between-civilizations]]
+
+## 480-482 重点事件
+[[events/global-personnel-turbulence-2024-2026]] · [[events/stalin-great-purge-1934-1939]] · [[events/soviet-post-stalin-power-struggle-1953-1957]] · [[events/roosevelt-new-deal]] · [[events/watergate-scandal-1972-1974]] · [[events/soviet-august-coup-and-dissolution-1991]]
+
+[[events/japan-philippines-strategic-partnership-and-eez-talks-2026]] · [[events/bataan-death-march-1942]] · [[events/manila-massacre-1945]] · [[events/japan-philippines-reparations-and-oda-1956-1970s]] · [[events/nixon-china-over-the-head-diplomacy-1971-1972]] · [[events/japan-us-financial-pressure-yen-bonds-2026]]
+
+[[events/witte-industrialization-and-far-east-policy-1890s-1903]] · [[events/russo-japanese-war-and-south-manchuria-1904-1906]] · [[events/russian-revolution-1905-and-october-manifesto]] · [[events/stolypin-reform-1906-1911]] · [[events/russian-february-revolution-1917]] · [[events/romanov-family-execution-1918]]
+
+## 480-482 重点观点
+[[takes/crisis-pressure-triggers-personnel-turbulence]] · [[takes/succession-without-institution-turns-elite-struggle-violent]] · [[takes/coercive-apparatus-decides-elite-struggles]] · [[takes/regime-collapse-follows-three-legitimacy-loss]] · [[takes/roosevelt-presidency-was-imperial-exception]] · [[takes/watergate-destroyed-us-government-trust]]
+
+[[takes/japan-philippines-alignment-from-us-china-rapprochement-anxiety]] · [[takes/japan-will-be-squeezed-by-us-and-china-rivalry]] · [[takes/philippines-pro-us-line-will-intensify-internal-reckoning]] · [[takes/china-rise-will-marginalize-japan-philippines]]
+
+[[takes/nicholas-ii-character-made-empire-unmanageable]] · [[takes/russia-needed-peaceful-modernization-before-wwi]] · [[takes/war-can-destroy-empire-when-leader-misjudges-risk]] · [[takes/autocratic-leader-should-not-personally-own-war-defeat]]

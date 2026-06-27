@@ -4,7 +4,7 @@ type: person
 sources: [53]
 created: 2026-06-27
 updated: 2026-06-27
-aliases: [毛泽东, 教员, 毛主席, 毛]
+aliases: [毛泽东, 教员, 毛主席]
 role: 中国政治人物
 ---
 # 毛泽东
@@ -14,4 +14,3 @@ role: 中国政治人物
 ## 关系
 - participates-in [[events/china-us-rapprochement-1972]]
 - derived-from [[sources/53]]
-

@@ -5,7 +5,7 @@ sources: [289]
 created: 2026-06-27
 updated: 2026-06-27
 date: 2023-03
-actors: ["[[countries/china]]", "[[orgs/china-securities-regulatory-commission]]", "[[orgs/shanghai-stock-exchange]]", "[[orgs/shenjiaosuo]]"]
+actors: ["[[countries/china]]", "[[orgs/china-securities-regulatory-commission]]", "[[orgs/shanghai-stock-exchange]]", "[[orgs/shenzhen-stock-exchange]]"]
 cause: 中国资本市场推进注册制改革，从科创板、创业板试点扩展到主板。
 effect: 文稿认为全面注册制会增加股票供给，削弱无基本面公司流动性，提升基本面研究、机构定价权和基金投顾筛选的重要性。
 ---
@@ -19,4 +19,3 @@ effect: 文稿认为全面注册制会增加股票供给，削弱无基本面公
 - supports [[takes/registration-system-raises-retail-investor-risk]]
 - supports [[takes/registration-system-needed-for-tech-financing]]
 - derived-from [[sources/289]]
-

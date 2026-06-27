@@ -5,7 +5,7 @@ sources: [302]
 created: 2026-06-27
 updated: 2026-06-27
 date: 2023-04
-actors: ["[[countries/china]]", "[[orgs/shanghai-stock-exchange]]", "[[orgs/shenjiaosuo]]"]
+actors: ["[[countries/china]]", "[[orgs/shanghai-stock-exchange]]", "[[orgs/shenzhen-stock-exchange]]"]
 cause: A 股上市公司 2022 年年报和 2023 年一季报集中在 4 月披露，市场需要用业绩验证春季躁动中的行业叙事。
 effect: 业绩无法兑现的题材和公司可能回落，未被证伪且产业叙事、估值、业绩预期匹配的板块更可能成为全年主线。
 ---

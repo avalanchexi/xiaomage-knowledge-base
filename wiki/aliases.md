@@ -701,7 +701,7 @@ people/jiangxi-zhougongzi                    | person  | 江西周公子, 周公
 people/jianwen-emperor                       | person  | 建文帝
 people/jiao-yong                             | person  | 焦用
 people/jiaqing-emperor                       | person  | 嘉庆帝
-people/jie-king                              | person  | 桀
+people/jie-king                              | person  | 夏桀, 桀王
 people/jimmy-carter                          | person  | 吉米·卡特, 卡特总统
 people/jimmy-hoffa                           | person  | 吉米·霍法
 people/jimmy-walker                          | person  | 吉米·沃克
@@ -1003,7 +1003,7 @@ people/mahatma-gandhi                        | person  | 甘地, 圣雄甘地, �
 people/maixiu-daliou                         | person  | 麦修·达利欧, 麦修
 people/mandani                               | person  | 曼达尼
 people/manmohan-singh                        | person  | 辛格, 曼莫汉·辛格
-people/mao-zedong                            | person  | 毛泽东, 教员, 毛主席, 毛
+people/mao-zedong                            | person  | 毛泽东, 教员, 毛主席
 people/marcello-lippi                        | person  | 里皮
 people/marco-rubio                           | person  | 马尔科·卢比奥
 people/marcus-hanna                          | person  | 马克汉纳
@@ -1142,7 +1142,7 @@ people/nobusuke-kishi                        | person  | 岸信介
 people/norman-angell                         | person  | 诺曼安吉尔
 people/norodom                               | person  | 诺罗敦
 people/norodom-sihanouk                      | person  | 西哈努克
-people/nurhaci                               | person  | 努尔哈事, 清太祖努尔哈赤, 野猪皮
+people/nurhaci                               | person  | 努尔哈赤, 清太祖努尔哈赤, 野猪皮
 people/obuchi-keizo                          | person  | 小渊惠三
 people/oda-nobunaga                          | person  | 织田信长
 people/odoacer                               | person  | 奥多亚克
@@ -1622,7 +1622,7 @@ people/yang-pu                               | person  | 杨璞
 people/yang-tiannan                          | person  | 杨天南
 people/yang-xiuqing                          | person  | 杨秀清
 people/yang-yan                              | person  | 杨炎
-people/yao                                   | person  | 尧
+people/yao                                   | person  | 尧帝
 people/yao-chang                             | person  | 姚苌
 people/yao-chong                             | person  | 姚崇
 people/yasser-arafat                         | person  | 阿拉法特
@@ -2509,8 +2509,7 @@ orgs/chase-bank                              | org     | 大通银行
 orgs/chelsea-fc                              | org     | 切尔西俱乐部
 orgs/chemchina                               | org     | 中国化工
 orgs/chengde-jiedushi                        | org     | 成德节度使
-orgs/chengdu-gefux                           | org     | 成都格芯, 格芯
-orgs/chengdu-gexin                           | org     | 程度格芯
+orgs/chengdu-gexin                           | org     | 成都格芯, 格芯
 orgs/chengdu-university-of-science-and-technology | org     | 成都科技大学
 orgs/chengdu-wenlv-jituan                    | org     | 成都文旅集团
 orgs/chengxuan-buzhengshisi                  | org     | 承宣布政使司
@@ -3341,7 +3340,7 @@ orgs/ministry-of-commerce-of-china           | org     | 中国商务部
 orgs/ministry-of-culture-and-tourism         | org     | 文旅部, 文化和旅游部
 orgs/ministry-of-education-china             | org     | 教育部, 中国教育部
 orgs/ministry-of-finance-china               | org     | 国家财政部, 中华人民共和国财政部
-orgs/ministry-of-foreign-affairs-china       | org     | 外交部, 中国外交部
+orgs/ministry-of-foreign-affairs-china       | org     | 中国外交部
 orgs/ministry-of-health-japan                | org     | 厚生省
 orgs/ministry-of-housing-and-urban-rural-development | org     | 住建部, 建设部
 orgs/ministry-of-housing-urban-rural-development | org     | 住房城乡建设部, 住房和城乡建设部
@@ -3565,7 +3564,7 @@ orgs/privy-council-song                      | org     | 枢密院
 orgs/pro-china-faction                       | org     | 亲中派
 orgs/pro-us-faction                          | org     | 亲美派
 orgs/procter-and-gamble                      | org     | 宝洁, 宝洁公司, P&G, 保洁
-orgs/procuratorial-organs                    | org     | 检查机关
+orgs/procuratorial-organs                    | org     | 检察机关
 orgs/progressive-party-us                    | org     | 进步党, 公驼鹿党
 orgs/prophet                                 | org     | 铂慧
 orgs/protestant-union                        | org     | 新教联盟
@@ -3745,7 +3744,6 @@ orgs/shaw-brothers                           | org     | 邵氏电影, 邵氏兄
 orgs/shein                                   | org     | 希音, SHEIN
 orgs/shell                                   | org     | 壳牌, 壳牌石油公司, 皇家壳牌
 orgs/shence-army                             | org     | 神策军
-orgs/shenjiaosuo                             | org     | 深交所, 深圳证券交易所
 orgs/shennan-circuits                        | org     | 深南电路
 orgs/shenwan                                 | org     | 申万
 orgs/shenwan-hongyuan-securities             | org     | 申万宏源证券
@@ -3755,7 +3753,7 @@ orgs/shenzhen-development-bank               | org     | 深圳发展银行
 orgs/shenzhen-nanshan-foreign-language-school | org     | 深圳南山外国语学校
 orgs/shenzhen-orient-harbour                 | org     | 东方港湾
 orgs/shenzhen-public-resources-trading-center | org     | 深圳公共资源交易中心
-orgs/shenzhen-stock-exchange                 | org     | 深证证券交易所
+orgs/shenzhen-stock-exchange                 | org     | 深交所, 深圳证券交易所
 orgs/sheraton                                | org     | 喜来登
 orgs/shia-crescent                           | org     | 什叶派之弧
 orgs/shimao                                  | org     | 世茂
@@ -4170,7 +4168,7 @@ orgs/wuling-hongguang                        | org     | 五菱宏光
 orgs/wuling-xingguang                        | org     | 五菱星光
 orgs/wuxi-jinghai                            | org     | 无锡晶海
 orgs/wuxian-jituan                           | org     | 武仙集团
-orgs/x-twitter                               | org     | X
+orgs/x-twitter                               | org     | X/Twitter, X平台
 orgs/xi-bei-gong-ye-da-xue                   | org     | 西北工业大学, 西工大
 orgs/xiamen-daxue                            | org     | 厦门大学
 orgs/xian-beilin-museum                      | org     | 西安碑林博物馆

@@ -250,6 +250,79 @@ function Get-ContentFingerprint {
   return ([BitConverter]::ToString($sha256.ComputeHash([Text.Encoding]::UTF8.GetBytes($payload))) -replace '-').ToLowerInvariant()
 }
 
+function Assert-PathUnderRoot {
+  param(
+    [Parameter(Mandatory=$true)][string]$Path,
+    [Parameter(Mandatory=$true)][string]$Root,
+    [Parameter(Mandatory=$true)][string]$Description
+  )
+
+  $resolvedRoot = ((Resolve-Path -LiteralPath $Root).ProviderPath).TrimEnd([char[]]@('\','/'))
+  if (Test-Path -LiteralPath $Path) {
+    $resolvedPath = (Resolve-Path -LiteralPath $Path).ProviderPath
+  } else {
+    $resolvedPath = [IO.Path]::GetFullPath($Path)
+  }
+
+  $prefix = "$resolvedRoot\"
+  if (($resolvedPath -ne $resolvedRoot) -and (-not $resolvedPath.StartsWith($prefix, [StringComparison]::OrdinalIgnoreCase))) {
+    throw "$Description path escapes expected root: $resolvedPath"
+  }
+
+  return $resolvedPath
+}
+
+function New-ProtectedInputSnapshot {
+  param(
+    [Parameter(Mandatory=$true)][string]$Phase,
+    [Parameter(Mandatory=$true)][string]$Key
+  )
+
+  $snapshotRoot = Join-Path $DONE ("protected-$Phase-$Key-" + [guid]::NewGuid().ToString('N'))
+  $snapshotRaw = Join-Path $snapshotRoot 'raw'
+  New-Item -ItemType Directory -Force -Path $snapshotRoot | Out-Null
+  New-Item -ItemType Directory -Force -Path $snapshotRaw | Out-Null
+  Get-ChildItem -LiteralPath $RAW -Force | Copy-Item -Destination $snapshotRaw -Recurse -Force
+  Copy-Item -LiteralPath $ALIASES -Destination (Join-Path $snapshotRoot 'aliases.md') -Force
+  return $snapshotRoot
+}
+
+function Restore-ProtectedInputSnapshot {
+  param([Parameter(Mandatory=$true)][string]$SnapshotRoot)
+
+  [void](Assert-PathUnderRoot -Path $RAW -Root $KB -Description 'raw snapshot restore')
+  [void](Assert-PathUnderRoot -Path $ALIASES -Root $KB -Description 'aliases snapshot restore')
+  [void](Assert-PathUnderRoot -Path $SnapshotRoot -Root $DONE -Description 'protected snapshot')
+
+  $snapshotRaw = Join-Path $SnapshotRoot 'raw'
+  $snapshotAliases = Join-Path $SnapshotRoot 'aliases.md'
+  if (-not (Test-Path -LiteralPath $snapshotRaw)) {
+    throw "Missing raw snapshot: $snapshotRaw"
+  }
+  if (-not (Test-Path -LiteralPath $snapshotAliases)) {
+    throw "Missing aliases snapshot: $snapshotAliases"
+  }
+
+  if (-not (Test-Path -LiteralPath $RAW)) {
+    New-Item -ItemType Directory -Force -Path $RAW | Out-Null
+  }
+
+  Get-ChildItem -LiteralPath $RAW -Force | Remove-Item -Recurse -Force
+  Get-ChildItem -LiteralPath $snapshotRaw -Force | Copy-Item -Destination $RAW -Recurse -Force
+  Copy-Item -LiteralPath $snapshotAliases -Destination $ALIASES -Force
+}
+
+function Remove-ProtectedInputSnapshot {
+  param([Parameter(Mandatory=$true)][string]$SnapshotRoot)
+
+  if (-not (Test-Path -LiteralPath $SnapshotRoot)) {
+    return
+  }
+
+  [void](Assert-PathUnderRoot -Path $SnapshotRoot -Root $DONE -Description 'protected snapshot cleanup')
+  Remove-Item -LiteralPath $SnapshotRoot -Recurse -Force
+}
+
 function Test-NonEmptyFile {
   param([Parameter(Mandatory=$true)][string]$Path)
   if (-not (Test-Path -LiteralPath $Path)) {
@@ -326,6 +399,7 @@ for ($i = 0; $i -lt $total; $i += $Batch) {
 
   $rawFingerprintBefore = Get-ContentFingerprint -Path $RAW
   $aliasesFingerprintBefore = Get-FileFingerprint -Path $ALIASES
+  $protectedSnapshot = New-ProtectedInputSnapshot -Phase $Phase -Key $key
 
   $src = ($batchFiles | ForEach-Object {
     "=== $($_.Name) ===`n" + (Get-Content -Raw -Encoding UTF8 -LiteralPath $_.FullName)
@@ -364,6 +438,9 @@ $src
 "@
 
   $ok = $true
+  $protectedChanged = $false
+  $restoredProtectedInputs = $false
+  $stopAfterBatch = $false
   try {
     $codexExitCode = Invoke-CodexExec -NodeCommand $codexRuntime.NodeCommand -CodexScript $codexRuntime.CodexScript -WorkingDirectory $KB -Prompt $prompt -LogPath $LOG
     if ($codexExitCode -ne 0) {
@@ -375,16 +452,30 @@ $src
     Write-Log -Message ($_.Exception.Message)
   }
 
-  $rawFingerprintAfter = Get-ContentFingerprint -Path $RAW
-  if ($rawFingerprintAfter -ne $rawFingerprintBefore) {
-    $ok = $false
-    Write-Log "FAIL $Phase/$key - raw/ changed during batch; not stamping done"
-  }
+  try {
+    $rawFingerprintAfter = Get-ContentFingerprint -Path $RAW
+    if ($rawFingerprintAfter -ne $rawFingerprintBefore) {
+      $ok = $false
+      $protectedChanged = $true
+      Write-Log "FAIL $Phase/$key - raw/ changed during batch; restored from snapshot; stopping"
+    }
 
-  $aliasesFingerprintAfter = Get-FileFingerprint -Path $ALIASES
-  if ($aliasesFingerprintAfter -ne $aliasesFingerprintBefore) {
-    $ok = $false
-    Write-Log "FAIL $Phase/$key - wiki/aliases.md changed during batch; not stamping done"
+    $aliasesFingerprintAfter = Get-FileFingerprint -Path $ALIASES
+    if ($aliasesFingerprintAfter -ne $aliasesFingerprintBefore) {
+      $ok = $false
+      $protectedChanged = $true
+      Write-Log "FAIL $Phase/$key - wiki/aliases.md changed during batch; restored from snapshot; stopping"
+    }
+
+    if ($protectedChanged) {
+      $stopAfterBatch = $true
+      Restore-ProtectedInputSnapshot -SnapshotRoot $protectedSnapshot
+      $restoredProtectedInputs = $true
+    }
+  } finally {
+    if ((-not $protectedChanged) -or $restoredProtectedInputs) {
+      Remove-ProtectedInputSnapshot -SnapshotRoot $protectedSnapshot
+    }
   }
 
   if ($ok -and -not (Test-BatchOutput -Phase $Phase -Key $key -BatchFiles $batchFiles)) {
@@ -397,6 +488,10 @@ $src
     $hadFailure = $true
     $failedBatches += "$Phase/$key"
     Write-Log "FAIL $Phase/$key - see $LOG; rerun resumes automatically"
+  }
+
+  if ($stopAfterBatch) {
+    break
   }
 }
 

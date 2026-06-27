@@ -5,7 +5,7 @@ sources: [308, 310]
 created: 2026-06-27
 updated: 2026-06-27
 date: 2023-04
-actors: ["[[countries/china]]", "[[orgs/shanghai-stock-exchange]]", "[[orgs/shenjiaosuo]]"]
+actors: ["[[countries/china]]", "[[orgs/shanghai-stock-exchange]]", "[[orgs/shenzhen-stock-exchange]]"]
 cause: 4 月制造业 PMI 回落至荣枯线下方，CPI 和 PPI 预期偏弱，市场集中反映对 4 月经济成色的悲观预期。
 effect: 宽基指数和公募重仓股承压，资金更倾向抱团题材；文稿判断这种调整接近宏观预期下修尾声，5 月数据若修复则 A 股有望反弹。
 ---
