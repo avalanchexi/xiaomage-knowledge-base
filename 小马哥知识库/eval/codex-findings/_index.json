@@ -1,4 +1,4 @@
-﻿{
+{
     "samples":  {
                     "A":  [
                               120,
@@ -72,5 +72,5 @@
                   "eval/codex-findings/463.json",
                   "eval/codex-findings/482.json"
               ],
-    "regenerated_at":  "2026-06-28T21:08:38+08:00"
+    "regenerated_at":  "2026-06-28T21:32:14+08:00"
 }

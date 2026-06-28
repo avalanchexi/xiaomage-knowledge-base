@@ -17,5 +17,6 @@ $idx = [ordered]@{
   files          = @($present | Sort-Object | ForEach-Object { "eval/codex-findings/$_.json" })
   regenerated_at = (Get-Date -Format 'yyyy-MM-ddTHH:mm:ssK')
 }
-$idx | ConvertTo-Json -Depth 5 | Set-Content (Join-Path $fd '_index.json') -Encoding UTF8
+$json = (($idx | ConvertTo-Json -Depth 5) -join "`n") -replace "`r`n", "`n"
+[IO.File]::WriteAllText((Join-Path $fd '_index.json'), $json + "`n", (New-Object System.Text.UTF8Encoding($false)))
 "index rebuilt: count=$($idx.count) A=$($saA.Count) B=$($saB.Count)"
