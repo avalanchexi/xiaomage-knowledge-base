@@ -1,0 +1,177 @@
+{
+  "article_no": 135,
+  "raw_title": "\u594b\u516d\u4e16\u4e4b\u4f59\u70c8\uff0c\u632f\u957f\u7b56\u800c\u5fa1\u5b87\u5185",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "countries/chu-state",
+      "countries/qi-state",
+      "countries/qin-state",
+      "countries/zhao-state",
+      "countries/zhongshan-state",
+      "events/changping-battle",
+      "events/five-states-attack-qin-298bc",
+      "events/qin-zhao-alliance-warring-states",
+      "events/zhao-annexes-zhongshan",
+      "people/qin-zhaoxiang-wang",
+      "people/zhao-wuling-wang",
+      "takes/china-should-build-power-and-alliances-before-geopolitical-test",
+      "takes/china-should-stay-open-and-make-more-friends",
+      "takes/no-permanent-friends-only-interests"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "International relations have no permanent friends, only interests.",
+      "Ukraine is compared to Zhongshan for Russia, making the ancient analogy relevant to current geopolitics.",
+      "China should build power, allies, market openness, and financial openness before a harsher geopolitical test."
+    ],
+    "events": [
+      {
+        "name": "Qin Zhao alliance",
+        "actors": [
+          "Qin state",
+          "Zhao state",
+          "King Wuling of Zhao",
+          "King Zhaoxiang of Qin"
+        ],
+        "cause": "shared borderland interests and Zhao focus on Zhongshan",
+        "effect": "temporary alliance"
+      },
+      {
+        "name": "Zhao annexes Zhongshan",
+        "actors": [
+          "Zhao",
+          "Zhongshan",
+          "Qi"
+        ],
+        "cause": "Zhongshan split Zhao territory and Qi could interfere",
+        "effect": "Zhao annexed Zhongshan and grew stronger"
+      },
+      {
+        "name": "Five states attack Qin",
+        "actors": [
+          "Qin",
+          "Qi",
+          "Zhao",
+          "Chu"
+        ],
+        "cause": "fear of Qin expansion and Qin force tied down",
+        "effect": "Qin was forced to cede territory"
+      },
+      {
+        "name": "Russia Ukraine analogy",
+        "actors": [
+          "Russia",
+          "Ukraine",
+          "China",
+          "United States"
+        ],
+        "cause": "Ukraine mapped to Zhongshan as a security problem",
+        "effect": "author warns about possible encirclement risk"
+      }
+    ],
+    "people": [
+      "Ma Yongan",
+      "King Wuling of Zhao",
+      "King Zhaoxiang of Qin",
+      "King Huai of Chu",
+      "Qu Yuan",
+      "Putin",
+      "Fan Ju"
+    ],
+    "orgs": [
+      "eastern six states",
+      "three Jin states"
+    ],
+    "countries": [
+      "Qin state",
+      "Zhao state",
+      "Zhongshan state",
+      "Qi state",
+      "Chu state",
+      "Russia",
+      "Ukraine",
+      "China",
+      "United States",
+      "Germany",
+      "France"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [],
+      "entities": [
+        "The Russia Ukraine and Zhongshan analogy is core but is not a standalone take or source 135 event.",
+        "Russia, Ukraine, Germany, and France are under-attributed for source 135."
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [
+      {
+        "page": "takes/china-should-stay-open-and-make-more-friends",
+        "claim": "Soviet failure came from closed planned economy.",
+        "why_suspicious": "This wording is from source 44, not raw 135."
+      }
+    ],
+    "notes": "Concise regenerated findings; semantic verdict intentionally omitted."
+  },
+  "slug_consistency": [
+    {
+      "entity": "Qin state",
+      "slug_used": "countries/qin-state",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Zhao state",
+      "slug_used": "countries/zhao-state",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Zhongshan state",
+      "slug_used": "countries/zhongshan-state",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Russia",
+      "slug_used": "countries/russia",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Ukraine",
+      "slug_used": "countries/ukraine",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u4e2d",
+      "type": "missing extraction",
+      "detail": "The Russia Ukraine and Zhongshan analogy is not separately represented."
+    },
+    {
+      "severity_guess": "\u8f7b",
+      "type": "multi-source evidence mix",
+      "detail": "The open-and-make-friends page includes source 44 Soviet material."
+    }
+  ]
+}

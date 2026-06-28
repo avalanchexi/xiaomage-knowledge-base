@@ -1,0 +1,98 @@
+{
+  "article_no": 189,
+  "raw_title": "189.\u7f8e\u8054\u50a8\u52a0\u606f\u843d\u5730\uff0c\u8fd9\u6b21\u6709\u5565\u4e0d\u4e00\u6837\uff1f",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "events/fed-75bp-rate-hike-july-2022",
+      "events/us-cpi-9-1-june-2022",
+      "orgs/federal-reserve",
+      "people/jerome-powell",
+      "takes/do-not-rush-to-bottom-fish-us-stocks",
+      "takes/fed-expectation-management-tightens-without-crashing-markets",
+      "takes/fed-july-hike-rally-was-priced-in-dovish-hike"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "\u7f8e\u8054\u50a8 7 \u6708 75bp \u52a0\u606f\u540e\u7684\u7f8e\u80a1\u53cd\u5f39\u4e3b\u8981\u662f\u9884\u671f\u5151\u73b0\uff0c\u5e76\u4e0d\u7b49\u4e8e\u8d8b\u52bf\u53cd\u8f6c\u3002",
+      "\u7f8e\u8054\u50a8\u901a\u8fc7\u9884\u671f\u7ba1\u7406\u5728\u4e0d\u7acb\u523b\u538b\u57ae\u5e02\u573a\u7684\u524d\u63d0\u4e0b\u6536\u7d27\u91d1\u878d\u6761\u4ef6\u3002",
+      "\u5728\u901a\u80c0\u4ecd\u9ad8\u3001\u52a0\u606f\u672a\u7ed3\u675f\u65f6\u4e0d\u5e94\u6025\u4e8e\u6284\u5e95\u7f8e\u80a1\u3002"
+    ],
+    "events": [
+      {
+        "name": "\u7f8e\u56fd 6 \u6708 CPI \u8fbe 9.1%",
+        "actors": [
+          "\u7f8e\u56fd",
+          "\u7f8e\u8054\u50a8"
+        ],
+        "cause": "\u80fd\u6e90\u548c\u901a\u80c0\u538b\u529b\u6301\u7eed\u4e0a\u884c\u3002",
+        "effect": "\u5e02\u573a\u5f3a\u5316\u5bf9\u6fc0\u8fdb\u52a0\u606f\u7684\u9884\u671f\u3002"
+      },
+      {
+        "name": "\u7f8e\u8054\u50a8 2022 \u5e74 7 \u6708\u52a0\u606f 75bp",
+        "actors": [
+          "\u7f8e\u8054\u50a8",
+          "\u9c8d\u5a01\u5c14"
+        ],
+        "cause": "\u9ad8\u901a\u80c0\u5012\u903c\u5feb\u901f\u52a0\u606f\u3002",
+        "effect": "\u56e0\u5e02\u573a\u5df2\u5b9a\u4ef7\u5e76\u89e3\u8bfb\u4e3a\u504f\u9e3d\uff0c\u7f8e\u80a1\u77ed\u7ebf\u53cd\u5f39\u3002"
+      }
+    ],
+    "people": [
+      "\u9c8d\u5a01\u5c14",
+      "\u9a6c\u6c38\u8c19"
+    ],
+    "orgs": [
+      "\u7f8e\u8054\u50a8"
+    ],
+    "countries": [
+      "\u7f8e\u56fd"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [],
+      "entities": [
+        "\u7eb3\u65af\u8fbe\u514b",
+        "\u6807\u666e500",
+        "\u7f8e\u56fd\u56fd\u503a\u5e02\u573a"
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [],
+    "notes": "\u6838\u5fc3\u52a0\u606f\u3001\u901a\u80c0\u548c\u4e0d\u6284\u5e95\u5224\u65ad\u5df2\u8986\u76d6\u3002 \u672a\u4e0b\u8fc7\u7ebf verdict\u3002"
+  },
+  "slug_consistency": [
+    {
+      "entity": "\u7f8e\u8054\u50a8",
+      "slug_used": "federal-reserve",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u9c8d\u5a01\u5c14",
+      "slug_used": "jerome-powell",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u8f7b",
+      "type": "\u6f0f\u62bd",
+      "detail": "\u7eb3\u65af\u8fbe\u514b\u3001\u6807\u666e500\u548c\u7f8e\u503a\u7b49\u5e02\u573a\u5b9e\u4f53\u672a\u5b8c\u6574\u8986\u76d6\u3002"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "article_no": 331,
+  "raw_title": "331.\u300c\u7406\u8d22\u77e5\u8bc6\u300d\u66b4\u96e8\u8fc7\u540e\u7cae\u4ef7\u4f1a\u4e0a\u6da8\u5417\uff1f",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "events/black-sea-grain-initiative-termination-2023",
+      "events/el-nino-2023-wmo-declaration",
+      "events/india-rice-export-ban-2023",
+      "events/typhoon-doksuri-north-china-floods-2023",
+      "orgs/chicago-board-of-trade",
+      "orgs/world-meteorological-organization",
+      "takes/agriculture-investment-benefits-from-inflation-cycle",
+      "takes/food-price-surges-come-from-war-oil-crop-loss",
+      "takes/weather-alone-not-enough-for-grain-price-surge"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "\u7cae\u4ef7\u5927\u6da8\u901a\u5e38\u6765\u81ea\u6218\u4e89\u3001\u6cb9\u4ef7\u548c\u51cf\u4ea7\u7b49\u591a\u56e0\u7d20\u53e0\u52a0\uff0c\u5355\u9760\u5929\u6c14\u4e0d\u8db3\u4ee5\u5f62\u6210\u5927\u5468\u671f\u3002",
+      "\u519c\u4e1a\u6295\u8d44\u4f1a\u53d7\u76ca\u4e8e\u901a\u80c0\u5468\u671f\u548c\u7cae\u4ef7\u4e0a\u884c\uff0c\u4f46\u8981\u533a\u5206\u77ed\u671f\u5929\u6c14\u6270\u52a8\u4e0e\u957f\u671f\u4f9b\u9700\u3002"
+    ],
+    "events": [
+      {
+        "name": "\u9ed1\u6d77\u7cae\u98df\u534f\u8bae\u7ec8\u6b62",
+        "actors": [
+          "\u4fc4\u7f57\u65af",
+          "\u4e4c\u514b\u5170",
+          "\u571f\u8033\u5176",
+          "\u8054\u5408\u56fd"
+        ],
+        "cause": "\u4fc4\u4e4c\u6218\u4e89\u548c\u534f\u8bae\u7eed\u7b7e\u5931\u8d25\u3002",
+        "effect": "\u9ed1\u6d77\u7cae\u98df\u51fa\u53e3\u4e0d\u786e\u5b9a\u6027\u4e0a\u5347\u3002"
+      },
+      {
+        "name": "\u5370\u5ea6\u9650\u5236\u5927\u7c73\u51fa\u53e3",
+        "actors": [
+          "\u5370\u5ea6\u653f\u5e9c",
+          "\u5168\u7403\u5927\u7c73\u5e02\u573a"
+        ],
+        "cause": "\u56fd\u5185\u7cae\u4ef7\u548c\u4f9b\u5e94\u5b89\u5168\u538b\u529b\u3002",
+        "effect": "\u56fd\u9645\u5927\u7c73\u4ef7\u683c\u4e0a\u884c\u538b\u529b\u52a0\u5927\u3002"
+      },
+      {
+        "name": "\u675c\u82cf\u82ae\u5f15\u53d1\u534e\u5317\u6d2a\u6d9d",
+        "actors": [
+          "\u53f0\u98ce\u675c\u82cf\u82ae",
+          "\u534e\u5317\u5730\u533a"
+        ],
+        "cause": "\u6781\u7aef\u5929\u6c14\u5e26\u6765\u5f3a\u964d\u96e8\u3002",
+        "effect": "\u519c\u4f5c\u7269\u53d7\u635f\u5e76\u52a0\u5267\u7cae\u4ef7\u62c5\u5fe7\u3002"
+      }
+    ],
+    "people": [
+      "\u9a6c\u6c38\u8c19"
+    ],
+    "orgs": [
+      "\u4e16\u754c\u6c14\u8c61\u7ec4\u7ec7",
+      "\u829d\u52a0\u54e5\u671f\u8d27\u4ea4\u6613\u6240"
+    ],
+    "countries": [
+      "\u4e2d\u56fd",
+      "\u5370\u5ea6",
+      "\u4fc4\u7f57\u65af",
+      "\u4e4c\u514b\u5170"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [],
+      "entities": [
+        "\u4fc4\u7f57\u65af",
+        "\u4e4c\u514b\u5170",
+        "\u5370\u5ea6",
+        "\u571f\u8033\u5176",
+        "\u8054\u5408\u56fd",
+        "\u4e2d\u56fd"
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [],
+    "notes": "\u7cae\u4ef7\u6210\u56e0\u548c\u519c\u4e1a\u6295\u8d44\u5224\u65ad\u5df2\u8986\u76d6\u3002 \u672a\u4e0b\u8fc7\u7ebf verdict\u3002"
+  },
+  "slug_consistency": [
+    {
+      "entity": "\u4e16\u754c\u6c14\u8c61\u7ec4\u7ec7",
+      "slug_used": "world-meteorological-organization",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u829d\u52a0\u54e5\u671f\u8d27\u4ea4\u6613\u6240",
+      "slug_used": "chicago-board-of-trade",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u8f7b",
+      "type": "\u6f0f\u62bd",
+      "detail": "\u7cae\u98df\u4e8b\u4ef6\u6d89\u53ca\u7684\u56fd\u5bb6\u548c\u56fd\u9645\u7ec4\u7ec7\u5b9e\u4f53\u8986\u76d6\u4e0d\u5b8c\u6574\u3002"
+    }
+  ]
+}

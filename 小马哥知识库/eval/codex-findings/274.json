@@ -1,0 +1,92 @@
+{
+  "article_no": 274,
+  "raw_title": "274.\u300c\u5e02\u573a\u89c2\u70b9\u300d\u7ecf\u6d4e\u6062\u590d\u9053\u8def\u66f2\u6298\uff0c\u4f46\u662f\u524d\u9014\u5149\u660e",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "events/china-new-year-tourism-recovery-2023",
+      "orgs/federal-reserve",
+      "takes/china-2023-recovery-supports-a-hong-kong-equities",
+      "takes/consumption-recovery-needs-stable-expectations",
+      "takes/macro-scenario-allocation-favors-a-shares",
+      "takes/us-2023-recession-unfriendly-to-stocks"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "2023 \u5e74\u4e2d\u56fd\u590d\u82cf\u6709\u5229\u4e8e A \u80a1\u548c\u6e2f\u80a1\uff0c\u914d\u7f6e\u5e94\u56f4\u7ed5\u5b8f\u89c2\u60c5\u666f\u53d8\u5316\u3002",
+      "\u6d88\u8d39\u590d\u82cf\u4e0d\u53ea\u770b\u51fa\u884c\u6570\u636e\uff0c\u8fd8\u53d6\u51b3\u4e8e\u5c45\u6c11\u6536\u5165\u548c\u9884\u671f\u662f\u5426\u7a33\u5b9a\u3002",
+      "2023 \u5e74\u7f8e\u56fd\u8870\u9000\u73af\u5883\u5bf9\u80a1\u7968\u4e0d\u53cb\u597d\u3002"
+    ],
+    "events": [
+      {
+        "name": "2023 \u5e74\u6625\u8282\u65c5\u6e38\u590d\u82cf",
+        "actors": [
+          "\u4e2d\u56fd\u5c45\u6c11",
+          "\u65c5\u6e38\u6d88\u8d39\u884c\u4e1a"
+        ],
+        "cause": "\u75ab\u60c5\u9632\u63a7\u8c03\u6574\u540e\u7ebf\u4e0b\u51fa\u884c\u6062\u590d\u3002",
+        "effect": "\u65c5\u6e38\u548c\u6d88\u8d39\u6570\u636e\u6539\u5584\uff0c\u589e\u5f3a\u590d\u82cf\u9884\u671f\u3002"
+      }
+    ],
+    "people": [
+      "\u9a6c\u6c38\u8c19"
+    ],
+    "orgs": [
+      "\u7f8e\u8054\u50a8"
+    ],
+    "countries": [
+      "\u4e2d\u56fd",
+      "\u7f8e\u56fd"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [
+        "2022 \u5e74\u80a1\u503a\u5546\u54c1\u8868\u73b0\u5206\u5316\u662f\u4f5c\u8005\u914d\u7f6e\u5224\u65ad\u7684\u80cc\u666f\uff0c\u672a\u89c1\u4e8b\u4ef6\u5316\u62bd\u53d6\u3002"
+      ],
+      "entities": [
+        "A\u80a1",
+        "\u6e2f\u80a1",
+        "\u7f8e\u80a1",
+        "\u7f8e\u5143",
+        "\u5546\u54c1\u5e02\u573a"
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [],
+    "notes": "\u590d\u82cf\u548c\u8d44\u4ea7\u914d\u7f6e take \u5df2\u8986\u76d6\u3002 \u672a\u4e0b\u8fc7\u7ebf verdict\u3002"
+  },
+  "slug_consistency": [
+    {
+      "entity": "\u7f8e\u8054\u50a8",
+      "slug_used": "federal-reserve",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u6625\u8282\u65c5\u6e38\u590d\u82cf",
+      "slug_used": "china-new-year-tourism-recovery-2023",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u8f7b",
+      "type": "\u6f0f\u62bd",
+      "detail": "2022 \u5e74\u4e3b\u8981\u8d44\u4ea7\u8868\u73b0\u5206\u5316\u4f5c\u4e3a\u914d\u7f6e\u80cc\u666f\u672a\u72ec\u7acb\u4e8b\u4ef6\u5316\u3002"
+    }
+  ]
+}

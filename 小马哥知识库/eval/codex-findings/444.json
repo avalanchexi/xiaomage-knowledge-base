@@ -1,0 +1,130 @@
+{
+  "article_no": 444,
+  "raw_title": "444.\u300c\u65f6\u653f\u5386\u53f2\u300d\u7f8e\u4fc4\u7684\u963f\u62c9\u65af\u52a0\u5cf0\u4f1a",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "events/alaska-trump-putin-summit-2025",
+      "events/europe-rearmament-after-us-ukraine-shift-2025",
+      "events/russia-ukraine-war-2022",
+      "events/trump-zelensky-europe-white-house-meeting-2025",
+      "takes/ukraine-peace-talks-could-ease-china-geopolitical-pressure",
+      "takes/ukraine-war-benefits-us-while-damaging-europe-and-ukraine",
+      "takes/us-russia-rapprochement-could-create-china-darkest-geopolitical-moment"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "\u4fc4\u4e4c\u6218\u4e89\u6700\u53d7\u76ca\u7684\u662f\u7f8e\u56fd\uff0c\u53d7\u635f\u7684\u662f\u6b27\u6d32\u548c\u4e4c\u514b\u5170\u3002",
+      "\u4e4c\u514b\u5170\u548c\u5e73\u8c08\u5224\u82e5\u63a8\u8fdb\uff0c\u53ef\u80fd\u7f13\u89e3\u4e2d\u56fd\u4e00\u90e8\u5206\u5730\u7f18\u538b\u529b\u3002",
+      "\u82e5\u7f8e\u4fc4\u7f13\u548c\u5e76\u5171\u540c\u538b\u5411\u4e2d\u56fd\uff0c\u4e2d\u56fd\u53ef\u80fd\u8fdb\u5165\u66f4\u6697\u7684\u5730\u7f18\u65f6\u523b\u3002",
+      "\u4e2d\u56fd\u4e0d\u80fd\u53ea\u9760\u97ec\u5149\u517b\u6666\uff0c\u5e94\u4e3b\u52a8\u8c03\u6574\u5bf9\u5916\u6218\u7565\u5e76\u63a8\u8fdb\u5185\u90e8\u7a0e\u5236\u7b49\u6539\u9769\u3002"
+    ],
+    "events": [
+      {
+        "name": "\u963f\u62c9\u65af\u52a0\u7279\u6717\u666e\u666e\u4eac\u4f1a\u6664",
+        "actors": [
+          "\u7279\u6717\u666e",
+          "\u666e\u4eac"
+        ],
+        "cause": "\u7f8e\u56fd\u8bd5\u56fe\u63a8\u52a8\u4fc4\u4e4c\u8c08\u5224\u5e76\u8c03\u6574\u5bf9\u4fc4\u5173\u7cfb\u3002",
+        "effect": "\u53ef\u80fd\u6539\u53d8\u6b27\u6d32\u5b89\u5168\u548c\u4e2d\u56fd\u5730\u7f18\u538b\u529b\u3002"
+      },
+      {
+        "name": "\u7279\u6717\u666e\u6cfd\u8fde\u65af\u57fa\u6b27\u6d32\u767d\u5bab\u4f1a\u9762",
+        "actors": [
+          "\u7279\u6717\u666e",
+          "\u6cfd\u8fde\u65af\u57fa",
+          "\u6b27\u6d32\u9886\u5bfc\u4eba"
+        ],
+        "cause": "\u4fc4\u4e4c\u8c08\u5224\u548c\u6b27\u7f8e\u5173\u7cfb\u91cd\u7ec4\u3002",
+        "effect": "\u4e4c\u514b\u5170\u95ee\u9898\u8fdb\u5165\u65b0\u7684\u4ea4\u6613\u9636\u6bb5\u3002"
+      },
+      {
+        "name": "\u6b27\u6d32\u5728\u7f8e\u56fd\u4e4c\u514b\u5170\u653f\u7b56\u8f6c\u5411\u540e\u518d\u6b66\u88c5",
+        "actors": [
+          "\u6b27\u6d32\u56fd\u5bb6",
+          "\u7f8e\u56fd"
+        ],
+        "cause": "\u6b27\u6d32\u62c5\u5fe7\u7f8e\u56fd\u5b89\u5168\u627f\u8bfa\u53d8\u5316\u3002",
+        "effect": "\u6b27\u6d32\u589e\u52a0\u519b\u8d39\u548c\u5b89\u5168\u81ea\u4e3b\u8ba8\u8bba\u3002"
+      }
+    ],
+    "people": [
+      "\u7279\u6717\u666e",
+      "\u666e\u4eac",
+      "\u6cfd\u8fde\u65af\u57fa",
+      "\u9a6c\u6c38\u8c19"
+    ],
+    "orgs": [
+      "\u5317\u7ea6",
+      "\u6b27\u76df"
+    ],
+    "countries": [
+      "\u7f8e\u56fd",
+      "\u4fc4\u7f57\u65af",
+      "\u4e4c\u514b\u5170",
+      "\u4e2d\u56fd",
+      "\u6b27\u6d32\u56fd\u5bb6"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [
+        "\u4e2d\u56fd\u4e0d\u80fd\u53ea\u9760\u97ec\u5149\u517b\u6666\uff0c\u5e94\u4e3b\u52a8\u51fa\u51fb\u5e76\u63a8\u8fdb\u7a0e\u5236\u7b49\u5185\u90e8\u6539\u9769\u3002",
+        "\u7f8e\u4fc4\u7f13\u548c\u53ef\u80fd\u5e26\u6765\u4e2d\u56fd\u5730\u7f18\u81f3\u6697\u65f6\u523b\u7684\u5224\u65ad\u672a\u5b8c\u5168\u4f5c\u4e3a\u72ec\u7acb take \u5c55\u5f00\u3002"
+      ],
+      "events": [],
+      "entities": [
+        "\u7279\u6717\u666e",
+        "\u666e\u4eac",
+        "\u6cfd\u8fde\u65af\u57fa",
+        "\u5317\u7ea6",
+        "\u6b27\u76df",
+        "\u7f8e\u56fd",
+        "\u4fc4\u7f57\u65af",
+        "\u4e4c\u514b\u5170",
+        "\u4e2d\u56fd"
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [],
+    "notes": "\u4fc4\u4e4c\u548c\u5e73\u4e0e\u4e2d\u56fd\u5730\u7f18\u538b\u529b\u4e3b\u7ebf\u5df2\u8986\u76d6\uff0c\u7b2c\u4e09\u90e8\u5206\u653f\u7b56\u4e3b\u5f20\u9700\u8865\u3002 \u672a\u4e0b\u8fc7\u7ebf verdict\u3002"
+  },
+  "slug_consistency": [
+    {
+      "entity": "\u963f\u62c9\u65af\u52a0\u7279\u6717\u666e\u666e\u4eac\u4f1a\u6664",
+      "slug_used": "alaska-trump-putin-summit-2025",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u4fc4\u4e4c\u6218\u4e89",
+      "slug_used": "russia-ukraine-war-2022",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u4e2d",
+      "type": "\u6f0f\u62bd",
+      "detail": "\u539f\u6587\u7b2c\u4e09\u90e8\u5206\u5173\u4e8e\u97ec\u5149\u517b\u6666\u5931\u6548\u3001\u4e3b\u52a8\u51fa\u51fb\u548c\u7a0e\u5236\u6539\u9769\u7684\u653f\u7b56\u4e3b\u5f20\u672a\u89c1\u72ec\u7acb take\u3002"
+    },
+    {
+      "severity_guess": "\u8f7b",
+      "type": "\u6f0f\u62bd",
+      "detail": "\u5173\u952e\u4eba\u7269\u3001\u5317\u7ea6\u3001\u6b27\u76df\u548c\u56fd\u5bb6\u5b9e\u4f53\u8986\u76d6\u4e0d\u8db3\u3002"
+    }
+  ]
+}

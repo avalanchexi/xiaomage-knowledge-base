@@ -1,0 +1,110 @@
+{
+  "article_no": 1,
+  "raw_title": "1.\u5b87\u5b99\u5927\u884c\u201c\u7206\u96f7\u201c\uff0c\u4e3a\u4ec0\u4e48\u94f6\u884c\u7406\u8d22\u4e5f\u4f1a\u8fdd\u7ea6\uff1f",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "events/hainan-airlines-debt-crisis-2020",
+      "events/icbc-penghua-wealth-product-default-2020",
+      "orgs/hainan-airlines",
+      "orgs/icbc",
+      "orgs/penghua-fund-asset-management",
+      "orgs/xiao-ma-ge-caidao",
+      "people/ma-yongan",
+      "takes/investors-should-trace-underlying-assets"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "\u94f6\u884c\u548c\u57fa\u91d1\u516c\u53f8\u80cc\u4e66\u4e0d\u80fd\u6d88\u9664\u7406\u8d22\u4ea7\u54c1\u5e95\u5c42\u8d44\u4ea7\u98ce\u9669\u3002",
+      "\u6295\u8d44\u8005\u5fc5\u987b\u5f04\u6e05\u7406\u8d22\u4ea7\u54c1\u7684\u94b1\u6295\u5230\u54ea\u91cc\u3001\u5982\u4f55\u914d\u7f6e\u3002",
+      "\u6d77\u5357\u822a\u7a7a\u5f0f\u9ad8\u6760\u6746\u8d44\u672c\u6269\u5f20\u5728\u8d44\u91d1\u94fe\u53d7\u51b2\u51fb\u65f6\u4f1a\u653e\u5927\u503a\u52a1\u5371\u673a\u3002"
+    ],
+    "events": [
+      {
+        "name": "\u5de5\u884c\u4ee3\u9500\u9e4f\u534e\u8d44\u7ba1\u7406\u8d22\u4ea7\u54c1\u8fdd\u7ea6",
+        "actors": [
+          "\u5de5\u5546\u94f6\u884c",
+          "\u9e4f\u534e\u57fa\u91d1\u65d7\u4e0b\u8d44\u7ba1\u516c\u53f8",
+          "\u6d77\u5357\u822a\u7a7a"
+        ],
+        "cause": "\u9e4f\u534e\u8d44\u7ba1\u6301\u6709\u7684\u6d77\u5357\u822a\u7a7a\u503a\u5238\u56e0\u6d77\u822a\u7ecf\u8425\u4e0d\u5584\u88ab\u5f3a\u884c\u5ef6\u671f\u3002",
+        "effect": "40\u4ebf\u89c4\u6a21\u7406\u8d22\u4ea7\u54c1\u51fa\u73b0\u7ea620\u4ebf\u8d44\u91d1\u7f3a\u53e3\uff0c\u5de5\u884c\u627f\u8bfa\u5206\u671f\u5151\u4ed8\u672c\u91d1\u4f46\u6536\u76ca\u53d7\u635f\u3002"
+      },
+      {
+        "name": "\u6d77\u5357\u822a\u7a7a\u503a\u52a1\u5371\u673a\u66b4\u9732",
+        "actors": [
+          "\u6d77\u5357\u822a\u7a7a",
+          "\u94f6\u884c\u7b49\u91d1\u878d\u673a\u6784"
+        ],
+        "cause": "\u957f\u671f\u4f9d\u9760\u98de\u673a\u62b5\u62bc\u3001\u672a\u6765\u6536\u5165\u6253\u5305\u7b49\u65b9\u5f0f\u9ad8\u6760\u6746\u6269\u5f20\uff0c\u75ab\u60c5\u51b2\u51fb\u822a\u7a7a\u4e1a\u3002",
+        "effect": "\u6d77\u822a\u503a\u5238\u5ef6\u671f\u5e76\u5411\u6301\u503a\u7406\u8d22\u4ea7\u54c1\u4f20\u5bfc\u5151\u4ed8\u98ce\u9669\u3002"
+      }
+    ],
+    "people": [
+      "\u9a6c\u6c38\u8c19"
+    ],
+    "orgs": [
+      "\u5de5\u5546\u94f6\u884c",
+      "\u9e4f\u534e\u57fa\u91d1\u65d7\u4e0b\u8d44\u7ba1\u516c\u53f8",
+      "\u6d77\u5357\u822a\u7a7a",
+      "\u94f6\u884c",
+      "\u91d1\u878d\u673a\u6784",
+      "\u4fe1\u6258\u673a\u6784"
+    ],
+    "countries": [
+      "\u4e2d\u56fd"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [],
+      "entities": [
+        "\u4e2d\u56fd\u4f5c\u4e3a\u53d1\u751f\u5730\u548c\u91d1\u878d\u76d1\u7ba1\u8bed\u5883\u672a\u4f5c\u4e3a source 1 \u6d3e\u751f country \u9875\u3002"
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [],
+    "notes": "\u6838\u5fc3\u4e8b\u4ef6\u3001\u7ec4\u7ec7\u548c\u6295\u8d44\u8005\u98ce\u9669\u89c2\u70b9\u5747\u6709\u5bf9\u5e94\u9875\u9762\u3002 \u672a\u4e0b\u8fc7\u7ebf verdict\u3002"
+  },
+  "slug_consistency": [
+    {
+      "entity": "\u5de5\u5546\u94f6\u884c",
+      "slug_used": "orgs/icbc",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "\u9e4f\u534e\u57fa\u91d1\u65d7\u4e0b\u8d44\u7ba1\u516c\u53f8",
+      "slug_used": "orgs/penghua-fund-asset-management",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "\u6d77\u5357\u822a\u7a7a",
+      "slug_used": "orgs/hainan-airlines",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "\u9a6c\u6c38\u8c19",
+      "slug_used": "people/ma-yongan",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": []
+}

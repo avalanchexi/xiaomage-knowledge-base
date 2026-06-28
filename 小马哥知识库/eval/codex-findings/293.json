@@ -1,0 +1,126 @@
+{
+  "article_no": 293,
+  "raw_title": "293.\u300c\u65f6\u653f\u5386\u53f2\u300d\u82cf\u80541953\uff1a\u5230\u5e95\u662f\u706b\u4e2d\u53d6\u6817\u8fd8\u662f\u517b\u864e\u4e3a\u60a3\uff1f",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "countries/belarus",
+      "events/china-first-five-year-plan-156-projects-1953-1957",
+      "events/korean-war-soviet-strategy-1950-1953",
+      "events/sino-belarus-joint-statement-industrial-cooperation-2023",
+      "events/sino-soviet-split-1958-1969",
+      "events/soviet-aid-to-china-stalin-period-1950-1953",
+      "orgs/russia-belarus-industrial-alliance",
+      "takes/aid-to-industrialize-others-must-be-limited-and-controlled",
+      "takes/industrialization-is-great-power-foundation",
+      "takes/korean-war-benefited-soviet-strategy-more-than-battlefield"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "\u5de5\u4e1a\u5316\u662f\u5927\u56fd\u57fa\u7840\uff0c\u63f4\u52a9\u4ed6\u56fd\u5de5\u4e1a\u5316\u5fc5\u987b\u6709\u9650\u5ea6\u5e76\u53ef\u63a7\u3002",
+      "\u671d\u9c9c\u6218\u4e89\u66f4\u5927\u7a0b\u5ea6\u670d\u52a1\u82cf\u8054\u6218\u7565\u5229\u76ca\uff0c\u800c\u4e0d\u4ec5\u662f\u6218\u573a\u5f97\u5931\u3002",
+      "\u4e2d\u56fd\u65e9\u671f\u5de5\u4e1a\u5316\u53d7\u82cf\u8054\u63f4\u52a9\u548c\u81ea\u8eab\u56fd\u5bb6\u52a8\u5458\u5171\u540c\u63a8\u52a8\uff0c\u4f46\u6700\u7ec8\u4ecd\u8981\u638c\u63e1\u81ea\u4e3b\u5de5\u4e1a\u4f53\u7cfb\u3002"
+    ],
+    "events": [
+      {
+        "name": "\u4e00\u4e94\u8ba1\u5212 156 \u9879\u5de5\u7a0b",
+        "actors": [
+          "\u4e2d\u56fd",
+          "\u82cf\u8054"
+        ],
+        "cause": "\u65b0\u4e2d\u56fd\u9700\u8981\u5feb\u901f\u5efa\u7acb\u91cd\u5de5\u4e1a\u4f53\u7cfb\u3002",
+        "effect": "\u5960\u5b9a\u4e2d\u56fd\u5de5\u4e1a\u5316\u57fa\u7840\u3002"
+      },
+      {
+        "name": "\u4e2d\u767d\u5de5\u4e1a\u5408\u4f5c\u8054\u5408\u58f0\u660e",
+        "actors": [
+          "\u4e2d\u56fd",
+          "\u767d\u4fc4\u7f57\u65af"
+        ],
+        "cause": "\u4e2d\u767d\u5173\u7cfb\u6df1\u5316\u548c\u4ea7\u4e1a\u5408\u4f5c\u9700\u6c42\u3002",
+        "effect": "\u88ab\u4f5c\u8005\u5f15\u7533\u4e3a\u63f4\u52a9\u4ed6\u56fd\u5de5\u4e1a\u5316\u9700\u8bbe\u8fb9\u754c\u3002"
+      },
+      {
+        "name": "\u4e2d\u82cf\u5206\u88c2",
+        "actors": [
+          "\u4e2d\u56fd",
+          "\u82cf\u8054"
+        ],
+        "cause": "\u56fd\u5bb6\u5229\u76ca\u548c\u8def\u7ebf\u5dee\u5f02\u6269\u5927\u3002",
+        "effect": "\u82cf\u8054\u63f4\u52a9\u4e2d\u65ad\uff0c\u4e2d\u56fd\u8f6c\u5411\u81ea\u4e3b\u53d1\u5c55\u3002"
+      }
+    ],
+    "people": [
+      "\u65af\u5927\u6797",
+      "\u8d6b\u9c81\u6653\u592b",
+      "\u6bdb\u6cfd\u4e1c",
+      "\u5468\u6069\u6765",
+      "\u83ab\u6d1b\u6258\u592b",
+      "\u9a6c\u6c38\u8c19"
+    ],
+    "orgs": [
+      "\u4fc4\u7f57\u65af\u767d\u4fc4\u7f57\u65af\u5de5\u4e1a\u8054\u76df"
+    ],
+    "countries": [
+      "\u4e2d\u56fd",
+      "\u82cf\u8054",
+      "\u767d\u4fc4\u7f57\u65af"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [],
+      "entities": [
+        "\u65af\u5927\u6797",
+        "\u8d6b\u9c81\u6653\u592b",
+        "\u6bdb\u6cfd\u4e1c",
+        "\u5468\u6069\u6765",
+        "\u83ab\u6d1b\u6258\u592b",
+        "\u82cf\u8054"
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [],
+    "notes": "\u5de5\u4e1a\u5316\u548c\u63f4\u52a9\u8fb9\u754c\u4e3b\u7ebf\u5df2\u8986\u76d6\u3002 \u672a\u4e0b\u8fc7\u7ebf verdict\u3002"
+  },
+  "slug_consistency": [
+    {
+      "entity": "\u767d\u4fc4\u7f57\u65af",
+      "slug_used": "belarus",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u4e00\u4e94\u8ba1\u5212",
+      "slug_used": "china-first-five-year-plan-156-projects-1953-1957",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u4e2d\u82cf\u5206\u88c2",
+      "slug_used": "sino-soviet-split-1958-1969",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u8f7b",
+      "type": "\u6f0f\u62bd",
+      "detail": "\u65af\u5927\u6797\u3001\u8d6b\u9c81\u6653\u592b\u3001\u6bdb\u6cfd\u4e1c\u3001\u5468\u6069\u6765\u3001\u83ab\u6d1b\u6258\u592b\u7b49\u5173\u952e\u4eba\u7269\u672a\u89c1\u5b9e\u4f53\u9875\u8986\u76d6\u3002"
+    }
+  ]
+}

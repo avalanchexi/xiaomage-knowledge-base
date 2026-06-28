@@ -1,0 +1,130 @@
+{
+  "article_no": 407,
+  "raw_title": "407.\u300c\u65f6\u653f\u5386\u53f2\u300d\u7f8e\u56fd\u53cd\u5bf9\u7f8e\u56fd",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "events/american-civil-war-1861-1865",
+      "events/us-2024-presidential-election-trump-return",
+      "events/us-colonial-regional-cultures-1600s-1776",
+      "events/us-identity-politics-after-obama-2008-2024",
+      "events/us-political-geographic-polarization-1976-2024",
+      "events/us-political-realignment-civil-rights-1960s",
+      "orgs/loyalists",
+      "orgs/puritans",
+      "orgs/quakers",
+      "takes/america-has-always-opposed-itself",
+      "takes/political-migration-deepens-red-blue-divide",
+      "takes/us-polarization-is-new-america-vs-old-america"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "\u7f8e\u56fd\u4ece\u6b96\u6c11\u65f6\u4ee3\u8d77\u5c31\u5b58\u5728\u4e92\u76f8\u53cd\u5bf9\u7684\u533a\u57df\u6587\u5316\u548c\u653f\u6cbb\u8eab\u4efd\u3002",
+      "\u5f53\u524d\u7f8e\u56fd\u6781\u5316\u662f\u65b0\u7f8e\u56fd\u4e0e\u65e7\u7f8e\u56fd\u7684\u51b2\u7a81\uff0c\u4e0d\u53ea\u662f\u67d0\u4e00\u5c4a\u9009\u4e3e\u7684\u60c5\u7eea\u3002",
+      "\u653f\u6cbb\u8fc1\u5f99\u4f1a\u8fdb\u4e00\u6b65\u5f3a\u5316\u7ea2\u84dd\u5dde\u5206\u5316\u3002"
+    ],
+    "events": [
+      {
+        "name": "\u7f8e\u56fd\u6b96\u6c11\u533a\u57df\u6587\u5316\u5f62\u6210",
+        "actors": [
+          "\u6e05\u6559\u5f92",
+          "\u8d35\u683c\u4f1a",
+          "\u4fdd\u7687\u6d3e\u7b49\u6b96\u6c11\u7fa4\u4f53"
+        ],
+        "cause": "\u4e0d\u540c\u5b97\u6559\u3001\u9636\u5c42\u548c\u5730\u533a\u79fb\u6c11\u5e26\u6765\u4e0d\u540c\u653f\u6cbb\u6587\u5316\u3002",
+        "effect": "\u5960\u5b9a\u7f8e\u56fd\u957f\u671f\u653f\u6cbb\u5206\u88c2\u57fa\u7840\u3002"
+      },
+      {
+        "name": "\u7f8e\u56fd\u5185\u6218",
+        "actors": [
+          "\u7f8e\u56fd\u5357\u5317\u53cc\u65b9"
+        ],
+        "cause": "\u5974\u96b6\u5236\u3001\u7ecf\u6d4e\u7ed3\u6784\u548c\u5dde\u6743\u77db\u76fe\u6fc0\u5316\u3002",
+        "effect": "\u6210\u4e3a\u7f8e\u56fd\u5185\u90e8\u51b2\u7a81\u7684\u5386\u53f2\u9ad8\u5cf0\u3002"
+      },
+      {
+        "name": "2024 \u5e74\u7f8e\u56fd\u603b\u7edf\u9009\u4e3e\u7279\u6717\u666e\u56de\u5f52",
+        "actors": [
+          "\u7279\u6717\u666e",
+          "\u7f8e\u56fd\u9009\u6c11"
+        ],
+        "cause": "\u7f8e\u56fd\u8eab\u4efd\u653f\u6cbb\u548c\u515a\u6d3e\u6781\u5316\u5ef6\u7eed\u3002",
+        "effect": "\u4f5c\u8005\u7528\u6765\u89c2\u5bdf\u7f8e\u56fd\u5206\u88c2\u7684\u5f53\u4ee3\u8868\u73b0\u3002"
+      }
+    ],
+    "people": [
+      "\u7279\u6717\u666e",
+      "\u54c8\u91cc\u65af",
+      "\u5965\u5df4\u9a6c",
+      "\u514b\u6797\u987f",
+      "\u9a6c\u6c38\u8c19"
+    ],
+    "orgs": [
+      "\u6e05\u6559\u5f92",
+      "\u8d35\u683c\u4f1a",
+      "\u4fdd\u7687\u6d3e"
+    ],
+    "countries": [
+      "\u7f8e\u56fd",
+      "\u82f1\u56fd",
+      "\u6cd5\u56fd"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [],
+      "entities": [
+        "\u7f8e\u56fd",
+        "\u82f1\u56fd",
+        "\u6cd5\u56fd",
+        "\u7279\u6717\u666e",
+        "\u54c8\u91cc\u65af",
+        "\u5965\u5df4\u9a6c",
+        "\u514b\u6797\u987f"
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [],
+    "notes": "\u7f8e\u56fd\u957f\u671f\u6495\u88c2\u7684\u4e8b\u4ef6\u94fe\u548c\u6838\u5fc3 take \u5df2\u8986\u76d6\u3002 \u672a\u4e0b\u8fc7\u7ebf verdict\u3002"
+  },
+  "slug_consistency": [
+    {
+      "entity": "\u6e05\u6559\u5f92",
+      "slug_used": "puritans",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u8d35\u683c\u4f1a",
+      "slug_used": "quakers",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u4fdd\u7687\u6d3e",
+      "slug_used": "loyalists",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u8f7b",
+      "type": "\u6f0f\u62bd",
+      "detail": "\u7f8e\u56fd\u3001\u82f1\u56fd\u3001\u6cd5\u56fd\u548c\u591a\u4f4d\u73b0\u4ee3\u653f\u6cbb\u4eba\u7269\u672a\u89c1\u5b8c\u6574\u5b9e\u4f53\u8986\u76d6\u3002"
+    }
+  ]
+}

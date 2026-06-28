@@ -1,0 +1,117 @@
+{
+  "article_no": 41,
+  "raw_title": "41.\u57fa\u91d1\u62a5\u56e2\u74e6\u89e3\uff0c\u662f\u7ee7\u7eed\u501f\u201c\u9152\u201c\u6d47\u6101\uff0c\u8fd8\u662f\u9009\u62e9\u65b0\u8d5b\u9053\uff1f",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "countries/china",
+      "events/china-fund-crowding-cycles-2007-2021",
+      "orgs/citic-securities",
+      "orgs/icbc",
+      "orgs/kweichow-moutai",
+      "people/zhang-kun",
+      "takes/fund-crowding-follows-economic-direction",
+      "takes/future-fund-crowding-likely-in-technology"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "\u57fa\u91d1\u62b1\u56e2\u4e0d\u662f\u6c38\u4e45\u98ce\u683c\uff0c\u800c\u662f\u7ecf\u6d4e\u7ed3\u6784\u548c\u8d5a\u94b1\u6548\u5e94\u9a71\u52a8\u7684\u5468\u671f\u6027\u96c6\u4e2d\u3002",
+      "2007\u94f6\u884c\u5730\u4ea7\u30012015\u521b\u4e1a\u677f\u30012020\u767d\u9152\u533b\u836f\u7b49\u62b1\u56e2\u90fd\u4f1a\u5728\u4f30\u503c\u548c\u4e1a\u7ee9\u5151\u73b0\u538b\u529b\u4e0b\u74e6\u89e3\u3002",
+      "\u4e0b\u4e00\u8f6e\u57fa\u91d1\u62b1\u56e2\u66f4\u53ef\u80fd\u8f6c\u5411\u534a\u5bfc\u4f53\u3001\u65b0\u80fd\u6e90\u3001\u4eba\u5de5\u667a\u80fd\u7b49\u79d1\u6280\u65b9\u5411\u3002"
+    ],
+    "events": [
+      {
+        "name": "\u4e2d\u56fd\u57fa\u91d1\u62b1\u56e2\u5468\u671f\u8f6e\u6362",
+        "actors": [
+          "\u516c\u52df\u57fa\u91d1",
+          "\u94f6\u884c\u5730\u4ea7",
+          "\u521b\u4e1a\u677f",
+          "\u767d\u9152\u533b\u836f",
+          "\u79d1\u6280\u677f\u5757"
+        ],
+        "cause": "\u5b8f\u89c2\u589e\u957f\u65b9\u5411\u3001\u57fa\u91d1\u6392\u540d\u538b\u529b\u548c\u7ba1\u7406\u8d39\u673a\u5236\u63a8\u52a8\u8d44\u91d1\u96c6\u4e2d\u3002",
+        "effect": "\u62b1\u56e2\u8d44\u4ea7\u4e0a\u6da8\u540e\u4f30\u503c\u900f\u652f\uff0c\u6700\u7ec8\u51fa\u73b0\u8c03\u6574\u5e76\u5207\u6362\u5230\u65b0\u65b9\u5411\u3002"
+      }
+    ],
+    "people": [
+      "\u5f20\u5764",
+      "\u9a6c\u6c38\u8c19"
+    ],
+    "orgs": [
+      "\u5de5\u5546\u94f6\u884c",
+      "\u4e2d\u4fe1\u8bc1\u5238",
+      "\u8d35\u5dde\u8305\u53f0",
+      "\u4e50\u89c6\u7f51"
+    ],
+    "countries": [
+      "\u4e2d\u56fd"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [
+        "\u57fa\u91d1\u6392\u540d\u548c\u7ba1\u7406\u8d39\u673a\u5236\u4f1a\u5f3a\u5316\u62b1\u56e2\u7684\u81ea\u6211\u5b9e\u73b0\uff0c\u4f46\u4e5f\u4f1a\u653e\u5927\u74e6\u89e3\u98ce\u9669\u3002"
+      ],
+      "events": [],
+      "entities": [
+        "\u4e50\u89c6\u7f51",
+        "\u521b\u4e1a\u677f",
+        "\u5317\u4e0a\u8d44\u91d1"
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [],
+    "notes": "\u6838\u5fc3\u5468\u671f\u548c\u672a\u6765\u79d1\u6280\u65b9\u5411\u5df2\u8986\u76d6\uff0c\u673a\u5236\u7ec6\u8282\u5b58\u5728\u6f0f\u62bd\u3002 \u672a\u4e0b\u8fc7\u7ebf verdict\u3002"
+  },
+  "slug_consistency": [
+    {
+      "entity": "\u5f20\u5764",
+      "slug_used": "zhang-kun",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u5de5\u5546\u94f6\u884c",
+      "slug_used": "icbc",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u4e2d\u4fe1\u8bc1\u5238",
+      "slug_used": "citic-securities",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u8d35\u5dde\u8305\u53f0",
+      "slug_used": "kweichow-moutai",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u4e2d",
+      "type": "\u6f0f\u62bd",
+      "detail": "\u539f\u6587\u5bf9\u57fa\u91d1\u6392\u540d\u3001\u7ba1\u7406\u8d39\u548c\u8d5a\u94b1\u6548\u5e94\u5982\u4f55\u5f3a\u5316\u62b1\u56e2\u6709\u72ec\u7acb\u89e3\u91ca\uff0c\u73b0\u6709 take \u672a\u5b8c\u5168\u62bd\u51fa\u3002"
+    },
+    {
+      "severity_guess": "\u8f7b",
+      "type": "\u6f0f\u62bd",
+      "detail": "\u4e50\u89c6\u7f51\u3001\u521b\u4e1a\u677f\u3001\u5317\u4e0a\u8d44\u91d1\u7b49\u793a\u4f8b\u5b9e\u4f53\u672a\u5f62\u6210\u5bf9\u5e94\u5b9e\u4f53\u9875\u3002"
+    }
+  ]
+}

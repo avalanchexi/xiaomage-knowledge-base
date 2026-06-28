@@ -1,0 +1,191 @@
+{
+  "article_no": 72,
+  "raw_title": "72.618\u8d2d\u7269\u8282\uff0c\u6295\u8d44\u56fd\u4ea7\u54c1\u724c\u6b63\u5f53\u65f6",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "countries/china",
+      "countries/japan",
+      "countries/united-states",
+      "events/china-618-domestic-brand-growth-2021",
+      "events/china-domestic-sportswear-technology-upgrade-2018-2021",
+      "events/china-vaccine-export-surge-2021",
+      "events/h-and-m-xinjiang-cotton-boycott-2021",
+      "events/japan-brand-rise-1974-1990",
+      "orgs/adidas",
+      "orgs/air-jordan",
+      "orgs/anta",
+      "orgs/bloomage-biotechnology",
+      "orgs/bmw",
+      "orgs/botanee",
+      "orgs/li-ning-company",
+      "orgs/mercedes-benz",
+      "orgs/muji",
+      "orgs/nike",
+      "orgs/prophet",
+      "orgs/puma",
+      "orgs/shanghai-jahwa",
+      "orgs/sony",
+      "orgs/toyota",
+      "orgs/uniqlo",
+      "orgs/walvax-biotechnology",
+      "orgs/wuling-hongguang",
+      "orgs/xtep",
+      "orgs/zhifei-biological",
+      "people/akio-morita",
+      "takes/chinese-brand-rise-depends-quality-and-confidence",
+      "takes/domestic-brand-wave-is-investable",
+      "takes/domestic-brands-enter-spring"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "\u56fd\u8d27\u5d1b\u8d77\u4e0d\u662f\u5355\u7eaf\u6c11\u65cf\u60c5\u7eea\uff0c\u800c\u662f\u8d28\u91cf\u63d0\u5347\u3001\u4f9b\u5e94\u94fe\u6210\u719f\u548c\u6d88\u8d39\u8005\u4fe1\u5fc3\u5171\u540c\u4f5c\u7528\u7684\u7ed3\u679c\u3002",
+      "\u56fd\u4ea7\u54c1\u724c\u4ece\u75ab\u82d7\u3001\u7f8e\u5986\u3001\u6c7d\u8f66\u5230\u8fd0\u52a8\u670d\u9970\u90fd\u6709\u6295\u8d44\u673a\u4f1a\uff0c\u5173\u952e\u662f\u4ea7\u54c1\u529b\u80fd\u5426\u5151\u73b0\u3002",
+      "\u65e5\u672c\u54c1\u724c\u5728\u6218\u540e\u7ecf\u6d4e\u5d1b\u8d77\u4e2d\u5b8c\u6210\u56fd\u9645\u5316\uff0c\u4e2d\u56fd\u54c1\u724c\u4e5f\u53ef\u80fd\u5728\u672c\u8f6e\u4ea7\u4e1a\u5347\u7ea7\u4e2d\u8fdb\u5165\u6625\u5929\u3002"
+    ],
+    "events": [
+      {
+        "name": "618 \u56fd\u8d27\u54c1\u724c\u589e\u957f",
+        "actors": [
+          "\u4e2d\u56fd\u56fd\u4ea7\u54c1\u724c",
+          "\u6d88\u8d39\u8005"
+        ],
+        "cause": "\u75ab\u60c5\u3001\u4ea7\u4e1a\u5347\u7ea7\u548c\u65b0\u7586\u68c9\u82b1\u4e89\u8bae\u5f3a\u5316\u56fd\u4ea7\u66ff\u4ee3\u8ba4\u77e5\u3002",
+        "effect": "\u56fd\u4ea7\u54c1\u724c\u9500\u552e\u548c\u5173\u6ce8\u5ea6\u63d0\u5347\u3002"
+      },
+      {
+        "name": "\u4e2d\u56fd\u75ab\u82d7\u51fa\u53e3\u589e\u957f",
+        "actors": [
+          "\u4e2d\u56fd\u75ab\u82d7\u4f01\u4e1a",
+          "\u6d77\u5916\u5e02\u573a"
+        ],
+        "cause": "\u65b0\u51a0\u75ab\u60c5\u5e26\u6765\u75ab\u82d7\u9700\u6c42\uff0c\u4e2d\u56fd\u4f01\u4e1a\u4f9b\u7ed9\u80fd\u529b\u63d0\u5347\u3002",
+        "effect": "\u75ab\u82d7\u51fa\u53e3\u6210\u4e3a\u4e2d\u56fd\u5236\u9020\u8d28\u91cf\u63d0\u5347\u7684\u4f8b\u8bc1\u3002"
+      },
+      {
+        "name": "\u65b0\u80fd\u6e90\u6c7d\u8f66\u56fd\u4ea7\u54c1\u724c\u9500\u91cf\u9886\u5148",
+        "actors": [
+          "\u4e94\u83f1\u5b8f\u5149",
+          "\u6bd4\u4e9a\u8fea\u7b49\u4e2d\u56fd\u8f66\u4f01",
+          "\u7279\u65af\u62c9"
+        ],
+        "cause": "\u4f4e\u4ef7\u7535\u52a8\u8f66\u548c\u672c\u571f\u4f9b\u5e94\u94fe\u5feb\u901f\u6210\u719f\u3002",
+        "effect": "\u4e2d\u56fd\u65b0\u80fd\u6e90\u8f66\u54c1\u724c\u5728\u9500\u91cf\u699c\u4e2d\u5360\u636e\u9886\u5148\u4f4d\u7f6e\u3002"
+      }
+    ],
+    "people": [
+      "\u76db\u7530\u662d\u592b",
+      "\u9a6c\u6c38\u8c19"
+    ],
+    "orgs": [
+      "\u674e\u5b81",
+      "\u5b89\u8e0f",
+      "\u7279\u6b65",
+      "\u8010\u514b",
+      "\u963f\u8fea\u8fbe\u65af",
+      "\u5f6a\u9a6c",
+      "\u4e30\u7530",
+      "\u7d22\u5c3c",
+      "\u4e94\u83f1\u5b8f\u5149",
+      "\u6c83\u68ee\u751f\u7269",
+      "\u667a\u98de\u751f\u7269"
+    ],
+    "countries": [
+      "\u4e2d\u56fd",
+      "\u65e5\u672c",
+      "\u7f8e\u56fd"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [
+        "\u65b0\u80fd\u6e90\u6c7d\u8f66\u56fd\u4ea7\u54c1\u724c\u9500\u91cf\u9886\u5148\u8fd9\u4e00\u6bb5\u539f\u6587\u6709\u8f83\u5b8c\u6574\u6570\u636e\u548c\u5bf9\u6bd4\uff0c\u4f46\u672a\u89c1\u72ec\u7acb event \u9875\u3002"
+      ],
+      "entities": [
+        "\u6bd4\u4e9a\u8fea",
+        "\u7279\u65af\u62c9",
+        "\u5c0f\u9e4f",
+        "\u7406\u60f3",
+        "\u851a\u6765",
+        "\u5409\u5229",
+        "\u4e0a\u6c7d",
+        "\u5e7f\u6c7d",
+        "\u5b9d\u9a6c",
+        "\u5954\u9a70\u7684\u539f\u6587\u8bed\u5883\u4e3a\u5bf9\u6bd4\u54c1\u724c\uff0c\u5b9e\u4f53\u8986\u76d6\u53ef\u590d\u6838"
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [
+      {
+        "page": "events/h-and-m-xinjiang-cotton-boycott-2021",
+        "claim": "H&M \u65b0\u7586\u68c9\u82b1\u62b5\u5236\u4e8b\u4ef6\u7531 72 \u884d\u751f",
+        "why_suspicious": "\u76f2\u62bd\u539f\u6587\u53ea\u5b9a\u4f4d\u5230\u56fd\u5916\u54c1\u724c\u62b5\u5236\u65b0\u7586\u68c9\u82b1\u548c\u56fd\u4ea7\u670d\u88c5\u54c1\u724c\u5d1b\u8d77\uff0c\u672a\u5728\u539f\u6587\u4e2d\u786e\u8ba4 H&M \u8fd9\u4e2a\u5177\u4f53\u4e3b\u4f53\u3002"
+      }
+    ],
+    "notes": "\u56fd\u4ea7\u54c1\u724c\u5d1b\u8d77\u4e3b\u7ebf\u5df2\u8986\u76d6\uff0c\u5177\u4f53 H&M \u5f52\u56e0\u548c\u65b0\u80fd\u6e90\u8f66\u6bb5\u843d\u9700\u88c1\u51b3\u3002 \u672a\u4e0b\u8fc7\u7ebf verdict\u3002"
+  },
+  "slug_consistency": [
+    {
+      "entity": "\u4e2d\u56fd",
+      "slug_used": "china",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u65e5\u672c",
+      "slug_used": "japan",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u674e\u5b81",
+      "slug_used": "li-ning-company",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u5b89\u8e0f",
+      "slug_used": "anta",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "H&M",
+      "slug_used": "h-and-m",
+      "in_aliases": false,
+      "consistent": false,
+      "note": "\u8be5 slug \u5bf9\u5e94\u9875\u7531\u672c\u7bc7\u884d\u751f\uff0c\u4f46\u539f\u6587\u4f9d\u636e\u9700\u88c1\u51b3\u3002"
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u4e25\u91cd",
+      "type": "\u7591\u4f3c\u5e7b\u89c9",
+      "detail": "events/h-and-m-xinjiang-cotton-boycott-2021 \u5c06\u672c\u7bc7\u6982\u62ec\u4e3a H&M \u4e8b\u4ef6\uff0c\u539f\u6587\u76f2\u62bd\u672a\u786e\u8ba4 H&M \u5177\u4f53\u4e3b\u4f53\u3002"
+    },
+    {
+      "severity_guess": "\u4e2d",
+      "type": "\u6f0f\u62bd",
+      "detail": "\u539f\u6587\u65b0\u80fd\u6e90\u6c7d\u8f66\u56fd\u4ea7\u54c1\u724c\u9500\u91cf\u9886\u5148\u6bb5\u843d\u672a\u89c1\u72ec\u7acb\u4e8b\u4ef6\u9875\u3002"
+    },
+    {
+      "severity_guess": "\u8f7b",
+      "type": "\u6f0f\u62bd",
+      "detail": "\u90e8\u5206\u8f66\u4f01\u548c\u6d88\u8d39\u54c1\u724c\u4f5c\u4e3a\u5b9e\u4f53\u672a\u5b8c\u6574\u8986\u76d6\u3002"
+    }
+  ]
+}

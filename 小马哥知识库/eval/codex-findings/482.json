@@ -1,0 +1,175 @@
+{
+  "article_no": 482,
+  "raw_title": "482.\u300c\u65f6\u653f\u5386\u53f2\u300d\u5c3c\u53e4\u62c9\u4e8c\u4e16\u4e0e\u4ed6\u7684\u5e1d\u56fd",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "countries/russian-empire",
+      "events/nicholas-ii-takes-command-1915",
+      "events/romanov-family-execution-1918",
+      "events/russian-civil-war-1917-1922",
+      "events/russian-entry-into-world-war-i-1914",
+      "events/russian-february-revolution-1917",
+      "events/russian-revolution-1905-and-october-manifesto",
+      "events/russo-japanese-war-and-south-manchuria-1904-1906",
+      "events/stolypin-reform-1906-1911",
+      "events/witte-industrialization-and-far-east-policy-1890s-1903",
+      "events/world-war-i-1914-1918",
+      "events/world-war-i-prewar-optimism-1914",
+      "orgs/bolshevik-party",
+      "orgs/provisional-government-russia",
+      "orgs/white-army",
+      "people/alexandra-feodorovna",
+      "people/dmitri-trepov",
+      "people/grand-duke-nikolai-nikolaevich",
+      "people/grigori-rasputin",
+      "people/grigory-gapon",
+      "people/nicholas-ii",
+      "people/pyotr-stolypin",
+      "people/sergei-witte",
+      "people/wilhelm-ii",
+      "takes/autocracies-fall-when-army-or-leader-fails",
+      "takes/autocratic-leader-should-not-personally-own-war-defeat",
+      "takes/nicholas-ii-character-made-empire-unmanageable",
+      "takes/russia-needed-peaceful-modernization-before-wwi",
+      "takes/war-can-destroy-empire-when-leader-misjudges-risk",
+      "takes/war-success-accelerates-reform-failure-destroys-results"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "\u4e13\u5236\u653f\u6743\u5728\u519b\u961f\u5931\u63a7\u6216\u6700\u9ad8\u9886\u5bfc\u8005\u4eb2\u81ea\u80cc\u8d1f\u6218\u4e89\u5931\u8d25\u65f6\u5bb9\u6613\u5d29\u584c\u3002",
+      "\u5c3c\u53e4\u62c9\u4e8c\u4e16\u7684\u6027\u683c\u548c\u7edf\u6cbb\u65b9\u5f0f\u4f7f\u4fc4\u7f57\u65af\u5e1d\u56fd\u96be\u4ee5\u7ba1\u7406\u73b0\u4ee3\u5316\u538b\u529b\u3002",
+      "\u4fc4\u7f57\u65af\u5728\u4e00\u6218\u524d\u66f4\u9700\u8981\u548c\u5e73\u73b0\u4ee3\u5316\uff0c\u9519\u8bef\u53c2\u6218\u6467\u6bc1\u4e86\u6539\u9769\u6210\u679c\u3002",
+      "\u6218\u4e89\u6210\u529f\u53ef\u80fd\u52a0\u901f\u6539\u9769\uff0c\u6218\u4e89\u5931\u8d25\u5219\u4f1a\u6bc1\u6389\u5df2\u6709\u6210\u679c\u3002"
+    ],
+    "events": [
+      {
+        "name": "\u65e5\u4fc4\u6218\u4e89\u4e0e\u5357\u6ee1\u653f\u7b56",
+        "actors": [
+          "\u4fc4\u56fd",
+          "\u65e5\u672c",
+          "\u7ef4\u7279"
+        ],
+        "cause": "\u4fc4\u56fd\u8fdc\u4e1c\u6269\u5f20\u548c\u65e5\u672c\u5229\u76ca\u51b2\u7a81\u3002",
+        "effect": "\u6218\u8d25\u524a\u5f31\u6c99\u7687\u5a01\u4fe1\u5e76\u89e6\u53d1\u540e\u7eed\u6539\u9769\u538b\u529b\u3002"
+      },
+      {
+        "name": "1905 \u5e74\u4fc4\u56fd\u9769\u547d\u4e0e\u5341\u6708\u5ba3\u8a00",
+        "actors": [
+          "\u5c3c\u53e4\u62c9\u4e8c\u4e16",
+          "\u4fc4\u56fd\u793e\u4f1a"
+        ],
+        "cause": "\u6218\u8d25\u3001\u793e\u4f1a\u4e0d\u6ee1\u548c\u653f\u6cbb\u538b\u529b\u7206\u53d1\u3002",
+        "effect": "\u8feb\u4f7f\u6c99\u7687\u8ba9\u6b65\u5e76\u5f00\u542f\u6709\u9650\u5baa\u653f\u3002"
+      },
+      {
+        "name": "\u65af\u6258\u96f7\u5e73\u6539\u9769",
+        "actors": [
+          "\u65af\u6258\u96f7\u5e73",
+          "\u4fc4\u56fd\u653f\u5e9c"
+        ],
+        "cause": "\u4fc4\u56fd\u9700\u8981\u7a33\u5b9a\u519c\u6751\u548c\u63a8\u8fdb\u73b0\u4ee3\u5316\u3002",
+        "effect": "\u6539\u9769\u672a\u80fd\u5728\u6218\u4e89\u524d\u5b8c\u6210\u5de9\u56fa\u3002"
+      },
+      {
+        "name": "\u5c3c\u53e4\u62c9\u4e8c\u4e16 1915 \u5e74\u4eb2\u5f81",
+        "actors": [
+          "\u5c3c\u53e4\u62c9\u4e8c\u4e16",
+          "\u4fc4\u519b"
+        ],
+        "cause": "\u4e00\u6218\u5931\u5229\u540e\u6c99\u7687\u8bd5\u56fe\u4eb2\u81ea\u638c\u63a7\u519b\u961f\u3002",
+        "effect": "\u6700\u9ad8\u7edf\u6cbb\u8005\u76f4\u63a5\u627f\u62c5\u519b\u4e8b\u5931\u8d25\u8d23\u4efb\uff0c\u653f\u6743\u98ce\u9669\u4e0a\u5347\u3002"
+      },
+      {
+        "name": "\u7f57\u66fc\u8bfa\u592b\u5bb6\u65cf\u88ab\u5904\u51b3",
+        "actors": [
+          "\u5e03\u5c14\u4ec0\u7ef4\u514b",
+          "\u7f57\u66fc\u8bfa\u592b\u5bb6\u65cf"
+        ],
+        "cause": "\u4fc4\u56fd\u5185\u6218\u548c\u9769\u547d\u540e\u653f\u6743\u6597\u4e89\u3002",
+        "effect": "\u6c99\u7687\u5236\u5ea6\u8c61\u5f81\u88ab\u5f7b\u5e95\u7ec8\u7ed3\u3002"
+      }
+    ],
+    "people": [
+      "\u5c3c\u53e4\u62c9\u4e8c\u4e16",
+      "\u7ef4\u7279",
+      "\u65af\u6258\u96f7\u5e73",
+      "\u62c9\u65af\u666e\u4eac",
+      "\u4e9a\u5386\u5c71\u5fb7\u62c9\u7687\u540e",
+      "\u5a01\u5ec9\u4e8c\u4e16",
+      "\u9a6c\u6c38\u8c19"
+    ],
+    "orgs": [
+      "\u5e03\u5c14\u4ec0\u7ef4\u514b\u515a",
+      "\u4fc4\u56fd\u4e34\u65f6\u653f\u5e9c",
+      "\u767d\u519b"
+    ],
+    "countries": [
+      "\u4fc4\u7f57\u65af\u5e1d\u56fd",
+      "\u65e5\u672c",
+      "\u5fb7\u56fd"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [],
+      "entities": [
+        "\u4e9a\u5386\u5c71\u5927\u4e09\u4e16",
+        "\u739b\u4e3d\u4e9a\u7687\u540e",
+        "\u4fc4\u56fd\u675c\u9a6c",
+        "\u5b5f\u4ec0\u7ef4\u514b",
+        "\u793e\u4f1a\u9769\u547d\u515a"
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [],
+    "notes": "\u4fc4\u56fd\u73b0\u4ee3\u5316\u3001\u6218\u4e89\u5931\u8d25\u548c\u4e13\u5236\u5d29\u584c\u4e3b\u7ebf\u5df2\u8986\u76d6\u3002 \u672a\u4e0b\u8fc7\u7ebf verdict\u3002"
+  },
+  "slug_consistency": [
+    {
+      "entity": "\u5c3c\u53e4\u62c9\u4e8c\u4e16",
+      "slug_used": "nicholas-ii",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u7ef4\u7279",
+      "slug_used": "sergei-witte",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u65af\u6258\u96f7\u5e73",
+      "slug_used": "pyotr-stolypin",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u5e03\u5c14\u4ec0\u7ef4\u514b\u515a",
+      "slug_used": "bolshevik-party",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u8f7b",
+      "type": "\u6f0f\u62bd",
+      "detail": "\u4e9a\u5386\u5c71\u5927\u4e09\u4e16\u3001\u739b\u4e3d\u4e9a\u7687\u540e\u3001\u675c\u9a6c\u7b49\u652f\u6491\u6027\u4eba\u7269\u548c\u7ec4\u7ec7\u672a\u5b8c\u6574\u8986\u76d6\u3002"
+    }
+  ]
+}

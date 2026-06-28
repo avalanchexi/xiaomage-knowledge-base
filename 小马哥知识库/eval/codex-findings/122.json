@@ -1,0 +1,151 @@
+{
+  "article_no": 122,
+  "raw_title": "\u770b\u5386\u53f2\uff0c\u4e3a\u4ec0\u4e48\u597d\u7684\u6539\u9769\u521d\u5fc3\uff0c\u5f97\u4e0d\u5230\u597d\u7684\u7ed3\u679c",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "events/xining-reform",
+      "events/xining-reform-repeal-1086",
+      "events/zhengxia-refugee-picture-1074",
+      "people/wang-guangyuan",
+      "people/wu-juhou",
+      "people/zheng-xia",
+      "takes/do-not-expect-heroic-reformers",
+      "takes/power-and-wealth-release-corruption",
+      "takes/reforms-need-incremental-growth",
+      "takes/xining-reform-failed-from-overreach-and-execution"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "Wang Anshi reform failed because it was too radical and execution was distorted.",
+      "Successful reform needs incremental growth rather than only redividing existing interests.",
+      "Power combined with wealth can turn reform into corruption and coercion."
+    ],
+    "events": [
+      {
+        "name": "Xining reform overreach",
+        "actors": [
+          "Wang Anshi",
+          "Song Shenzong",
+          "scholar-officials"
+        ],
+        "cause": "broad reform, little incremental cake, and market-rule conflict",
+        "effect": "resentment, factional conflict, and execution distortion"
+      },
+      {
+        "name": "Green Sprouts policy distortion",
+        "actors": [
+          "Wang Anshi",
+          "Wang Guangyuan",
+          "local officials"
+        ],
+        "cause": "loan quotas and official incentives",
+        "effect": "coercive loans and corruption"
+      },
+      {
+        "name": "Wu Juhou coercive revenue collection",
+        "actors": [
+          "Wu Juhou",
+          "local people"
+        ],
+        "cause": "fiscal performance pressure",
+        "effect": "forced sales and extraction"
+      }
+    ],
+    "people": [
+      "Ma Yongan",
+      "Wang Anshi",
+      "Song Shenzong",
+      "Shang Yang",
+      "Su Shi",
+      "Fan Zhongyan",
+      "Sima Guang",
+      "Wang Guangyuan",
+      "Wu Juhou",
+      "Heshen",
+      "Liu Jin"
+    ],
+    "orgs": [
+      "scholar-official group",
+      "Northern party",
+      "Southern party",
+      "Shu party"
+    ],
+    "countries": [
+      "Northern Song",
+      "Qin state",
+      "Qing dynasty"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [],
+      "entities": [
+        "The explicit market-rule violation argument could stand as its own take.",
+        "Five routes campaign against Western Xia and Qingli New Deal background are not extracted as source 122 events."
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [],
+    "notes": "Concise regenerated findings; semantic verdict intentionally omitted."
+  },
+  "slug_consistency": [
+    {
+      "entity": "Wang Anshi",
+      "slug_used": "people/wang-anshi",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Sima Guang",
+      "slug_used": "people/sima-guang",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Wang Guangyuan",
+      "slug_used": "people/wang-guangyuan",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Wu Juhou",
+      "slug_used": "people/wu-juhou",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Shang Yang",
+      "slug_used": "people/shang-yang",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u4e2d",
+      "type": "missing extraction",
+      "detail": "Market-rule violation is folded into a broad take instead of separately represented."
+    },
+    {
+      "severity_guess": "\u4e2d",
+      "type": "missing extraction",
+      "detail": "Five routes campaign and Qingli New Deal background are not extracted as source 122 events."
+    }
+  ]
+}

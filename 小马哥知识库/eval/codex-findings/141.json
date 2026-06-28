@@ -1,0 +1,154 @@
+{
+  "article_no": 141,
+  "raw_title": "\u4eba\u6c11\u5e01\u56fd\u9645\u5316\uff0c\u5fc5\u987b\u5efa\u7acb\u5728\u6b66\u529b\u4e4b\u4e0a",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "countries/iraq",
+      "events/bretton-woods-system-1944",
+      "events/bretton-woods-system-collapse-1971",
+      "events/british-pound-gold-standard-1816-1844",
+      "events/petrodollar-saudi-us-1974",
+      "orgs/bank-of-england",
+      "people/saddam",
+      "takes/dollar-hegemony-rests-on-us-power-confidence",
+      "takes/world-currency-needs-military"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "World currency status is said to require global military power, not just trade settlement.",
+      "Sterling and dollar history are used to argue that military hegemony underwrites currency hegemony."
+    ],
+    "events": [
+      {
+        "name": "British rise to sterling world money",
+        "actors": [
+          "United Kingdom",
+          "Spain",
+          "Netherlands",
+          "France"
+        ],
+        "cause": "military defeats of European competitors",
+        "effect": "gold standard and sterling world role"
+      },
+      {
+        "name": "Bretton Woods system 1944",
+        "actors": [
+          "United States",
+          "United Kingdom"
+        ],
+        "cause": "postwar industrial, gold, and military superiority",
+        "effect": "dollar became the monetary center"
+      },
+      {
+        "name": "Saddam oil settlement challenge",
+        "actors": [
+          "Iraq",
+          "United States",
+          "Saddam"
+        ],
+        "cause": "Iraq moved oil settlement away from dollars",
+        "effect": "text uses invasion and execution as warning"
+      }
+    ],
+    "people": [
+      "Ma Yongan",
+      "Volcker",
+      "Saddam",
+      "Napoleon",
+      "Palmerston"
+    ],
+    "orgs": [
+      "Bank of England",
+      "Federal Reserve",
+      "Royal Navy"
+    ],
+    "countries": [
+      "China",
+      "Saudi Arabia",
+      "United Kingdom",
+      "United States",
+      "Iraq",
+      "Spain",
+      "Netherlands",
+      "France"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [],
+      "entities": [
+        "The Spain, Netherlands, France, and Saddam military examples are compressed rather than fully extracted as source 141 events.",
+        "Saudi Arabia and Volcker are important raw 141 subjects but target pages do not list 141."
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [
+      {
+        "page": "takes/dollar-hegemony-rests-on-us-power-confidence",
+        "claim": "Ideological leadership and new cold war competition are included.",
+        "why_suspicious": "raw 141 mainly argues military hegemony, gold, and oil settlement."
+      }
+    ],
+    "notes": "Concise regenerated findings; semantic verdict intentionally omitted."
+  },
+  "slug_consistency": [
+    {
+      "entity": "Saudi Arabia",
+      "slug_used": "countries/saudi-arabia",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "United Kingdom",
+      "slug_used": "countries/united-kingdom",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Iraq",
+      "slug_used": "countries/iraq",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Bank of England",
+      "slug_used": "orgs/bank-of-england",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Saddam",
+      "slug_used": "people/saddam",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u4e2d",
+      "type": "missing extraction",
+      "detail": "The military example chain in raw 141 is under-extracted."
+    },
+    {
+      "severity_guess": "\u4e2d",
+      "type": "suspect source mix",
+      "detail": "The ideology and new cold war phrasing is not directly in raw 141."
+    }
+  ]
+}

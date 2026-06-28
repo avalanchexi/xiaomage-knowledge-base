@@ -1,0 +1,118 @@
+{
+  "article_no": 131,
+  "raw_title": "131.\u4fe1\u5fc3\u6bd4\u91d1\u5b50\u66f4\u91cd\u8981",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "events/failed-local-chip-projects-2020",
+      "events/peoples-daily-capital-comment-2022",
+      "events/reagan-supply-side-reform-1980s",
+      "orgs/peoples-daily",
+      "people/richard-cantillon",
+      "takes/entrepreneur-confidence-more-important-than-gold",
+      "takes/private-enterprises-drive-innovation-against-foreign-pressure",
+      "takes/supply-side-reform-better-than-infrastructure-stimulus"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "\u4f01\u4e1a\u5bb6\u4fe1\u5fc3\u6bd4\u9ec4\u91d1\u66f4\u91cd\u8981\uff0c\u6c11\u8425\u4f01\u4e1a\u5bb6\u662f\u521b\u65b0\u548c\u6297\u538b\u7684\u5173\u952e\u3002",
+      "\u9762\u5bf9\u5916\u90e8\u538b\u529b\uff0c\u4e2d\u56fd\u66f4\u5e94\u4fdd\u62a4\u6c11\u8425\u4f01\u4e1a\u548c\u4f01\u4e1a\u5bb6\u7cbe\u795e\u3002",
+      "\u4f9b\u7ed9\u4fa7\u6539\u9769\u6bd4\u5355\u7eaf\u57fa\u5efa\u523a\u6fc0\u66f4\u80fd\u6062\u590d\u957f\u671f\u589e\u957f\u8d28\u91cf\u3002"
+    ],
+    "events": [
+      {
+        "name": "\u4eba\u6c11\u65e5\u62a5\u8bc4\u8bba\u8d44\u672c\u7ea2\u7eff\u706f",
+        "actors": [
+          "\u4eba\u6c11\u65e5\u62a5",
+          "\u6c11\u8425\u4f01\u4e1a\u5bb6"
+        ],
+        "cause": "\u5e02\u573a\u5bf9\u8d44\u672c\u548c\u6c11\u4f01\u653f\u7b56\u9884\u671f\u4e0d\u7a33\u3002",
+        "effect": "\u5b98\u65b9\u8868\u6001\u8bd5\u56fe\u4fee\u590d\u4f01\u4e1a\u5bb6\u4fe1\u5fc3\u3002"
+      },
+      {
+        "name": "\u91cc\u6839\u4f9b\u7ed9\u4fa7\u6539\u9769",
+        "actors": [
+          "\u91cc\u6839\u653f\u5e9c"
+        ],
+        "cause": "\u7f8e\u56fd\u9762\u5bf9\u6ede\u80c0\u548c\u589e\u957f\u56f0\u5883\u3002",
+        "effect": "\u51cf\u7a0e\u548c\u4f9b\u7ed9\u4fa7\u8c03\u6574\u88ab\u4f5c\u8005\u7528\u4f5c\u53c2\u7167\u3002"
+      },
+      {
+        "name": "\u5730\u65b9\u82af\u7247\u9879\u76ee\u70c2\u5c3e",
+        "actors": [
+          "\u5730\u65b9\u653f\u5e9c",
+          "\u82af\u7247\u9879\u76ee"
+        ],
+        "cause": "\u8865\u8d34\u548c\u884c\u653f\u51b2\u52a8\u63a8\u52a8\u4f4e\u6548\u6295\u8d44\u3002",
+        "effect": "\u8bf4\u660e\u4e0d\u5c0a\u91cd\u4f01\u4e1a\u5bb6\u548c\u5e02\u573a\u673a\u5236\u4f1a\u9020\u6210\u6d6a\u8d39\u3002"
+      }
+    ],
+    "people": [
+      "\u5eb7\u66ff\u9f99",
+      "\u91cc\u6839",
+      "\u9a6c\u6c38\u8c19"
+    ],
+    "orgs": [
+      "\u4eba\u6c11\u65e5\u62a5"
+    ],
+    "countries": [
+      "\u4e2d\u56fd",
+      "\u7f8e\u56fd"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [],
+      "entities": [
+        "\u4e54\u5e03\u65af",
+        "\u9a6c\u65af\u514b",
+        "\u82f9\u679c",
+        "\u7279\u65af\u62c9",
+        "\u6587\u666f\u4e4b\u6cbb"
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [],
+    "notes": "\u4f01\u4e1a\u5bb6\u4fe1\u5fc3\u3001\u6c11\u4f01\u521b\u65b0\u548c\u4f9b\u7ed9\u4fa7\u6539\u9769\u4e3b\u7ebf\u5df2\u8986\u76d6\u3002 \u672a\u4e0b\u8fc7\u7ebf verdict\u3002"
+  },
+  "slug_consistency": [
+    {
+      "entity": "\u4eba\u6c11\u65e5\u62a5",
+      "slug_used": "peoples-daily",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u5eb7\u66ff\u9f99",
+      "slug_used": "richard-cantillon",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    },
+    {
+      "entity": "\u91cc\u6839",
+      "slug_used": "reagan",
+      "in_aliases": false,
+      "consistent": false,
+      "note": "\u73b0\u6709\u9875\u4f7f\u7528\u4e8b\u4ef6\u9875\uff0c\u672a\u89c1\u72ec\u7acb\u4eba\u7269\u9875\u3002"
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u8f7b",
+      "type": "\u6f0f\u62bd",
+      "detail": "\u4e54\u5e03\u65af\u3001\u9a6c\u65af\u514b\u3001\u82f9\u679c\u3001\u7279\u65af\u62c9\u548c\u6587\u666f\u4e4b\u6cbb\u7b49\u4f8b\u8bc1\u5b9e\u4f53\u672a\u5b8c\u6574\u8986\u76d6\u3002"
+    }
+  ]
+}

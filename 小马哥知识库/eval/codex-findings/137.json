@@ -1,0 +1,155 @@
+{
+  "article_no": 137,
+  "raw_title": "\u91d1\u878d\u6218\uff0c\u56fd\u8fd0\u4e4b\u6218",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "countries/saudi-arabia",
+      "events/china-concept-stock-crash-2022",
+      "events/japan-bubble-burst-1990",
+      "events/plaza-accord-1985",
+      "events/soviet-oil-strangulation-1985-1991",
+      "orgs/bilibili",
+      "people/casey",
+      "takes/china-financial-war-shortboard-in-us-competition",
+      "takes/dollar-tide-harvests-emerging-markets",
+      "takes/financial-war-is-national-destiny",
+      "takes/registration-system-needed-for-tech-financing"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "United States financial pressure is presented as the cause of the 2022 China concept and Hong Kong tech selloff.",
+      "China needs stronger domestic capital markets and registration based equity financing."
+    ],
+    "events": [
+      {
+        "name": "2022 China concept stock crash",
+        "actors": [
+          "United States",
+          "China",
+          "Chinese internet firms"
+        ],
+        "cause": "sanctions, rate pressure, outflows, and short selling",
+        "effect": "large market value loss"
+      },
+      {
+        "name": "Soviet oil pressure 1985-1991",
+        "actors": [
+          "United States",
+          "Soviet Union",
+          "Saudi Arabia"
+        ],
+        "cause": "oil price pressure on Soviet foreign exchange",
+        "effect": "Soviet fiscal and economic stress"
+      },
+      {
+        "name": "Plaza Accord and Japan bubble burst",
+        "actors": [
+          "United States",
+          "Japan"
+        ],
+        "cause": "yen appreciation and later asset shorting",
+        "effect": "Japanese asset collapse and long stagnation"
+      }
+    ],
+    "people": [
+      "Ma Yongan",
+      "Reagan",
+      "Casey",
+      "Gorbachev",
+      "Lighthizer"
+    ],
+    "orgs": [
+      "Federal Reserve",
+      "Alibaba",
+      "Didi",
+      "JD.com",
+      "Bilibili",
+      "Tencent",
+      "NetEase"
+    ],
+    "countries": [
+      "China",
+      "United States",
+      "Soviet Union",
+      "Japan",
+      "Saudi Arabia"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [],
+      "entities": [
+        "Named firms such as Didi, Tencent, NetEase, Zhihu, and TAL are not fully represented as source 137 derived entities."
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [
+      {
+        "page": "takes/china-financial-war-shortboard-in-us-competition",
+        "claim": "SWIFT and CHIPS are part of the claim.",
+        "why_suspicious": "These terms are not present in raw 137."
+      }
+    ],
+    "notes": "Concise regenerated findings; semantic verdict intentionally omitted."
+  },
+  "slug_consistency": [
+    {
+      "entity": "China",
+      "slug_used": "countries/china",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "United States",
+      "slug_used": "countries/united-states",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Saudi Arabia",
+      "slug_used": "countries/saudi-arabia",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Casey",
+      "slug_used": "people/casey",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Didi",
+      "slug_used": "orgs/didi",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u4e2d",
+      "type": "missing extraction",
+      "detail": "Several named company entities in raw 137 are not fully derived."
+    },
+    {
+      "severity_guess": "\u4e2d",
+      "type": "suspect source mix",
+      "detail": "SWIFT and CHIPS evidence appears to come from another source."
+    }
+  ]
+}

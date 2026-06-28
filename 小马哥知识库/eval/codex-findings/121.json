@@ -1,0 +1,153 @@
+{
+  "article_no": 121,
+  "raw_title": "\u5317\u5b8b\u7a76\u7adf\u4ea1\u4e8e\u738b\u5b89\u77f3\uff0c\u8fd8\u662f\u4ea1\u4e8e\u53f8\u9a6c\u5149\uff1f",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "events/xining-reform",
+      "events/xining-reform-repeal-1086",
+      "events/zhengxia-refugee-picture-1074",
+      "people/wen-yanbo",
+      "people/zheng-xia",
+      "takes/public-opinion-can-be-used-by-interest-groups",
+      "takes/sima-guang-opposed-without-constructive-plan",
+      "takes/xining-reform-not-direct-cause-of-northern-song-fall"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "Public opinion can be used by interest groups and may be far from truth.",
+      "Wang Anshi is not treated as the direct cause of Northern Song collapse.",
+      "Sima Guang opposed the new laws but lacked a constructive replacement."
+    ],
+    "events": [
+      {
+        "name": "Xining reform",
+        "actors": [
+          "Wang Anshi",
+          "Song Shenzong",
+          "Sima Guang"
+        ],
+        "cause": "Northern Song fiscal and military pressure",
+        "effect": "fiscal gains and political conflict"
+      },
+      {
+        "name": "Zheng Xia refugee picture",
+        "actors": [
+          "Zheng Xia",
+          "Song Shenzong",
+          "Wang Anshi"
+        ],
+        "cause": "drought, refugees, and new-law pressure",
+        "effect": "new laws paused and Wang Anshi removed"
+      },
+      {
+        "name": "Sima Guang repeal of new laws",
+        "actors": [
+          "Sima Guang",
+          "Empress Dowager Gao"
+        ],
+        "cause": "old party returned after Song Shenzong died",
+        "effect": "new laws repealed"
+      }
+    ],
+    "people": [
+      "Ma Yongan",
+      "Wang Anshi",
+      "Sima Guang",
+      "Song Shenzong",
+      "Song Huizong",
+      "Song Gaozong",
+      "Liang Qichao",
+      "Cai Jing",
+      "Jia Sidao",
+      "Wen Yanbo",
+      "Zheng Xia"
+    ],
+    "orgs": [
+      "scholar-official group",
+      "new party",
+      "old party"
+    ],
+    "countries": [
+      "Northern Song",
+      "Southern Song"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [],
+      "entities": [
+        "Southern Song maritime trade and Cai Jing or Jia Sidao continuity are used as evidence but not attributed to source 121.",
+        "Song Shenzong, Song Huizong, Song Gaozong, Liang Qichao, Cai Jing, and Jia Sidao are not source 121 derived entities."
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [
+      {
+        "page": "events/xining-reform",
+        "claim": "Local execution distortion is included.",
+        "why_suspicious": "raw 121 mostly previews that issue for the next article, while source 122 develops it."
+      }
+    ],
+    "notes": "Concise regenerated findings; semantic verdict intentionally omitted."
+  },
+  "slug_consistency": [
+    {
+      "entity": "Wang Anshi",
+      "slug_used": "people/wang-anshi",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Sima Guang",
+      "slug_used": "people/sima-guang",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Northern Song",
+      "slug_used": "countries/northern-song-dynasty",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Wen Yanbo",
+      "slug_used": "people/wen-yanbo",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Zheng Xia",
+      "slug_used": "people/zheng-xia",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u4e2d",
+      "type": "missing extraction",
+      "detail": "Southern Song maritime trade and later fiscal legacy evidence are not attributed to source 121."
+    },
+    {
+      "severity_guess": "\u8f7b",
+      "type": "multi-source summary",
+      "detail": "Execution distortion in xining-reform mainly belongs to source 122."
+    }
+  ]
+}

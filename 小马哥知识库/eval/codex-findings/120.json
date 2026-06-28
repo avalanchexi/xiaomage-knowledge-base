@@ -1,0 +1,177 @@
+{
+  "article_no": 120,
+  "raw_title": "\u5929\u884c\u6709\u5e38,\u4e0d\u4e3a\u5c27\u5b58,\u4e0d\u4e3a\u6840\u4ea1\u3002",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "events/china-macro-reform-1994",
+      "events/china-price-reform-inflation-1988",
+      "events/china-response-asian-financial-crisis-1997",
+      "events/china-southern-tour-market-economy-1992",
+      "events/reagan-supply-side-reform-1980s",
+      "events/shanghai-unemployment-insurance-surge-2021",
+      "orgs/shanghai-hr-social-security-bureau",
+      "people/xunzi",
+      "takes/china-economic-crises-resolved-by-market-reform",
+      "takes/china-employment-pressure-needs-marketization",
+      "takes/supply-side-reform-better-than-infrastructure-stimulus"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "Shanghai unemployment insurance recipients are used as a warning signal for employment pressure.",
+      "China has solved major internal economic difficulties through deeper market reform.",
+      "Supply-side effective products and innovation are preferred over low-efficiency infrastructure stimulus."
+    ],
+    "events": [
+      {
+        "name": "Shanghai unemployment insurance surge 2021",
+        "actors": [
+          "Shanghai HR and Social Security Bureau",
+          "China labor market"
+        ],
+        "cause": "employment pressure and weak survey unemployment signal",
+        "effect": "employment became a policy priority"
+      },
+      {
+        "name": "China price reform and inflation 1988",
+        "actors": [
+          "China"
+        ],
+        "cause": "dual-track prices, fast money growth, and price reform",
+        "effect": "inflation and panic buying"
+      },
+      {
+        "name": "Southern tour and market economy 1992",
+        "actors": [
+          "Deng Xiaoping",
+          "China"
+        ],
+        "cause": "need to reaffirm reform",
+        "effect": "market economy direction strengthened"
+      },
+      {
+        "name": "China macro reform 1994",
+        "actors": [
+          "Zhu Rongji",
+          "China"
+        ],
+        "cause": "overheating and inflation",
+        "effect": "exchange-rate, tax, credit, and SOE reforms"
+      },
+      {
+        "name": "Reagan supply-side reform",
+        "actors": [
+          "Reagan",
+          "United States"
+        ],
+        "cause": "stagflation and failed demand stimulus",
+        "effect": "tax cuts, deregulation, and innovation"
+      }
+    ],
+    "people": [
+      "Ma Yongan",
+      "Deng Xiaoping",
+      "Zhu Rongji",
+      "Reagan",
+      "Xunzi",
+      "Keynes",
+      "Say",
+      "Friedman"
+    ],
+    "orgs": [
+      "Shanghai HR and Social Security Bureau",
+      "commercial banks",
+      "SOEs",
+      "Microsoft",
+      "Apple",
+      "Tesla",
+      "BYD"
+    ],
+    "countries": [
+      "China",
+      "United States"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [],
+      "entities": [
+        "The 2008 crisis response and low-efficiency infrastructure discussion is not attributed to source 120 on the four-trillion event page.",
+        "Keynes, Say, Friedman, Microsoft, Apple, Tesla, and BYD are not source 120 derived entities."
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [
+      {
+        "page": "events/shanghai-unemployment-insurance-surge-2021",
+        "claim": "Cause includes industrial adjustment.",
+        "why_suspicious": "raw 120 does not directly name industrial adjustment as the cause."
+      }
+    ],
+    "notes": "Concise regenerated findings; semantic verdict intentionally omitted."
+  },
+  "slug_consistency": [
+    {
+      "entity": "China",
+      "slug_used": "countries/china",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Deng Xiaoping",
+      "slug_used": "people/deng-xiaoping",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Zhu Rongji",
+      "slug_used": "people/zhu-rongji",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Reagan",
+      "slug_used": "people/reagan",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Friedman",
+      "slug_used": "people/milton-friedman",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u4e2d",
+      "type": "missing extraction",
+      "detail": "The 2008 crisis and infrastructure-efficiency discussion is not attributed to source 120."
+    },
+    {
+      "severity_guess": "\u4e2d",
+      "type": "entity coverage",
+      "detail": "Supply-side theory and company examples lack source 120 derived pages."
+    },
+    {
+      "severity_guess": "\u8f7b",
+      "type": "suspect expansion",
+      "detail": "Industrial adjustment is not directly named in raw 120."
+    }
+  ]
+}

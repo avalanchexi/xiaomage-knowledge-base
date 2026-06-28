@@ -1,0 +1,159 @@
+{
+  "article_no": 123,
+  "raw_title": "\u7f8e\u8054\u50a8\u52a0\u606f\uff0c\u5230\u5e95\u662f\u673a\u4f1a\u8fd8\u662f\u5669\u68a6\uff1f",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "events/fed-rate-hike-cycle-2015",
+      "events/fed-taper-rate-hike-guidance-2021",
+      "events/latin-america-debt-crisis-1982",
+      "orgs/banamex",
+      "orgs/world-bank",
+      "takes/dollar-tide-harvests-emerging-markets",
+      "takes/fed-may-use-expectations-to-tighten-less-than-market-fears",
+      "takes/fed-rate-hikes-create-volatility-not-crash-for-a-shares",
+      "takes/rmb-independence-reduces-dollar-cycle-risk"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "Fed hikes are framed as risk but also as possible opportunity after market pricing.",
+      "China is said to be less likely to repeat the 2015 crash because of RMB strength, monetary independence, and capital controls."
+    ],
+    "events": [
+      {
+        "name": "Fed taper and rate hike guidance 2021",
+        "actors": [
+          "Federal Reserve",
+          "global markets"
+        ],
+        "cause": "expected taper completion and hikes",
+        "effect": "market volatility"
+      },
+      {
+        "name": "Latin America debt crisis 1982",
+        "actors": [
+          "Mexico",
+          "Federal Reserve",
+          "IMF",
+          "World Bank"
+        ],
+        "cause": "Volcker rate hikes raised dollar debt costs",
+        "effect": "asset sales and financial opening"
+      },
+      {
+        "name": "2013 to 2015 emerging market shock",
+        "actors": [
+          "Federal Reserve",
+          "China",
+          "Brazil",
+          "Turkey",
+          "India"
+        ],
+        "cause": "QE exit and hike expectations",
+        "effect": "currency and stock pressure"
+      }
+    ],
+    "people": [
+      "Ma Yongan",
+      "Volcker",
+      "Greenspan"
+    ],
+    "orgs": [
+      "Federal Reserve",
+      "IMF",
+      "World Bank",
+      "BANCOMER",
+      "VISA",
+      "People Bank of China",
+      "CSRC",
+      "CBIRC"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "Mexico",
+      "Brazil",
+      "Turkey",
+      "India",
+      "Indonesia",
+      "Argentina"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [],
+      "entities": [
+        "Volcker inflation fight is linked but its event page does not list source 123.",
+        "China northbound-fund and redemption-limit defenses are not extracted as a source 123 event."
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [
+      {
+        "page": "takes/fed-may-use-expectations-to-tighten-less-than-market-fears",
+        "claim": "A-share bottom analysis from source 132 is included.",
+        "why_suspicious": "This is explicitly from source 132, not raw 123."
+      }
+    ],
+    "notes": "Concise regenerated findings; semantic verdict intentionally omitted."
+  },
+  "slug_consistency": [
+    {
+      "entity": "Federal Reserve",
+      "slug_used": "orgs/federal-reserve",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Volcker",
+      "slug_used": "people/volcker",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Mexico",
+      "slug_used": "countries/mexico",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "World Bank",
+      "slug_used": "orgs/world-bank",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Banamex",
+      "slug_used": "orgs/banamex",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u4e2d",
+      "type": "missing extraction",
+      "detail": "Volcker rate-hike background is not attributed to source 123 on the event page."
+    },
+    {
+      "severity_guess": "\u4e2d",
+      "type": "missing extraction",
+      "detail": "China market defense policies are not extracted as an event."
+    }
+  ]
+}

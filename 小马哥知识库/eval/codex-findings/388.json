@@ -1,0 +1,93 @@
+{
+  "article_no": 388,
+  "raw_title": "388.\u300c\u65f6\u653f\u5386\u53f2\u300d\u4ec0\u4e48\u65f6\u5019\u624d\u80fd\u8bc1\u660eai\u662f\u7b2c\u56db\u6b21\u6280\u672f\u9769\u547d\uff1f",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "events/ai-military-validation-and-industrial-test-2020-2024",
+      "takes/ai-fourth-industrial-revolution-must-transform-manufacturing-war",
+      "takes/china-manufacturing-scale-can-validate-ai",
+      "takes/technology-revolutions-need-war-and-production-validation"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "AI \u82e5\u8981\u6210\u4e3a\u7b2c\u56db\u6b21\u5de5\u4e1a\u9769\u547d\uff0c\u5fc5\u987b\u8fdb\u5165\u5236\u9020\u4e1a\u548c\u6218\u4e89\u7b49\u9ad8\u5f3a\u5ea6\u573a\u666f\u5b8c\u6210\u9a8c\u8bc1\u3002",
+      "\u4e2d\u56fd\u5236\u9020\u4e1a\u89c4\u6a21\u53ef\u4ee5\u4e3a AI \u63d0\u4f9b\u843d\u5730\u548c\u9a8c\u8bc1\u573a\u666f\u3002",
+      "\u6280\u672f\u9769\u547d\u9700\u8981\u751f\u4ea7\u548c\u6218\u4e89\u68c0\u9a8c\uff0c\u5355\u9760\u6982\u5ff5\u548c\u8d44\u672c\u5e02\u573a\u70ed\u5ea6\u4e0d\u591f\u3002"
+    ],
+    "events": [
+      {
+        "name": "AI \u519b\u4e8b\u9a8c\u8bc1\u548c\u4ea7\u4e1a\u6d4b\u8bd5",
+        "actors": [
+          "AI \u4f01\u4e1a",
+          "\u519b\u5de5\u4f53\u7cfb",
+          "\u5236\u9020\u4e1a"
+        ],
+        "cause": "\u5927\u6a21\u578b\u70ed\u6f6e\u9700\u8981\u73b0\u5b9e\u573a\u666f\u9a8c\u8bc1\u3002",
+        "effect": "\u4f5c\u8005\u5224\u65ad AI \u5fc5\u987b\u8fdb\u5165\u6218\u4e89\u548c\u5236\u9020\u4e1a\u624d\u80fd\u5f62\u6210\u5de5\u4e1a\u9769\u547d\u3002"
+      }
+    ],
+    "people": [
+      "\u9ec4\u4ec1\u52cb",
+      "\u9a6c\u6c38\u8c19"
+    ],
+    "orgs": [
+      "\u82f1\u4f1f\u8fbe",
+      "OpenAI",
+      "\u601d\u79d1"
+    ],
+    "countries": [
+      "\u4e2d\u56fd",
+      "\u7f8e\u56fd"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [
+        "\u62ff\u7834\u4ed1\u6218\u4e89\u3001\u82f1\u6cd5\u5de5\u4e1a\u7ade\u4e89\u3001\u4e8c\u6218\u548c\u6d77\u6e7e\u6218\u4e89\u7b49\u6280\u672f\u9a8c\u8bc1\u5386\u53f2\u4f8b\u5b50\u672a\u89c1\u4e8b\u4ef6\u5316\u3002"
+      ],
+      "entities": [
+        "\u82f1\u4f1f\u8fbe",
+        "\u9ec4\u4ec1\u52cb",
+        "ChatGPT",
+        "Sora",
+        "\u601d\u79d1",
+        "OpenAI"
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [],
+    "notes": "AI \u4e09\u6761\u6838\u5fc3 take \u5df2\u8986\u76d6\uff0c\u5386\u53f2\u4f8b\u8bc1\u62bd\u53d6\u4e0d\u8db3\u3002 \u672a\u4e0b\u8fc7\u7ebf verdict\u3002"
+  },
+  "slug_consistency": [
+    {
+      "entity": "AI \u519b\u4e8b\u9a8c\u8bc1\u548c\u4ea7\u4e1a\u6d4b\u8bd5",
+      "slug_used": "ai-military-validation-and-industrial-test-2020-2024",
+      "in_aliases": false,
+      "consistent": false,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u4e2d",
+      "type": "\u6f0f\u62bd",
+      "detail": "\u539f\u6587\u7528\u591a\u7ec4\u6218\u4e89\u548c\u5de5\u4e1a\u53f2\u4f8b\u5b50\u652f\u6491\u6280\u672f\u9769\u547d\u5224\u65ad\uff0c\u73b0\u6709\u4e8b\u4ef6\u62bd\u53d6\u53ea\u4fdd\u7559 AI \u9a8c\u8bc1\u4e3b\u4e8b\u4ef6\u3002"
+    },
+    {
+      "severity_guess": "\u8f7b",
+      "type": "\u6f0f\u62bd",
+      "detail": "\u82f1\u4f1f\u8fbe\u3001\u9ec4\u4ec1\u52cb\u3001ChatGPT\u3001Sora\u3001\u601d\u79d1\u7b49\u5b9e\u4f53\u672a\u5b8c\u6574\u8986\u76d6\u3002"
+    }
+  ]
+}

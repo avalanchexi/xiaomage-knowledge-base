@@ -1,0 +1,158 @@
+{
+  "article_no": 138,
+  "raw_title": "\u5e26\u8840\u7684\u9570\u5200\uff0c\u7f8e\u5143\u6f6e\u6c50",
+  "eval_pass": "codex-identify",
+  "completeness": {
+    "source_page_exists": true,
+    "frontmatter_complete": true,
+    "frontmatter_missing_fields": [],
+    "pages_derived": [
+      "countries/indonesia",
+      "countries/malaysia",
+      "countries/philippines",
+      "events/asian-financial-crisis-1997",
+      "events/bretton-woods-system-collapse-1971",
+      "events/fed-rate-hike-cycle-2015",
+      "events/south-korea-imf-bailout-1997",
+      "orgs/kia",
+      "orgs/lone-star-funds",
+      "orgs/newbridge-capital",
+      "people/lee-jae-yong",
+      "people/park-chung-hee",
+      "people/paul-krugman",
+      "takes/dollar-tide-harvests-emerging-markets"
+    ],
+    "broken_links": [],
+    "derived_from_resolves": true
+  },
+  "blind_extraction": {
+    "takes": [
+      "Dollar tide is presented as a repeating United States mechanism for harvesting foreign core assets.",
+      "The 1997 Asian financial crisis and South Korea IMF rescue are the central examples."
+    ],
+    "events": [
+      {
+        "name": "Asian financial crisis 1997",
+        "actors": [
+          "United States capital",
+          "Thailand",
+          "Indonesia",
+          "Malaysia",
+          "Philippines",
+          "South Korea"
+        ],
+        "cause": "cheap dollar inflows followed by Fed tightening",
+        "effect": "currency, stock, and corporate crisis"
+      },
+      {
+        "name": "South Korea IMF rescue 1997",
+        "actors": [
+          "South Korea",
+          "United States",
+          "IMF",
+          "Samsung Electronics"
+        ],
+        "cause": "high leverage, short debt, and low reserves",
+        "effect": "financial opening and foreign ownership increases"
+      }
+    ],
+    "people": [
+      "Ma Yongan",
+      "Paul Krugman",
+      "Park Chung-hee",
+      "Moon Jae-in",
+      "David Lipton",
+      "Lee Jae-yong"
+    ],
+    "orgs": [
+      "Federal Reserve",
+      "IMF",
+      "Kia",
+      "Samsung Electronics",
+      "Newbridge Capital",
+      "Lone Star Funds",
+      "SK Hynix",
+      "LG Electronics"
+    ],
+    "countries": [
+      "United States",
+      "China",
+      "South Korea",
+      "Thailand",
+      "Indonesia",
+      "Malaysia",
+      "Philippines"
+    ]
+  },
+  "page_vs_blind": {
+    "missing_in_wiki": {
+      "takes": [],
+      "events": [],
+      "entities": [
+        "Samsung Electronics is central in raw 138 but its entity page does not list source 138.",
+        "Thailand, SK Hynix, LG Electronics, David Lipton, Moon Jae-in, and Soros lack source 138 derived pages."
+      ]
+    },
+    "extra_in_wiki_not_in_raw": [
+      {
+        "page": "takes/dollar-tide-harvests-emerging-markets",
+        "claim": "World Bank mechanisms are included.",
+        "why_suspicious": "raw 138 focuses on IMF and does not directly mention the World Bank."
+      }
+    ],
+    "notes": "Concise regenerated findings; semantic verdict intentionally omitted."
+  },
+  "slug_consistency": [
+    {
+      "entity": "South Korea",
+      "slug_used": "countries/south-korea",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Thailand",
+      "slug_used": "countries/thailand",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Samsung Electronics",
+      "slug_used": "orgs/samsung-electronics",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "Kia",
+      "slug_used": "orgs/kia",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    },
+    {
+      "entity": "David Lipton",
+      "slug_used": "people/david-lipton",
+      "in_aliases": true,
+      "consistent": true,
+      "note": ""
+    }
+  ],
+  "noise_scan": {
+    "residue_found": false,
+    "examples": []
+  },
+  "codex_flags": [
+    {
+      "severity_guess": "\u4e2d",
+      "type": "missing extraction",
+      "detail": "Samsung Electronics provenance is incomplete for source 138."
+    },
+    {
+      "severity_guess": "\u8f7b",
+      "type": "suspect source mix",
+      "detail": "World Bank wording is not directly supported by raw 138."
+    }
+  ]
+}
