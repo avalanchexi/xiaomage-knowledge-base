@@ -185,7 +185,7 @@ git commit -m "feat(eval): T7 cross-model gate briefs, fixed samples, findings v
 
 - [ ] **Step 1: 运行 Codex 识别 pass**
 
-把 `eval/codex-brief.md` 末尾追加一行"本轮样本:`eval/sample-A.txt`",在 KB 根开一个 Codex 会话执行。交互式最省事:
+不要修改 `eval/codex-brief.md` 本体。运行时把 `eval/codex-brief.md` 全文与"本轮样本:`eval/sample-A.txt`"拼成 prompt,在 KB 根开一个 Codex 会话执行。交互式最省事:
 ```powershell
 codex   # 在 小马哥知识库/ 下打开,然后粘贴 codex-brief.md 全文 + "本轮样本: eval/sample-A.txt"
 ```
@@ -206,7 +206,15 @@ powershell -ExecutionPolicy Bypass -File .\eval\validate-findings.ps1 -Sample A;
 ```
 Expected: `expected=8 missing=[] invalid=[]` 且 `ALL FINDINGS VALID`、`exit=0`。若有 missing/invalid → Codex 漏篇或 schema 跑偏 → 回 Step 1 复跑那几篇(brief 里 schema 是否说清?不清就进 Task 5 改 brief)。
 
-- [ ] **Step 3: 确认产物只落 eval/**
+- [ ] **Step 3: 重建累计 `_index.json`**
+
+Run:
+```powershell
+& .\eval\regen-index.ps1
+```
+Expected: `index rebuilt: count=32 A=8 B=24` when A+B findings are already present; during an A-only rerun, `count` equals the current number of present findings while both sample manifests are still listed.
+
+- [ ] **Step 4: 确认产物只落 eval/**
 
 Run:
 ```powershell
@@ -214,10 +222,10 @@ git status --short
 ```
 Expected: 改动只在 `eval/codex-findings/`。若 `raw/`/`wiki/`/`aliases.md` 有改动 → Codex 违纪,`git checkout -- raw wiki` 还原并在 brief 里加重纪律。
 
-- [ ] **Step 4: 提交**
+- [ ] **Step 5: 提交**
 
 ```powershell
-git add eval/codex-findings/*.json
+git add eval/codex-findings/*.json eval/codex-findings/_index.json
 git commit -m "eval: codex identify pass on sample-A (round 1)"
 ```
 
@@ -229,7 +237,7 @@ git commit -m "eval: codex identify pass on sample-A (round 1)"
 
 - [ ] **Step 1: 运行 Claude 复合 pass**
 
-在 KB 根开一个 **Claude** 会话,粘贴 `eval/claude-adjudication.md` 全文 + "本轮样本:eval/sample-A.txt"。Claude 读 `raw/` + 衍生 wiki 页 + `codex-findings/<no>.json`,按简报产出 `eval/verdict-A.md`。
+在 KB 根开一个 **Claude** 会话,粘贴 `eval/claude-adjudication.md` 全文 + "本轮样本:eval/sample-A.txt"。Claude 读 `raw/` + 衍生 wiki 页 + `codex-findings/<no>.json`,按简报只写入 `eval/verdict-A.md`。
 
 - [ ] **Step 2: 核对 verdict 结构完整**
 
@@ -293,10 +301,18 @@ powershell -ExecutionPolicy Bypass -File .\eval\validate-findings.ps1 -Sample B;
 ```
 Expected: `expected=24 missing=[] invalid=[]`、`exit=0`。
 
-- [ ] **Step 3: 提交**
+- [ ] **Step 3: 重建累计 `_index.json`**
+
+Run:
+```powershell
+& .\eval\regen-index.ps1
+```
+Expected: `index rebuilt: count=32 A=8 B=24`.
+
+- [ ] **Step 4: 提交**
 
 ```powershell
-git add eval/codex-findings/*.json
+git add eval/codex-findings/*.json eval/codex-findings/_index.json
 git commit -m "eval: codex identify pass on sample-B (acceptance)"
 ```
 
@@ -308,7 +324,7 @@ git commit -m "eval: codex identify pass on sample-B (acceptance)"
 
 - [ ] **Step 1: 运行 Claude 复合 pass(样本B)**
 
-同 Task 4 Step 1,样本换 `eval/sample-B.txt`,产出 `eval/verdict-B.md`。这是**权威验收判定**。
+同 Task 4 Step 1,样本换 `eval/sample-B.txt`,Claude 只写入 `eval/verdict-B.md`。这是**权威验收判定**。
 
 - [ ] **Step 2: 核对四项指标对齐严格档**
 
@@ -328,6 +344,8 @@ git commit -m "eval: claude adjudication on sample-B — acceptance verdict"
 ---
 
 ## Task 8: 过线门决策(放行后半程 / 返工回环)
+
+当前状态(2026-06-28):`eval/verdict-B.md` 已判定严格档过线,放行 `ENABLE_SECOND_HALF`。非 gating backlog 只保留 3 个中级 take 补抽:444 两条政策主张 take,91 一条东欧预测 take。
 
 - [ ] **Step 1: 读 verdict-B.md 判定**
 
