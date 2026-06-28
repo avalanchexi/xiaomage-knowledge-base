@@ -93,6 +93,6 @@
 
 ## 收尾
 
-- 全部样本处理完,在 `eval/codex-findings/_index.json` 写一行汇总:`{"sample": "A|B", "count": N, "files": [...], "generated_at": "..."}`。
+- 全部样本处理完,运行 `eval/regen-index.ps1` 重建累计 `_index.json`(包含 A+B 样本);不要手写或覆盖 `_index.json`。
 - **不要**写 `verdict.md`、不要给过线结论——那是 Claude 的活。
 - 只写 `eval/codex-findings/` 下的文件,**不得改动 `raw/`、`wiki/`、`aliases.md`**。
