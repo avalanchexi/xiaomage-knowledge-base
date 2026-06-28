@@ -1,6 +1,7 @@
 <!-- AGENTS.md = CLAUDE.md 的 Codex 侧副本，内容一致；改 schema 时两份同步。 -->
 
 # 小马哥时政历史知识库 — 编译规则层（schema）
+> ⚠️ 环境与工具纪律见 `AGENT-OPS.md`(PowerShell-only、UTF-8/GBK 编码、worktree 路径)。动手前先读。
 
 > 这是 LLM 编译器（Claude Code / Codex）把 `raw/` 文稿编译成 `wiki/` 知识页时必须遵守的规则。
 > 范式：编译式 RAG / LLM Wiki（Karpathy）+ GBrain 落地。
