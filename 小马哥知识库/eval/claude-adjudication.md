@@ -30,7 +30,7 @@
 
 ## 聚合与过线规则(严格档)
 
-跨样本汇总,按下面口径算四个指标:
+对本轮样本汇总,按下面口径算四个指标:
 
 | 指标 | 口径 | 阈值 |
 |---|---|---|
@@ -41,7 +41,11 @@
 
 **任一不达标 → 未过线。** 过线 = 四项全达标。
 
-## 输出 `eval/verdict.md`
+## 输出样本专属 verdict 文件
+
+- 本轮样本是 `eval/sample-A.txt` 时,只写 `eval/verdict-A.md`。
+- 本轮样本是 `eval/sample-B.txt` 时,只写 `eval/verdict-B.md`。
+- 不要写通用 `eval/verdict.md`,避免覆盖另一轮裁决。
 
 ```markdown
 # T7 质量闸裁决 · 样本<A|B> · <日期>
@@ -65,6 +69,6 @@
 
 ## 纪律
 
-- 只写 `eval/verdict.md`,**不改** `raw/`、`wiki/`、`aliases.md`。
+- 只写本轮对应的 `eval/verdict-A.md` 或 `eval/verdict-B.md`,**不改** `raw/`、`wiki/`、`aliases.md`。
 - 未过线时,返工清单是 agent 回到管线第 1 步(调 schema/prompt 或补抽)的依据。
 - 同一样本跨轮复跑,指标口径不变,才能比较 prompt 迭代是否真的改善(D7)。

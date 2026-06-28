@@ -30,4 +30,4 @@
 ## 5. 其它
 - `eval/codex-findings/_index.json` 要可累积(A+B 都列),勿被单次运行覆盖(P5)。
 - 派 worker 时在指令里显式限定样本范围,避免范围外扩(P6,虽无害)。
-- 历史文件 `wiki/log.md`、`.compile-log` 是 GBK 编码,agent 复读前先转 UTF-8(P7)。
+- worktree 内 `wiki/log.md` 已验证为 UTF-8;旧运行日志或主树 ignored `.compile-log` 若遇 GBK,先用 `eval/fix-encoding.ps1 -Path .\.compile-log` 或显式绝对路径转 UTF-8(BOM),不要默认改主树(P7)。
