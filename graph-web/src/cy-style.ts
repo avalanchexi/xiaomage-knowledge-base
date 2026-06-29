@@ -44,7 +44,7 @@ export function cyStylesheet(): cytoscape.StylesheetJson {
         "text-background-padding": "1px",
       },
     },
-    { selector: "edge.show-label", style: { label: "data(relCn)" } },
+    { selector: "edge.show-label, edge.label-locked", style: { label: "data(relCn)" } },
     { selector: "edge.dim", style: { opacity: 0.16 } },
     {
       selector: "edge.hl, edge.highlight",
