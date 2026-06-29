@@ -1,0 +1,1110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>小马哥知识库 · 知识图谱 MVP</title>
+<style>
+  :root {
+    /* Design system: macOS-style neutral surfaces, compact controls, subtle depth. */
+    --bg: #eceef2;
+    --window: #f6f7f9;
+    --panel: rgba(255,255,255,.86);
+    --panel-solid: #ffffff;
+    --panel-soft: #f7f8fa;
+    --toolbar: rgba(248,249,251,.82);
+    --ink: #1d1d1f;
+    --muted: #626b76;
+    --soft: #98a1ad;
+    --line: #d4d8de;
+    --line-soft: #e8ebef;
+    --active: #24272d;
+    --accent: #0a84ff;
+    --accent-soft: #e8f2ff;
+    --focus: rgba(10,132,255,.18);
+    --radius-xs: 6px;
+    --radius-sm: 8px;
+    --radius-md: 10px;
+    --radius-lg: 14px;
+    --control-h: 32px;
+    --shadow-panel: 0 1px 2px rgba(31,35,40,.06), 0 12px 30px rgba(31,35,40,.05);
+    --person: #6f55d4;
+    --org: #1f9d8a;
+    --country: #2f9b57;
+    --event: #3f7fce;
+    --take: #d98a20;
+    --source: #9aa0a6;
+    --stub: #c6a15b;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    background: radial-gradient(circle at 20% -10%, #fbfcfd 0, var(--bg) 42%, #e8ebef 100%);
+    color: var(--ink);
+    font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+    overflow: hidden;
+  }
+
+  button, input, select {
+    font: inherit;
+  }
+
+  button {
+    border: 1px solid var(--line);
+    background: linear-gradient(#fff, #f8f9fb);
+    color: var(--ink);
+    border-radius: var(--radius-sm);
+    height: var(--control-h);
+    padding: 0 12px;
+    cursor: pointer;
+    transition: border-color .12s ease, background .12s ease, color .12s ease, box-shadow .12s ease;
+  }
+
+  button:hover { border-color: #b8babd; }
+  button.primary {
+    background: linear-gradient(#363a40, #24272d);
+    border-color: #24272d;
+    color: #fff;
+    font-weight: 600;
+  }
+
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--focus);
+  }
+
+  .app {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto auto minmax(0, 1fr) auto;
+  }
+
+  .sketch-banner {
+    background: #fff6dc;
+    border-bottom: 1px solid #ead99f;
+    color: #6e551e;
+    padding: 5px 14px;
+    font-size: 12px;
+  }
+
+  header {
+    background: var(--toolbar);
+    backdrop-filter: blur(18px);
+    border-bottom: 1px solid var(--line);
+    padding: 10px 14px;
+  }
+
+  .topline {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    min-width: 0;
+  }
+
+  .topline::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ff5f57;
+    box-shadow: 16px 0 #ffbd2e, 32px 0 #28c840;
+    flex: none;
+    margin-right: 28px;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 17px;
+    line-height: 1.2;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .sub {
+    color: var(--muted);
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .toolbar {
+    background: var(--toolbar);
+    backdrop-filter: blur(18px);
+    border-bottom: 1px solid var(--line);
+    padding: 12px 14px 10px;
+  }
+
+  .searchpanel {
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    padding: 12px;
+    background: var(--panel);
+    box-shadow: var(--shadow-panel);
+  }
+
+  .searchbar {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .searchline {
+    flex: 1 1 520px;
+    min-width: 180px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 42px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    padding: 0 12px;
+    background: var(--panel-soft);
+  }
+
+  .mag {
+    color: var(--soft);
+    font-size: 12px;
+  }
+
+  .query {
+    flex: 1;
+    min-width: 80px;
+    border: 0;
+    padding: 0;
+    color: var(--ink);
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .searchline:focus-within { border-color: #9da4ad; box-shadow: 0 0 0 3px var(--focus); background: #fff; }
+
+  .paramline {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 13px;
+    margin-top: 10px;
+  }
+
+  select {
+    height: var(--control-h);
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    background: linear-gradient(#fff, #f8f9fb);
+    color: var(--ink);
+    padding: 0 8px;
+  }
+
+  .check {
+    height: var(--control-h);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--muted);
+    white-space: nowrap;
+    font-size: 13px;
+  }
+
+  .seg {
+    display: inline-flex;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    background: #f5f6f8;
+  }
+
+  .seg button {
+    border: 0;
+    border-left: 1px solid var(--line);
+    border-radius: 0;
+    height: 31px;
+    min-width: 34px;
+    padding: 0 10px;
+    color: var(--muted);
+  }
+
+  .seg button:first-child { border-left: 0; }
+  .seg button.on {
+    background: #fff;
+    color: var(--ink);
+    font-weight: 700;
+    box-shadow: 0 1px 2px rgba(31,35,40,.08);
+  }
+
+  .btn.gen {
+    margin-left: auto;
+    min-width: 116px;
+    height: 40px;
+  }
+
+  .subnote {
+    color: var(--soft);
+    font-size: 12px;
+    margin: 9px 2px 0;
+  }
+
+  .subnote b {
+    color: var(--muted);
+    font-weight: 700;
+  }
+
+  .intent {
+    margin-top: 9px;
+    border: 1px dashed var(--line);
+    border-radius: var(--radius-md);
+    padding: 8px 10px;
+    background: rgba(255,255,255,.62);
+    color: var(--muted);
+    font-size: 12px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .pill {
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 2px 9px;
+    background: rgba(255,255,255,.88);
+    color: #3d4248;
+  }
+
+  .pill .dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+
+  .tag {
+    color: var(--muted);
+    border: 1px solid var(--line-soft);
+    border-radius: 4px;
+    padding: 1px 6px;
+    background: rgba(255,255,255,.82);
+    font-size: 11px;
+  }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 220px minmax(560px, 1fr) 330px;
+    min-height: 0;
+    border-top: 1px solid var(--line-soft);
+  }
+
+  aside, .graph-wrap {
+    min-height: 0;
+  }
+
+  .history {
+    background: rgba(247,248,250,.86);
+    backdrop-filter: blur(18px);
+    border-right: 1px solid var(--line);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pane-head {
+    height: 42px;
+    padding: 0 14px;
+    border-bottom: 1px solid var(--line-soft);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .history-list {
+    overflow: auto;
+    padding: 7px 6px;
+    flex: 1;
+  }
+
+  .history-item {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    text-align: left;
+    border: 0;
+    border-radius: var(--radius-sm);
+    padding: 9px 8px 9px 10px;
+    min-height: 58px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  .history-item:hover,
+  .history-item:focus-within {
+    z-index: 60;
+    background: #f6f8fb;
+  }
+  .history-item:focus-visible {
+    outline: none;
+    box-shadow: 0 0 0 3px var(--focus);
+  }
+  .history-item.active {
+    background: var(--accent-soft);
+    color: #063f7c;
+    box-shadow: inset 3px 0 0 var(--accent);
+  }
+  .history-main { min-width: 0; }
+  .history-item strong {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .history-item span {
+    display: block;
+    color: var(--soft);
+    font-size: 11px;
+    margin-top: 2px;
+  }
+
+  .history-actions {
+    position: relative;
+    z-index: 2;
+    width: 28px;
+    height: 28px;
+    display: grid;
+    place-items: center;
+    opacity: 1;
+    transform: translateX(0);
+    pointer-events: auto;
+    transition: transform .12s ease;
+  }
+
+  .history-more {
+    position: relative;
+    z-index: 1;
+    width: 26px;
+    height: 24px;
+    padding: 0;
+    border-radius: var(--radius-xs);
+    border: 0;
+    background: transparent;
+    color: #5d6876;
+    font-size: 17px;
+    line-height: 1;
+  }
+
+  .history-actions:hover {
+    transform: translateY(-1px);
+  }
+
+  .history-more:hover,
+  .history-actions:focus-within .history-more {
+    color: var(--accent);
+    background: rgba(10,132,255,.09);
+    box-shadow: 0 0 0 3px var(--focus);
+  }
+
+  .history-menu {
+    position: absolute;
+    top: 27px;
+    right: 0;
+    z-index: 90;
+    min-width: 92px;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-sm);
+    background: rgba(255,255,255,.96);
+    box-shadow: 0 14px 34px rgba(31,35,40,.16), 0 2px 6px rgba(31,35,40,.08);
+    opacity: 0;
+    transform: translateY(-3px) scale(.98);
+    pointer-events: none;
+    transition: opacity .12s ease, transform .12s ease;
+  }
+
+  .history-actions:hover .history-menu,
+  .history-actions:focus-within .history-menu {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+  }
+
+  .history-action {
+    width: 100%;
+    height: 28px;
+    padding: 0 8px;
+    border-radius: var(--radius-xs);
+    border: 0;
+    background: transparent;
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 500;
+    text-align: left;
+  }
+
+  .history-action:hover {
+    background: #f3f6fb;
+    color: var(--ink);
+  }
+
+  .history-action.delete:hover {
+    color: #a73725;
+    border-color: #efb8aa;
+    background: #fff7f5;
+  }
+
+  .history-foot {
+    border-top: 1px solid var(--line-soft);
+    padding: 10px 12px;
+    color: var(--soft);
+    font-size: 12px;
+  }
+
+  .linkish {
+    color: var(--muted);
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .graph-wrap {
+    position: relative;
+    background:
+      linear-gradient(rgba(32,33,36,.025) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(32,33,36,.025) 1px, transparent 1px),
+      #fbfbfc;
+    background-size: 32px 32px;
+    overflow: hidden;
+  }
+
+  #graph {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .canvas-hint {
+    position: absolute;
+    left: 14px;
+    top: 54px;
+    max-width: calc(100% - 28px);
+    color: var(--soft);
+    font-size: 12px;
+    pointer-events: none;
+  }
+
+  .status {
+    position: absolute;
+    left: 14px;
+    top: 14px;
+    max-width: calc(100% - 28px);
+    border: 1px solid var(--line);
+    background: rgba(255,255,255,.82);
+    backdrop-filter: blur(14px);
+    border-radius: var(--radius-md);
+    padding: 8px 11px;
+    color: var(--muted);
+    font-size: 12px;
+    box-shadow: 0 10px 24px rgba(31,35,40,.06);
+  }
+
+  .status b { color: var(--ink); }
+  .status.error { color: #9a3b20; border-color: #efc3b4; background: #fff7f4; }
+
+  .legend {
+    position: absolute;
+    left: 14px;
+    bottom: 14px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    max-width: calc(100% - 28px);
+    padding: 8px 10px;
+    border: 1px solid var(--line);
+    border-radius: var(--radius-md);
+    background: rgba(255,255,255,.82);
+    backdrop-filter: blur(14px);
+    color: var(--muted);
+    font-size: 12px;
+  }
+
+  .legend button {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    height: 24px;
+    border: 0;
+    border-radius: var(--radius-xs);
+    padding: 0 4px;
+    background: transparent;
+    color: var(--muted);
+  }
+  .legend button:hover { background: rgba(10,132,255,.08); color: var(--ink); }
+  .legend button.off {
+    opacity: .42;
+    text-decoration: line-through;
+  }
+  .legend button.empty {
+    opacity: .34;
+    cursor: not-allowed;
+    text-decoration: none;
+  }
+  .legend-count {
+    color: var(--soft);
+    font-variant-numeric: tabular-nums;
+  }
+  .legend i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+
+  .provenance {
+    position: absolute;
+    right: 14px;
+    bottom: 14px;
+    color: #a5a9af;
+    font-size: 11px;
+    pointer-events: none;
+  }
+
+  .details {
+    background: rgba(255,255,255,.88);
+    backdrop-filter: blur(18px);
+    border-left: 1px solid var(--line);
+    overflow: auto;
+  }
+
+  .detail-body {
+    padding: 16px;
+  }
+
+  .detail-body h2 {
+    margin: 0 0 6px;
+    font-size: 18px;
+    line-height: 1.25;
+  }
+
+  .meta {
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 16px;
+    word-break: break-all;
+  }
+
+  .section-title {
+    margin: 17px 0 8px;
+    color: var(--muted);
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .chipline {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .chip {
+    border: 1px solid var(--line-soft);
+    border-radius: 999px;
+    padding: 3px 8px;
+    color: var(--muted);
+    font-size: 12px;
+    background: #f8f9fb;
+  }
+
+  .source-list {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--line-soft);
+  }
+
+  .source-row {
+    display: grid;
+    grid-template-columns: 52px minmax(0, 1fr);
+    gap: 8px;
+    align-items: baseline;
+    padding: 8px 0;
+    border-bottom: 1px solid var(--line-soft);
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .source-row:hover .source-title {
+    color: var(--accent);
+  }
+
+  .source-no {
+    color: var(--muted);
+    font-size: 12px;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .source-title {
+    min-width: 0;
+    color: #343a42;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .rel-row {
+    padding: 8px 0;
+    border-bottom: 1px solid var(--line-soft);
+    color: #3f444a;
+    font-size: 13px;
+  }
+
+  .rel-row b {
+    display: inline-block;
+    min-width: 52px;
+    color: var(--muted);
+    font-weight: 600;
+  }
+
+  .wiki-link {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 16px;
+    text-decoration: none;
+    color: #fff;
+    background: linear-gradient(#363a40, #24272d);
+    border-radius: var(--radius-sm);
+    height: 36px;
+    padding: 0 12px;
+    font-weight: 600;
+  }
+
+  .wiki-modal[hidden] { display: none; }
+
+  .wiki-modal {
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    display: grid;
+    place-items: center;
+    padding: 36px;
+  }
+
+  .wiki-backdrop {
+    position: absolute;
+    inset: 0;
+    background: rgba(18, 22, 28, .28);
+    backdrop-filter: blur(10px);
+  }
+
+  .wiki-card {
+    position: relative;
+    width: min(880px, calc(100vw - 48px));
+    max-height: min(78vh, 760px);
+    display: grid;
+    grid-template-rows: auto auto minmax(0, 1fr);
+    border: 1px solid rgba(150, 158, 170, .72);
+    border-radius: var(--radius-lg);
+    background: rgba(255,255,255,.96);
+    box-shadow: 0 26px 80px rgba(21, 27, 38, .24), 0 4px 14px rgba(21, 27, 38, .12);
+    overflow: hidden;
+  }
+
+  .wiki-modal-head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 18px 20px 14px;
+    border-bottom: 1px solid var(--line-soft);
+    background: rgba(248,249,251,.92);
+  }
+
+  .wiki-kicker {
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .wiki-modal-head h2 {
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.35;
+  }
+
+  .wiki-close {
+    height: 30px;
+    flex: none;
+  }
+
+  .wiki-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--line-soft);
+    color: var(--muted);
+    font-size: 12px;
+  }
+
+  .wiki-content {
+    overflow: auto;
+    padding: 18px 22px 24px;
+    color: #222831;
+    line-height: 1.75;
+    font-size: 14px;
+  }
+
+  .wiki-content h1,
+  .wiki-content h2,
+  .wiki-content h3 {
+    margin: 18px 0 8px;
+    line-height: 1.35;
+  }
+
+  .wiki-content h1 { font-size: 20px; }
+  .wiki-content h2 { font-size: 17px; }
+  .wiki-content h3 { font-size: 15px; }
+
+  .wiki-content p {
+    margin: 0 0 12px;
+  }
+
+  .wiki-content ul {
+    margin: 0 0 14px 18px;
+    padding: 0;
+  }
+
+  .wiki-content li {
+    margin: 5px 0;
+  }
+
+  .wiki-content pre {
+    margin: 0 0 14px;
+    padding: 12px;
+    white-space: pre-wrap;
+    word-break: break-word;
+    border: 1px solid var(--line-soft);
+    border-radius: var(--radius-sm);
+    background: #f7f8fa;
+    color: #343a42;
+  }
+
+  .wiki-loading,
+  .wiki-error {
+    color: var(--muted);
+    border: 1px dashed var(--line);
+    border-radius: var(--radius-sm);
+    padding: 16px;
+    background: #fafbfc;
+  }
+
+  .wiki-error {
+    color: #9a3b20;
+    border-color: #efc3b4;
+    background: #fff7f4;
+  }
+
+  .muted {
+    color: var(--muted);
+  }
+
+  .states {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+    padding: 12px 14px;
+    border-top: 1px solid var(--line);
+    background: var(--toolbar);
+    backdrop-filter: blur(18px);
+  }
+
+  .state {
+    border: 1px solid var(--line);
+    border-radius: var(--radius-lg);
+    min-height: 72px;
+    padding: 10px;
+    background: rgba(255,255,255,.78);
+    box-shadow: 0 1px 2px rgba(31,35,40,.04);
+  }
+
+  .state .t {
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 7px;
+  }
+
+  .state .body {
+    min-height: 34px;
+    border: 1px dashed var(--line-soft);
+    border-radius: var(--radius-sm);
+    color: var(--soft);
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 6px;
+  }
+
+  .state.warn .body {
+    color: #9a6400;
+    border-color: #efd49d;
+    background: #fff9eb;
+  }
+
+  .edge {
+    stroke: #c9cdd3;
+    stroke-width: 1.25;
+    transition: opacity .12s ease, stroke .12s ease, stroke-width .12s ease;
+  }
+
+  .edge.path {
+    stroke: #5a6069;
+    stroke-width: 2.2;
+  }
+
+  .edge.connected {
+    stroke: var(--accent);
+    stroke-width: 2.35;
+    opacity: 1;
+  }
+
+  .edge.dim {
+    opacity: .16;
+  }
+
+  .edge-label {
+    font-size: 10px;
+    fill: #767b82;
+    paint-order: stroke;
+    stroke: rgba(255,255,255,.88);
+    stroke-width: 4px;
+    stroke-linejoin: round;
+    transition: opacity .12s ease, fill .12s ease;
+  }
+
+  .edge-label.connected {
+    fill: #075fb8;
+    font-weight: 700;
+  }
+
+  .edge-label.dim {
+    opacity: .2;
+  }
+
+  .node {
+    transition: opacity .12s ease;
+  }
+
+  .node.dim {
+    opacity: .28;
+  }
+
+  .node circle {
+    cursor: pointer;
+    transition: stroke-width .12s ease, opacity .12s ease;
+  }
+
+  .node:hover circle {
+    stroke: #111827;
+    stroke-width: 2.5;
+  }
+
+  .node.selected circle {
+    stroke: #111827;
+    stroke-width: 3.4;
+  }
+
+  .node.connected circle {
+    stroke: var(--accent);
+    stroke-width: 2.2;
+  }
+
+  .node text,
+  .node-label {
+    pointer-events: none;
+    font-size: 12px;
+    fill: #24272b;
+    paint-order: stroke;
+    stroke: rgba(255,255,255,.9);
+    stroke-width: 4px;
+    stroke-linejoin: round;
+  }
+
+  .node-label.connected {
+    fill: #075fb8;
+    font-weight: 700;
+  }
+
+  .node-label.dim {
+    opacity: .28;
+  }
+
+  .graph-empty-title {
+    fill: var(--muted);
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+  .graph-empty-body {
+    fill: var(--soft);
+    font-size: 12px;
+  }
+
+  .graph-wrap.is-panning,
+  .graph-wrap.is-panning .node circle {
+    cursor: grabbing;
+  }
+
+  @media (max-width: 920px) {
+    .searchbar { flex-wrap: wrap; }
+    .query { flex-basis: 100%; }
+    .layout {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: minmax(360px, 1fr) auto;
+    }
+    body { overflow: auto; }
+    .app { height: auto; min-height: 100vh; }
+    .history { display: none; }
+    .details {
+      border-left: 0;
+      border-top: 1px solid var(--line);
+      max-height: 36vh;
+    }
+    .states {
+      grid-template-columns: 1fr;
+    }
+    .canvas-hint, .provenance {
+      display: none;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="sketch-banner">线框草图（office-hours Visual Sketch） · 保留原页面要素，当前接入本地 JSON MVP 功能</div>
+
+  <header>
+    <div class="topline">
+      <h1>小马哥知识库 · 知识图谱</h1>
+      <div class="sub">搜索 → 按意图从 wiki 组装 → 清晰渲染（只读）</div>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <form class="searchpanel" id="searchForm">
+      <div class="searchbar">
+        <div class="searchline">
+          <span class="mag">搜索</span>
+          <input class="query" id="query" value="特朗普跟俄罗斯怎么联系" autocomplete="off" placeholder="输入实体或一句话，例如：懂王跟俄罗斯怎么扯上的">
+        </div>
+        <input id="depth" type="hidden" value="2">
+        <div class="paramline">
+          <label class="check">检索深度
+            <span class="seg" id="depthSegments" aria-label="检索深度">
+              <button type="button" data-depth="1">1</button>
+              <button type="button" data-depth="2" class="on">2</button>
+              <button type="button" data-depth="3">3</button>
+            </span>
+          </label>
+          <label class="check">模型
+            <select id="modelSelect" aria-label="模型">
+              <option value="flash">deepseek-v4-flash · 快、省（默认）</option>
+              <option value="pro">deepseek-v4-pro · 更强、更慢</option>
+            </select>
+          </label>
+          <label class="check"><input id="causalMode" type="checkbox"> 因果/层级</label>
+          <label class="check"><input id="includeSources" type="checkbox"> 显示原文出处</label>
+          <button class="btn gen primary" type="submit">生成图谱</button>
+        </div>
+      </div>
+    </form>
+
+    <div class="subnote">“生成图谱”带入上方 <b>文本 + 深度 + 模型 + 出处</b> 一起执行；MVP 先走本地索引，模型选择位保留给后续 `/api/intent`。</div>
+    <div class="intent" id="intentLine">
+      <span>DeepSeek 解析（MVP 本地回退）：</span>
+      <span class="tag">等待输入</span>
+    </div>
+  </div>
+
+  <div class="layout">
+    <aside class="history">
+      <div class="pane-head">
+        <span>已生成的图谱</span>
+        <span class="tag">本地保存</span>
+      </div>
+      <div class="history-list" id="historyList"></div>
+      <div class="history-foot"><span class="linkish" id="saveCurrentGraph">当前图另存为</span> · <span class="linkish" data-clear-history>清空</span></div>
+    </aside>
+
+    <section class="graph-wrap">
+      <div id="graph" role="img" aria-label="知识图谱"></div>
+      <div class="status" id="status">正在加载本地索引...</div>
+      <div class="canvas-hint">点击节点 = 看详情；滚轮缩放，拖拽平移，双击复位；深度 / 因果 / 出处会立即重组当前图</div>
+      <div class="legend" id="legend" aria-label="Entity type filters">
+        <button type="button" data-type="person"><i style="background:var(--person)"></i>人物<span class="legend-count"></span></button>
+        <button type="button" data-type="country"><i style="background:var(--country)"></i>国家<span class="legend-count"></span></button>
+        <button type="button" data-type="event"><i style="background:var(--event)"></i>事件<span class="legend-count"></span></button>
+        <button type="button" data-type="take"><i style="background:var(--take)"></i>观点<span class="legend-count"></span></button>
+        <button type="button" data-type="org"><i style="background:var(--org)"></i>组织<span class="legend-count"></span></button>
+        <button type="button" data-type="source"><i style="background:var(--source)"></i>原文<span class="legend-count"></span></button>
+      </div>
+      <div class="provenance">节点/边均来自 wiki · DeepSeek 不生成图谱内容</div>
+    </section>
+
+    <aside class="details">
+      <div class="pane-head">详情</div>
+      <div class="detail-body" id="details">
+        <h2>等待加载</h2>
+        <p class="muted">索引加载后会显示选中节点。</p>
+      </div>
+    </aside>
+  </div>
+
+  <div class="states">
+    <div class="state">
+      <div class="t">空状态（刚进页面）</div>
+      <div class="body">搜个名字试试：懂王 / 美联储 / 广场协议</div>
+    </div>
+    <div class="state">
+      <div class="t">加载态（读取本地索引）</div>
+      <div class="body">正在读取 graph-index.json 和 search-index.json</div>
+    </div>
+    <div class="state warn">
+      <div class="t">降级态（DeepSeek 不可用）</div>
+      <div class="body">AI 解析失败时，回到本地别名匹配和邻域搜索</div>
+    </div>
+  </div>
+</div>
+
+<div class="wiki-modal" id="wikiModal" hidden>
+  <div class="wiki-backdrop" data-close-wiki></div>
+  <section class="wiki-card" role="dialog" aria-modal="true" aria-labelledby="wikiModalTitle">
+    <header class="wiki-modal-head">
+      <div>
+        <div class="wiki-kicker">Wiki 只读预览</div>
+        <h2 id="wikiModalTitle">正在加载</h2>
+      </div>
+      <button class="wiki-close" type="button" data-close-wiki>关闭</button>
+    </header>
+    <div class="wiki-meta" id="wikiModalMeta"></div>
+    <div class="wiki-content" id="wikiModalBody"></div>
+  </section>
+</div>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
