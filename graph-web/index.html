@@ -229,6 +229,7 @@
     margin-left: auto;
     min-width: 116px;
     height: 40px;
+    font-size: 14px;
   }
 
   .intent {
@@ -556,29 +557,6 @@
   }
   .legend i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
 
-  .graph-actions {
-    position: absolute;
-    right: 14px;
-    top: 14px;
-    display: flex;
-    gap: 8px;
-  }
-
-  .graph-actions button {
-    height: 30px;
-    padding: 0 10px;
-    font-size: 12px;
-    background: rgba(255,255,255,.86);
-    backdrop-filter: blur(14px);
-  }
-
-  .graph-actions button.on {
-    border-color: #9da4ad;
-    background: #fff;
-    box-shadow: 0 1px 2px rgba(31,35,40,.08);
-    font-weight: 700;
-  }
-
   .provenance {
     position: absolute;
     right: 14px;
@@ -673,16 +651,27 @@
   }
 
   .rel-row {
+    display: grid;
+    grid-template-columns: 44px minmax(0, 1fr);
+    gap: 6px;
+    align-items: center;
     padding: 8px 0;
     color: #3f444a;
-    font-size: 13px;
+    font-size: 12px;
+    min-width: 0;
   }
 
   .rel-row b {
-    display: inline-block;
-    min-width: 52px;
     color: var(--muted);
     font-weight: 600;
+  }
+
+  .rel-target {
+    min-width: 0;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 
   .wiki-link {
@@ -977,8 +966,7 @@
   }
 
   @media (pointer: coarse) {
-    .legend button,
-    .graph-actions button {
+    .legend button {
       height: 44px;
     }
     .history-more {
@@ -1068,9 +1056,6 @@
     <section class="graph-wrap">
       <div id="graph" role="img" aria-label="知识图谱"></div>
       <div class="status" id="status">正在加载本地索引...</div>
-      <div class="graph-actions">
-        <button id="takeHighlightToggle" type="button" aria-pressed="false">高亮观点</button>
-      </div>
       <div class="canvas-hint">点击节点 = 看详情；滚轮缩放，拖拽平移，双击复位；深度 / 因果 / 出处会立即重组当前图</div>
       <div class="legend" id="legend" aria-label="实体类型筛选">
         <div class="legend-section" aria-label="实体类型筛选">

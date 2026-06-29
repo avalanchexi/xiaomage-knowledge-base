@@ -1,7 +1,7 @@
 import { assemble } from "./assemble";
 import { buildAdjacency, resolveMentions } from "./data";
 import { resolvePlanWithMeta, type IntentModel } from "./intent";
-import { initCy, renderResult, setTakeHighlight, wireGraphInteractions } from "./render";
+import { initCy, renderResult, wireGraphInteractions } from "./render";
 import {
   addHistorySession,
   filteredResult,
@@ -67,7 +67,6 @@ async function main(): Promise<void> {
   let depthOverridden = false;
   let sourcesOverridden = false;
   let relationFilter: QueryPlan["relations"] | null = null;
-  let takeHighlightOn = false;
 
   initCy(graphContainer);
   wireWikiModal();
@@ -84,7 +83,6 @@ async function main(): Promise<void> {
 
   renderLegend([], rerenderCurrent);
   renderRelationFilters("all", applyRelationFilter);
-  wireTakeHighlightToggle();
   renderHistory((query) => {
     queryInput.value = query;
     void runQuery(query, false);
@@ -247,16 +245,6 @@ async function main(): Promise<void> {
     void runQuery(state.query, false);
   }
 
-  function wireTakeHighlightToggle(): void {
-    const button = document.getElementById("takeHighlightToggle") as HTMLButtonElement | null;
-    if (!button) return;
-    button.addEventListener("click", () => {
-      takeHighlightOn = !takeHighlightOn;
-      button.classList.toggle("on", takeHighlightOn);
-      button.setAttribute("aria-pressed", String(takeHighlightOn));
-      setTakeHighlight(takeHighlightOn);
-    });
-  }
 }
 
 function applyVisibleResult(state: AppState, causal: boolean): void {

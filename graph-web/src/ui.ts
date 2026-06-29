@@ -134,10 +134,11 @@ export function renderDetails(
     for (const edge of visibleRels) {
       const isOut = edge.source === node.id;
       const other = byId.get(isOut ? edge.target : edge.source);
+      const targetText = `${isOut ? "到" : "来自"} ${other?.label || other?.id || ""}`;
       details.append(
         el("div", { class: "rel-row" }, [
           el("b", {}, relationCn(edge.relation)),
-          document.createTextNode(`${isOut ? "到" : "来自"} ${other?.label || other?.id || ""}`),
+          el("span", { class: "rel-target", title: targetText }, targetText),
         ]),
       );
     }
