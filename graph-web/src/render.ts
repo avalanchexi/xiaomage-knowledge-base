@@ -79,14 +79,19 @@ async function runLayout(targetCy: Core, generation: number, causal: boolean): P
   targetCy.layout({
     name: "fcose",
     quality: "proof",
-    nodeSeparation: causal ? 100 : 90,
-    idealEdgeLength: causal ? 105 : 90,
+    fit: true,
+    padding: 48,
+    nodeSeparation: causal ? 130 : 118,
+    nodeRepulsion: () => (causal ? 7000 : 6400),
+    idealEdgeLength: causal ? 128 : 116,
+    tilingPaddingVertical: 18,
+    tilingPaddingHorizontal: 18,
     packComponents: true,
     animate: false,
   } as cytoscape.LayoutOptions).run();
 
   if (cy !== targetCy || generation !== layoutGeneration) return;
-  targetCy.fit(undefined, 40);
+  targetCy.fit(undefined, 48);
 }
 
 function selectNeighborhood(targetCy: Core, node: NodeSingular): void {
