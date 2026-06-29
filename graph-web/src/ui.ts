@@ -1,5 +1,5 @@
-import { relationCn, typeMeta } from "./relations";
-import type { AssembleResult, GEdge, GNode, GraphIndex, Mode } from "./types";
+import { RELATION_TYPES, relationCn, relationPlanToSelection, relationSelectionToPlan, typeMeta } from "./relations";
+import type { AssembleResult, GEdge, GNode, GraphIndex, Mode, QueryPlan } from "./types";
 
 const HISTORY_KEY = "kg:graphs";
 const MAX_HISTORY = 12;
@@ -56,6 +56,38 @@ export function renderLegend(nodes: GNode[], onChange: () => void): void {
         if (hiddenTypes.has(clickedType)) hiddenTypes.delete(clickedType);
         else hiddenTypes.add(clickedType);
         onChange();
+      });
+    }
+  }
+}
+
+export function renderRelationFilters(
+  relations: QueryPlan["relations"],
+  onChange: (relations: QueryPlan["relations"]) => void,
+): void {
+  const root = document.getElementById("relationFilters");
+  if (!root) return;
+
+  const active = relationPlanToSelection(relations);
+  for (const button of Array.from(root.querySelectorAll<HTMLButtonElement>("[data-relation]"))) {
+    const relation = button.dataset.relation ?? "";
+    const known = RELATION_TYPES.includes(relation);
+    const pressed = known && active.has(relation);
+    button.disabled = !known;
+    button.classList.toggle("off", known && !pressed);
+    button.classList.toggle("empty", !known);
+    button.setAttribute("aria-pressed", String(pressed));
+    button.title = known ? `${relationCn(relation)} / ${relation}` : relation;
+
+    if (button.dataset.wiredRelation !== "1") {
+      button.dataset.wiredRelation = "1";
+      button.addEventListener("click", () => {
+        const clickedRelation = button.dataset.relation;
+        if (!clickedRelation || button.disabled) return;
+        const selected = selectedRelationsFromButtons(root);
+        if (selected.has(clickedRelation)) selected.delete(clickedRelation);
+        else selected.add(clickedRelation);
+        onChange(relationSelectionToPlan(selected));
       });
     }
   }
@@ -475,6 +507,14 @@ function chipLine(items: string[]): HTMLElement {
   const wrap = el("div", { class: "chipline" });
   for (const item of items.length ? items : ["无"]) wrap.append(el("span", { class: "chip" }, item));
   return wrap;
+}
+
+function selectedRelationsFromButtons(root: HTMLElement): Set<string> {
+  const selected = new Set<string>();
+  for (const button of Array.from(root.querySelectorAll<HTMLButtonElement>("[data-relation]"))) {
+    if (button.getAttribute("aria-pressed") === "true" && button.dataset.relation) selected.add(button.dataset.relation);
+  }
+  return selected;
 }
 
 function requiredEl<T extends HTMLElement>(id: string): T {

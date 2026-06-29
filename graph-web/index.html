@@ -534,6 +534,7 @@
     left: 14px;
     bottom: 14px;
     display: flex;
+    align-items: center;
     gap: 10px;
     flex-wrap: wrap;
     max-width: calc(100% - 28px);
@@ -544,6 +545,27 @@
     backdrop-filter: blur(14px);
     color: var(--muted);
     font-size: 12px;
+  }
+
+  .legend-section {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    flex-wrap: wrap;
+  }
+
+  .legend-label {
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    color: var(--soft);
+    font-weight: 700;
+  }
+
+  .legend-divider {
+    width: 1px;
+    min-height: 20px;
+    background: var(--line-soft);
   }
 
   .legend button {
@@ -572,6 +594,29 @@
     font-variant-numeric: tabular-nums;
   }
   .legend i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+
+  .graph-actions {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    display: flex;
+    gap: 8px;
+  }
+
+  .graph-actions button {
+    height: 30px;
+    padding: 0 10px;
+    font-size: 12px;
+    background: rgba(255,255,255,.86);
+    backdrop-filter: blur(14px);
+  }
+
+  .graph-actions button.on {
+    border-color: #9da4ad;
+    background: #fff;
+    box-shadow: 0 1px 2px rgba(31,35,40,.08);
+    font-weight: 700;
+  }
 
   .provenance {
     position: absolute;
@@ -970,7 +1015,8 @@
   }
 
   @media (pointer: coarse) {
-    .legend button {
+    .legend button,
+    .graph-actions button {
       height: 44px;
     }
     .history-more {
@@ -1067,14 +1113,32 @@
     <section class="graph-wrap">
       <div id="graph" role="img" aria-label="知识图谱"></div>
       <div class="status" id="status">正在加载本地索引...</div>
+      <div class="graph-actions">
+        <button id="takeHighlightToggle" type="button" aria-pressed="false">高亮观点</button>
+      </div>
       <div class="canvas-hint">点击节点 = 看详情；滚轮缩放，拖拽平移，双击复位；深度 / 因果 / 出处会立即重组当前图</div>
-      <div class="legend" id="legend" aria-label="Entity type filters">
-        <button type="button" data-type="person"><i style="background:var(--person)"></i>人物<span class="legend-count"></span></button>
-        <button type="button" data-type="country"><i style="background:var(--country)"></i>国家<span class="legend-count"></span></button>
-        <button type="button" data-type="event"><i style="background:var(--event)"></i>事件<span class="legend-count"></span></button>
-        <button type="button" data-type="take"><i style="background:var(--take)"></i>观点<span class="legend-count"></span></button>
-        <button type="button" data-type="org"><i style="background:var(--org)"></i>组织<span class="legend-count"></span></button>
-        <button type="button" data-type="source"><i style="background:var(--source)"></i>原文<span class="legend-count"></span></button>
+      <div class="legend" id="legend" aria-label="实体和关系筛选">
+        <div class="legend-section" aria-label="实体类型筛选">
+          <button type="button" data-type="person"><i style="background:var(--person)"></i>人物<span class="legend-count"></span></button>
+          <button type="button" data-type="country"><i style="background:var(--country)"></i>国家<span class="legend-count"></span></button>
+          <button type="button" data-type="event"><i style="background:var(--event)"></i>事件<span class="legend-count"></span></button>
+          <button type="button" data-type="take"><i style="background:var(--take)"></i>观点<span class="legend-count"></span></button>
+          <button type="button" data-type="org"><i style="background:var(--org)"></i>组织<span class="legend-count"></span></button>
+          <button type="button" data-type="source"><i style="background:var(--source)"></i>原文<span class="legend-count"></span></button>
+        </div>
+        <span class="legend-divider" aria-hidden="true"></span>
+        <div class="legend-section" id="relationFilters" aria-label="关系类型筛选">
+          <span class="legend-label">关系</span>
+          <button type="button" data-relation="mentions">mentions</button>
+          <button type="button" data-relation="participates-in">participates-in</button>
+          <button type="button" data-relation="about">about</button>
+          <button type="button" data-relation="opposes">opposes</button>
+          <button type="button" data-relation="caused">caused</button>
+          <button type="button" data-relation="part-of">part-of</button>
+          <button type="button" data-relation="derived-from">derived-from</button>
+          <button type="button" data-relation="supports">supports</button>
+          <button type="button" data-relation="contradicts">contradicts</button>
+        </div>
       </div>
       <div class="provenance">节点/边均来自 wiki · DeepSeek 不生成图谱内容</div>
     </section>

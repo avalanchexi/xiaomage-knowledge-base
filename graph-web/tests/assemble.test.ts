@@ -57,6 +57,12 @@ describe("assemble", () => {
     expect(r.edges).toEqual([{ source: "events/b", target: "countries/c", relation: "caused" }]);
   });
 
+  it("relations filter with an empty list keeps only seeds and no edges", () => {
+    const r = assemble(idx, adj, plan({ entity_mentions: ["events/b"], depth: 1, relations: [] }));
+    expect(r.nodes.map((n) => n.id)).toEqual(["events/b"]);
+    expect(r.edges).toEqual([]);
+  });
+
   it("path mode returns shortest path A->C", () => {
     const r = assemble(idx, adj, plan({ entity_mentions: ["people/a", "countries/c"], mode: "path" }));
     expect(r.mode).toBe("path");

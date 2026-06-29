@@ -1,5 +1,5 @@
 import type cytoscape from "cytoscape";
-import type { EntityType } from "./types";
+import type { EntityType, QueryPlan } from "./types";
 
 export type NodeShape = cytoscape.Css.NodeShape;
 
@@ -8,7 +8,24 @@ export const RELATION_CN: Record<string, string> = {
   "opposes": "对立", "caused": "导致", "part-of": "隶属",
   "derived-from": "源自", "supports": "支持", "contradicts": "矛盾",
 };
+export const RELATION_TYPES = Object.keys(RELATION_CN);
 export const relationCn = (r: string) => RELATION_CN[r] ?? r;
+
+export function relationSelectionToPlan(
+  selected: Iterable<string>,
+  relationTypes: readonly string[] = RELATION_TYPES,
+): QueryPlan["relations"] {
+  const selectedSet = new Set([...selected].map((relation) => relation.trim()).filter(Boolean));
+  const normalized = relationTypes.filter((relation) => selectedSet.has(relation));
+  return normalized.length === relationTypes.length ? "all" : normalized;
+}
+
+export function relationPlanToSelection(
+  relations: QueryPlan["relations"],
+  relationTypes: readonly string[] = RELATION_TYPES,
+): Set<string> {
+  return new Set(relations === "all" ? relationTypes : relationTypes.filter((relation) => relations.includes(relation)));
+}
 
 // 颜色 + 形状双编码（色盲友好）。形状取 Cytoscape 合法值。
 export const TYPE_META: Record<EntityType, { cn: string; color: string; shape: NodeShape }> = {

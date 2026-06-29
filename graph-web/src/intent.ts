@@ -4,9 +4,11 @@ export type IntentModel = "flash" | "pro";
 export type ResolvedPlan = { plan: QueryPlan; degraded: boolean };
 
 export function degradePlan(query: string): QueryPlan {
+  const trimmed = query.trim();
+  const localMentions = localPathMentions(trimmed);
   return {
-    entity_mentions: [query.trim()],
-    mode: "neighborhood",
+    entity_mentions: localMentions,
+    mode: localMentions.length >= 2 ? "path" : "neighborhood",
     depth: 2,
     relations: "all",
     includeSources: false,
@@ -107,4 +109,19 @@ function isValidCachedPlanShape(raw: unknown): boolean {
 
 function isObject(value: unknown): value is Record<string, unknown> {
   return Boolean(value && typeof value === "object");
+}
+
+const PATH_INTENT_RE = /(关系|怎么连|怎么联系|如何联系|关联|路径|连通|连接|联系)/;
+const PATH_CLEANUP_RE = /(怎么连|怎么联系|如何联系|什么关系|有何关系|什么关联|怎么关联|如何关联|关系|关联|路径|连通|连接|联系|之间|有什么|如何|怎么|的)/g;
+const PAIR_SPLIT_RE = /(?:\s+|跟|和|与|同|及|到|至|、|,|，|\/|\+|->|→|vs\.?)/i;
+
+function localPathMentions(query: string): string[] {
+  if (!query || !PATH_INTENT_RE.test(query)) return query ? [query] : [];
+  const cleaned = query.replace(PATH_CLEANUP_RE, " ").replace(/[?？]/g, " ");
+  const unique: string[] = [];
+  for (const part of cleaned.split(PAIR_SPLIT_RE).map((item) => item.trim()).filter(Boolean)) {
+    if (!unique.includes(part)) unique.push(part);
+    if (unique.length === 2) break;
+  }
+  return unique.length >= 2 ? unique : [query];
 }

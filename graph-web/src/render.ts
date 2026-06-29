@@ -9,6 +9,7 @@ cytoscape.use(fcose);
 
 let cy: Core | null = null;
 let layoutGeneration = 0;
+let takeHighlightEnabled = false;
 
 export function initCy(container: HTMLElement): Core {
   cy = cytoscape({
@@ -68,10 +69,16 @@ export function renderResult(r: AssembleResult, causal: boolean, seedIds = seedI
   );
   for (const seedId of seedIds) currentCy.$id(seedId).addClass("seed");
   if (r.mode === "path") currentCy.edges().addClass("path label-locked");
+  applyTakeHighlight(currentCy);
 
   void runLayout(currentCy, generation, causal).catch((error: unknown) => {
     if (generation === layoutGeneration) console.error("Graph layout failed", error);
   });
+}
+
+export function setTakeHighlight(enabled: boolean): void {
+  takeHighlightEnabled = enabled;
+  applyTakeHighlight(cy);
 }
 
 async function runLayout(targetCy: Core, generation: number, causal: boolean): Promise<void> {
@@ -114,6 +121,12 @@ function clearSelection(targetCy: Core): void {
   targetCy.elements().removeClass("dim hl highlight show-label");
   targetCy.edges().not(".path").removeClass("label-locked");
   targetCy.nodes().unselect();
+  applyTakeHighlight(targetCy);
+}
+
+function applyTakeHighlight(targetCy: Core | null): void {
+  if (!targetCy) return;
+  targetCy.nodes('[type = "take"]').toggleClass("hl", takeHighlightEnabled);
 }
 
 function seedIdsFromLevels(r: AssembleResult): string[] {

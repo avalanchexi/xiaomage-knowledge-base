@@ -57,6 +57,21 @@ describe("intent plan resolution", () => {
     });
   });
 
+  it("degrades two-entity relationship questions to local path mode", () => {
+    expect(degradePlan("特朗普跟俄罗斯怎么联系")).toEqual({
+      entity_mentions: ["特朗普", "俄罗斯"],
+      mode: "path",
+      depth: 2,
+      relations: "all",
+      includeSources: false,
+    });
+
+    expect(degradePlan("美国 俄罗斯 关系")).toMatchObject({
+      entity_mentions: ["美国", "俄罗斯"],
+      mode: "path",
+    });
+  });
+
   it("reports metadata degraded=false for a successful server plan identical to local degrade", async () => {
     const query = "China";
     vi.mocked(fetch).mockResolvedValueOnce(new Response(JSON.stringify(degradePlan(query)), { status: 200 }));
