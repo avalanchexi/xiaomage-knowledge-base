@@ -215,6 +215,42 @@ describe("intent plan resolution", () => {
     });
   });
 
+  it("filters unknown model relation names", async () => {
+    vi.mocked(fetch).mockResolvedValueOnce(
+      new Response(
+        JSON.stringify({
+          entity_mentions: ["China"],
+          mode: "path",
+          depth: 2,
+          relations: ["caused", "unknown-x", " supports "],
+        }),
+        { status: 200 },
+      ),
+    );
+
+    await expect(resolvePlan("China", "flash")).resolves.toMatchObject({
+      relations: ["caused", "supports"],
+    });
+  });
+
+  it("falls back to all when model relation names are all unknown", async () => {
+    vi.mocked(fetch).mockResolvedValueOnce(
+      new Response(
+        JSON.stringify({
+          entity_mentions: ["China"],
+          mode: "path",
+          depth: 2,
+          relations: ["unknown-x", "invented"],
+        }),
+        { status: 200 },
+      ),
+    );
+
+    await expect(resolvePlan("China", "flash")).resolves.toMatchObject({
+      relations: "all",
+    });
+  });
+
   it("accepts the server wrapped plan response", async () => {
     vi.mocked(fetch).mockResolvedValueOnce(
       new Response(JSON.stringify({ plan: { entity_mentions: ["Trump"], mode: "path", depth: 3 } }), { status: 200 }),

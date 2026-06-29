@@ -300,7 +300,7 @@ export function renderIntentLine(args: {
   const intentLine = document.getElementById("intentLine");
   if (!intentLine) return;
   clear(intentLine);
-  intentLine.append(el("span", {}, "DeepSeek 解析（MVP 本地回退）："));
+  intentLine.append(el("span", {}, "DeepSeek 解析："));
 
   if (args.state === "waiting") {
     intentLine.append(el("span", { class: "tag" }, "等待输入"));

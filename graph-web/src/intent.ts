@@ -1,4 +1,5 @@
 import type { QueryPlan } from "./types";
+import { RELATION_TYPES } from "./relations";
 
 export type IntentModel = "flash" | "pro";
 export type ResolvedPlan = { plan: QueryPlan; degraded: boolean };
@@ -86,10 +87,11 @@ function normalizePlan(raw: unknown, query: string): QueryPlan {
 function normalizeRelations(relations: unknown): QueryPlan["relations"] {
   if (relations === "all") return "all";
   if (!Array.isArray(relations)) return "all";
-  const normalized = relations
+  const selected = new Set(relations
     .filter((relation): relation is string => typeof relation === "string")
     .map((relation) => relation.trim())
-    .filter(Boolean);
+    .filter(Boolean));
+  const normalized = RELATION_TYPES.filter((relation) => selected.has(relation));
   return normalized.length ? normalized : "all";
 }
 
