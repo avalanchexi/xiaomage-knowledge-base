@@ -46,7 +46,7 @@ export function wireGraphInteractions(onSelectNode: (nodeId: string | null) => v
   });
 }
 
-export function renderResult(r: AssembleResult, causal: boolean): void {
+export function renderResult(r: AssembleResult, causal: boolean, seedIds = seedIdsFromLevels(r)): void {
   if (!cy) throw new Error("cy not initialized");
 
   const currentCy = cy;
@@ -66,6 +66,7 @@ export function renderResult(r: AssembleResult, causal: boolean): void {
       },
     })),
   );
+  for (const seedId of seedIds) currentCy.$id(seedId).addClass("seed");
   if (r.mode === "path") currentCy.edges().addClass("path label-locked");
 
   void runLayout(currentCy, generation, causal).catch((error: unknown) => {
@@ -113,4 +114,8 @@ function clearSelection(targetCy: Core): void {
   targetCy.elements().removeClass("dim hl highlight show-label");
   targetCy.edges().not(".path").removeClass("label-locked");
   targetCy.nodes().unselect();
+}
+
+function seedIdsFromLevels(r: AssembleResult): string[] {
+  return r.nodes.filter((node) => r.levels.get(node.id) === 0).map((node) => node.id);
 }

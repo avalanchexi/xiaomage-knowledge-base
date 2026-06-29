@@ -28,6 +28,7 @@ export function cyStylesheet(): cytoscape.StylesheetJson {
     { selector: "node:selected", style: { "border-color": "#111827", "border-width": 3 } },
     { selector: "node.dim", style: { opacity: 0.28 } },
     { selector: "node.hl, node.highlight", style: { "border-color": "#0a84ff", "border-width": 2 } },
+    { selector: "node.seed", style: { "border-color": "#111", "border-width": 3 } },
     {
       selector: "edge",
       style: {
