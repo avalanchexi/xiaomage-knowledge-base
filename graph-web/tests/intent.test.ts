@@ -38,7 +38,7 @@ describe("intent plan resolution", () => {
     expect(plan).toEqual({
       entity_mentions: ["Trump", "China"],
       mode: "path",
-      depth: 3,
+      depth: 2,
       relations: ["caused"],
       includeSources: true,
     });
@@ -188,7 +188,7 @@ describe("intent plan resolution", () => {
     expect(plan).toEqual({
       entity_mentions: ["China"],
       mode: "path",
-      depth: 3,
+      depth: 2,
       relations: "all",
       includeSources: true,
     });
@@ -259,7 +259,7 @@ describe("intent plan resolution", () => {
     await expect(resolvePlan("Trump", "flash")).resolves.toMatchObject({
       entity_mentions: ["Trump"],
       mode: "path",
-      depth: 3,
+      depth: 2,
     });
   });
 
@@ -270,6 +270,6 @@ describe("intent plan resolution", () => {
       throw new Error("quota");
     });
 
-    await expect(resolvePlan("China", "flash")).resolves.toEqual(serverPlan);
+    await expect(resolvePlan("China", "flash")).resolves.toEqual({ ...serverPlan, depth: 2 });
   });
 });

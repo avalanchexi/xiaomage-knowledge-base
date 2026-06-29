@@ -481,18 +481,28 @@ function renderWikiInline(text: string): Child[] {
   const pattern = /\[\[([^\]]+)\]\]/g;
   let lastIndex = 0;
   for (const match of text.matchAll(pattern)) {
-    if (match.index > lastIndex) out.push(text.slice(lastIndex, match.index));
+    if (match.index > lastIndex) out.push(localizeRelationTokens(text.slice(lastIndex, match.index)));
     const id = match[1].trim();
     out.push(wikiLabelResolver?.(id) || humanizeWikiId(id));
     lastIndex = match.index + match[0].length;
   }
-  if (lastIndex < text.length) out.push(text.slice(lastIndex));
-  return out.length ? out : [text];
+  if (lastIndex < text.length) out.push(localizeRelationTokens(text.slice(lastIndex)));
+  return out.length ? out : [localizeRelationTokens(text)];
 }
 
 function humanizeWikiId(id: string): string {
   const tail = id.split("/").pop() || id;
   return tail.replace(/-/g, " ");
+}
+
+const relationTokenPattern = new RegExp(`(^|\\s)(${RELATION_TYPES.map(escapeRegExp).join("|")})(?=\\s|$)`, "g");
+
+function localizeRelationTokens(text: string): string {
+  return text.replace(relationTokenPattern, (_match, lead: string, relation: string) => `${lead}${relationCn(relation)}`);
+}
+
+function escapeRegExp(value: string): string {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function loadHistory(): HistoryItem[] {

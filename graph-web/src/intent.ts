@@ -78,10 +78,14 @@ function normalizePlan(raw: unknown, query: string): QueryPlan {
   return {
     entity_mentions: mentions.length ? mentions : [query.trim()],
     mode: plan.mode === "path" || plan.mode === "neighborhood" ? plan.mode : "neighborhood",
-    depth: plan.depth === 1 || plan.depth === 2 || plan.depth === 3 ? plan.depth : 2,
+    depth: normalizeDepth(plan.depth),
     relations,
     includeSources: typeof plan.includeSources === "boolean" ? plan.includeSources : false,
   };
+}
+
+function normalizeDepth(depth: unknown): number {
+  return depth === 1 ? 1 : 2;
 }
 
 function normalizeRelations(relations: unknown): QueryPlan["relations"] {

@@ -302,8 +302,7 @@ function isEntityType(type: unknown): type is EntityType {
 }
 
 function readDepth(input: HTMLInputElement): number {
-  const parsed = Number.parseInt(input.value, 10);
-  return Number.isFinite(parsed) ? Math.min(3, Math.max(1, parsed)) : 2;
+  return normalizeDepth(input.value);
 }
 
 function readModel(select: HTMLSelectElement): IntentModel {
@@ -311,10 +310,16 @@ function readModel(select: HTMLSelectElement): IntentModel {
 }
 
 function setDepth(input: HTMLInputElement, segments: HTMLElement, value: string): void {
-  input.value = value;
+  const normalized = String(normalizeDepth(value));
+  input.value = normalized;
   for (const button of Array.from(segments.querySelectorAll<HTMLButtonElement>("[data-depth]"))) {
-    button.classList.toggle("on", button.dataset.depth === value);
+    button.classList.toggle("on", button.dataset.depth === normalized);
   }
+}
+
+function normalizeDepth(value: string | number): number {
+  const parsed = Number.parseInt(String(value), 10);
+  return Number.isFinite(parsed) ? Math.min(2, Math.max(1, parsed)) : 2;
 }
 
 function currentIntentArgs(
@@ -324,7 +329,7 @@ function currentIntentArgs(
   state: "waiting" | "no-hit",
 ): Parameters<typeof renderIntentLine>[0] {
   return {
-    depth: Number.parseInt((document.getElementById("depth") as HTMLInputElement | null)?.value ?? "2", 10),
+    depth: normalizeDepth((document.getElementById("depth") as HTMLInputElement | null)?.value ?? "2"),
     model: modelSelect.value,
     causal: causalMode.checked,
     includeSources: includeSources.checked,

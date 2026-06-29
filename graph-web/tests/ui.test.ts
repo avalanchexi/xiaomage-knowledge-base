@@ -61,7 +61,7 @@ describe("status and wiki rendering", () => {
     vi.stubGlobal(
       "fetch",
       vi.fn(async () => new Response(
-        "---\ntitle: Test\ntype: source\n---\n- \u4e8b\u4ef6\uff1a[[events/yellen-trade-war-criticism-2021]]\n- \u4e3b\u4f53\uff1a[[countries/china]]",
+        "---\ntitle: Test\ntype: source\n---\n- \u4e8b\u4ef6\uff1a[[events/yellen-trade-war-criticism-2021]]\n- \u4e3b\u4f53\uff1a[[countries/china]]\n- participates-in [[events/yellen-trade-war-criticism-2021]]",
       )),
     );
 
@@ -70,6 +70,8 @@ describe("status and wiki rendering", () => {
     const text = document.getElementById("wikiModalBody")?.textContent || "";
     expect(text).toContain("\u4e8b\u4ef6\uff1a\u8036\u4f26\u6279\u8bc4\u4e2d\u7f8e\u8d38\u6613\u6218");
     expect(text).toContain("\u4e3b\u4f53\uff1a\u4e2d\u56fd");
+    expect(text).toContain("\u53c2\u4e0e \u8036\u4f26\u6279\u8bc4\u4e2d\u7f8e\u8d38\u6613\u6218");
     expect(text).not.toContain("[[events/yellen-trade-war-criticism-2021]]");
+    expect(text).not.toContain("participates-in");
   });
 });
