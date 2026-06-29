@@ -12,7 +12,9 @@ import {
   renderIntentLine,
   renderLegend,
   renderRelationFilters,
+  setStateBody,
   setStatus,
+  setWikiLabelResolver,
   wireWikiModal,
 } from "./ui";
 import type { AssembleResult, EntityType, GNode, GraphIndex, QueryPlan, SearchItem } from "./types";
@@ -43,6 +45,9 @@ async function main(): Promise<void> {
   const modelSelect = requiredEl<HTMLSelectElement>("modelSelect");
 
   setStatus("正在加载本地索引...");
+  setStateBody("indexState", "正在读取索引");
+  setStateBody("emptyState", "请输入");
+  setStateBody("deepseekState", "等待检测");
   const [graph, search] = await Promise.all([loadJson<GraphIndex>("data/graph-index.json"), loadSearchIndex("data/search-index.json")]);
   const adj = buildAdjacency(graph);
   const state: AppState = {
@@ -66,6 +71,7 @@ async function main(): Promise<void> {
 
   initCy(graphContainer);
   wireWikiModal();
+  setWikiLabelResolver((id) => state.byId.get(id)?.label);
   wireGraphInteractions((nodeId) => {
     state.selectedId = nodeId;
     renderSelectedDetails(state);
@@ -130,6 +136,8 @@ async function main(): Promise<void> {
     renderDetails(null, graph, openWiki);
     renderIntentLine(currentIntentArgs(modelSelect, causalMode, includeSources, "waiting"));
     setStatus("本地索引已加载，等待输入。");
+    setStateBody("indexState", "已加载");
+    setStateBody("emptyState", "请输入");
   }
 
   async function runQuery(query: string, recordHistory: boolean): Promise<void> {
@@ -150,15 +158,19 @@ async function main(): Promise<void> {
       renderDetails(null, graph, openWiki);
       renderIntentLine(currentIntentArgs(modelSelect, causalMode, includeSources, "waiting"));
       setStatus("请输入实体或一句话。");
+      setStateBody("emptyState", "请输入");
       return;
     }
 
     setStatus("正在解析搜索意图...");
+    setStateBody("emptyState", "正在生成");
+    setStateBody("deepseekState", "检测中");
     const model = readModel(modelSelect);
     const { plan: modelPlan, degraded } = await resolvePlanWithMeta(trimmed, model);
     if (activeRequest !== requestId) return;
 
     state.fallbackIntent = degraded;
+    setStateBody("deepseekState", degraded ? "不可用，已本地回退" : "可用");
     if (!depthOverridden) setDepth(depthInput, depthSegments, String(modelPlan.depth));
     if (!sourcesOverridden) includeSources.checked = modelPlan.includeSources;
 
@@ -171,6 +183,7 @@ async function main(): Promise<void> {
       renderDetails(null, graph, openWiki);
       renderIntentLine(currentIntentArgs(modelSelect, causalMode, includeSources, "no-hit"));
       setStatus(`未命中：${trimmed}`);
+      setStateBody("emptyState", "未命中");
       return;
     }
 
@@ -185,6 +198,7 @@ async function main(): Promise<void> {
     };
     renderRelationFilters(state.currentPlan.relations, applyRelationFilter);
     reassembleCurrent();
+    setStateBody("emptyState", "已生成");
 
     if (recordHistory && state.visibleResult) {
       addHistorySession(trimmed, state.visibleResult.mode, state.visibleResult.nodes.length);
@@ -335,5 +349,6 @@ function requiredEl<T extends HTMLElement = HTMLElement>(id: string): T {
 void main().catch((error: unknown) => {
   const message = error instanceof Error ? error.message : String(error);
   setStatus(`加载失败：${message}`, true);
+  setStateBody("indexState", "加载失败");
   console.error(error);
 });

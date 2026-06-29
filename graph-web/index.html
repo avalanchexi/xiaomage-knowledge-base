@@ -43,7 +43,7 @@
     margin: 0;
     background: radial-gradient(circle at 20% -10%, #fbfcfd 0, var(--bg) 42%, #e8ebef 100%);
     color: var(--ink);
-    font: 14px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+    font: 14px/1.5715 -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
     overflow: hidden;
   }
 
@@ -80,15 +80,7 @@
   .app {
     height: 100vh;
     display: grid;
-    grid-template-rows: auto auto auto minmax(0, 1fr) auto;
-  }
-
-  .sketch-banner {
-    background: #fff6dc;
-    border-bottom: 1px solid #ead99f;
-    color: #6e551e;
-    padding: 5px 14px;
-    font-size: 12px;
+    grid-template-rows: auto auto minmax(0, 1fr) auto;
   }
 
   header {
@@ -118,17 +110,9 @@
 
   h1 {
     margin: 0;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.2;
-    font-weight: 700;
-    white-space: nowrap;
-  }
-
-  .sub {
-    color: var(--muted);
-    font-size: 12px;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    font-weight: 600;
     white-space: nowrap;
   }
 
@@ -136,13 +120,13 @@
     background: var(--toolbar);
     backdrop-filter: blur(18px);
     border-bottom: 1px solid var(--line);
-    padding: 12px 14px 10px;
+    padding: 10px 14px 8px;
   }
 
   .searchpanel {
     border: 1px solid var(--line);
     border-radius: var(--radius-lg);
-    padding: 12px;
+    padding: 10px 12px;
     background: var(--panel);
     box-shadow: var(--shadow-panel);
   }
@@ -180,8 +164,8 @@
     color: var(--ink);
     outline: none;
     background: transparent;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
   }
 
   .searchline:focus-within { border-color: #9da4ad; box-shadow: 0 0 0 3px var(--focus); background: #fff; }
@@ -211,7 +195,7 @@
     gap: 6px;
     color: var(--muted);
     white-space: nowrap;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .seg {
@@ -236,7 +220,7 @@
   .seg button.on {
     background: #fff;
     color: var(--ink);
-    font-weight: 700;
+    font-weight: 500;
     box-shadow: 0 1px 2px rgba(31,35,40,.08);
   }
 
@@ -246,22 +230,11 @@
     height: 40px;
   }
 
-  .subnote {
-    color: var(--soft);
-    font-size: 12px;
-    margin: 9px 2px 0;
-  }
-
-  .subnote b {
-    color: var(--muted);
-    font-weight: 700;
-  }
-
   .intent {
-    margin-top: 9px;
+    margin-top: 7px;
     border: 1px dashed var(--line);
     border-radius: var(--radius-md);
-    padding: 8px 10px;
+    padding: 6px 10px;
     background: rgba(255,255,255,.62);
     color: var(--muted);
     font-size: 12px;
@@ -293,7 +266,7 @@
     border-radius: 4px;
     padding: 1px 6px;
     background: rgba(255,255,255,.82);
-    font-size: 11px;
+    font-size: 12px;
   }
 
   .layout {
@@ -324,7 +297,7 @@
     justify-content: space-between;
     color: var(--muted);
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 500;
   }
 
   .history-list {
@@ -372,7 +345,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 500;
   }
   .history-item span {
     display: block;
@@ -470,19 +443,6 @@
     background: #fff7f5;
   }
 
-  .history-foot {
-    border-top: 1px solid var(--line-soft);
-    padding: 10px 12px;
-    color: var(--soft);
-    font-size: 12px;
-  }
-
-  .linkish {
-    color: var(--muted);
-    text-decoration: underline;
-    cursor: pointer;
-  }
-
   .graph-wrap {
     position: relative;
     background:
@@ -535,10 +495,10 @@
     bottom: 14px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
     flex-wrap: wrap;
     max-width: calc(100% - 28px);
-    padding: 8px 10px;
+    padding: 7px 10px;
     border: 1px solid var(--line);
     border-radius: var(--radius-md);
     background: rgba(255,255,255,.82);
@@ -623,7 +583,7 @@
     right: 14px;
     bottom: 14px;
     color: #a5a9af;
-    font-size: 11px;
+    font-size: 12px;
     pointer-events: none;
   }
 
@@ -869,8 +829,8 @@
   .states {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 12px;
-    padding: 12px 14px;
+    gap: 8px;
+    padding: 6px 14px;
     border-top: 1px solid var(--line);
     background: var(--toolbar);
     backdrop-filter: blur(18px);
@@ -878,30 +838,30 @@
 
   .state {
     border: 1px solid var(--line);
-    border-radius: var(--radius-lg);
-    min-height: 72px;
-    padding: 10px;
+    border-radius: var(--radius-md);
+    min-height: 44px;
+    padding: 7px 9px;
     background: rgba(255,255,255,.78);
     box-shadow: 0 1px 2px rgba(31,35,40,.04);
   }
 
   .state .t {
     color: var(--muted);
-    font-size: 12px;
-    margin-bottom: 7px;
+    font-size: 11px;
+    margin-bottom: 3px;
   }
 
   .state .body {
-    min-height: 34px;
+    min-height: 18px;
     border: 1px dashed var(--line-soft);
     border-radius: var(--radius-sm);
     color: var(--soft);
-    font-size: 12px;
+    font-size: 11px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 6px;
+    padding: 3px 6px;
   }
 
   .state.warn .body {
@@ -1055,12 +1015,9 @@
 </head>
 <body>
 <div class="app">
-  <div class="sketch-banner">线框草图（office-hours Visual Sketch） · 保留原页面要素，当前接入本地 JSON MVP 功能</div>
-
   <header>
     <div class="topline">
       <h1>小马哥知识库 · 知识图谱</h1>
-      <div class="sub">搜索 → 按意图从 wiki 组装 → 清晰渲染（只读）</div>
     </div>
   </header>
 
@@ -1069,7 +1026,7 @@
       <div class="searchbar">
         <div class="searchline">
           <span class="mag">搜索</span>
-          <input class="query" id="query" value="特朗普跟俄罗斯怎么联系" autocomplete="off" placeholder="输入实体或一句话，例如：懂王跟俄罗斯怎么扯上的">
+          <input class="query" id="query" value="" autocomplete="off" placeholder="输入实体或一句话，例如：懂王跟俄罗斯怎么扯上的">
         </div>
         <input id="depth" type="hidden" value="2">
         <div class="paramline">
@@ -1093,9 +1050,8 @@
       </div>
     </form>
 
-    <div class="subnote">“生成图谱”带入上方 <b>文本 + 深度 + 模型 + 出处</b> 一起执行；MVP 先走本地索引，模型选择位保留给后续 `/api/intent`。</div>
     <div class="intent" id="intentLine">
-      <span>DeepSeek 解析（MVP 本地回退）：</span>
+      <span>DeepSeek 解析：</span>
       <span class="tag">等待输入</span>
     </div>
   </div>
@@ -1104,10 +1060,8 @@
     <aside class="history">
       <div class="pane-head">
         <span>已生成的图谱</span>
-        <span class="tag">本地保存</span>
       </div>
       <div class="history-list" id="historyList"></div>
-      <div class="history-foot"><span class="linkish" id="saveCurrentGraph">当前图另存为</span> · <span class="linkish" data-clear-history>清空</span></div>
     </aside>
 
     <section class="graph-wrap">
@@ -1117,7 +1071,7 @@
         <button id="takeHighlightToggle" type="button" aria-pressed="false">高亮观点</button>
       </div>
       <div class="canvas-hint">点击节点 = 看详情；滚轮缩放，拖拽平移，双击复位；深度 / 因果 / 出处会立即重组当前图</div>
-      <div class="legend" id="legend" aria-label="实体和关系筛选">
+      <div class="legend" id="legend" aria-label="实体类型筛选">
         <div class="legend-section" aria-label="实体类型筛选">
           <button type="button" data-type="person"><i style="background:var(--person)"></i>人物<span class="legend-count"></span></button>
           <button type="button" data-type="country"><i style="background:var(--country)"></i>国家<span class="legend-count"></span></button>
@@ -1125,19 +1079,6 @@
           <button type="button" data-type="take"><i style="background:var(--take)"></i>观点<span class="legend-count"></span></button>
           <button type="button" data-type="org"><i style="background:var(--org)"></i>组织<span class="legend-count"></span></button>
           <button type="button" data-type="source"><i style="background:var(--source)"></i>原文<span class="legend-count"></span></button>
-        </div>
-        <span class="legend-divider" aria-hidden="true"></span>
-        <div class="legend-section" id="relationFilters" aria-label="关系类型筛选">
-          <span class="legend-label">关系</span>
-          <button type="button" data-relation="mentions">mentions</button>
-          <button type="button" data-relation="participates-in">participates-in</button>
-          <button type="button" data-relation="about">about</button>
-          <button type="button" data-relation="opposes">opposes</button>
-          <button type="button" data-relation="caused">caused</button>
-          <button type="button" data-relation="part-of">part-of</button>
-          <button type="button" data-relation="derived-from">derived-from</button>
-          <button type="button" data-relation="supports">supports</button>
-          <button type="button" data-relation="contradicts">contradicts</button>
         </div>
       </div>
       <div class="provenance">节点/边均来自 wiki · DeepSeek 不生成图谱内容</div>
@@ -1155,15 +1096,15 @@
   <div class="states">
     <div class="state">
       <div class="t">空状态（刚进页面）</div>
-      <div class="body">搜个名字试试：懂王 / 美联储 / 广场协议</div>
+      <div class="body" id="emptyState">请输入</div>
     </div>
     <div class="state">
-      <div class="t">加载态（读取本地索引）</div>
-      <div class="body">正在读取 graph-index.json 和 search-index.json</div>
+      <div class="t">本地索引</div>
+      <div class="body" id="indexState">正在读取索引</div>
     </div>
     <div class="state warn">
-      <div class="t">降级态（DeepSeek 不可用）</div>
-      <div class="body">AI 解析失败时，回到本地别名匹配和邻域搜索</div>
+      <div class="t">DeepSeek</div>
+      <div class="body" id="deepseekState">等待检测</div>
     </div>
   </div>
 </div>

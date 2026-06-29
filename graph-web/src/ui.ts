@@ -17,6 +17,7 @@ const hiddenTypes = new Set<string>();
 let history: HistoryItem[] = loadHistory();
 let closeWikiBound = false;
 let wikiRequestId = 0;
+let wikiLabelResolver: ((id: string) => string | undefined) | null = null;
 
 export function splitMentions(q: string): string[] {
   const trimmed = q.trim();
@@ -27,6 +28,15 @@ export function splitMentions(q: string): string[] {
 
 export function getHiddenTypes(): Set<string> {
   return new Set(hiddenTypes);
+}
+
+export function setStateBody(id: string, message: string): void {
+  const node = document.getElementById(id);
+  if (node) node.textContent = message;
+}
+
+export function setWikiLabelResolver(resolve: (id: string) => string | undefined): void {
+  wikiLabelResolver = resolve;
 }
 
 export function renderLegend(nodes: GNode[], onChange: () => void): void {
@@ -406,7 +416,7 @@ function renderMarkdownBlocks(container: HTMLElement, markdown: string): void {
 
   const flushParagraph = () => {
     if (!paragraph.length) return;
-    container.append(el("p", {}, paragraph.join(" ")));
+    container.append(el("p", {}, renderWikiInline(paragraph.join(" "))));
     paragraph = [];
   };
   const flushList = () => {
@@ -447,14 +457,14 @@ function renderMarkdownBlocks(container: HTMLElement, markdown: string): void {
       flushParagraph();
       flushList();
       const tag = `h${Math.min(heading[1].length + 1, 3)}` as keyof HTMLElementTagNameMap;
-      container.append(el(tag, {}, heading[2]));
+      container.append(el(tag, {}, renderWikiInline(heading[2])));
       continue;
     }
     const bullet = trimmed.match(/^[-*]\s+(.+)$/);
     if (bullet) {
       flushParagraph();
       if (!list) list = el("ul");
-      list.append(el("li", {}, bullet[1]));
+      list.append(el("li", {}, renderWikiInline(bullet[1])));
       continue;
     }
     paragraph.push(trimmed);
@@ -464,6 +474,25 @@ function renderMarkdownBlocks(container: HTMLElement, markdown: string): void {
   flushParagraph();
   flushList();
   if (!container.childElementCount) container.append(el("div", { class: "wiki-loading" }, "这个 wiki 文件暂无正文。"));
+}
+
+function renderWikiInline(text: string): Child[] {
+  const out: Child[] = [];
+  const pattern = /\[\[([^\]]+)\]\]/g;
+  let lastIndex = 0;
+  for (const match of text.matchAll(pattern)) {
+    if (match.index > lastIndex) out.push(text.slice(lastIndex, match.index));
+    const id = match[1].trim();
+    out.push(wikiLabelResolver?.(id) || humanizeWikiId(id));
+    lastIndex = match.index + match[0].length;
+  }
+  if (lastIndex < text.length) out.push(text.slice(lastIndex));
+  return out.length ? out : [text];
+}
+
+function humanizeWikiId(id: string): string {
+  const tail = id.split("/").pop() || id;
+  return tail.replace(/-/g, " ");
 }
 
 function loadHistory(): HistoryItem[] {
