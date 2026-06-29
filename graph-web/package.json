@@ -1,0 +1,32 @@
+{
+  "name": "graph-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "小马哥知识库 知识图谱搜索前端",
+  "scripts": {
+    "build:graph": "node scripts/build-graph.mjs",
+    "verify:trump": "node scripts/build-graph.mjs --verify",
+    "dev": "vite --host 0.0.0.0 --port 4173",
+    "build": "npm run build:graph && vite build",
+    "start": "npm run build && node --env-file-if-exists=.env server.mjs",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "cytoscape": "^3.30.0",
+    "cytoscape-fcose": "^2.2.0",
+    "fuse.js": "^7.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "cytoscape-dagre": "^2.5.0",
+    "dagre": "^0.8.5",
+    "jsdom": "^25.0.0",
+    "typescript": "^5.5.0",
+    "vite": "^5.4.0",
+    "vitest": "^2.0.0"
+  }
+}
