@@ -164,7 +164,7 @@
     color: var(--ink);
     outline: none;
     background: transparent;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
   }
 
@@ -594,6 +594,10 @@
     overflow: auto;
   }
 
+  .details .pane-head {
+    border-bottom: 0;
+  }
+
   .detail-body {
     padding: 16px;
   }
@@ -636,7 +640,6 @@
   .source-list {
     display: flex;
     flex-direction: column;
-    border-top: 1px solid var(--line-soft);
   }
 
   .source-row {
@@ -645,7 +648,6 @@
     gap: 8px;
     align-items: baseline;
     padding: 8px 0;
-    border-bottom: 1px solid var(--line-soft);
     color: inherit;
     text-decoration: none;
   }
@@ -671,7 +673,6 @@
 
   .rel-row {
     padding: 8px 0;
-    border-bottom: 1px solid var(--line-soft);
     color: #3f444a;
     font-size: 13px;
   }
