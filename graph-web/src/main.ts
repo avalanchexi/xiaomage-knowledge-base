@@ -1,5 +1,6 @@
 import { assemble } from "./assemble";
 import { buildAdjacency, resolveMentions } from "./data";
+import { resolvePlanWithMeta, type IntentModel } from "./intent";
 import { initCy, renderResult, wireGraphInteractions } from "./render";
 import {
   addHistorySession,
@@ -11,10 +12,9 @@ import {
   renderIntentLine,
   renderLegend,
   setStatus,
-  splitMentions,
   wireWikiModal,
 } from "./ui";
-import type { AssembleResult, EntityType, GNode, GraphIndex, Mode, QueryPlan, SearchItem } from "./types";
+import type { AssembleResult, EntityType, GNode, GraphIndex, QueryPlan, SearchItem } from "./types";
 
 const ENTITY_TYPES: EntityType[] = ["person", "org", "country", "event", "take", "source", "stub"];
 
@@ -26,6 +26,10 @@ type AppState = {
   visibleResult: AssembleResult | null;
   query: string;
   selectedId: string | null;
+  currentPlan: QueryPlan | null;
+  currentMatches: SearchItem[];
+  currentModel: IntentModel | null;
+  fallbackIntent: boolean;
 };
 
 async function main(): Promise<void> {
@@ -48,7 +52,14 @@ async function main(): Promise<void> {
     visibleResult: null,
     query: "",
     selectedId: null,
+    currentPlan: null,
+    currentMatches: [],
+    currentModel: null,
+    fallbackIntent: false,
   };
+  let requestId = 0;
+  let depthOverridden = false;
+  let sourcesOverridden = false;
 
   initCy(graphContainer);
   wireWikiModal();
@@ -65,27 +76,32 @@ async function main(): Promise<void> {
   renderLegend([], rerenderCurrent);
   renderHistory((query) => {
     queryInput.value = query;
-    runQuery(query, false);
+    void runQuery(query, false);
   });
 
   document.getElementById("searchForm")?.addEventListener("submit", (event) => {
     event.preventDefault();
-    runQuery(queryInput.value, true);
+    void runQuery(queryInput.value, true);
   });
 
   depthSegments.addEventListener("click", (event) => {
     const button = (event.target as Element).closest<HTMLButtonElement>("[data-depth]");
     if (!button?.dataset.depth) return;
+    depthOverridden = true;
     setDepth(depthInput, depthSegments, button.dataset.depth);
-    if (state.query) runQuery(state.query, false);
+    if (state.query) reassembleCurrent();
     else renderIntentLine(currentIntentArgs(modelSelect, causalMode, includeSources, "waiting"));
   });
 
   includeSources.addEventListener("change", () => {
-    if (state.query) runQuery(state.query, false);
+    sourcesOverridden = true;
+    if (state.query) reassembleCurrent();
   });
   causalMode.addEventListener("change", () => {
-    if (state.query) runQuery(state.query, false);
+    if (state.query) reassembleCurrent();
+  });
+  modelSelect.addEventListener("change", () => {
+    if (state.query) void runQuery(state.query, false);
   });
 
   document.getElementById("saveCurrentGraph")?.addEventListener("click", () => {
@@ -96,14 +112,14 @@ async function main(): Promise<void> {
     addHistorySession(state.query, state.visibleResult.mode, state.visibleResult.nodes.length);
     renderHistory((query) => {
       queryInput.value = query;
-      runQuery(query, false);
+      void runQuery(query, false);
     });
     setStatus(`已保存到本地：${state.query}`);
   });
 
   setDepth(depthInput, depthSegments, depthInput.value || "2");
   const initialQuery = queryInput.value.trim();
-  if (initialQuery) runQuery(initialQuery, false);
+  if (initialQuery) void runQuery(initialQuery, false);
   else {
     renderResult(emptyResult(), false);
     renderDetails(null, graph, openWiki);
@@ -111,10 +127,15 @@ async function main(): Promise<void> {
     setStatus("本地索引已加载，等待输入。");
   }
 
-  function runQuery(query: string, recordHistory: boolean): void {
+  async function runQuery(query: string, recordHistory: boolean): Promise<void> {
+    const activeRequest = ++requestId;
     const trimmed = query.trim();
     state.query = trimmed;
     state.selectedId = null;
+    state.currentPlan = null;
+    state.currentMatches = [];
+    state.currentModel = null;
+    state.fallbackIntent = false;
 
     if (!trimmed) {
       state.rawResult = emptyResult();
@@ -127,8 +148,16 @@ async function main(): Promise<void> {
       return;
     }
 
-    const mentions = splitMentions(trimmed);
-    const matches = resolveQueryMentions(mentions, state.search, graph);
+    setStatus("正在解析搜索意图...");
+    const model = readModel(modelSelect);
+    const { plan: modelPlan, degraded } = await resolvePlanWithMeta(trimmed, model);
+    if (activeRequest !== requestId) return;
+
+    state.fallbackIntent = degraded;
+    if (!depthOverridden) setDepth(depthInput, depthSegments, String(modelPlan.depth));
+    if (!sourcesOverridden) includeSources.checked = modelPlan.includeSources;
+
+    const matches = resolveMentions(modelPlan.entity_mentions, state.search, graph);
     if (!matches.length) {
       state.rawResult = emptyResult();
       state.visibleResult = state.rawResult;
@@ -140,39 +169,54 @@ async function main(): Promise<void> {
       return;
     }
 
-    const mode = inferMode(trimmed, matches.length);
-    const plan: QueryPlan = {
+    state.currentMatches = matches;
+    state.currentModel = model;
+    state.currentPlan = {
       entity_mentions: matches.map((match) => match.id),
-      mode,
-      depth: readDepth(depthInput),
-      relations: "all",
-      includeSources: includeSources.checked,
+      mode: modelPlan.mode,
+      depth: modelPlan.depth,
+      relations: modelPlan.relations,
+      includeSources: modelPlan.includeSources,
     };
-    state.rawResult = assemble(graph, adj, plan);
-    applyVisibleResult(state, causalMode.checked);
-    renderIntentLine({
-      matches: matches.map((match) => state.byId.get(match.id) ?? match).slice(0, 2),
-      mode: state.visibleResult?.mode ?? mode,
-      depth: plan.depth,
-      model: modelSelect.value,
-      causal: causalMode.checked,
-      includeSources: includeSources.checked,
-      state: "ready",
-      note: state.rawResult.note ? "未找到直连路径，已回退邻域" : undefined,
-    });
-    setStatus(
-      `${modeCn(state.visibleResult?.mode ?? mode)} · ${state.visibleResult?.nodes.length ?? 0} 节点 · ${
-        state.visibleResult?.edges.length ?? 0
-      } 边${state.rawResult.truncated ? " · 已截断" : ""}`,
-    );
+    reassembleCurrent();
 
     if (recordHistory && state.visibleResult) {
       addHistorySession(trimmed, state.visibleResult.mode, state.visibleResult.nodes.length);
       renderHistory((savedQuery) => {
         queryInput.value = savedQuery;
-        runQuery(savedQuery, false);
+        void runQuery(savedQuery, false);
       });
     }
+  }
+
+  function reassembleCurrent(): void {
+    if (!state.currentPlan || !state.currentMatches.length) return;
+    const plan: QueryPlan = {
+      ...state.currentPlan,
+      depth: readDepth(depthInput),
+      includeSources: includeSources.checked,
+    };
+    state.rawResult = assemble(graph, adj, plan);
+    applyVisibleResult(state, causalMode.checked);
+    const note = [
+      state.fallbackIntent ? "本地回退" : "",
+      state.rawResult.note ? "未找到直连路径，已回退邻域" : "",
+    ].filter(Boolean).join(" / ");
+    renderIntentLine({
+      matches: state.currentMatches.map((match) => state.byId.get(match.id) ?? match).slice(0, 2),
+      mode: state.visibleResult?.mode ?? plan.mode,
+      depth: plan.depth,
+      model: state.currentModel ?? modelSelect.value,
+      causal: causalMode.checked,
+      includeSources: includeSources.checked,
+      state: "ready",
+      note: note || undefined,
+    });
+    setStatus(
+      `${modeCn(state.visibleResult?.mode ?? plan.mode)} / ${state.visibleResult?.nodes.length ?? 0} 节点 / ${
+        state.visibleResult?.edges.length ?? 0
+      } 边${state.rawResult.truncated ? " / 已截断" : ""}`,
+    );
   }
 }
 
@@ -218,32 +262,13 @@ function isEntityType(type: unknown): type is EntityType {
   return typeof type === "string" && (ENTITY_TYPES as string[]).includes(type);
 }
 
-function inferMode(query: string, matchCount: number): Mode {
-  return matchCount >= 2 && /关系|怎么|之间|联系|连/.test(query) ? "path" : "neighborhood";
-}
-
-function resolveQueryMentions(mentions: string[], search: SearchItem[], graph: GraphIndex): SearchItem[] {
-  const globalMatches = resolveMentions(mentions, search, graph);
-  const tokenMatches: SearchItem[] = [];
-  for (const mention of mentions) {
-    if (/^(关系|怎么|之间|联系|连)$/.test(mention)) continue;
-    const match = resolveMentions([mention], search, graph)[0];
-    if (match) tokenMatches.push(match);
-  }
-
-  const seen = new Set<string>();
-  const out: SearchItem[] = [];
-  for (const match of [...tokenMatches, ...globalMatches]) {
-    if (seen.has(match.id)) continue;
-    seen.add(match.id);
-    out.push(match);
-  }
-  return out;
-}
-
 function readDepth(input: HTMLInputElement): number {
   const parsed = Number.parseInt(input.value, 10);
   return Number.isFinite(parsed) ? Math.min(3, Math.max(1, parsed)) : 2;
+}
+
+function readModel(select: HTMLSelectElement): IntentModel {
+  return select.value === "pro" ? "pro" : "flash";
 }
 
 function setDepth(input: HTMLInputElement, segments: HTMLElement, value: string): void {
@@ -272,7 +297,7 @@ function emptyResult(): AssembleResult {
   return { mode: "neighborhood", nodes: [], edges: [], levels: new Map(), pathIds: new Set(), truncated: false };
 }
 
-function modeCn(mode: Mode): string {
+function modeCn(mode: QueryPlan["mode"]): string {
   return mode === "path" ? "路径" : "邻域";
 }
 
