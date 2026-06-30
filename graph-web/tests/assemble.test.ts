@@ -110,6 +110,7 @@ describe("assemble", () => {
 
   it("truncates neighborhood nodes at MAX_NODES while keeping high-degree direct neighbors first", () => {
     const neighborCount = MAX_NODES + 5;
+    const highDegreeId = `events/n${neighborCount - 1}`;
     const graph: GraphIndex = {
       nodes: [
         { id: "people/root", label: "Root", type: "person", aliases: [], sources: [], degree: neighborCount },
@@ -119,7 +120,7 @@ describe("assemble", () => {
           type: "event" as const,
           aliases: [],
           sources: [],
-          degree: i === 0 ? 10_000 : neighborCount - i,
+          degree: i === neighborCount - 1 ? 10_000 : neighborCount - i,
         })),
       ],
       edges: Array.from({ length: neighborCount }, (_, i) => ({
@@ -133,7 +134,8 @@ describe("assemble", () => {
 
     expect(r.nodes).toHaveLength(MAX_NODES);
     expect(r.truncated).toBe(true);
-    expect(r.nodes[1]?.id).toBe("events/n0");
+    expect(r.nodes[1]?.id).toBe(highDegreeId);
+    expect(r.nodes.findIndex((n) => n.id === "events/n0")).toBeGreaterThan(1);
   });
 
   it("truncates visible edges at MAX_EDGES when all visible nodes have more visible edges", () => {
