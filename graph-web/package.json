@@ -4,6 +4,9 @@
   "version": "0.1.0",
   "type": "module",
   "description": "小马哥知识库 知识图谱搜索前端",
+  "engines": {
+    "node": ">=20.12.0"
+  },
   "scripts": {
     "build:graph": "node scripts/build-graph.mjs",
     "verify:trump": "node scripts/build-graph.mjs --verify",
@@ -16,12 +19,10 @@
   },
   "dependencies": {
     "cytoscape": "^3.30.0",
-    "cytoscape-fcose": "^2.2.0",
-    "fuse.js": "^7.0.0"
+    "cytoscape-fcose": "^2.2.0"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
-    "@vitejs/plugin-react": "^4.3.0",
     "cytoscape-dagre": "^2.5.0",
     "dagre": "^0.8.5",
     "jsdom": "^25.0.0",

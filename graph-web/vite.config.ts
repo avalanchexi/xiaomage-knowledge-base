@@ -1,4 +1,3 @@
-import react from "@vitejs/plugin-react";
 import { createReadStream } from "node:fs";
 import { cp, stat } from "node:fs/promises";
 import path from "node:path";
@@ -11,14 +10,14 @@ const wikiRoot = path.resolve(here, "../小马哥知识库/wiki");
 
 export default defineConfig({
   root: ".",
-  plugins: [wikiMarkdownPlugin(), react()],
+  plugins: [wikiMarkdownPlugin()],
   server: { host: "0.0.0.0", port: 4173 },
   build: { outDir: "dist", emptyOutDir: true },
   test: {
     environment: "jsdom",
     globals: true,
     setupFiles: "./tests/setup.ts",
-    include: ["tests/**/*.test.ts"],
+    include: ["tests/**/*.test.ts", "tests/**/*.test.mjs"],
     exclude: ["node_modules", "dist"],
   },
 });
