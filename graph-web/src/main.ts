@@ -1,6 +1,7 @@
 import { assemble } from "./assemble";
 import { buildAdjacency, resolveMentions } from "./data";
 import { resolvePlanWithMeta, type IntentModel } from "./intent";
+import { createQueryOverrideState } from "./query-overrides";
 import { initCy, renderResult, wireGraphInteractions } from "./render";
 import {
   addHistorySession,
@@ -64,8 +65,7 @@ async function main(): Promise<void> {
     fallbackIntent: false,
   };
   let requestId = 0;
-  let depthOverridden = false;
-  let sourcesOverridden = false;
+  const queryOverrides = createQueryOverrideState();
   let relationFilter: QueryPlan["relations"] | null = null;
 
   initCy(graphContainer);
@@ -96,14 +96,14 @@ async function main(): Promise<void> {
   depthSegments.addEventListener("click", (event) => {
     const button = (event.target as Element).closest<HTMLButtonElement>("[data-depth]");
     if (!button?.dataset.depth) return;
-    depthOverridden = true;
+    queryOverrides.markDepthOverridden();
     setDepth(depthInput, depthSegments, button.dataset.depth);
     if (state.query) reassembleCurrent();
     else renderIntentLine(currentIntentArgs(modelSelect, causalMode, includeSources, "waiting"));
   });
 
   includeSources.addEventListener("change", () => {
-    sourcesOverridden = true;
+    queryOverrides.markSourcesOverridden();
     if (state.query) reassembleCurrent();
   });
   causalMode.addEventListener("change", () => {
@@ -141,6 +141,7 @@ async function main(): Promise<void> {
   async function runQuery(query: string, recordHistory: boolean): Promise<void> {
     const activeRequest = ++requestId;
     const trimmed = query.trim();
+    queryOverrides.resetForRun(recordHistory);
     state.query = trimmed;
     state.selectedId = null;
     state.currentPlan = null;
@@ -169,8 +170,8 @@ async function main(): Promise<void> {
 
     state.fallbackIntent = degraded;
     setStateBody("deepseekState", degraded ? "不可用，已本地回退" : "可用");
-    if (!depthOverridden) setDepth(depthInput, depthSegments, String(modelPlan.depth));
-    if (!sourcesOverridden) includeSources.checked = modelPlan.includeSources;
+    if (!queryOverrides.depthOverridden) setDepth(depthInput, depthSegments, String(modelPlan.depth));
+    if (!queryOverrides.sourcesOverridden) includeSources.checked = modelPlan.includeSources;
 
     const matches = resolveMentions(modelPlan.entity_mentions, state.search, graph);
     if (!matches.length) {
