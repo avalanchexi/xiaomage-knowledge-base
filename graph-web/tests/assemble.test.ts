@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { assemble } from "../src/assemble";
+import { assemble, MAX_EDGES, MAX_NODES } from "../src/assemble";
 import { buildAdjacency } from "../src/data";
 import type { GraphIndex, QueryPlan } from "../src/types";
 
@@ -106,6 +106,67 @@ describe("assemble", () => {
     expect(r.mode).toBe("neighborhood");
     expect(r.note).toBeTruthy();
     expect(r.pathIds.size).toBe(0);
+  });
+
+  it("truncates neighborhood nodes at MAX_NODES while keeping high-degree direct neighbors first", () => {
+    const neighborCount = MAX_NODES + 5;
+    const graph: GraphIndex = {
+      nodes: [
+        { id: "people/root", label: "Root", type: "person", aliases: [], sources: [], degree: neighborCount },
+        ...Array.from({ length: neighborCount }, (_, i) => ({
+          id: `events/n${i}`,
+          label: `N${i}`,
+          type: "event" as const,
+          aliases: [],
+          sources: [],
+          degree: i === 0 ? 10_000 : neighborCount - i,
+        })),
+      ],
+      edges: Array.from({ length: neighborCount }, (_, i) => ({
+        source: "people/root",
+        target: `events/n${i}`,
+        relation: "caused",
+      })),
+    };
+
+    const r = assemble(graph, buildAdjacency(graph), plan({ entity_mentions: ["people/root"], depth: 1 }));
+
+    expect(r.nodes).toHaveLength(MAX_NODES);
+    expect(r.truncated).toBe(true);
+    expect(r.nodes[1]?.id).toBe("events/n0");
+  });
+
+  it("truncates visible edges at MAX_EDGES when all visible nodes have more visible edges", () => {
+    let neighborCount = 1;
+    while (neighborCount + (neighborCount * (neighborCount - 1)) / 2 <= MAX_EDGES) neighborCount += 1;
+    expect(neighborCount + 1).toBeLessThanOrEqual(MAX_NODES);
+
+    const neighbors = Array.from({ length: neighborCount }, (_, i) => `events/e${i}`);
+    const graph: GraphIndex = {
+      nodes: [
+        { id: "people/root", label: "Root", type: "person", aliases: [], sources: [], degree: neighborCount },
+        ...neighbors.map((id) => ({
+          id,
+          label: id,
+          type: "event" as const,
+          aliases: [],
+          sources: [],
+          degree: neighborCount,
+        })),
+      ],
+      edges: [
+        ...neighbors.map((id) => ({ source: "people/root", target: id, relation: "caused" })),
+        ...neighbors.flatMap((source, i) =>
+          neighbors.slice(i + 1).map((target) => ({ source, target, relation: "caused" })),
+        ),
+      ],
+    };
+
+    const r = assemble(graph, buildAdjacency(graph), plan({ entity_mentions: ["people/root"], depth: 1 }));
+
+    expect(r.nodes).toHaveLength(neighborCount + 1);
+    expect(r.edges).toHaveLength(MAX_EDGES);
+    expect(r.truncated).toBe(true);
   });
 
   it("returns an empty neighborhood for invalid seeds", () => {
