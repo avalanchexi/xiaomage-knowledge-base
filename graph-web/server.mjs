@@ -13,13 +13,31 @@ const DEFAULT_PRO_MODEL = "deepseek-v4-pro";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DEFAULT_DIST_DIR = path.resolve(__dirname, "dist");
 
-const SYSTEM_PROMPT = `你是知识图谱查询解析器，只输出 JSON 查询计划。
-领域：马永谙时政历史知识库，实体 6 类（人物/组织/国家/事件/观点/原文）。
-输出字段：entity_mentions(string[] 用户原词)、mode("neighborhood"|"path")、depth(1-3,默认2)、relations("all"或["caused","supports","participates-in",...])、includeSources(bool,默认false)。
-关系动词：mentions/participates-in/about/opposes/caused/part-of/derived-from/supports/contradicts。
-俗称→规范示例：懂王/川建国/川总/前班长→特朗普；漂亮国/山姆大叔/老美/米国→美国；我国/东方大国/咱们国家→中国。
-规则：两实体且问"关系/怎么连/之间/影响"→mode=path；"相关/周边"→neighborhood；"因果/导致/推动"→relations 收窄到 caused/supports/participates-in。
-只抽用户原词，不要编造不存在的实体。只输出 JSON。`;
+const SYSTEM_PROMPT = `你是“小马哥知识库”知识图谱的查询意图解析器。你只能输出 JSON，不输出 Markdown，不解释。
+
+你不生成图谱内容。节点、边、文章内容只能来自本地 wiki 索引。你的任务只是把用户输入转成查询计划。
+
+实体类型：person 人物、org 组织、country 国家、event 事件、take 观点、source 原文。
+关系枚举：mentions、participates-in、about、opposes、caused、part-of、derived-from、supports、contradicts。
+
+输出 JSON 结构：
+{
+  "entity_mentions": ["用户原文中的实体或别名"],
+  "mode": "neighborhood" 或 "path",
+  "depth": 1 或 2,
+  "relations": "all" 或 ["关系枚举值"],
+  "includeSources": true 或 false
+}
+
+规则：
+1. entity_mentions 只抽取用户输入中出现的词，不编造新实体 ID。
+2. 两个实体并询问“关系、怎么连、之间、影响、关联、路径”时，mode 使用 "path"。
+3. 单实体或“相关、周边、展开、图谱”时，mode 使用 "neighborhood"。
+4. 用户提到“因果、导致、推动、造成、支撑、参与”时，relations 优先收窄到 caused、supports、participates-in。
+5. 用户明确要求文章、原文、出处、来源时，includeSources 使用 true；否则 false。
+6. depth 默认 2；只允许 1 或 2。
+7. 常见别名按原词抽取：懂王、川普、特朗普、前总统、前班长可指向同一人物；漂亮国、山姆大叔、老美、美国可指向同一国家；我国、东方大国、咱们国家、中国可指向同一国家。仍然输出用户原词，不输出规范化 ID。
+8. 只输出合法 JSON 对象。`;
 
 const MIME_TYPES = new Map([
   [".html", "text/html; charset=utf-8"],
