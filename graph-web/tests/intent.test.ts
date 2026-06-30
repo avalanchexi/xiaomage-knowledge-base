@@ -38,7 +38,7 @@ describe("intent plan resolution", () => {
     expect(plan).toEqual({
       entity_mentions: ["Trump", "China"],
       mode: "path",
-      depth: 2,
+      depth: 3,
       relations: ["caused"],
       includeSources: true,
     });
@@ -188,7 +188,7 @@ describe("intent plan resolution", () => {
     expect(plan).toEqual({
       entity_mentions: ["China"],
       mode: "path",
-      depth: 2,
+      depth: 3,
       relations: "all",
       includeSources: true,
     });
@@ -259,17 +259,17 @@ describe("intent plan resolution", () => {
     await expect(resolvePlan("Trump", "flash")).resolves.toMatchObject({
       entity_mentions: ["Trump"],
       mode: "path",
-      depth: 2,
+      depth: 3,
     });
   });
 
   it("does not reject when localStorage write fails", async () => {
-    const serverPlan = { entity_mentions: ["China"], mode: "path", depth: 3, relations: ["caused"], includeSources: true };
+    const serverPlan = { entity_mentions: ["China"], mode: "path", depth: 4, relations: ["caused"], includeSources: true };
     vi.mocked(fetch).mockResolvedValueOnce(new Response(JSON.stringify(serverPlan), { status: 200 }));
     vi.spyOn(Storage.prototype, "setItem").mockImplementationOnce(() => {
       throw new Error("quota");
     });
 
-    await expect(resolvePlan("China", "flash")).resolves.toEqual({ ...serverPlan, depth: 2 });
+    await expect(resolvePlan("China", "flash")).resolves.toEqual(serverPlan);
   });
 });

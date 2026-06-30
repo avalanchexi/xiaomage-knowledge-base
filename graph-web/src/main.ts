@@ -308,7 +308,7 @@ function setDepth(input: HTMLInputElement, segments: HTMLElement, value: string)
 
 function normalizeDepth(value: string | number): number {
   const parsed = Number.parseInt(String(value), 10);
-  return Number.isFinite(parsed) ? Math.min(2, Math.max(1, parsed)) : 2;
+  return parsed === 1 || parsed === 2 || parsed === 3 || parsed === 4 ? parsed : 2;
 }
 
 function currentIntentArgs(

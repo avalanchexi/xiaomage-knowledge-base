@@ -16,6 +16,16 @@ describe("intent line rendering", () => {
     expect(html).not.toContain("知识图谱 " + "MVP");
   });
 
+  it("static html exposes depth levels 1 through 4", async () => {
+    const htmlUrl = new URL("../index.html", import.meta.url);
+    const html = await readFile(htmlUrl.protocol === "file:" ? htmlUrl : "index.html", "utf8");
+
+    expect(html).toContain('data-depth="1"');
+    expect(html).toContain('data-depth="2"');
+    expect(html).toContain('data-depth="3"');
+    expect(html).toContain('data-depth="4"');
+  });
+
   it("shows local fallback only when the fallback note is present", () => {
     document.body.innerHTML = '<div id="intentLine"></div>';
 

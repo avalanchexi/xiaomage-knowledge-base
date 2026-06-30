@@ -85,7 +85,8 @@ function normalizePlan(raw: unknown, query: string): QueryPlan {
 }
 
 function normalizeDepth(depth: unknown): number {
-  return depth === 1 ? 1 : 2;
+  const parsed = typeof depth === "number" ? depth : Number.parseInt(String(depth), 10);
+  return parsed === 1 || parsed === 2 || parsed === 3 || parsed === 4 ? parsed : 2;
 }
 
 function normalizeRelations(relations: unknown): QueryPlan["relations"] {
@@ -107,7 +108,7 @@ function isValidCachedPlanShape(raw: unknown): boolean {
     Array.isArray(plan.entity_mentions) &&
     plan.entity_mentions.some((mention) => typeof mention === "string" && mention.trim().length > 0) &&
     (plan.mode === "path" || plan.mode === "neighborhood") &&
-    (plan.depth === 1 || plan.depth === 2 || plan.depth === 3) &&
+    (plan.depth === 1 || plan.depth === 2 || plan.depth === 3 || plan.depth === 4) &&
     (plan.relations === "all" || Array.isArray(plan.relations)) &&
     typeof plan.includeSources === "boolean"
   );
