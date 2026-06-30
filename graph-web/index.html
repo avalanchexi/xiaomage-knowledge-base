@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>小马哥知识库 · 知识图谱 MVP</title>
+<title>小马哥知识库 · 知识图谱</title>
 <style>
   :root {
     /* Design system: macOS-style neutral surfaces, compact controls, subtle depth. */
@@ -244,6 +244,12 @@
     gap: 8px;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  .explainer {
+    margin: 8px 2px 0;
+    color: var(--muted);
+    font-size: 12px;
   }
 
   .pill {
@@ -1041,6 +1047,8 @@
         </div>
       </div>
     </form>
+
+    <div class="explainer">“生成图谱”会结合文本、深度、模型与出处设置；DeepSeek 只解析查询意图，图谱内容仍来自本地 wiki。</div>
 
     <div class="intent" id="intentLine">
       <span>DeepSeek 解析：</span>

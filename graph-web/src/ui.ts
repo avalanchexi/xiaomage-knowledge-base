@@ -19,13 +19,6 @@ let closeWikiBound = false;
 let wikiRequestId = 0;
 let wikiLabelResolver: ((id: string) => string | undefined) | null = null;
 
-export function splitMentions(q: string): string[] {
-  const trimmed = q.trim();
-  if (!trimmed) return [];
-  const parts = trimmed.split(/[\s,，、]+/).filter(Boolean);
-  return [...new Set([trimmed, ...parts])];
-}
-
 export function getHiddenTypes(): Set<string> {
   return new Set(hiddenTypes);
 }

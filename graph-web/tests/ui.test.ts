@@ -1,3 +1,4 @@
+import { readFile } from "node:fs/promises";
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { openWiki, renderIntentLine, setStateBody, setWikiLabelResolver } from "../src/ui";
 
@@ -6,6 +7,15 @@ afterEach(() => {
 });
 
 describe("intent line rendering", () => {
+  it("static html does not ship stale MVP fallback copy", async () => {
+    const htmlUrl = new URL("../index.html", import.meta.url);
+    const html = await readFile(htmlUrl.protocol === "file:" ? htmlUrl : "index.html", "utf8");
+
+    expect(html).not.toContain("MVP " + "本地回退");
+    expect(html).not.toContain("模型选择" + "位保留");
+    expect(html).not.toContain("知识图谱 " + "MVP");
+  });
+
   it("shows local fallback only when the fallback note is present", () => {
     document.body.innerHTML = '<div id="intentLine"></div>';
 
