@@ -6,13 +6,12 @@ import { fileURLToPath } from "node:url";
 
 const PORT = Number(process.env.PORT || 4173);
 const BODY_LIMIT = 1024 * 1024;
-const BASE_URL = process.env.DEEPSEEK_BASE_URL || "https://api.deepseek.com";
-const FLASH_MODEL = process.env.DEEPSEEK_MODEL_FLASH || "deepseek-v4-flash";
-const PRO_MODEL = process.env.DEEPSEEK_MODEL_PRO || "deepseek-v4-pro";
+const DEFAULT_BASE_URL = "https://api.deepseek.com";
+const DEFAULT_FLASH_MODEL = "deepseek-v4-flash";
+const DEFAULT_PRO_MODEL = "deepseek-v4-pro";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DIST_DIR = path.resolve(__dirname, "dist");
-const INDEX_HTML = path.join(DIST_DIR, "index.html");
+const DEFAULT_DIST_DIR = path.resolve(__dirname, "dist");
 
 const SYSTEM_PROMPT = `你是知识图谱查询解析器，只输出 JSON 查询计划。
 领域：马永谙时政历史知识库，实体 6 类（人物/组织/国家/事件/观点/原文）。
@@ -60,8 +59,18 @@ function sendPlain(request, response, statusCode, body, headers = {}) {
   response.end(payload);
 }
 
-function isUnderDist(filePath) {
-  const relative = path.relative(DIST_DIR, filePath);
+function createServerConfig(options = {}) {
+  const distDir = path.resolve(options.distDir || DEFAULT_DIST_DIR);
+  return {
+    distDir,
+    indexHtml: path.join(distDir, "index.html"),
+    env: options.env || process.env,
+    fetchImpl: options.fetchImpl || fetch,
+  };
+}
+
+function isUnderDist(filePath, distDir) {
+  const relative = path.relative(distDir, filePath);
   return relative === "" || (!relative.startsWith("..") && !path.isAbsolute(relative));
 }
 
@@ -95,7 +104,7 @@ async function readJsonBody(request) {
   return JSON.parse(Buffer.concat(chunks).toString("utf8"));
 }
 
-async function handleIntent(request, response) {
+async function handleIntent(request, response, config) {
   if (request.method !== "POST") {
     response.writeHead(405, { allow: "POST" });
     response.end();
@@ -129,21 +138,25 @@ async function handleIntent(request, response) {
     return;
   }
 
-  if (!process.env.DEEPSEEK_API_KEY) {
+  if (!config.env.DEEPSEEK_API_KEY) {
     sendJson(response, 503, { error: "no_key", degrade: true });
     return;
   }
 
-  const model = payload.model === "pro" ? PRO_MODEL : FLASH_MODEL;
+  const model = payload.model === "pro"
+    ? config.env.DEEPSEEK_MODEL_PRO || DEFAULT_PRO_MODEL
+    : config.env.DEEPSEEK_MODEL_FLASH || DEFAULT_FLASH_MODEL;
+  const baseUrl = config.env.DEEPSEEK_BASE_URL || DEFAULT_BASE_URL;
+  const timeoutMs = Number(config.env.DEEPSEEK_TIMEOUT_MS || 30000);
 
   try {
-    const upstream = await fetch(`${BASE_URL.replace(/\/+$/, "")}/chat/completions`, {
+    const upstream = await config.fetchImpl(`${baseUrl.replace(/\/+$/, "")}/chat/completions`, {
       method: "POST",
       headers: {
-        authorization: `Bearer ${process.env.DEEPSEEK_API_KEY}`,
+        authorization: `Bearer ${config.env.DEEPSEEK_API_KEY}`,
         "content-type": "application/json",
       },
-      signal: AbortSignal.timeout(Number(process.env.DEEPSEEK_TIMEOUT_MS || 30000)),
+      signal: AbortSignal.timeout(timeoutMs),
       body: JSON.stringify({
         model,
         response_format: { type: "json_object" },
@@ -168,7 +181,7 @@ async function handleIntent(request, response) {
   }
 }
 
-async function serveStatic(request, response, url) {
+async function serveStatic(request, response, url, config) {
   if (request.method !== "GET" && request.method !== "HEAD") {
     sendPlain(request, response, 405, "Method not allowed", { allow: "GET, HEAD" });
     return;
@@ -184,9 +197,9 @@ async function serveStatic(request, response, url) {
 
   const hasFileExtension = Boolean(path.extname(pathname));
   const requestedPath = pathname === "/" ? "/index.html" : pathname;
-  let filePath = path.resolve(DIST_DIR, `.${requestedPath}`);
+  let filePath = path.resolve(config.distDir, `.${requestedPath}`);
 
-  if (!isUnderDist(filePath)) {
+  if (!isUnderDist(filePath, config.distDir)) {
     sendPlain(request, response, 403, "Forbidden");
     return;
   }
@@ -201,10 +214,10 @@ async function serveStatic(request, response, url) {
       sendPlain(request, response, 404, "Not found");
       return;
     }
-    filePath = INDEX_HTML;
+    filePath = config.indexHtml;
   }
 
-  if (!isUnderDist(filePath)) {
+  if (!isUnderDist(filePath, config.distDir)) {
     sendPlain(request, response, 403, "Forbidden");
     return;
   }
@@ -240,28 +253,35 @@ async function serveStatic(request, response, url) {
   }
 }
 
-const server = createServer(async (request, response) => {
-  const url = parseRequestUrl(request, response);
-  if (!url) {
-    return;
-  }
+export function createGraphServer(options = {}) {
+  const config = createServerConfig(options);
 
-  try {
-    if (url.pathname === "/api/intent") {
-      await handleIntent(request, response);
+  return createServer(async (request, response) => {
+    const url = parseRequestUrl(request, response);
+    if (!url) {
       return;
     }
 
-    await serveStatic(request, response, url);
-  } catch {
-    if (!response.headersSent) {
-      sendPlain(request, response, 500, "Internal server error");
-    } else {
-      response.destroy();
-    }
-  }
-});
+    try {
+      if (url.pathname === "/api/intent") {
+        await handleIntent(request, response, config);
+        return;
+      }
 
-server.listen(PORT, () => {
-  console.log(`graph-web server listening on http://localhost:${PORT}`);
-});
+      await serveStatic(request, response, url, config);
+    } catch {
+      if (!response.headersSent) {
+        sendPlain(request, response, 500, "Internal server error");
+      } else {
+        response.destroy();
+      }
+    }
+  });
+}
+
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  const server = createGraphServer();
+  server.listen(PORT, () => {
+    console.log(`graph-web server listening on http://localhost:${PORT}`);
+  });
+}
